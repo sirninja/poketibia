@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacool" nameDescription="a Tentacool" race="undead" experience="440" speed="230" manacost="495">
+  <health now="725" max="725"/>
+  <look type="96" head="0" body="0" legs="0" feet="0" corpse="2961"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="60" ttack="60"/>
+    <attack name="auraagua" interval="2000" chance="5" min="-100" max="-400"> </attack>
+</attacks>
+  <defenses armor="25" defense="23"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentacool"/>
+    <voice sentence="cool"/>
+  </voices>
+	<loot>
+				<item id="7159" countmax="10" chance="10000"/><!-- Water Gem -->
+	</loot>
+</monster>

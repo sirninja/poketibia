@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Charmander Hunter" startstorageid="96669" startstoragevalue="1">
+		<mission name="Kill Charmander" storageid="96669" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You have to defeat 100 Charmanders to be a good trainer."/>
+      <missionstate id="2" description="You defeated 100 Charmanders already, return and talk with Jaime to receive the reward."/>
+      <missionstate id="3" description="You have completed this quest"/>
+		</mission>
+</quest>
+			<quest name="Bulbasaur Hunter" startstorageid="76669" startstoragevalue="1">
+		<mission name="Kill Bulbasaur" storageid="76669" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You have to defeat 100 Bulbasaurs to be a good trainer."/>
+      <missionstate id="2" description="You defeated 100 Bulbasaurs already, return and talk with Jonas to receive the reward."/>
+      <missionstate id="3" description="You have completed this quest"/>
+		</mission>
+		</quest>
+			<quest name="Squirtle Hunter" startstorageid="46669" startstoragevalue="1">
+		<mission name="Kill Squirtle" storageid="46669" startvalue="1" endvalue="3">
+			<missionstate id="1" description="You have to defeat 100 Squirtles to be a good trainer."/>
+      <missionstate id="2" description="You defeated 100 Squirtles already, return and talk with Marvin to receive the reward."/>
+      <missionstate id="3" description="You have completed this quest"/>
+</mission>
+</quest>
+</quests> 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weepinbell" nameDescription="a wild weepinbell" race="grass" experience="400" speed="220" manacost="620">
+  <health now="1600" max="1600"/>
+  <look type="37" head="20" body="30" legs="40" feet="50" corpse="2928"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1800" range="1" min="-40" max="-60"/>
+    <attack name="razor leaf" interval="2400" chance="22" min="-55" max="-70">
+    </attack>
+    <attack name="vine whip" interval="3000" chance="24" min="-100" max="-150">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="23" min="-80" max="-100">
+    </attack>
+    <attack name="acid" interval="2400" range="3" chance="21" min="-95" max="-105">
+    </attack>
+    <attack name="poisonbomb" interval="2600" range="3" chance="26" min="-70" max="-88">
+    </attack>
+  </attacks>
+<defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="BELL!"/>
+    <voice sentence="WEEPINBELL!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="44" chance="59000"/> -- seeds
+	<item id="8851" countmax="2" chance="21000"/> -- leaves
+	<item id="8852" countmax="1" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1300"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="Exp"/>
+	<event name="AvoidLook"/>
+        </script>
+</monster>

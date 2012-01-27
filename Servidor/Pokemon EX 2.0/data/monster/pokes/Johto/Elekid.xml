@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elekid" nameDescription="an Elekid" race="undead" experience="800" speed="120" manacost="340">
+	<health now="1400" max="1400"/>
+	<look type="387" head="0" body="0" legs="0" feet="0" corpse="4326"/>
+	<targetchange interval="5" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+	
+	<defenses armor="8" defense="8"/>
+	<elements>
+		<element electricPercent="50"/>
+		<element groundPercent="-100"/>
+		<element flyingPercent="50"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Elekid!"/>
+	</voices>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

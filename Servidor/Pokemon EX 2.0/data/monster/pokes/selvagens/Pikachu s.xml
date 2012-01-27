@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pikachu" nameDescription="a Pikachu" race="undead" experience="400" speed="230" manacost="640">
+  <health now="1100" max="1100"/>
+  <look type="59" head="20" body="30" legs="40" feet="50" corpse="6001"/>
+<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-50" max="-80" />
+  <attack name="quick attack" range="4" interval="2300" chance="18" min="-80" max="-95" > </attack>
+  <attack name="thunderbolt" range="4" interval="2300" chance="18" min="-120" max="-140" > </attack>
+  <attack name="thunder wave" range="4" interval="2000" chance="16" min="-43" max="-100" > </attack>
+  <attack name="thundershock" range="4" interval="1800" chance="22" min="-83" max="-108" > </attack>
+  <attack name="iron tail" range="4" interval="3000" chance="25" min="-100" max="-120" > </attack>
+
+  </attacks>
+
+  <defenses armor="20" defense="30"/>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Pikachu!"/>
+  </voices>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

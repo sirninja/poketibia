@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dodrio" nameDescription="a dodrio" race="flying" experience="700" speed="250" manacost="0">
+  <health now="3550" max="3550"/>
+  <look type="120" head="20" body="30" legs="40" feet="50" corpse="6047"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1600" range="1" min="-88" max="-109"/>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+	<attack name="fury attack" interval="3000" chance="24" range="1">
+    </attack>
+	<attack name="drill peck" interval="2200" chance="20" range="1">
+    </attack>
+	<attack name="pluck" interval="2100" chance="17" range="1" min="-160" max="-180">
+    </attack>
+	<attack name="rapid hit" interval="1700" chance="20" range="1" min="-160" max="-200">
+    </attack>
+	<attack name="triattack" interval="2500" chance="17" range="1" min="-140" max="-190">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+    <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="DODRIO!"/>
+<voice sentence="DRIO!"/>
+  </voices>
+
+	<loot>
+	<item id="2694" countmax="22" chance="85000"/> -- straw
+	<item id="8823" countmax="2" chance="37000"/> -- feather
+	<item id="8822" countmax="1" chance="45000"/> -- bird beak
+	<item id="2294" countmax="1" chance="1300"/> -- heart stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

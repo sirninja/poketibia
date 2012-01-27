@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhyhorn" nameDescription="a Rhyhorn" race="undead" experience="525" speed="240" manacost="0">
+  <health now="3900" max="3900"/>
+  <look type="77" head="0" body="0" legs="0" feet="0" corpse="3035"/>
+	<targetchange interval="105" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+
+<attacks>
+
+    <attack name="melee" interval="1800" min="-85" max="-125"/>
+    <attack name="rock tomb" interval="2800" range="1" chance="20" min="-102" max="-120">
+    </attack>
+    <attack name="sand attack" interval="2150" range="1" chance="17" min="-70" max="-85">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="30"></attack>
+    <attack name="rock slide" interval="3300" range="10" chance="21" min="-100" max="-122">
+    </attack>
+
+</attacks>
+
+
+  <defenses armor="10" defense="15"/>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+
+    <voice sentence="Rhyrorn!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="100" chance="62000"/> -- small stone
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+</monster>

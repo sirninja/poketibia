@@ -1,0 +1,21 @@
+Name: Beedrill
+Type: bug
+Required level: 25
+
+Evolutions:
+Weedle, requires level 1
+Kakuna, requires level 15
+Beedrill, requires level 25
+
+Description: Its best attack involves flying around at high speed, striking with poison needles, then flying off.
+
+Moves: 
+String Shot - m1 - level 25 - bug
+Poison Sting - m2 - level 25 - poison
+Fury Cutter - m3 - level 30 - bug
+Pin Missile - m4 - level 30 - bug
+Rage - m5 - level 25 - dragon
+Strafe - m6 - level 33 - normal
+
+Ability:
+None

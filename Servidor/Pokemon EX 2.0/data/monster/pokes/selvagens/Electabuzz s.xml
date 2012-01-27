@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electabuzz" nameDescription="a Electabuzz" race="undead" experience="950" speed="260" manacost="340">
+	<health now="6900" max="6900"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="68" min="-20" max="-160">
+    </attack>
+    <attack name="thundershock" interval="5000" chance="100" min="-100" max="-480">
+    </attack>
+    <attack name="thunderbolt" interval="7000" chance="90" min="-800" max="-1100">
+    </attack>
+    <attack name="thunder wave" interval="5000" chance="50" min="-100" max="-1480">
+    </attack>
+    <attack name="eletric storm" range="4" interval="3000" chance="25" min="-253" max="-1078">
+    </attack>
+  </attacks>
+  
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300"> </defense>
+  </defenses>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Electaabuzz!"/>
+	   <voice sentence="buzz!"/>
+	</voices>
+	<loot>
+	<item id="8862" countmax="2" chance="17000"/> -- elec box
+	<item id="8863" countmax="2" chance="13000"/> -- imam
+	<item id="2299" countmax="1" chance="950"/> -- thunder stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

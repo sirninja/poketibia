@@ -1,0 +1,25 @@
+Name: Blastoise
+Type: water
+Required level: 85
+
+Evolutions:
+Squirtle, requires level 20
+Wartortle, requires level 40
+Blastoise, requires level 85
+
+Description: The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.
+
+Moves: 
+Headbutt - m1 - level 85 - normal
+Bubbles - m2 - level 85 - water
+Water Gun - m3 - level 85 - water
+Waterball - m4 - level 85 - water
+Aqua Tail - m5 - level 85 - water
+Bubble Blast - m6 - level 85 - water
+Hydro Cannon - m7 - level 85 - water
+Skull Bash - m8 - level 90 - normal
+Hydropump - m9 - level 95 - water
+Harden - m10 - level 85 - normal
+
+Ability:
+Surf

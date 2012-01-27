@@ -1,0 +1,19 @@
+Name: Doduo
+Type: Normal
+Required level: 15
+
+Evolutions:
+Doduo, requires level 20
+Dodrio, requires level 50
+
+Description: Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour.
+
+Moves: 
+Sand Attack - m1 - level 15 - earth
+Quick Attack - m2 - level 15 - normal
+Drill Peck - m3 - level 16 - flying
+Rage - m4 - level 20 - dragon
+Strafe - m5 - level 20 - normal
+
+Habilities:
+Ride

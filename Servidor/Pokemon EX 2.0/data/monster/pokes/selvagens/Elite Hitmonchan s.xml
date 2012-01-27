@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Hitmonchan" nameDescription="a Hitmonchan" race="undead" experience="900" speed="265" manacost="0">
+	
+<health now="12000" max="12000"/>
+	
+<look type="38" corpse="5977"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="karate chop" interval="4500" chance="90" min="-190" max="-210">
+    </attack>
+    <attack name="thrash" interval="5000" chance="90" min="-310" max="-630">
+    </attack>
+    <attack name="Dynamicpunch" interval="3500" chance="90" min="-70" max="-270">
+    </attack>
+    <attack name="karate chop" interval="7000" chance="90" min="-390" max="-430">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="150">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hitmonchan!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="45" chance="62000"/> -- small stone
+	<item id="2281" countmax="1" chance="1500"/> -- punch stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

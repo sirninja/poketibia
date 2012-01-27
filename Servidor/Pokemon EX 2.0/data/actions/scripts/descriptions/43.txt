@@ -1,0 +1,25 @@
+nome:oddish
+
+Tipo: Planta
+Level: 5
+
+Evoluçoes:
+
+Oddish, level 5
+Gloom, level 18
+Vileplume, level 50
+
+Descriçao: É frequentemente encontrado em raizes de plantas. Durante a noite solta sementes enquanto anda.
+
+Ataques:
+
+Absorb - Absorver - 5
+Acid - Ácido - 5
+Leech Seed - Semente sugadora - 10
+Sleep Powder - Pó do sono - 12
+Stun Spore - Pó atordoante - 10
+Poison Powder - Pó Venenoso - 8
+
+Capacidade:
+
+Nenhuma.

@@ -1,0 +1,20 @@
+Name: Dratini
+Type: dragon
+Required level: 20
+
+Evolutions:
+Dratini, requires level 20
+Dragonair, requires level 60
+Dragonite, requires level 100
+
+Description: It is called the Mirage Pokemon because so few have seen it. Its shed skin has been found.
+
+Moves: 
+Aqua Tail - m1 - level 20 - water
+Thunder Wave - m2 - level 20 - electric
+Hyper Beam - m3 - level 40 - normal
+Dragon Breath - m4 - level 35 - dragon
+Dragon Fury - passive  - dragon
+
+Ability:
+None

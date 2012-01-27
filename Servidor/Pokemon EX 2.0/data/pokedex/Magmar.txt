@@ -1,0 +1,21 @@
+Name: Magmar
+Type: fire
+Required level: 80
+
+Evolutions:
+Magmar, requires level 80
+
+Description: Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.
+
+Moves: 
+Scratch - m1 - level 80 - normal
+Fire Punch - m2 - level 80 - fire
+Ember - m3 - level 80 - fire
+Flamethrower - m4 - level 80 - fire
+Fireball - m5 - level 80 - fire
+Fire Blast - m6 - level 80 - fire
+Magma Storm - m7 - level 85 - fire
+Lava Counter - passive  - fire
+
+Ability:
+None

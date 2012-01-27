@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arbok" nameDescription="a Arbok" race="undead" experience="575" speed="245" manacost="0">
+  <health now="3900" max="3900"/>
+  <look type="39" head="20" body="30" legs="40" feet="50" corpse="5984"/>
+
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" min="-20" max="-160" poison="-25"/>
+    <attack name="bite" interval="3400" chance="22" range="1" target="1" min="-60" max="-90">
+    </attack>
+    <attack name="acid" range="5" interval="3000" chance="21" min="-100" max="-120">
+    </attack>
+    <attack name="poison sting" range="1" interval="2200" chance="17" min="-200" max="-250">
+    </attack>
+    <attack name="horn attack" range="1" interval="2000" chance="15" min="-200" max="-210">
+    </attack>
+    <attack name="iron tail" range="1" interval="2000" chance="15" min="-130" max="-160">
+    </attack>
+    <attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="fury attack" interval="3000" chance="24" range="1">
+    </attack>
+
+  </attacks>
+  <defenses armor="22" defense="35">
+    <defense name="healing" interval="1000" chance="25" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arboook" yell="1"/>
+  </voices>
+
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8857" countmax="3" chance="28000"/> -- gosme
+	<item id="2297" countmax="1" chance="1450"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

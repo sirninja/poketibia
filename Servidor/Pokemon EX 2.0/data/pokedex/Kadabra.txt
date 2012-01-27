@@ -1,0 +1,26 @@
+Name: Kadabra
+Type: psychic
+Required level: 45
+
+Evolutions:
+Abra, requires level 15
+Kadabra, requires level 45
+Alakazam, requires level 80
+
+Description: It is rumored that a boy with psychic abilities suddenly transformed into KADABRA while he was assisting research into extrasensory powers.
+
+Moves: 
+Psybeam - m1 - level 45 - psychic
+Psywave - m2 - level 45 - psychic
+Psy Pulse - m3 - level 45 - psychic
+Confusion - m4 - level 45 - psychic
+Psychic - m5 - level 47 - psychic
+Calm Mind - m6 - level 45 - psychic
+Hypnosis - m7 - level 45 - psychic
+Reflect - m8 - level 60 - psychic
+Restore - m9 - level 50 - psychic
+
+Ability:
+Teleport
+Light
+Blink

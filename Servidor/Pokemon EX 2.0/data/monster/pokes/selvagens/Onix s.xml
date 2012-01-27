@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Onix" nameDescription="a Onix" race="undead" experience="700" speed="260" manacost="390">
+	<health now="6000" max="6000"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="2990"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-80" max="-160">
+    </attack>
+    <attack name="rock polish" interval="4500" chance="90" min="-120" max="-180">
+    </attack>
+    <attack name="earthquake" interval="5000" chance="90" min="-520" max="-780">
+    </attack>
+    <attack name="rock polish" interval="3500" chance="90" min="-80" max="-280">
+    </attack>
+    <attack name="falling rocks" interval="7000" chance="90" min="-300" max="-450">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="90" max="120">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element normalPercent="30"/>
+		<element waterPercent="-10"/>
+		<element grassPercent="-10"/>
+		<element fightPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+  </elements>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="oniiix"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="13" chance="11000"/> -- stone orb
+	<item id="1294" countmax="100" chance="62000"/> -- small stone
+	<item id="2296" countmax="1" chance="2000"/> -- rock stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

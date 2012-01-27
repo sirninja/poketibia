@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a Tentacruel" race="undead" experience="875" speed="270" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="45" attack="16"/>
+    <attack name="ice strike" interval="6000" chance="1000" range="7" min="-345" max="-650">
+    </attack>
+    <attack name="poli" interval="5000" chance="1000" range="7" min="-345" max="-500">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="35" range="5" target="1">
+    </attack>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-90" max="-95">
+    </attack>
+    <attack name="acid" range="5" interval="3000" chance="21" min="-90" max="-95">
+    </attack>
+    <attack name="poison sting" range="1" interval="2000" chance="17" min="-40" max="-80">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="1500" chance="18" min="-100" max="-105">
+    </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-260" max="-300">
+    </attack>
+    <attack name="bubbles" range="5" interval="2000" chance="20" min="-150" max="-160">
+    </attack>
+    <attack name="waterball" range="5" interval="1500" chance="15" min="-200" max="-300">
+    </attack>
+    <attack name="psy pulse" interval="1700" chance="22" min="-354" max="-368">
+    </attack>
+    <attack name="psy wave" range="4" interval="3000" chance="16" min="-93" max="-250">
+    </attack>
+
+  </attacks>
+
+
+  <defenses armor="13" defense="23"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="3" chance="27000"/> -- water pendant
+	<item id="2292" countmax="1" chance="1400"/> -- water stone
+	</loot>
+<script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+</script>
+</monster>

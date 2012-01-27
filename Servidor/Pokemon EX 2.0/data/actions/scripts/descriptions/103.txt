@@ -1,0 +1,23 @@
+Name: Exeggutor
+Type: grass
+Required level: 48
+
+Evolutions:
+Exeggcute, requires level 8
+Exeggutor, requires level 48
+
+Description: It is called The Walking Tropical Rainforest. Each of the nuts has a face and a will of its own.
+
+Moves: 
+Hypnosis - m1 - level 48
+Leech Seed - m2 - level 48
+Egg Bomb - m3 - level 48
+Confusion - m4 - level 48
+Psychic - m5 - level 48
+Solar Beam - m6 - level 58
+Stun Spore - m7 - level 48
+Poison Powder - m8 - level 48
+Leaf Storm - m9 - level 63
+
+Ability:
+Cut

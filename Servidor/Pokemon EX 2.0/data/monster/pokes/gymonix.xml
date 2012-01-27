@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gym Onix" nameDescription="a Gym Onix" race="undead" experience="2000" speed="260" manacost="390">
+	<health now="7000" max="7000"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="0"/>
+  	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+    <attacks>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="oniiix"/>
+	</voices>
+	<loot>
+		<item id="1294" countmax="10" chance="8000"/><!-- Sell Item -->
+		<item id="2674" countmax="5" chance="5000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5924" chance="250"/><!-- Stone -->
+	</loot>
+	  <script>
+        <event name="PokeGym"/>
+</script> 
+</monster>

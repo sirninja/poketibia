@@ -1,0 +1,20 @@
+Name: Farfetch'd
+Type: flying
+Required level: 40
+
+Evolutions:
+Farfetch'd, requires level 40
+
+Description: It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokemon occasionally fights with others over choice sticks.
+
+Moves: 
+Sand Attack - m1 - level 40 - earth
+Drill Peck - m2 - level 40 - flying
+Slash - m3 - level 40 - normal
+Stickmerang - m4 - level 44 - flying
+Stickslash - m5 - level 42 - flying
+Wing Attack - m6 - level 46 - flying
+Strafe - m7 - level 40 - normal
+
+Ability:
+Cut

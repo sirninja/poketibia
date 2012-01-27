@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<houses>
+  <house name="" houseid="11" entryx="921" entryy="949" entryz="7" rent="0" townid="0" size="49"/>
+  <house name="" houseid="12" entryx="926" entryy="955" entryz="7" rent="0" townid="0" size="36"/>
+  <house name="" houseid="13" entryx="918" entryy="948" entryz="7" rent="0" townid="0" size="65"/>
+  <house name="" houseid="14" entryx="920" entryy="955" entryz="6" rent="0" townid="0" size="40"/>
+  <house name="" houseid="15" entryx="920" entryy="951" entryz="6" rent="0" townid="0" size="32"/>
+  <house name="" houseid="16" entryx="925" entryy="950" entryz="6" rent="0" townid="0" size="35"/>
+  <house name="" houseid="17" entryx="1084" entryy="1139" entryz="6" rent="0" townid="0" size="56"/>
+  <house name="" houseid="18" entryx="1085" entryy="1143" entryz="6" rent="0" townid="0" size="52"/>
+  <house name="" houseid="19" entryx="1083" entryy="1139" entryz="7" rent="0" townid="0" size="24"/>
+  <house name="" houseid="20" entryx="1084" entryy="1143" entryz="7" rent="0" townid="0" size="39"/>
+  <house name="" houseid="21" entryx="1129" entryy="1136" entryz="6" rent="0" townid="0" size="80"/>
+  <house name="" houseid="22" entryx="1128" entryy="1138" entryz="6" rent="0" townid="0" size="84"/>
+  <house name="" houseid="23" entryx="1126" entryy="1133" entryz="7" rent="0" townid="0" size="80"/>
+  <house name="Falador House 1" houseid="35" entryx="1020" entryy="1030" entryz="7" rent="0" townid="0" size="120"/>
+  <house name="Falador House 2" houseid="36" entryx="1019" entryy="1049" entryz="7" rent="0" townid="0" size="90"/>
+  <house name="Falador House 3" houseid="37" entryx="1004" entryy="1043" entryz="7" rent="0" townid="0" size="135"/>
+  <house name="Falador House 4" houseid="38" entryx="1004" entryy="1037" entryz="7" rent="0" townid="0" size="160"/>
+  <house name="Falador House 5" houseid="39" entryx="1022" entryy="1009" entryz="7" rent="0" townid="0" size="106"/>
+  <house name="Falador House 6" houseid="40" entryx="1038" entryy="1013" entryz="7" rent="0" townid="0" size="104"/>
+  <house name="Falador House 7" houseid="41" entryx="1053" entryy="1023" entryz="7" rent="0" townid="0" size="83"/>
+  <house name="" houseid="42" entryx="913" entryy="1057" entryz="7" rent="0" townid="0" size="103"/>
+  <house name="" houseid="43" entryx="925" entryy="1050" entryz="7" rent="0" townid="0" size="117"/>
+  <house name="" houseid="44" entryx="918" entryy="1050" entryz="7" rent="0" townid="0" size="53"/>
+  <house name="" houseid="45" entryx="911" entryy="1048" entryz="7" rent="0" townid="0" size="36"/>
+  <house name="" houseid="46" entryx="908" entryy="1055" entryz="7" rent="0" townid="0" size="119"/>
+  <house name="" houseid="47" entryx="894" entryy="1058" entryz="7" rent="0" townid="0" size="95"/>
+  <house name="" houseid="48" entryx="893" entryy="1047" entryz="7" rent="0" townid="0" size="80"/>
+  <house name="" houseid="49" entryx="900" entryy="1047" entryz="7" rent="0" townid="0" size="122"/>
+</houses>

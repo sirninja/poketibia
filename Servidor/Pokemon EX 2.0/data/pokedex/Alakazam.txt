@@ -1,0 +1,28 @@
+Name: Alakazam
+Type: psychic
+Required level: 80
+
+Evolutions:
+Abra, requires level 15
+Kadabra, requires level 45
+Alakazam, requires level 80
+
+Description: While it has strong psychic abilities and high intelligence, an Alakazam muscles are very weak. It uses psychic power to move its body.
+
+Moves: 
+Psybeam - m1 - level 80 - psychic
+Psywave - m2 - level 80 - psychic
+Psy Pulse - m3 - level 80 - psychic
+Confusion - m4 - level 80 - psychic
+Psychic - m5 - level 80 - psychic
+Psyusion - m6 - level 95 - psychic
+Calm Mind - m7 - level 80 - psychic
+Hypnosis - m8 - level 80 - psychic
+Reflect - m9 - level 85 - psychic
+Restore - m10 - level 85 - psychic
+
+Ability:
+Teleport
+Light
+Blink
+Control minds

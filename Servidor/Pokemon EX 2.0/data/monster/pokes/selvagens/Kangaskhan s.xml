@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kangaskhan" nameDescription="a Kangaskhan" race="undead" experience="1200" speed="250" manacost="490">
+  <health now="8500" max="8500"/>
+  <look type="198" head="0" body="0" legs="0" feet="0" corpse="6073"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+   <attacks>
+    <attack name="tackle" interval="1000" chance="60" min="-40" max="-80">
+    </attack>
+    <attack name="future sight" interval="4500" chance="95" min="-60" max="-90">
+    </attack>
+    <attack name="peck" interval="5000" chance="95" min="-180" max="-320">
+    </attack>
+    <attack name="double kick" interval="3500" chance="95" min="-180" max="-220">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="95" min="-600" max="-800">
+    </attack>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="300">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+	<loot>
+	<item id="2294" countmax="1" chance="1400"/> -- heart stone
+	<item id="2307" countmax="1" chance="1400"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

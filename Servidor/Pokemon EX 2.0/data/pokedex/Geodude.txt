@@ -1,0 +1,21 @@
+Name: Geodude
+Type: stone
+Required level: 15
+
+Evolutions:
+Geodude, requires level 15
+Graveler, requires level 40
+Golem, requires level 70
+
+Description: It climbs mountain paths using only the power of its arms. Because they look just like boulders lining paths, hikers may step on them without noticing.
+
+Moves: 
+Rock Throw - m1 - level 15 - stone
+Rock Slide - m2 - level 15 - stone
+Mega Punch - m3 - level 18 - fighting
+Earthshock - m4 - level 25 - earth
+Harden - m5 - level 20 - normal
+
+Ability:
+Dig
+Rock smash

@@ -1,0 +1,20 @@
+Nome: Tentacool
+Tipo: água
+Nível necessário: 12
+
+Evoluções:
+Tentacool, requer nível 12
+Tentacruel, requer nível 70
+
+Descrição: Seu corpo é quase totalmente composto por água. Segura seu inimigo com os tentaculos, então os apunhala com seu ferrao venenoso.
+
+Move-se:
+Acid - Acido
+Bubbles - Bolhas
+Poison Sting - Picada Venenosa
+Psy Pulse - Pulso Psiquico
+Mud Shot - Tiro de Lama
+Super Sonic - Super Sonico
+
+Habilidade:
+Surf (Surfar)

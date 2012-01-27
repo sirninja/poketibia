@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Camel" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Ola amigo, eu vendo todo o tipo de Bolsas, confira!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="Poke bag,1997,2000;Orange bag,2001,8000;Black bag,2000,100000;Red bag,1999,100000;Blue bag,1998,100000;"/>
+	</parameters>
+</npc>

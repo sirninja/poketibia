@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorino" nameDescription="a Nidorino" race="undead" experience="350" speed="220" manacost="0">
+  <health now="2300" max="2300"/>
+  <look type="78" head="20" body="30" legs="40" feet="50" corpse="6019"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+
+
+
+    <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="-65" poison="-50"/>
+    <attack name="queen" interval="4000" chance="35" min="-45" max="-300">
+    <attack name="speed" interval="1000" chance="10" range="7" speedchange="-600" duration="20000">
+    <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="11" radius="4" target="0" min="-120" max="-250">
+    <attribute key="areaEffect" value="rednote"/>
+    </attack>
+	<attack name="death" interval="1000" chance="8" range="1" target="1" min="-50" max="-250">
+	<attribute key="shootEffect" value="death"/>
+	<attribute key="areaEffect" value="smallclouds"/>
+	</attack>
+    </attack>
+
+
+  </attacks>
+  <defenses armor="9" defense="20"/>
+  <immunities>
+  </immunities>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="nidooooriinaa!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8868" countmax="1" chance="32000"/> -- nail
+	<item id="2297" countmax="1" chance="2000"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

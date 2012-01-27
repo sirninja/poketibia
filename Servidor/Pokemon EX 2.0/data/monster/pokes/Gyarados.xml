@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gyarados" nameDescription="a Gyarados" race="undead" experience="375" speed="200" manacost="0">
+  <health now="8300" max="8300"/>
+  <look type="117" head="20" body="30" legs="40" feet="50" corpse="6331"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="25" attack="20"/>
+    <attack name="auraagua" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+		<attack name="fury" interval="4000" chance="35" range="10"> </attack>
+  </attacks>
+
+
+  <defenses armor="16" defense="10">
+    <defense name="healing" interval="1000" chance="10" min="10" max="40">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ugh! Ugh! Ugh!"/>
+    <voice sentence="Holy banana!"/>
+    <voice sentence="Chakka! Chakka!"/>
+  </voices>
+
+</monster>

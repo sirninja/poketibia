@@ -1,0 +1,20 @@
+Nome: Shellder
+Tipo: Gelo
+nível necessário: 5
+
+Evoluções:
+Shellder, requer nível 5
+Cloyster, requer nível 65
+
+Descrição: Nada para trás, abrindo e fechando suas duas conchas. Sua língua é grande e sempre manteve para fora.
+
+Move-se:
+Lick - Lambida - m1 - nível 5
+Super Sonic - Super Sonico - m2 - nível 12
+Clamp - Prender - m3 - nível 15
+Bubbles - Bolhas - M4 - nível 10
+Ice Beam - Jato de Gelo - m5 - nível 25
+Harden - Endurecer - m6 - nível 10
+
+Habilidade:
+Nenhum

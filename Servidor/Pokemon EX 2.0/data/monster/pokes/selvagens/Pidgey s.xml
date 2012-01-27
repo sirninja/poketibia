@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgey" nameDescription="a wild pidgey" race="flying" experience="100" speed="190" manacost="300">
+  <health now="400" max="400"/>
+  <look type="30" head="0" body="0" legs="0" feet="0" corpse="5961"/>
+
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" min="-10" max="-20"/>
+    <attack name="sand attack" range="1" interval="2400" chance="15" min="-27" max="-35">
+    </attack>
+    <attack name="gust" range="1" interval="3000" chance="25" min="-27" max="-42">
+    </attack>
+    <attack name="peck" range="1" interval="2700" chance="19" min="-20" max="-25">
+    </attack>
+    <attack name="quick attack" range="1" interval="2300" chance="18" min="-15" max="-20">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+<voices interval="5000" chance="10">
+    <voice sentence="Pidgey!"/>
+    <voice sentence="Pid!"/>
+  </voices>
+ <loot>
+	<item id="2694" countmax="6" chance="45000"/> -- straw
+	<item id="8823" countmax="1" chance="12300"/> -- feather
+	<item id="8860" countmax="1" chance="350"/> -- pidgeot doll
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>
+

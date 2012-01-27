@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chansey" nameDescription="a Chansey" race="undead" experience="900" speed="155" manacost="0">
+  <health now="8000" max="8000"/>
+  <look type="4" head="20" body="30" legs="40" feet="50" corpse="6010"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+   <attacks>
+    <attack name="tackle" interval="1000" chance="60" min="-40" max="-80">
+ </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="3500" chance="100" min="100" max="200">
+    </defense>
+  </defenses>
+  <elements>
+                <element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Chanseey!"/>
+    <voice sentence="Chansey!"/>
+	</voices>
+	<loot>
+
+	<item id="2289" countmax="1" chance="1300"/> -- heart stone
+	<item id="2180" countmax="1" chance="13000"/> -- orb of nature
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

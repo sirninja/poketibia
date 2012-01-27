@@ -1,0 +1,22 @@
+Name: Jynx
+Type: ice
+Required level: 75
+
+Evolutions:
+Jynx, requires level 75
+
+Description: Its cries sound like human speech. However, it is impossible to tell what it is trying to say.
+
+Moves: 
+Lovely Kiss - m1 - level 75 - normal
+Doubleslap - m2 - level 75 - normal
+Psywave - m3 - level 75 - psychic
+Ice Punch - m4 - level 75 - ice
+Ice Beam - m5 - level 75 - ice
+Icy Wind - m6 - level 75 - ice
+Aurora Beam - m7 - level 79 - ice
+Blizzard - m8 - level 81 - ice
+Great Love - m9 - level 83 - normal
+
+Ability:
+None

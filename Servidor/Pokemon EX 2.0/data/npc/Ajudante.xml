@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="[Fight] Ajudante" script="default.lua" walkinterval="5000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="171" head="114" body="114" legs="91" feet="91" addons="3"/>
+    <parameters>
+
+<parameter key="message_greet" value="Welcome here! |PLAYERNAME|! May i help you? Say 'help'." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="hi;ajuda;map;monsters;spells;bye;promotion;premium;diamond;quest;fusao" />
+        <parameter key="keyword_reply1" value="Welcome here |PLAYERNAME|! I can offer you a lot of things. Like maps, monsters, spells, reborn, premium, diamond, quest." />
+        <parameter key="keyword_reply2" value="Do you want to know about {premium}, {promotion}, {map}, {monsters}, {spells}, diamonds or quests??" />
+        <parameter key="keyword_reply3" value="The map has 8 cities. Viridian, Pewter, Cerulen, Saffron, Vermilion,Celadon,Fuschia e Cinnabar. 2 Villes: Pallet, Lavender. A lot of inslands, where differents types of pokemons lives. You can get thounght them with abylities like fly or surf or taking the boat in Cerulean and Vermilion." />
+        <parameter key="keyword_reply4" value="Pokemons are very smart creatures that can learn powerfull spells and live in comum harmony with us. There are 151 kinds of pokemons. Some legendary ones and others very dificult to be found." />
+        <parameter key="keyword_reply5" value="The pokemons'spells are called Moves, them can be usefull saying M1,M2[..]M12, there are heundred diferent types of spells used by different types of pokemons." />
+        <parameter key="keyword_reply6" value="Tchau." />
+        <parameter key="keyword_reply7" value="In ordet to make a reborn you must pass for a hight process that are only possible in level 150, with that you can prove your pround and have a masterball, but you will born again in level 15, with a lot of advantages with your new promotion. There are only possible 2 reborns and with them you will get the lendary tittle of master trainer." />
+        <parameter key="keyword_reply8" value=" Premium players have the rights to use a lot of habylities like fly,making promotions, using the Quick shops available in the map.Premion accounts can be purchased by the price of 10 'Diamond'." />
+		<parameter key="keyword_reply9" value="Diamonds are powerfull stones ,that can be found in lendary pokemons, but are extremaly rare, them can also be made by 'fusao'. IF you have some i can buy it for 1500 dollars." />
+        <parameter key="keyword_reply10" value="In this world existis a lot of quest that can be very generous, i can say that my bhother Fightman need some help, he can reward you with 1 Diamond." />
+		<parameter key="keyword_reply11" value="My brother that lives in Pewter called Fightman can marge 10 small diamonds into 1 diamond, he will also give to you 1 diamond in your first visit." />
+		<parameter key="message_farewell" value="Xau! Stay careful in the quicktips, the messengers that appers all time with precious tips!"/>
+		<parameter key="message_idletimeout" value="Stay careful in the quicktips, the messengers that appers all time with precious tips!"/>
+		<parameter key="message_walkaway" value="Stay careful in the quicktips, the messengers that appers all time with precious tips!"/>
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="Diamond,2142,150000"/> 
+    </parameters>
+</npc>

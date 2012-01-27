@@ -1,0 +1,21 @@
+Name: Pidgeotto
+Type: flying
+Required level: 20
+
+Evolutions:
+Pidgey, requires level 5
+Pidgeotto, requires level 20
+Pidgeot, requires level 65
+
+Description: It flies over its wide territory in search of prey, downing it with its highly developed claws.
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Sand Attack - m2 - level 20 - earth
+Whirlwind - m3 - level 20 - flying
+Drill Peck - m4 - level 20 - flying
+Wing Attack - m5 - level 25 - flying
+Tornado - m6 - level 40 - flying
+
+Ability:
+None

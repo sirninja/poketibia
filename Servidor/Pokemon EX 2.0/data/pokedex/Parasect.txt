@@ -1,0 +1,25 @@
+Name: Parasect
+Type: bug
+Required level: 50
+
+Evolutions:
+Paras, requires level 5
+Parasect, requires level 50
+
+Description: Parasect are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once.
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Scratch - m2 - level 50 - normal
+Poison Sting - m3 - level 50 - poison
+Slash - m4 - level 50 - normal
+Poison Bomb - m5 - level 50 - poison
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 50 - grass
+Fury Cutter - m9 - level 56 - bug
+X-Scissor - m10 - level 58 - bug
+Mega Drain - passive  - normal
+
+Ability:
+Cut

@@ -1,0 +1,21 @@
+Name: Magneton
+Type: electric
+Required level: 40
+
+Evolutions:
+Magnemite, requires level 15
+Magneton, requires level 40
+
+Description: Magneton emits a powerful magnetic force that is fatal to electronics and precision instruments. Because of this, it is said that some towns warn people to keep this Pokemon inside a pokeball.
+
+Moves: 
+Super Sonic - m1 - level 40 - normal
+Thunder Shock - m2 - level 40 - electric
+Thunder Bolt - m3 - level 40 - electric
+Thunder Wave - m4 - level 40 - electric
+Thunder - m5 - level 48 - electric
+Electric Storm - m6 - level 52 - electric
+Sonicboom - m7 - level 40 - normal
+
+Ability:
+Light

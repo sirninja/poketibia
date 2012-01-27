@@ -1,0 +1,21 @@
+Name: Seaking
+Type: water
+Required level: 35
+
+Evolutions:
+Goldeen, requires level 10
+Seaking, requires level 35
+
+Description: Punches holes in boulders on stream-beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.
+
+Moves: 
+Horn Attack - m1 - level 35 - normal
+Poison Sting - m2 - level 35 - poison
+Water Gun - m3 - level 35 - water
+Water Pulse - m4 - level 35 - water
+Aqua Tail - m5 - level 35 - water
+Super Sonic - m6 - level 35 - normal
+Horn Drill - m7 - level 43 - normal
+
+Ability:
+Surf

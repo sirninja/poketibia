@@ -1,0 +1,22 @@
+Name: Kingler
+Type: water
+Required level: 40
+
+Evolutions:
+Krabby, requires level 10
+Kingler, requires level 40
+
+Description: It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pokemon quickly tires.
+
+Moves: 
+Bubbles - m1 - level 40 - water
+Bubblebeam - m2 - level 40 - water
+Mud Shot - m3 - level 40 - earth
+Crabhammer - m4 - level 40 - normal
+Fury Cutter - m5 - level 45 - bug
+Guillotine - m6 - level 50 - normal
+Harden - m7 - level 40 - normal
+
+Ability:
+Dig
+Cut

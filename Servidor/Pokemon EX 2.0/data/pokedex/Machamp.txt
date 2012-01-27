@@ -1,0 +1,24 @@
+Name: Machamp
+Type: fighting
+Required level: 70
+
+Evolutions:
+Machop, requires level 20
+Machoke, requires level 45
+Machamp, requires level 70
+
+Description: It is impossible to defend against punches and chops doled out by its four arms. Its fighting spirit flares up when it faces a tough opponent.
+
+Moves: 
+Triple Punch - m1 - level 70 - fighting
+Mega Punch - m2 - level 70 - fighting
+Mega Kick - m3 - level 70 - fighting
+Karate Chop - m4 - level 70 - fighting
+Ground Chop - m5 - level 70 - fighting
+Fist Machine - m6 - level 76 - fighting
+Destroyer Hand - m7 - level 78 - fighting
+Strafe - m8 - level 74 - normal
+Foresight - passive  - fighting
+
+Ability:
+Rock smash

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Articuno" nameDescription="a Articuno" race="undead" experience="5000" speed="270" manacost="0">
+  <health now="15000" max="15000"/>
+  <look type="283" head="20" body="30" legs="40" feet="50" corpse="7256"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+   <attacks>
+
+
+    <attack name="peck" interval="1000" chance="50" min="-300" max="-350">
+    </attack>
+    <attack name="ice shard" interval="4500" chance="90" min="-700" max="-1500">
+    </attack>
+    <attack name="blizzard" interval="5000" chance="90" min="-1000" max="-2000">
+    </attack>
+    <attack name="icy wind" interval="3500" chance="90" min="-350" max="-700">
+    </attack>
+    <attack name="ice beam" interval="7000" chance="90" min="-1900" max="-3000">
+    </attack>
+    <attack name="whirlwind" interval="5000" chance="90" min="-140" max="-300">
+    </attack>
+    <attack name="gust" interval="4500" chance="90" min="-180" max="-280">
+    </attack>
+    <attack name="twister" interval="6000" chance="90" min="-300" max="-600">
+    </attack>
+
+
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="1000" max="1000">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element icePercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Aaaaaaaaaaaaaaaaarrt"/>
+	</voices>
+	<loot>
+	        <item id="2290" countmax="1" chance="6000"/> -- ice stone
+			<item id="2130" countmax="1" chance="15000"/> -- articuno feather
+			<item id="6569" countmax="1" chance="1000"/> -- rare candy
+	<item id="2142" countmax="1" chance="500"/> <!-- diamond -->
+			<item id="2145" countmax="2" chance="2000"/><!-- small diamond -->
+	</loot>
+	
+<script>
+<event name="Exp"/>
+</script>
+</monster>

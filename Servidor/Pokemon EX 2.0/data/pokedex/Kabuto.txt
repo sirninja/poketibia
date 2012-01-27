@@ -1,0 +1,21 @@
+Name: Kabuto
+Type: stone
+Required level: 20
+
+Evolutions:
+Kabuto, requires level 20
+Kabutops, requires level 80
+
+Description: It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.
+
+Moves: 
+Scratch - m1 - level 20 - normal
+Bubbles - m2 - level 25 - water
+Slash - m3 - level 25 - normal
+Mud Shot - m4 - level 25 - earth
+Harden - m5 - level 30 - normal
+Ancient Power - m6 - level 35 - stone
+Mega Drain - passive  - normal
+
+Ability:
+Cut

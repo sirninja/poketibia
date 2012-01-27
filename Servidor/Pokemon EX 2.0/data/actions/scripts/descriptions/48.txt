@@ -1,0 +1,22 @@
+Nome: Venonat
+Tipo: veneno
+Nível necessário: 18
+
+Evoluções:
+Venonat, requer nível 18
+Venomoth, requer nível 50
+
+Descrição: Os olhos funcionam como radar, que lhe permite enxergar na escuridão. Os olhos também podem disparar poderosos raios.
+
+Ataques:
+Absorb - Absorver - m1 - nível 18
+Bug Bite - Mordida de Insto - m2 - nível 18
+Super Sonic - Super Sonico - m3 - nível 18
+Psychic - Psiquico - M4 - nível 28
+Poison Fang - PResa Venenosa - m5 - nível 18
+Sleep Powder - Pó do Sono - m6 - nível 33
+Poison Powder - Pó Venenoso - M7 - nível 28
+Stun Spore - Pó Atordoante - M8 - nível 23
+
+Habilidade:
+Nenhum

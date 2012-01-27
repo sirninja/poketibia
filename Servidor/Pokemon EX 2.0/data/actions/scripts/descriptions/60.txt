@@ -1,0 +1,23 @@
+Nome: Poliwag
+Tipo: água
+nível necessário: 5
+
+Evoluções:
+
+Poliwag, requer nível 5
+Poliwhirl, requer nível 20
+Poliwrath, requer nível 65
+
+Descrição: Sua pele lisa azul é umida. Uma parte dos seus órgãos internos podem ser vistos através da pele como um padrão em espiral.
+
+Ataques:
+
+Doubleslap - Tapa duplo
+Bubbles - Bolhas
+Water Gun - Arma de Agua
+Aqua Tail - Cauda de Agua
+Hipnose - Hipnose
+
+Capacidade:
+
+Surfar (Surf)

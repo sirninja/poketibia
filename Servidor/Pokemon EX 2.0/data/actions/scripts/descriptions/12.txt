@@ -1,0 +1,22 @@
+Nome: Buterfree
+Tipo: Inseto
+Level Requerido: 30
+
+Moves:
+String Shot - m1 - level 30
+Super Sonic - m2 - level 30
+Headbutt - m3 - level 30
+Whirlwind - m4 - level 32
+Psybeam - m5 - level 46
+Confusion - m6 - level 34
+Sleep Powder - m7 - level 30
+Stun Spore - m8 - level 30
+Poison Powder - m9 - level 30
+
+Evoluções:
+Caterpie, requer level 1
+Metapod, requer level 15
+Buterfree, requer level 30
+
+Habilidade:
+Nenhuma

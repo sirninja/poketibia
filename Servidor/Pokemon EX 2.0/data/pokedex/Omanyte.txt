@@ -1,0 +1,21 @@
+Name: Omanyte
+Type: stone
+Required level: 20
+
+Evolutions:
+Omanyte, requires level 20
+Omastar, requires level 80
+
+Description: A Pokemon that was resurrected from a fossil using modern science. It swam in ancient seas.
+
+Moves: 
+Bite - m1 - level 20 - normal
+Rock Throw - m2 - level 20 - stone
+Waterball - m3 - level 22 - water
+Water Gun - m4 - level 24 - water
+Mud Shot - m5 - level 26 - earth
+Harden - m6 - level 30 - normal
+Ancient Power - m7 - level 35 - stone
+
+Ability:
+None

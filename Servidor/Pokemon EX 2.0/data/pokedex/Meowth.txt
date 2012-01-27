@@ -1,0 +1,19 @@
+Name: Meowth
+Type: normal
+Required level: 15
+
+Evolutions:
+Meowth, requires level 15
+Persian, requires level 30
+
+Description: All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.
+
+Moves: 
+Slash - m1 - level 15 - normal
+Scratch - m2 - level 15 - normal
+Bite - m3 - level 15 - normal
+Pay Day - m4 - level 20 - normal
+Fury - passive  - dragon
+
+Ability:
+Cut

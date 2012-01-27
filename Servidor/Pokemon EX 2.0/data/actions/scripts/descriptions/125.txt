@@ -1,0 +1,20 @@
+Name: Electabuzz
+Type: Eletrico
+Required level: 80
+
+Evolutions:
+-/-
+
+
+Moves: 
+Quick Attack - m1 - level 80
+Thunder Punch - m2 - level 80
+Thunder Shock - m3 - level 80
+Thunder Bolt - m4 - level 80
+Thunder Wave - m5 - level 80
+Thunder - m6 - level 80
+Electric Storm - m7 - level 85
+Electricity - passive 
+
+Ability:
+Light,Rock Smach

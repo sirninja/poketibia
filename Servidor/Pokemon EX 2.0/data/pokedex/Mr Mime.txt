@@ -1,0 +1,22 @@
+Name: Mr.Mime
+Type: psychic
+Required level: 60
+
+Evolutions:
+Mr.Mime, requires level 60
+
+Description: It is a pantomime expert that can create invisible but solid walls using miming gestures.
+
+Moves: 
+Doubleslap - m1 - level 60 - normal
+Psywave - m2 - level 60 - psychic
+Psychic - m3 - level 60 - psychic
+Confusion - m4 - level 60 - psychic
+Psyusion - m5 - level 75 - psychic
+Reflect - m6 - level 60 - psychic
+Mimic Wall - m7 - level 60 - psychic
+
+Ability:
+Teleport
+Light
+Blink

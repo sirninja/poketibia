@@ -1,0 +1,24 @@
+Name: Poliwrath
+Type: Água
+Required level: 65
+
+Evolutions:
+Poliwag, requires level 10
+Poliwhirl, requires level 30
+Poliwrath, requires level 70
+
+Description: Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
+
+Moves: 
+Mud Shot - m1 - level 65
+Doubleslap - m2 - level 65
+Bubbles - m3 - level 65
+Water Gun - m4 - level 65
+Dizzy Punch- m5 - level 69
+Mega Punch - m6 - level 65
+Ice Punch - m7 - level 71
+Ice Beam - m8 - level 73
+Hypnosis - m9 - level 65
+
+Habilities:
+Surf

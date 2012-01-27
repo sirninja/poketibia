@@ -1,0 +1,22 @@
+Nome: Ekans
+Tipo: veneno
+Nível necessário: 12
+
+Evoluções:
+
+Ekans, requer nível 12
+Arbok, requer nível 30
+
+Descrição: Rasteja pela grama sem fazer barulho e ataca presas inocentes por trás.
+
+Ataques:
+
+Bite - Mordida - 12
+Poison Fang - Presa Venenosa - 14
+Sting Gun - Picada - 18
+Acid - Acido - 20
+Fear - Medo - 22
+
+Capacidade:
+
+Escavar - Dig

@@ -1,0 +1,22 @@
+Nome: Weepinbell
+Tipo: Grama
+Nível necessário: 18
+
+Evoluçoes:
+Bellsprout, requer níel 5
+Weepinbell, equer nível 18
+Victreebell, requer nível 50
+
+Decriçao: Um pokemom que se parece com uma planta. Ele captura suas presas usando seu pó venenoso.
+
+Ataques:
+
+Razor Leaf - Folha navalha
+Vine Whip - Chicote de vinha
+Acid - Acido
+Poison Bomb - Bomba de veneno
+Slash - Cortar
+Stun Spore - Pó atordoante
+
+Habilidade:
+Cortar (Cut)

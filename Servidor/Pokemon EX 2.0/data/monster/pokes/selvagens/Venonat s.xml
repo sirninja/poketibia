@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venonat" nameDescription="a Venonat" race="undead" experience="300" speed="200" manacost="260">
+  <health now="1500" max="1500"/>
+  <look type="52" head="20" body="30" legs="40" feet="50" corpse="5997"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+
+  <attack name="melee" interval="1700" min="-50" max="-80" />
+    <attack name="energy strik" interval="3200" chance="100" min="-35" max="-140"> </attack>
+     <attack name="psychic" interval="2500" chance="26" min="-100" max="-150" > </attack>
+  <attack name="poison sting" range="1" interval="2200" chance="17" min="-40" max="-80" > </attack>
+  <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-65" max="-80" > </attack>
+  <attack name="super sonic" interval="7200" chance="35" range="5" target="1" > </attack>
+  <attack name="poison fang" interval="2000" chance="17" range="10" target="1" min="-90" max="-99" > </attack>
+
+
+  </attacks>
+
+
+  <defenses armor="2" defense="6"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="80"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+		<item id="8859" countmax="1" chance="25000"/>-- bug antenna
+	<item id="8858" countmax="1" chance="28000"/> -- pot of moss bug
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

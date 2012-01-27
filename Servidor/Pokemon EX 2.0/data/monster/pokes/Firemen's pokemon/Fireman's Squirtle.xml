@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fireman's Squirtle" nameDescription="a Squirtle" race="undead" experience="400" speed="0" manacost="0">
+  <health now="1600" max="1600"/>
+  <look type="2" head="20" body="30" legs="40" feet="50" corpse="6008"/>
+
+	<targetchange interval="1000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="0"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+
+
+    <attack name="waterball fireman" range="10" interval="2000" chance="95" min="0" max="0">
+
+    </attack>
+
+  </attacks>
+
+  <defenses armor="2" defense="3">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Squirtle!"/>
+    <voice sentence="Squirrrr!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmin="20" countmax="19" chance="85000"/> -- water gem
+		<item id="6126" chance="2000"/><!-- Squirtle hull -->
+	</loot>
+</monster>

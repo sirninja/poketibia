@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eevee" nameDescription="a Eevee" race="undead" experience="90" speed="370" manacost="0">
+  <health now="1500" max="1500"/>
+  <look type="102" corpse="6364"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" attack="15" skill="15"/>
+    <attack name="flame strike" interval="3500" chance="100" min="-100" max="-250">
+    </attack>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+	<loot>
+		<item id="5876" countmax="1" chance="10000"/><!-- Apple bite -->
+		<item id="2148" countmax="100" chance="50000"/><!-- Essence of fire -->
+
+		<item id="2671" countmax="9" chance="10000"/><!-- Essence of fire -->
+	</loot>
+</monster>

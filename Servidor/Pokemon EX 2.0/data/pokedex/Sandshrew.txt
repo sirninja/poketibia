@@ -1,0 +1,21 @@
+Name: Sandshrew
+Type: earth
+Required level: 20
+
+Evolutions:
+Sandshrew, requires level 20
+Sandslash, requires level 55
+
+Description: To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.
+
+Moves: 
+Sand Attack - m1 - level 20 - earth
+Mud Shot - m2 - level 20 - earth
+Scratch - m3 - level 20 - normal
+Rollout - m4 - level 25 - stone
+Shockwave - m5 - level 30 - earth
+
+Ability:
+Dig
+Rock smash
+Cut

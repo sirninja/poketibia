@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeot" nameDescription="a wild pidgeot" race="flying" experience="800" speed="280" manacost="0">
+  <health now="5000" max="5000"/>
+  <look type="80" head="20" body="30" legs="40" feet="50" corpse="6020"/>
+	<targetchange interval="10000" chance="10"/>
+	
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-145" max="-170"/>
+    <attack name="sand attack" interval="2400" chance="15" min="-200" max="-215">
+    </attack>
+    <attack name="whirlwind" interval="3000" chance="25" min="-270" max="-312">
+    </attack>
+    <attack name="wing attack" interval="2800" chance="20" min="-420" max="-452">
+    </attack>
+    <attack name="peck" range="1" interval="2700" chance="19" min="-230" max="-260">
+    </attack>
+    <attack name="windstorm" interval="3300" chance="18" min="-600" max="-650">
+    </attack>
+    <attack name="tornado" interval="2700" chance="16" min="-450" max="-500">
+    </attack>
+  </attacks>
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <defenses armor="0" defense="6"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOT!"/>
+    <voice sentence="GEOT!"/>
+  </voices>
+ <loot>
+	<item id="2694" countmax="100" chance="75000"/> -- straw
+	<item id="8823" countmax="5" chance="40000"/> -- feather
+	<item id="8822" countmax="1" chance="35000"/> -- bird beak
+	<item id="2294" countmax="1" chance="1500"/> -- heart stone
+	<item id="8860" countmax="1" chance="900"/> -- pidgeot doll
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

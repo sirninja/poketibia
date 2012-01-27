@@ -1,0 +1,23 @@
+Name: Charmeleon
+Type: fire
+Required level: 40
+
+Evolutions:
+Charmander, requires level 20
+Charmeleon, requires level 40
+Charizard, requires level 85
+
+Description: If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.
+
+Moves: 
+Scratch - m1 - level 40 - normal
+Ember - m2 - level 40 - fire
+Flamethrower - m3 - level 40 - fire
+Fireball - m4 - level 40 - fire
+Fire Fang - m5 - level 40 - fire
+Raging Blast - m6 - level 45 - fire
+Fire Blast - m7 - level 50 - fire
+Rage - m8 - level 40 - dragon
+
+Ability:
+Cut

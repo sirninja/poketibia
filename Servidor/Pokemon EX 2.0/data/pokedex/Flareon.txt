@@ -1,0 +1,22 @@
+Name: Flareon
+Type: fire
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Flareon, requires level 55
+
+Description: It has a flame sac in its body. Its body temperature tops 1,650 degrees Fahrenheit before battle.
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Flamethrower - m3 - level 55 - fire
+Sacred Fire - m4 - level 55 - fire
+Blaze Kick - m5 - level 55 - fire
+Raging Blast - m6 - level 55 - fire
+Overheat - m7 - level 60 - fire
+Fire Blast - m8 - level 65 - fire
+
+Ability:
+Dig

@@ -1,0 +1,20 @@
+Name: Poliwag
+Type: water
+Required level: 5
+
+Evolutions:
+Poliwag, requires level 5
+Poliwhirl, requires level 25
+Poliwrath, requires level 65
+
+Description: Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.
+
+Moves: 
+Doubleslap - m1 - level 5 - normal
+Bubbles - m2 - level 5 - water
+Water Gun - m3 - level 10 - water
+Aqua Tail - m4 - level 7 - water
+Hypnosis - m5 - level 12 - psychic
+
+Ability:
+Surf

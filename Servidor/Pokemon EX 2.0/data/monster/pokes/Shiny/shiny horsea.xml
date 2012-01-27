@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Horsea" nameDescription="a shiny horsea" race="undead" experience="7000" speed="340" manacost="0">
+	<health now="1080" max="1080"/>
+	<look type="507" corpse="139"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" skill="30" attack="40"/>
+    <attack name="poli" interval="3000" chance="80" min="-550" max="-555">
+    </attack>
+  </attacks>
+  <defenses armor="40" defense="40"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Horseaa"/>
+    <voice sentence="sia"/>
+  </voices>
+</monster>

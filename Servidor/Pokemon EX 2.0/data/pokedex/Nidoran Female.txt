@@ -1,0 +1,20 @@
+Name: Nidoran
+Type: poison
+Required level: 10
+
+Evolutions:
+Nidoran, requires level 10
+Nidorina, requires level 30
+Nidoqueen, requires level 65
+
+Description: While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Horn Attack - m3 - level 12 - normal
+Poison Sting - m4 - level 10 - poison
+Poison Fang - m5 - level 15 - poison
+
+Ability:
+Dig

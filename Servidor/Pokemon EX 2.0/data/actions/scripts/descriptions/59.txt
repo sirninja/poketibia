@@ -1,0 +1,25 @@
+Name: Arcanine
+Type: Fogo
+Required level: 80
+
+Evolutions:
+Growlithe, requires level 30
+Arcanine, requires level 85
+
+Description: Its superb sense of smell ensures that this Pokemon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.
+
+Moves: 
+Roar - m1 - level 90
+Bite - m2 - level 80
+Quick Attack - m3 - level 80
+Ember - m4 - level 80
+Flamethrower - m5 - level 80
+Fireball - m6 - level 80
+Fire Fang - m7 - level 80
+Fire Blast - m8 - level 82
+Tri Flames - m9 - level 84
+War Dog - m10 - level 86
+
+Habilities:
+Dig
+Ride

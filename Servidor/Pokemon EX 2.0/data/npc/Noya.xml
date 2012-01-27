@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Noya" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Ola amigo, eu vendo todo o tipo de Junk food, tambem compro carne de dragao e pago bem!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="Coconut,2678,300;Potate ships,2682,300;Pizza,2696,300;hotdog,2683,300;limonade,2684,100;hamburguer,2686,400;chocolat churros,2688,200;vanilla churros,2689,200;"/>
+			<parameter key="shop_sellable" value="Carne de dragao,2672,3500;"/>
+	</parameters>
+</npc>

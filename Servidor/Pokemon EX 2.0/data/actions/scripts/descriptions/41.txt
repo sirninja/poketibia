@@ -1,0 +1,22 @@
+ome: Zubat (Zubáti)
+Tipo: Veneno
+Level: 5
+
+Evoluçoes:
+
+Zubat, level 5
+Golbat, level 30
+
+Descriçao: Odiando a luz do sol, dorme nas florestas e cavernas, antes do sol se por.
+
+Ataques:
+
+Super Sonic - Super sonico 5
+Bite - Mordida 5
+Poison Fang - Presa venenosa8
+Absorb - Absorver - 10
+Toxic - toxico - 15
+
+Capacidade:
+
+Nenhuma.

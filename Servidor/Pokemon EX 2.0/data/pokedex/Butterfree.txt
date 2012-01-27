@@ -1,0 +1,24 @@
+Name: Butterfree
+Type: bug
+Required level: 30
+
+Evolutions:
+Caterpie, requires level 1
+Metapod, requires level 15
+Butterfree, requires level 30
+
+Description: It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.
+
+Moves: 
+String Shot - m1 - level 30 - bug
+Super Sonic - m2 - level 30 - normal
+Headbutt - m3 - level 30 - normal
+Whirlwind - m4 - level 32 - flying
+Psybeam - m5 - level 36 - psychic
+Confusion - m6 - level 34 - psychic
+Sleep Powder - m7 - level 30 - grass
+Stun Spore - m8 - level 30 - grass
+Poison Powder - m9 - level 30 - poison
+
+Ability:
+None

@@ -1,0 +1,22 @@
+Name: Arbok
+Type: poison
+Required level: 35
+
+Evolutions:
+Ekans, requires level 15
+Arbok, requires level 35
+
+Description: The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.
+
+Moves: 
+Bite - m1 - level 35 - normal
+Poison Fang - m2 - level 35 - poison
+Sting Gun - m3 - level 35 - poison
+Pin Missile - m4 - level 38 - bug
+Acid - m5 - level 35 - poison
+Iron Tail - m6 - level 40 - normal
+Fear - m7 - level 42 - ghost
+Rage - m8 - level 40 - dragon
+
+Ability:
+Dig

@@ -1,0 +1,23 @@
+Name: Onix
+Type: stone
+Required level: 50
+
+Evolutions:
+Onix, requires level 50
+
+Description: There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.
+
+Moves: 
+Sand Attack - m1 - level 50 - earth
+Iron Tail - m2 - level 50 - normal
+Rock Throw - m3 - level 50 - stone
+Rock Slide - m4 - level 50 - stone
+Earthshock - m5 - level 50 - earth
+Falling Rocks - m6 - level 58 - stone
+Earthquake - m7 - level 62 - earth
+Harden - m8 - level 50 - normal
+
+Ability:
+Dig
+Rock smash
+Ride

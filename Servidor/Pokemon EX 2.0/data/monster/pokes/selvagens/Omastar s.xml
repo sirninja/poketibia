@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Omastar" nameDescription="a Omastar" race="undead" experience="1000" speed="220" manacost="280">
+  <health now="10000" max="10000"/>
+  <look type="192" head="0" body="0" legs="0" feet="0" corpse="5994"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="bite" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="waterball" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="mud shot" interval="3000" chance="90" min="-100" max="-150">
+    </attack>
+    <attack name="ancient power" interval="7000" chance="90" min="-500" max="-900">
+    </attack>
+    <attack name="hydro pump" interval="6750" chance="90" min="-500" max="-900">
+    </attack>
+    <attack name="water gun" interval="6500" chance="90" min="-150" max="-370">
+    </attack>
+    <attack name="rock polish" interval="2000" chance="50" min="-100" max="-350">
+    </attack>
+    <attack name="slash" interval="2000" chance="50" min="-100" max="-350">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="180" max="205">
+    </defense>
+  </defenses>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+	</elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Omastar!"/>
+		<voice sentence="Omastar!"/>
+	</voices>
+	<loot>
+	        <item id="8820" countmax="5" chance="27000"/> -- water pendant
+		<item id="8864" countmax="5" chance="11000"/> -- stone orb
+	      <item id="2292" countmax="1" chance="1400"/> -- water stone
+		<item id="2296" chance="1400"/> rock stone
+         </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

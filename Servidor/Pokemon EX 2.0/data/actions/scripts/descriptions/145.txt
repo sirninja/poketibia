@@ -1,0 +1,20 @@
+Name: Zapdos
+Type: Eletrico, Voador
+Required level: 100
+
+Evolutions:
+-/-
+
+Moves: 
+Whirlwind - m1 - level 100
+Drill Peck - m2 - level 100
+Wing Attack - m3 - level 100
+Thunder Shock - m4 - level 100
+Thunder Bolt - m5 - level 100
+Thunder Wave - m6 - level 100
+Thunder - m7 - level 100
+Tornado - m8 - level 100
+Electric Storm -- m9 - level 100
+
+Ability:
+Light, Fly

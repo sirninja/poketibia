@@ -1,0 +1,24 @@
+Name: Bulbasaur
+Type: grass
+Required level: 20
+
+Evolutions:
+Bulbasaur, requires level 20
+Ivysaur, requires level 40
+Venusaur, requires level 85
+
+Description: A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Razor Leaf - m2 - level 20 - grass
+Vine Whip - m3 - level 20 - grass
+Headbutt - m4 - level 20 - normal
+Leech Seed - m5 - level 22 - grass
+Solar Beam - m6 - level 40 - grass
+Sleep Powder - m7 - level 35 - grass
+Stun Spore - m8 - level 28 - grass
+Poison Powder - m9 - level 26 - poison
+
+Ability:
+Cut

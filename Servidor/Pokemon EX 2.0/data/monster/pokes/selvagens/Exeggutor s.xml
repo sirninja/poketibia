@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exeggutor" nameDescription="a Exeggutor" race="undead" experience="750" speed="250" manacost="670">
+  <health now="5500" max="5500"/>
+  <look type="46" head="0" body="0" legs="0" feet="0" corpse="3005"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="confusion" interval="4500" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="razor leaf" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+    <attack name="leech seed" interval="3500" chance="90" min="-40" max="-140">
+    </attack>
+    <attack name="psychic" interval="6500" chance="90" min="-500" max="-700">
+    </attack>
+    <attack name="future sight" interval="7000" chance="90" min="-198" max="-218">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="80" max="180">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Exeggutor!"/>
+    <voice sentence="Exeggutoor!"/>
+	</voices>
+ <loot>
+	<item id="8851" countmax="2" chance="21000"/> -- leaves
+	<item id="8852" countmax="1" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="2000"/> -- leaf stone
+	<item id="2295" countmax="1" chance="890"/> -- enigma stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

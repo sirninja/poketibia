@@ -1,0 +1,21 @@
+Nome: nidorino
+Tipo: veneno
+Nível necessário: 25
+
+Evoluções:
+NidoranFE, requer nível 10
+Nidorina, requer nível 25
+Nidoqueen, requer nível 65
+
+Descrição: Os chifres do sexo feminino se desenvolvem lentamente. Prefere ataques físicos, como agarrar e morder.
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 25
+Bite - Mordida - m2 - nível 25
+Horn Attack - Ataque de Chifres - m3 - nível 30
+Poison Fang - Presa VenenosaM4 - nível 25
+Rage - Raiva
+-m5 nível 35
+
+Habilidade:
+Escavar (Dig)

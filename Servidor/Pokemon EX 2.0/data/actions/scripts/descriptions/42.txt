@@ -1,0 +1,20 @@
+Nome: Golbat
+Tipo: Veneno
+Nível necessário: 30
+
+Evoluções:
+Zubat, requer nível 5
+Golbat, requer nível 30
+
+Descrição: Quando começa a sugar sangue, não para até que a vitima perca todo seu sangue. Ele voa na noite em busca de presas.
+
+Ataque:
+Super Sonic - Super Sonico - m1 - nível 30
+Bite - Mordida - m2 - nível 30
+Absorb - Absover - m3 - nível 30
+Whirlwind - Redemoinho - M4 - nível 35
+Poison Fang - Presa Venenosa - m5 - nível 30
+Wing Attack - Ataque de Asas - m6 - nível 35
+
+Habilidade:
+Nenhuma.

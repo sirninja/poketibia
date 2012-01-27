@@ -1,0 +1,8 @@
+<npc name="Fernando" script="data/npc/scripts/teleportador.lua" walkinterval="0" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="255" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. ! Eu posso te levar para NOME DO LUGAR, deseja ir? Diga [Travel]" />
+		<parameter key="message_decline" value="Vai custar 1000 dollars. ok?"/>
+	</parameters>
+</npc>

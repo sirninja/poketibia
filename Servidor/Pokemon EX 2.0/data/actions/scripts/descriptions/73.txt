@@ -1,0 +1,29 @@
+Nome: Tentacruel
+Tipo: Agua
+Nivel Necessário: 70
+
+Evolutions:
+Tentacool, requer level 10
+Tentacruel, requer level 70
+
+Description: Mora em complexas formaçoes rochosas no fundo do oceano e pega 
+
+suas presas usando seus 80 tentaculos. Sua pedra vermelha brilha conforme sua 
+
+emoçao.
+
+Moves: 
+Super Sonic - Super Sonico - m1 - level 70
+Mud Shot - Tiro de lama - m2 - level 70
+Bubbles - Bolhas - m3 - level 70
+Waterball - Bolas de Agua - m4 - level 70
+Acid - Acido - m5 - level 70
+Poison Sting - Presa VEnenosa - m6 - level 70
+Poison Bomb - Bomba Venenosa - m7 - level 70
+Psywave - Onda Psiquica - m8 - level 75
+Psy Pulse - Pulso Psiquico - m9 - level 78
+Hydropump - Bomba de Agua - m10 - level 75
+
+Ability:
+Surfar (Surf)
+Controlar a Mente (Control minds)

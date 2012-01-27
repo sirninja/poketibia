@@ -1,0 +1,23 @@
+Name: Hypno
+Type: psychic
+Required level: 50
+
+Evolutions:
+Drowzee, requires level 22
+Hypno, requires level 50
+
+Description: Vendo seu pêndulo pode induzir o sono em três segundos, mesmo em alguém que acabou de acordar.
+
+Moves: 
+Headbutt - m1 - level 50
+Psywave - m2 - level 50
+Psybeam - m3 - level 50
+Confusion - m4 - level 50
+Psychic - m5 - level 58
+Dream Eater - m6 - level 68
+Hypnosis - m7 - level 60
+Focus - m8 - level 70
+
+Ability:
+Teleport
+Light

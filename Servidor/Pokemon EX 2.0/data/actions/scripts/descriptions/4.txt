@@ -1,0 +1,20 @@
+Nome: Charmander
+Tipo: Fogo
+Level Requerido: 20
+
+Moves:
+Scratch - m1 - level 20
+Ember - m2 - level 20
+Flamethrower - m3 - level 20
+Fireball - m4 - level 24
+Fire Fang - m5 - level 22
+Fire Blast - m6 - level 40
+Rage - m7 - level 30
+
+Evoluções:
+Charmander, requer level 20
+Charmeleon, requer level 40
+Charizard, requer level 80
+
+Habilidade:
+Cortar

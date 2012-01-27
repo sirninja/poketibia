@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magneton" nameDescription="a magneton" race="electric" experience="3978" speed="170" manacost="250">
+  <health now="1750" max="1750"/>
+  <look type="223" head="20" body="30" legs="40" feet="50" corpse="6076"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="100"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+	<attack name="physical" interval="1800" chance="100" range="4" min="-65" max="-100">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+    <attack name="auraeletrica" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+   	</attack>
+</attacks>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MAGNETON!"/>
+    <voice sentence="MAGNE!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

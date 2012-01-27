@@ -1,0 +1,323 @@
+bordas = {
+		[4646] = { x = 0, y = 1 },
+		[4654] = { x = -1, y = 2 },
+		[4650] = { x = -1, y = 2 },
+		[4647] = { x = -1, y = 0 },
+		[4645] = { x = 1, y = 0 },
+		[4655] = { x = 1, y = 1 },
+		[4644] = { x = 0, y = -1 },
+		[4649] = { x = 1, y = -1 },
+		[4653] = { x = 1, y = -1 },
+		[4649] = { x = -1, y = -1 },
+		[4634] = { x = 0, y = 1 },
+		[4640] = { x = 1, y = 1 },
+		[4641] = { x = -1, y = 1 },
+		[4635] = { x = 1, y = 0 },
+		[4642] = { x = 1, y = -1 },
+		[4638] = { x = 1, y = -1 },
+		[4648] = { x = -1, y = -1 },
+		[4652] = { x = -1, y = -1 },
+		[4651] = { x = 1, y = 0 },
+}
+
+function doPushCreature(uid,direction,distance,time)
+
+if isCreature(uid) == TRUE then
+
+local rand = (2*math.random(0,1))-1
+
+local rand2 = math.random(-1,0)
+
+if direction == 0 then
+
+signal = {0,rand,-rand,rand,-rand,0,-1,-1,-1,0,0,0}
+
+elseif direction == 1 then
+
+signal = {1,1,1,0,0,0,0,rand,-rand,rand,-rand,0}
+
+elseif direction == 2 then
+
+signal = {0,rand,-rand,rand,-rand,0,1,1,1,0,0,0}
+
+elseif direction == 3 then
+
+signal = {-1,-1,-1,0,0,0,0,rand,-rand,rand,-rand,0}
+
+elseif direction == 4 then
+
+signal = {-1,rand2,(-rand2)-1,0,1,rand2+1,rand2,0}
+
+elseif direction == 5 then
+
+signal = {1,-rand2,-((-rand2)-1),0,1,rand2+1,rand2,0}
+
+elseif direction == 6 then
+
+signal = {-1,rand2,(-rand2)-1,0,-1,(-rand2)-1,rand2,0}
+
+else
+
+signal = {1,-rand2,-((-rand2)-1),0,-1,(-rand2)-1,rand2,0}
+
+end
+
+local pos = getThingPos(uid)
+
+nsig = #signal
+
+nvar = 0
+
+
+
+repeat
+
+nvar = nvar+1
+
+newpos = {x=pos.x+(signal[nvar]),y=pos.y+(signal[(nsig/2)+nvar]),z=pos.z}
+
+newtile = {x=newpos.x,y=newpos.y,z=newpos.z,stackpos=0}
+
+until getTileThingByPos(newtile).uid ~= 0 and hasProperty(getTileThingByPos(newtile).uid,3) == FALSE and queryTileAddThing(uid,newpos) == 1 or nvar == (nsig/2)
+
+
+
+if distance == nil or distance == 1 then
+
+doTeleportThing(uid,newpos,TRUE)
+
+else
+
+distance = distance-1
+
+doTeleportThing(uid,newpos,TRUE)
+
+if time ~= nil then
+
+addEvent(doPushCreature,time,uid,direction,distance,time)
+
+else
+
+addEvent(doPushCreature,500,uid,direction,distance,500)
+
+end
+
+end
+
+end
+
+end
+
+function walkTo(cid, direction, finalpos)
+if not isCreature(cid) then return false end
+if isWalkable(getPosByDir(getThingPos(cid), direction), cid, 0, 0) and direction <= 3 then
+doPushCreature(cid, direction, 1, 0)
+return true
+end
+
+if direction >= 4 then
+if direction == 4 then
+if math.random(1,2) == 1 then
+if isWalkable(getPosByDir(getThingPos(cid), 3), cid, 0, 0) then
+newdir = 3
+else
+newdir = 2
+end
+else
+if isWalkable(getPosByDir(getThingPos(cid), 2), cid, 0, 0) then
+newdir = 2
+else
+newdir = 3
+end
+end
+elseif direction == 5 then
+if math.random(1,2) == 1 then
+if isWalkable(getPosByDir(getThingPos(cid), 2), cid, 0, 0) then
+newdir = 2
+else
+newdir = 1
+end
+else
+if isWalkable(getPosByDir(getThingPos(cid), 1), cid, 0, 0) then
+newdir = 1
+else
+newdir = 2
+end
+end
+elseif direction == 6 then
+if math.random(1,2) == 1 then
+if isWalkable(getPosByDir(getThingPos(cid), 0), cid, 0, 0) then
+newdir = 0
+else
+newdir = 3
+end
+else
+if isWalkable(getPosByDir(getThingPos(cid), 3), cid, 0, 0) then
+newdir = 3
+else
+newdir = 0
+end
+end
+elseif direction == 7 then
+if math.random(1,2) == 1 then
+if isWalkable(getPosByDir(getThingPos(cid), 1), cid, 0, 0) then
+newdir = 1
+else
+newdir = 0
+end
+else
+if isWalkable(getPosByDir(getThingPos(cid), 0), cid, 0, 0) then
+newdir = 0
+else
+newdir = 1
+end
+end
+end
+doPushCreature(cid, newdir, 1, 0)
+return true
+end
+
+if direction <= 3 and not isWalkable(getPosByDir(getThingPos(cid), direction), cid, 0, 0) then
+if direction == 0 then
+if getDirectionTo(getThingPos(cid), finalpos) == 6 then
+if isWalkable(getPosByDir(getThingPos(cid), 3), cid, 0, 0) then
+newdir = 3
+else
+newdir = 6
+end
+elseif getDirectionTo(getThingPos(cid), finalpos) == 7 then
+if isWalkable(getPosByDir(getThingPos(cid), 1), cid, 0, 0) then
+newdir = 1
+else
+newdir = 7
+end
+end
+elseif direction == 1 then
+if getDirectionTo(getThingPos(cid), finalpos) == 7 then
+if isWalkable(getPosByDir(getThingPos(cid), 0), cid, 0, 0) then
+newdir = 0
+else
+newdir = 7
+end
+elseif getDirectionTo(getThingPos(cid), finalpos) == 5 then
+if isWalkable(getPosByDir(getThingPos(cid), 2), cid, 0, 0) then
+newdir = 2
+else
+newdir = 5
+end
+end
+elseif direction == 2 then
+if getDirectionTo(getThingPos(cid), finalpos) == 4 then
+if isWalkable(getPosByDir(getThingPos(cid), 3), cid, 0, 0) then
+newdir = 3
+else
+newdir = 4
+end
+elseif getDirectionTo(getThingPos(cid), finalpos) == 5 then
+if isWalkable(getPosByDir(getThingPos(cid), 1), cid, 0, 0) then
+newdir = 1
+else
+newdir = 5
+end
+end
+elseif direction == 3 then
+if getDirectionTo(getThingPos(cid), finalpos) == 4 then
+if isWalkable(getPosByDir(getThingPos(cid), 2), cid, 0, 0) then
+newdir = 2
+else
+newdir = 4
+end
+elseif getDirectionTo(getThingPos(cid), finalpos) == 6 then
+if isWalkable(getPosByDir(getThingPos(cid), 0), cid, 0, 0) then
+newdir = 0
+else
+newdir = 6
+end
+end
+end
+doPushCreature(cid, newdir, 1, 0)
+return true
+end
+doPushCreature(cid, direction, 1, 0)
+end
+
+
+function markPos(sid, pos)
+if not isCreature(sid) then return end
+setPlayerStorageValue(sid, 145, pos.x)
+setPlayerStorageValue(sid, 146, pos.y)
+setPlayerStorageValue(sid, 147, pos.z)
+end
+
+function getMarkedPos(sid)
+if not isCreature(sid) then return end
+local xx = getPlayerStorageValue(sid, 145)
+local yy = getPlayerStorageValue(sid, 146)
+local zz = getPlayerStorageValue(sid, 147)
+return {x = xx, y = yy, z = zz}
+end
+
+function getOwnerPos(sid)
+if not isCreature(sid) then return end
+local xx = getPlayerStorageValue(sid, 148)
+local yy = getPlayerStorageValue(sid, 149)
+local zz = getPlayerStorageValue(sid, 150)
+return {x = xx, y = yy, z = zz}
+end
+
+function markOwnerPos(sid, pos)
+if not isCreature(sid) then return end
+setPlayerStorageValue(sid, 148, pos.x)
+setPlayerStorageValue(sid, 149, pos.y)
+setPlayerStorageValue(sid, 150, pos.z)
+end
+
+function recheck(sid)
+		if not isCreature(sid) then return end
+		if getOwnerPos(sid).x ~= getThingPos(getCreatureMaster(sid)).x or getOwnerPos(sid).y ~= getThingPos(getCreatureMaster(sid)).y then
+				doChangeSpeed(sid, -getCreatureSpeed(sid))
+				doChangeSpeed(sid, getCreatureBaseSpeed(sid))
+				return true
+		end
+		addEvent(recheck, 120, sid)
+end
+
+function goThere(sid, thepos)
+if not isCreature(sid) then return true end
+		if thepos.x ~= getMarkedPos(sid).x or thepos.y ~= getMarkedPos(sid).y then return true end
+				if isCreature(getCreatureTarget(getCreatureMaster(sid ))) then
+						doChangeSpeed(sid, -getCreatureSpeed(sid))
+						doChangeSpeed(sid, getCreatureBaseSpeed(sid))
+						return true
+				end
+		if getThingPos(sid).x == getMarkedPos(sid).x and getThingPos(sid).y == getMarkedPos(sid).y then
+				addEvent(recheck, 350, sid)
+				return true
+		end
+		if getOwnerPos(sid).x ~= getThingPos(getCreatureMaster(sid)).x or getOwnerPos(sid).y ~= getThingPos(getCreatureMaster(sid)).y then
+				doChangeSpeed(sid, -getCreatureSpeed(sid))
+				doChangeSpeed(sid, getCreatureBaseSpeed(sid))
+				return true
+		end
+		doChangeSpeed(sid, - getCreatureSpeed(sid))
+		doChangeSpeed(sid, getCreatureBaseSpeed(sid))
+		walkTo(sid, getDirectionTo(getThingPos(sid), getMarkedPos(sid)), getMarkedPos(sid))
+		doChangeSpeed(sid, - getCreatureSpeed(sid))
+		addEvent(goThere, 1000 - (2.2 * (getCreatureBaseSpeed(sid))), sid, getMarkedPos(sid))
+end
+
+function moveAgua(cid,item,comSurf)
+
+		coordenadas = bordas[item.itemid]
+		oldPos = getThingPos(item.uid)
+		if comSurf then
+			newPos = { x = oldPos.x - coordenadas.x, y = oldPos.y - coordenadas.y, z = oldPos.z }
+		else
+			newPos = { x = oldPos.x + coordenadas.x, y = oldPos.y + coordenadas.y, z = oldPos.z }
+		end
+		
+		doTeleportThing(cid,newPos,true)
+		
+
+
+end

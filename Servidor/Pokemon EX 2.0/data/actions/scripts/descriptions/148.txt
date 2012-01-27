@@ -1,0 +1,21 @@
+Name: Dragonair
+Type: Dragão
+Required level: 70
+
+Evolutions:
+Dratini, requires level 20
+Dragonair, requires level 60
+Dragonite, requires level 90
+
+
+Moves: 
+Headbutt - m1 - level 60
+Aqua Tail - m2 - level 60
+Thunder Wave - m3 - level 60
+Dragon Breath - m4 - level 62
+Twister -m5 - level 61
+Hyper Beam - m6 - level 64
+Dragon Fury - passive 
+
+Ability:
+-/-

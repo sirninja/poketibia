@@ -1,0 +1,14 @@
+Nome: Ditto
+Tipo: Normal
+Nivel Necessário 40
+
+Evoluçoes:
+Ditto, requer nivel 40
+
+Descriçao: Tem a capacidade de reconsstruir suas celulas, para se transformar no que ve.
+
+Ataques:
+Nao tem
+
+Habilidade:
+Tranformar (Tranform)

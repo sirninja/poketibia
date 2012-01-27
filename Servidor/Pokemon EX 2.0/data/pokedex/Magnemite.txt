@@ -1,0 +1,19 @@
+Name: Magnemite
+Type: electric
+Required level: 15
+
+Evolutions:
+Magnemite, requires level 15
+Magneton, requires level 40
+
+Description: The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.
+
+Moves: 
+Super Sonic - m1 - level 15 - normal
+Thunder Shock - m2 - level 15 - electric
+Thunder Bolt - m3 - level 16 - electric
+Thunder Wave - m4 - level 18 - electric
+Sonicboom - m5 - level 20 - normal
+
+Ability:
+Light

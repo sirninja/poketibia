@@ -1,0 +1,21 @@
+Name: Growlithe
+Type: fire
+Required level: 25
+
+Evolutions:
+Growlithe, requires level 25
+Arcanine, requires level 80
+
+Description: Its superb sense of smell ensures that this Pokemon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.
+
+Moves: 
+Roar - m1 - level 28 - normal
+Bite - m2 - level 25 - normal
+Quick Attack - m3 - level 25 - normal
+Ember - m4 - level 25 - fire
+Flamethrower - m5 - level 25 - fire
+Fireball - m6 - level 27 - fire
+Rage - m7 - level 30 - dragon
+
+Ability:
+Dig

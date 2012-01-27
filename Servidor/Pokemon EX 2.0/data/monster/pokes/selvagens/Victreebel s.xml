@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Victreebel" nameDescription="a wild victreebel" race="grass" experience="800" speed="199" manacost="620">
+  <health now="7200" max="7200"/>
+  <look type="240" head="20" body="30" legs="40" feet="50" corpse="6332"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-105" max="-145"/>
+    <attack name="razor leaf" interval="2300" chance="22" min="-75" max="-100">
+    </attack>
+    <attack name="vine whip" interval="2700" chance="24" min="-280" max="-360">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="23" min="-140" max="-160">
+    </attack>
+    <attack name="acid" interval="2400" range="6" chance="21" min="-180" max="-210">
+    </attack>
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-490" max="-500">
+    </attack>
+    <attack name="poisonbomb" interval="2600" range="6" chance="26" min="-150" max="-180">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-350" max="-480">
+    </attack>
+  </attacks>
+<defenses armor="0" defense="5"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="VIC!"/>
+    <voice sentence="VICTREEBEL!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="78" chance="89000"/> -- seeds
+	<item id="8851" countmax="4" chance="31000"/> -- leaves
+	<item id="8852" countmax="2" chance="24000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1500"/> -- leaf stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

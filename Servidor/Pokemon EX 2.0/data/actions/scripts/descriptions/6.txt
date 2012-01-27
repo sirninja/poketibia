@@ -1,0 +1,24 @@
+Nome: Charizard
+Tipo: Fogo
+Level Requerido: 80
+
+Moves:
+Dragon Claw - m1 - level 85
+Ember - m2 - level 85
+Flamethrower - m3 - level 85
+Fireball - m4 - level 85
+Fire Fang - m5 - level 85
+Raging Blast - m6 - level 85
+Fire Blast - m7 - level 85
+Wing Attack - m8 - level 90
+Magma Storm - m9 - level 95
+Rage - m10 - level 85
+
+Evoluções:
+Charmander, requer level 20
+Charmeleon, requer level 40
+Charizard, requer level 80
+
+Habilidades:
+Cortar
+Voar

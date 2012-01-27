@@ -1,0 +1,26 @@
+Nome: Venusaur
+Tipo: Grama
+Level Requerido: 80
+
+Moves:
+Quick Attack - m1 - level 85
+Razor Leaf - m2 - level 85
+Vine Whip - m3 - level 85
+Headbutt - m4 - level 85
+Leech Seed - m5 - level 85
+Bullet Seed - m6 - level 85
+Solar Beam - m7 - level 85
+Sleep Powder - m8 - level 85
+Stun Spore - m9 - level 85
+Poison Powder - m10 - level 85
+Leaf Storm - m11 - level 95
+
+Evoluções:
+
+Bulbasaur, requer level 20
+Ivysaur, requer level 40
+Vanusaur, requer level 80
+
+Habilidades:
+Cortar
+Montar

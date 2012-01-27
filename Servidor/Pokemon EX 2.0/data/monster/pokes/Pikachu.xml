@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pikachu" nameDescription="a Pikachu" race="undead" experience="700" speed="230" manacost="640">
+  <health now="900" max="900"/>
+  <look type="59" head="20" body="30" legs="40" feet="50" corpse="6001"/>
+<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1000" skill="30" attack="30"/>
+    <attack name="electric charge" interval="0" chance="100" min="-100" max="-200"> 
+  </attack>
+  </attacks>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+
+  <defenses armor="20" defense="30"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Pikachu!"/>
+  </voices>
+
+</monster>

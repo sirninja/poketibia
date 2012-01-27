@@ -1,0 +1,20 @@
+Name: Jigglypuff
+Type: normal
+Required level: 20
+
+Evolutions:
+Jigglypuff, requires level 20
+Wigglytuff, requires level 45
+
+Description: It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.
+
+Moves: 
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 20 - normal
+Selfheal - m4 - level 28 - normal
+Hyper Voice - m5 - level 30 - normal
+Metronome - m6 - level 35 - normal
+
+Ability:
+None

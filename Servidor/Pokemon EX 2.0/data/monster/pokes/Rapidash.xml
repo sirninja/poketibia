@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Rapidash" namedescription="a Rapidash" race="undead" experience="6023" speed="376" manacost="300">
+  <health now="5500" max="5500"/>
+  <look type="220" head="20" body="30" legs="40" feet="50" corpse="4323"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="70" attack="79"/>
+    <attack name="aurafogo" interval="2000" chance="15" min="-1000" max="-1400"> </attack>
+
+
+  </attacks>
+  <defenses armor="6" defense="6"/>
+    <elements>
+  <element icePercent="-8"/>
+  <element holyPerent="10"/>
+  <element earthPercent="20"/>
+  <element deathPercent="-10"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Rapidash"/>
+  </voices>
+	<loot>
+		<item id="5894" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="5913" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="5910" chance="10000"/><!-- Nail -->
+		<item id="5907" countmax="1" chance="50"/><!-- Fire stone -->
+		<item id="2152" countmax="10" chance="50"/><!-- Fire stone -->
+		<item id="5890" countmax="1" chance="2000"/><!-- Dragon Tooth --> 
+	</loot>
+</monster>

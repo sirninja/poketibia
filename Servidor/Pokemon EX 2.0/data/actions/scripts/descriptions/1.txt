@@ -1,0 +1,23 @@
+Name: Bulbasaur
+Type: Grass
+Requires Level: 20
+
+Moves:
+Quick Attack - m1 - level 20
+Razor Leaf - m2 - level 20
+Vine Whip - m3 - level 20
+Headbutt - m4 - level 20
+Leech Seed - m5 - level 22
+Solar Beam - m6 - level 40
+Sleep Powder - m7 - level 35
+Stun Spore - m8 - level 28
+Poison Powder - m9 - level 26
+
+Evolutions:
+
+Bulbasaur, requires level 20
+Ivysaur, requires level 40
+Vanusaur, requires level 80
+
+Habilities:
+Cut

@@ -1,0 +1,22 @@
+Name: Kangaskhan
+Type: normal
+Required level: 80
+
+Evolutions:
+Kangaskhan, requires level 80
+
+Description: It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.
+
+Moves: 
+Bite - m1 - level 80 - normal
+Dizzy Punch - m2 - level 80 - normal
+Headbutt - m3 - level 80 - normal
+Mega Punch - m4 - level 80 - fighting
+Shockwave - m5 - level 80 - earth
+Earthshock - m6 - level 86 - earth
+Epicenter - m7 - level 95 - earth
+Rage - m8 - level 80 - dragon
+Groundshock - passive  - normal
+
+Ability:
+Rock smash

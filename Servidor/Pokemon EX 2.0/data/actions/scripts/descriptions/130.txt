@@ -1,0 +1,21 @@
+Name: Gyarados
+Type: Dragão
+Required level: 75
+
+Evolutions:
+Magkarp, requires level 5
+Gayrados, requires level 85
+
+Moves: 
+Roar - m1 - level 95
+Bite - m2 - level 85
+Aqua Tail - m3 -level 85
+Waterball - m4 - level 85
+Hydro Cannon - m5 - level 85
+DragonBreath - m6 - level 85
+Hyper Beam - m7 - level 85
+Hydropump - m8 -level 93
+Dragon Fury - passive 
+
+Ability:
+Surf

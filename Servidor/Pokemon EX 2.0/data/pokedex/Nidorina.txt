@@ -1,0 +1,22 @@
+Name: Nidorina
+Type: poison
+Required level: 30
+
+Evolutions:
+NidoranFE, requires level 10
+Nidorina, requires level 30
+Nidoqueen, requires level 65
+
+Description: The female's horns develop slowly. Prefers physical attacks such as clawing and biting.
+
+Moves: 
+Quick Attack - m1 - level 30 - normal
+Bite - m2 - level 30 - normal
+Horn Attack - m3 - level 30 - normal
+Poison Sting - m4 - level 30 - poison
+Poison Fang - m5 - level 30 - poison
+Stomp - m6 - level 38 - earth
+Strafe - m7 - level 35 - dragon
+
+Ability:
+Dig

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quagsire" nameDescription="a Quagsire" race="undead" experience="800" speed="260" manacost="0">
+	<health now="3500" max="3500"/>
+	<look type="381" corpse="10524"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="85" min="150" max="200">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="50"/>
+		<element grassPercent="-100"/>
+		<element electricPercent="100"/>
+		<element poisonPercent="50"/>
+		<element rockPercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Quaaaaagsiire!"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="10" chance="10000"/><!-- Sell Item -->
+		<item id="6569" countmax="2" chance="5000"/><!-- Sell Item -->
+		<item id="5791" chance="300"/><!-- Stone -->
+		<item id="5810" chance="300"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

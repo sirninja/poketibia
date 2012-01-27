@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dannys Growlithe" nameDescription="a growlithe. It belongs to Danny" race="fire2" experience="0" speed="0" manacost="0">
+  <health now="3200" max="3200"/>
+  <look type="109" head="20" body="30" legs="40" feet="50" corpse="6036"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="100" chance="100" range="30" min="-1" max="-2">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="rock throw" interval="1000" chance="100" min="-1" max="-2">
+</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Groow!"/>
+    <voice sentence="Growlithee!"/>
+  </voices>
+        <script>
+        <event name="dannygrowlithe"/>
+	<event name="growlithelook"/>
+	<event name="growlithethink"/>
+	<event name="growlithethink2"/>
+        </script>
+</monster>

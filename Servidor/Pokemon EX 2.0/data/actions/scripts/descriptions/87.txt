@@ -1,0 +1,21 @@
+Name: Dewgong
+Type: Gelo
+Required level: 65
+
+Evolutions:
+Seel, requires level 25
+Dewgong, requires level 70
+
+Description: A Pokemon that lives on icebergs. It swims in the sea using the point on its head to break up ice.
+
+Moves: 
+Aqua Tail - m1 - level 65
+Headbutt - m2 - level 65
+Ice Shards - m3 - level 65
+Ice Beam - m4 - level 65
+Icy Wind - m5 -level 65
+Aurora Beam - m6 - level 69
+Blizzard - m7 - level 71
+
+Habilities:
+Surf

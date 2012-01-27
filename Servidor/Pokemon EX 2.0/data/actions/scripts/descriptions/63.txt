@@ -1,0 +1,21 @@
+Nome: Abra
+Tipo: Psíquico
+Nível necessário: 10
+
+Evoluções:
+Abra, requer nível 10
+Kadabra, requer nível 50
+Alakazam, requer nível 80
+
+Description: Um pokémon que dorme 18 horas por dia. Durante sua observaçao falaram que ele usa teleport para mudar a sua localização.
+
+Move-se:
+Restore - Regenerar
+Psy Pulse - Pulso Psiquico
+Psychic - Psiquico
+Calm Mind - Mente Calma
+
+Habilidade:
+Teleport (Teleportar)
+Light (Luz)
+Blink (Piscar)

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ninetales" nameDescription="a Ninetales" race="undead" experience="900" speed="240" manacost="0">
+  <health now="7000" max="7000"/>
+  <look type="114" head="20" body="30" legs="40" feet="50" corpse="6040"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1900" range="1" min="-80" max="-100" />
+    <attack name="vulpix" interval="3500" chance="100" min="-100" max="-175"> </attack>
+    <attack name="quick attack" interval="2000" chance="25" min="-90" max="-120" > </attack>
+    <attack name="ember" interval="2000" chance="20" min="-120" max="-150" > </attack>
+    <attack name="flamethrower" interval="2000" chance="20" > </attack>
+    <attack name="iron tail" interval="2500" chance="15" min="-150" max="-175" > </attack>
+    <attack name="Flame Strike" interval="2500" chance="15" min="-170" max="-200" > </attack>
+    <attack name="raging blast" interval="3800" chance="27" > </attack>
+    <attack name="fire blast" interval="3100" chance="20" > </attack>
+    <attack name="char" interval="7100" chance="100" min="-100" max="-150"> </attack>
+    <attack name="magma storm" interval="6000" chance="100" min="-300" max="-340"> </attack>
+
+  </attacks>
+
+  <defenses armor="20" defense="20"/>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Niinetalees!"/>
+  </voices>
+	<loot>
+		<item id="5894" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="5913" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="5910" chance="10000"/><!-- Nail -->
+		<item id="2291" countmax="1" chance="1500"/><!-- Fire stone -->
+	</loot>
+</monster>

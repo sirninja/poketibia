@@ -1,0 +1,28 @@
+Nome: Alakazam
+Tipo: Psiquico
+Nivel Necessario: 80
+
+Evoluçoes:
+Abra, requer nivel 10
+Kadabra, requer nivel 50
+Alakazam, requer nivel 80
+
+Descriçao: Enquantotem grande inteligencia e poderes psiquicos, um Alakazam é muito forte. Ele usa o poder psiquico para mover corpos.
+
+Ataques:
+Psybeam - Raio Psiquico - m1 - 80 
+Psywave - Onda Psiquica - m2 - 80
+Psy Pulse - Pulso Psiquico - m3 - 80
+Confusion - Confusao - m4 - 80
+Psyquic - Psiquico - m5 - 80
+Psyusion - Psiqusual - m6 - 95
+Calm Mind - Mente Calma - m7 - 80
+Hypnosis - Hipnosi - m8 - 80
+Reflect - Refletir - m9 - 85
+Restore - Restaurar - m10 - 85
+
+Capacidade:
+Teleportar (Teleport)
+Luz (Light)
+Piscar (Blink)
+Control Minds

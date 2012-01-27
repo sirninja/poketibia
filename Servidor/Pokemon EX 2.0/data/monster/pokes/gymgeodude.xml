@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gym Geodude" nameDescription="a Gym Geodude" race="UNDEAD" experience="240" speed="230" manacost="0">
+  <health now="900" max="900"/>
+  <look type="196" head="0" body="0" legs="0" feet="0" corpse="0"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Geeo!"/>
+    <voice sentence="Geoodude!"/>
+	</voices>
+	<loot>
+		<item id="1294" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="2674" countmax="1" chance="5000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5924" chance="100"/><!-- Stone -->
+	</loot>
+	  <script>
+        <event name="PokeGym"/>
+</script> 
+</monster>

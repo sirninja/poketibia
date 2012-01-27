@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a Tentacruel" race="undead" experience="6280" speed="270" manacost="0">
+  <health now="7050" max="7050"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="45" attack="16"/>
+    <attack name="auraagua" interval="2000" chance="8" min="-1200" max="-1600"> </attack>
+    <attack name="auraveneno" interval="2000" chance="8" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <defenses armor="13" defense="23"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+	<loot>
+		<item id="5810" countmax="1" chance="50"/><!-- Water Stone -->
+		<item id="7159" countmax="40" chance="40000"/><!-- Water gem -->
+		<item id="6569" countmax="1" chance="20000"/><!-- Water Pendant -->
+		<item id="6126" chance="10000"/><!-- Squirtle hull -->
+	</loot>
+</monster>

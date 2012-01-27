@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ursaring" nameDescription="a Ursaring" race="fire" experience="1300" speed="275" manacost="10000">
+  <health now="10000" max="10000"/>
+  <look type="372" corpse="2977"/>
+  	<targetchange interval="1000" chance="10555"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="500" max="1000">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-100"/>
+		<element deathPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ursaringgg!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="5910" countmax="8" chance="8000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="260"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

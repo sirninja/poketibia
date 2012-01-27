@@ -1,0 +1,19 @@
+Name: Spearow
+Type: flying
+Required level: 10
+
+Evolutions:
+Spearow, requires level 10
+Fearow, requires level 50
+
+Description: It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Sand Attack - m2 - level 10 - earth
+Gust - m3 - level 12 - flying
+Drill Peck - m4 - level 10 - flying
+Rage - m5 - level 15 - dragon
+
+Ability:
+None

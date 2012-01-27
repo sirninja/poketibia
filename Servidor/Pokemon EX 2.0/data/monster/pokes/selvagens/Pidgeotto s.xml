@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeotto" nameDescription="a wild pidgeotto" race="flying" experience="375" speed="186" manacost="300">
+  <health now="1900" max="1900"/>
+  <look type="5" head="0" body="0" legs="0" feet="0" corpse="5966"/>
+
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+     <attack name="melee" interval="1900" min="-70" max="-80"/>
+    <attack name="sand attack" interval="2400" chance="15" min="-137" max="-145">
+    </attack>
+    <attack name="whirlwind" interval="3000" chance="25" min="-157" max="-172">
+    </attack>
+    <attack name="wing attack" interval="2800" chance="20" min="-180" max="-222">
+    </attack>
+    <attack name="peck" range="1" interval="2700" chance="19" min="-120" max="-140">
+    </attack>
+    <attack name="quick attack" range="1" interval="2300" chance="19" min="-110" max="-125">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="1"/>
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOTTO!"/>
+    <voice sentence="GEOTTO!"/>
+  </voices>
+
+	<loot>
+	<item id="2694" countmax="19" chance="65000"/> -- straw
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	<item id="8822" countmax="1" chance="15000"/> -- bird beak
+	<item id="2294" countmax="1" chance="1100"/> -- heart stone
+	<item id="8860" countmax="1" chance="900"/> -- pidgeot doll
+	</loot>
+	
+<script>
+<event name="Exp"/>
+</script>
+		
+</monster>

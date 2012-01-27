@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Alakazam" nameDescription="a wild alakazam" race="psychic" experience="1000" speed="180" manacost="490">
+  <health now="8900" max="8900"/>
+  <look type="218" head="20" body="30" legs="40" feet="50" corpse="6057"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1000" chance="100" range="3" min="-121" max="-181">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="psy pulse" interval="1700" chance="22" min="-354" max="-368">
+	</attack>
+	<attack name="psychic" interval="2500" chance="26" min="-402" max="-411">
+	</attack>
+	<attack name="psycho shift" interval="2500" chance="22" min="-492" max="-493">
+	</attack>
+	<attack name="restore" interval="4200" chance="41" min="1600" max="1750">
+	</attack>
+	<attack name="psy beam" interval="3500" chance="21" min="-700" max="-750">
+	</attack>
+	<attack name="mind blast" interval="3900" chance="20" min="-600" max="-900">
+	</attack>
+	<attack name="future sight" interval="6000" chance="23">
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="ALAKA!"/>
+    <voice sentence="ZAAAM!"/>
+    <voice sentence="ALAKAZAM!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="1" chance="85500"/> -- future orb
+	<item id="8870" countmax="1" chance="20000"/> -- psy spoon
+	<item id="2295" countmax="1" chance="1200"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

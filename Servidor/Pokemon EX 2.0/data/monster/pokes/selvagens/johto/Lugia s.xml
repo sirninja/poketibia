@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lugia" nameDescription="Ancient Lugia" race="undead" experience="90000" speed="700" manacost="0">
+  <health now="120000" max="120000"/>
+  <look type="421" head="20" body="30" legs="40" feet="50" corpse="2862"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="psychic" interval="2100" chance="90" min="-8800" max="-9600">
+    </attack>
+    <attack name="hydro pump" interval="3500" chance="90" min="-9000" max="-10000">
+    </attack>
+    <attack name="water gun" interval="3000" chance="90" min="-10000" max="-13000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="3000" chance="100" min="2500" max="3000">
+    </defense>
+  </defenses>
+	<elements>
+		<element fightingPercent="50"/>
+		<element psychicPercent="50"/>
+		<element deathPercent="-100"/>
+                <element electricPercent="-100"/>
+		<element grassPercent="50"/>
+		<element firePercent="-100"/>
+		<element grassPercent="50"/>
+		<element fightPercent="50"/>
+		<element groundPercent="100"/>
+		<element rockPercent="-100"/>
+                <element icePercent="-100"/>
+	</elements>
+  <voices interval="500000" chance="1">
+    <voice sentence="Lugia!!!"/>
+	</voices>
+	<loot>
+		<item id="5896" countmax="50" chance="1000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5903" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

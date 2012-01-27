@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sneasel" nameDescription="a Sneasel" race="undead" experience="1400" speed="200" manacost="550">
+	<health now="4500" max="4500"/>
+	<look type="375" corpse="2915"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="icy wind" interval="5000" chance="90" min="-7920" max="-9020">
+    </attack>
+    <attack name="ice shard" interval="3500" chance="90" min="-7820" max="-8270">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-100"/>
+		<element icePercent="50"/>
+		<element fightPercent="-100"/>
+		<element bugPercent="-100"/>
+		<element rockPercent="-100"/>
+		<element deathPercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	</voices>
+	<loot>
+		<item id="5901" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5917" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

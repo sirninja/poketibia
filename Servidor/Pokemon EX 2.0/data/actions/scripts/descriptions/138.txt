@@ -1,0 +1,19 @@
+Name: Omanyte
+Type: Água
+Required level: 20
+
+Evolutions:
+Omanyte, requires level 20
+Omastar, requires level 80
+
+Moves: 
+Bite - m1 - level 20
+Rock Throw - m2 - level 20
+Waterball - m3 - level 25
+Water Gun - m4 - level 25
+Mud Shot - m5 -level 25
+Harden - m6 - level 30
+Ancient Power - m7 - level 35 
+
+Ability:
+-/-

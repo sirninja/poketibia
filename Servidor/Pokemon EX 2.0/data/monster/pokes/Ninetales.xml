@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ninetales" nameDescription="a Ninetales" race="undead" experience="110" speed="240" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="114" head="20" body="30" legs="40" feet="50" corpse="6040"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="35" attack="40"/>
+    <attack name="aurafogo" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <defenses armor="20" defense="20"/>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Niinetalees!"/>
+  </voices>
+	<loot>
+		<item id="5894" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="5913" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="5910" chance="10000"/><!-- Nail -->
+		<item id="5907" countmax="1" chance="50"/><!-- Fire stone -->
+		<item id="5890" countmax="1" chance="2000"/><!-- Dragon Tooth --> 
+	</loot>
+</monster>

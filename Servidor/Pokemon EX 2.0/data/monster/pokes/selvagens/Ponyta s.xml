@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Ponyta" namedescription="a Ponyta" race="undead" experience="325" speed="276" manacost="300">
+  <health now="1400" max="660"/>
+  <look type="16" head="20" body="30" legs="40" feet="50" corpse="5975"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="45" attack="27"/>
+    <attack name="fire" interval="4000" chance="1000" range="7" radius="7" target="1" min="-100" max="-150">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="vulpix" interval="3500" chance="100" min="-15" max="-75"> </attack>
+    <attack name="quick attack" interval="2000" chance="25" min="-35" max="-45" > </attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-55" > </attack>
+    <attack name="flamethrower" interval="2000" chance="20" > </attack>
+    <attack name="pluck" interval="2100" chance="17" range="1" min="-80" max="-120">
+	</attack>
+
+  </attacks>
+  <defenses armor="6" defense="6"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Poony"/>
+    <voice sentence="ponytaaa"/>
+	  </voices>
+	<loot>
+		<item id="5894" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="5913" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="5910" chance="5000"/><!-- Nail -->
+		<item id="5907" countmax="1" chance="5"/><!-- Fire stone --> 
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

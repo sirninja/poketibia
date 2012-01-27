@@ -1,0 +1,19 @@
+Name: Crystal Onix
+Type: Pedra
+Required level: 100
+
+Evolutions:
+-/-
+
+Moves: 
+Sand Attack - m1 - level 100
+Iron Tail - m2 - level 100
+Rock Throw - m3 - level 100
+Rock Slide - m4 - level 100
+Earthshock - m5 - level 100
+Falling Rocks - m6 - level 108
+Earthquake - m7 - level 112
+Harden - m8 - level 100
+
+Ability:
+Dig, Rock smash, Ride

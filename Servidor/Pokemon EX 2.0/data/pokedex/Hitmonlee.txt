@@ -1,0 +1,19 @@
+Name: Hitmonlee
+Type: fighting
+Required level: 60
+
+Evolutions:
+Hitmonlee, requires level 60
+
+Description: Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs. Hitmonlee have a special passive skill.
+
+Moves: 
+Triple Kick Lee - m1 - level 60 - fighting
+Mega Kick - m2 - level 60 - fighting
+Multi-Kick - m3 - level 65 - fighting
+Furious Legs - m4 - level 60 - fighting
+Demon Kicker - passive  - fighting
+Evasion - passive  - normal
+
+Ability:
+Rock smash

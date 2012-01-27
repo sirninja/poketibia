@@ -1,0 +1,19 @@
+Nome: Magnemite 
+Tipo: Eletrico
+Nível Necessário: 12
+
+Evoluçoes:
+Magnamite, requer nível 12
+Magneton, requer nível 35
+
+Descriçao: Criam um campo de força magnetica para os manterem flutuando. É alimentado por eletricidade.
+
+Ataques:
+Super Sonic - Super Sonico - m1 - 12
+Thunder Shock - Choque do Troao - m2 - 12
+Thunder Bolt - Raio de Trovao - m3 - 18
+Thunder Wave - Onda do Trovao - m4 - 14
+Sonic Boom - Explosao Sonica - m5 - 22
+
+Habilidade:
+Luz (Light)

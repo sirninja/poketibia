@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mewtwo" nameDescription="a Mewtwo" race="undead" experience="10000" speed="280" manacost="0">
+  <health now="20000" max="20000"/>
+  <look type="34" head="20" body="30" legs="40" feet="50" corpse="5973"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="2"/>
+    <flag staticattack="99"/>
+    <flag runonhealth="300"/>
+  </flags>
+
+
+   <attacks>
+
+    <attack name="fire wave" interval="4000" chance="50" min="-300" max="-900">
+    </attack>
+    <attack name="sludge" interval="1000" range="10" chance="100" min="-100" max="-200">
+    </attack>
+    <attack name="teleport" interval="1000" chance="30" min="-0" max="-0">
+    </attack>
+    <attack name="confusion" interval="4500" chance="90" min="-800" max="-1600">
+    </attack>
+    <attack name="psychic" interval="5000" chance="90" min="-1000" max="-3000">
+    </attack>
+    <attack name="psy pulse" interval="3500" chance="90" min="-350" max="-700">
+    </attack>
+    <attack name="psybeam" interval="7000" chance="90" min="-2000" max="-4500">
+    </attack>
+    <attack name="aurapsiquica" interval="3000" chance="20" min="-1600" max="-2000"> 
+    </attack>
+    <attack name="mind blast" interval="8000" chance="50" min="-600" max="-2900">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="80" min="1000" max="3000">
+    </defense>
+    <defense name="Strafe" interval="10000" chance="80" min="1000" max="2000">
+    </defense>
+  </defenses>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+
+  <voices interval="500000" chance="1">
+    <voice sentence="Meewtwooo!"/>
+	</voices>
+	<loot>
+	<item id="2300" countmax="1" chance="8000"/><!-- crystal Stone -->
+	<item id="2306" countmax="1" chance="8000"/>-- Darkness Stone
+	<item id="2295" countmax="1" chance="8000"/> -- enigma stone
+	<item id="6569" countmax="1" chance="5000"/><!-- rare candy -->
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+</monster>

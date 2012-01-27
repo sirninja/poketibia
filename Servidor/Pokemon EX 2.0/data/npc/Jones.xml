@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jones" script="data/npc/scripts/premium.lua" walkinterval="3000" floorchange="0" access="5" >
+<health now="150" max="150"/>
+<look type="130" head="0" body="88" legs="109" feet="77"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu vendo {premium}."/>
+<parameter key="message_farewell" value="Adeus. volte quando precisar de ajuda."/>
+</parameters>
+</npc>

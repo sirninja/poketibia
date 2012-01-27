@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Alakazam" nameDescription="a Shiny Alakazam" race="undead" experience="2800" speed="600" manacost="490">
+  <health now="35000" max="35000"/>
+  <look type="574" head="20" body="30" legs="40" feet="50" corpse="6057"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-220" max="-160">
+    </attack>
+    <attack name="psy pulse" interval="3000" chance="90" min="-140" max="-280">
+    </attack>
+    <attack name="teleport" interval="4000" chance="90" min="-0" max="-0">
+    </attack>
+    <attack name="psychic" interval="3500" chance="90" min="-1800" max="-1500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="4000" chance="100" min="150" max="250">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Alakazaam!"/>
+	</voices>
+	<loot>
+		<item id="5896" countmax="3" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5903" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

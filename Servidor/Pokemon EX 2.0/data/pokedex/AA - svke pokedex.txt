@@ -1,0 +1,2408 @@
+﻿TABELA DE MAGIAS POKÉMONS SVKE!
+
+
+Name: Bulbasaur
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Razor Leaf - m2 - level 20 - grass
+Vine Whip - m3 - level 20 - grass
+Headbutt - m4 - level 20 - normal
+Leech Seed - m5 - level 22 - grass
+Solar Beam - m6 - level 40 - grass
+Sleep Powder - m7 - level 35 - grass
+Stun Spore - m8 - level 28 - grass
+Poison Powder - m9 - level 26 - poison
+
+Name: Ivysaur
+
+Moves: 
+Quick Attack - m1 - level 40 - normal
+Razor Leaf - m2 - level 40 - grass
+Vine Whip - m3 - level 40 - grass
+Headbutt - m4 - level 40 - normal
+Leech Seed - m5 - level 40 - grass
+Bullet Seed - m6 - level 45 - grass
+Solar Beam - m7 - level 50 - grass
+Sleep Powder - m8 - level 44 - grass
+Stun Spore - m9 - level 40 - grass
+Poison Powder - m10 - level 40 - poison
+
+Name: Venusaur
+
+Moves: 
+Quick Attack - m1 - level 85 - normal
+Razor Leaf - m2 - level 85 - grass
+Vine Whip - m3 - level 85 - grass
+Headbutt - m4 - level 85 - normal
+Leech Seed - m5 - level 85 - grass
+Bullet Seed - m6 - level 85 - grass
+Solar Beam - m7 - level 85 - grass
+Sleep Powder - m8 - level 85 - grass
+Stun Spore - m9 - level 85 - grass
+Poison Powder - m10 - level 85 - poison
+Leaf Storm - m11 - level 95 - grass
+
+
+
+
+
+
+
+Name: Charmander
+
+Moves: 
+Scratch - m1 - level 20 - normal
+Ember - m2 - level 20 - fire
+Flamethrower - m3 - level 20 - fire
+Fireball - m4 - level 24 - fire
+Fire Fang - m5 - level 22 - fire
+Fire Blast - m6 - level 40 - fire
+Rage - m7 - level 30 - dragon
+
+Name: Charmeleon
+
+Moves: 
+Scratch - m1 - level 40 - normal
+Ember - m2 - level 40 - fire
+Flamethrower - m3 - level 40 - fire
+Fireball - m4 - level 40 - fire
+Fire Fang - m5 - level 40 - fire
+Raging Blast - m6 - level 45 - fire
+Fire Blast - m7 - level 50 - fire
+Rage - m8 - level 40 - dragon
+
+Name: Charizard
+
+Moves: 
+Dragon Claw - m1 - level 85 - dragon
+Ember - m2 - level 85 - fire
+Flamethrower - m3 - level 85 - fire
+Fireball - m4 - level 85 - fire
+Fire Fang - m5 - level 85 - fire
+Raging Blast - m6 - level 85 - fire
+Fire Blast - m7 - level 85 - fire
+Wing Attack - m8 - level 90 - flying
+Magma Storm - m9 - level 95 - fire
+Rage - m10 - level 85 - dragon
+
+Name: Squirtle
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Bubbles - m2 - level 20 - water
+Water Gun - m3 - level 20 - water
+Waterball - m4 - level 24 - water
+Aqua Tail - m5 - level 22 - water
+Hydro Cannon - m6 - level 40 - water
+Harden - m7 - level 30 – normal
+Name: Wartortle
+
+Moves: 
+Headbutt - m1 - level 40 - normal
+Bubbles - m2 - level 40 - water
+Water Gun - m3 - level 40 - water
+Waterball - m4 - level 40 - water
+Aqua Tail - m5 - level 40 - water
+Bubble Blast - m6 - level 45 - water
+Hydro Cannon - m7 - level 50 - water
+Harden - m8 - level 40 - normal
+
+Name: Blastoise
+
+Moves: 
+Headbutt - m1 - level 85 - normal
+Bubbles - m2 - level 85 - water
+Water Gun - m3 - level 85 - water
+Waterball - m4 - level 85 - water
+Aqua Tail - m5 - level 85 - water
+Bubble Blast - m6 - level 85 - water
+Hydro Cannon - m7 - level 85 - water
+Skull Bash - m8 - level 90 - normal
+Hydropump - m9 - level 95 - water
+Harden - m10 - level 85 - normal
+
+Name: Caterpie
+
+Moves: 
+Headbutt - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Bug Bite - m3 - level 1 - bug
+
+Name: Metapod
+
+Moves: 
+String Shot - m1 - level 15 - bug
+Headbutt - m2 - level 15 - normal
+Harden - m3 - level 15 - normal
+Bug Bite - m4 - level 15 - bug
+
+
+
+
+
+
+
+Name: Butterfree
+
+Moves: 
+String Shot - m1 - level 30 - bug
+Super Sonic - m2 - level 30 - normal
+Headbutt - m3 - level 30 - normal
+Whirlwind - m4 - level 32 - flying
+Psybeam - m5 - level 36 - psychic
+Confusion - m6 - level 34 - psychic
+Sleep Powder - m7 - level 30 - grass
+Stun Spore - m8 - level 30 - grass
+Poison Powder - m9 - level 30 - poison
+
+Name: Weedle
+
+Moves: 
+Horn Attack - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Poison Sting - m3 - level 1 - poison
+
+Name: Kakuna
+
+Moves: 
+String Shot - m1 - level 15 - bug
+Headbutt - m2 - level 15 - normal
+Harden - m3 - level 15 - normal
+Bug Bite - m4 - level 15 - bug
+
+Name: Beedrill
+
+Moves: 
+String Shot - m1 - level 25 - bug
+Poison Sting - m2 - level 25 - poison
+Fury Cutter - m3 - level 30 - bug
+Pin Missile - m4 - level 30 - bug
+Rage - m5 - level 25 - dragon
+Strafe - m6 - level 33 - normal
+
+Name: Pidgey
+
+Moves: 
+Quick Attack - m1 - level 5 - normal
+Sand Attack - m2 - level 5 - earth
+Gust - m3 - level 7 - flying
+Drill Peck - m4 - level 12 - flying
+
+
+Name: Pidgeotto
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Sand Attack - m2 - level 20 - earth
+Whirlwind - m3 - level 20 - flying
+Drill Peck - m4 - level 20 - flying
+Wing Attack - m5 - level 25 - flying
+Tornado - m6 - level 40 - flying
+
+Name: Pidgeot
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Sand Attack - m2 - level 65 - earth
+Whirlwind - m3 - level 65 - flying
+Drill Peck - m4 - level 65 - flying
+Wing Attack - m5 - level 67 - flying
+Tornado - m6 - level 69 - flying
+Strafe - m7 - level 65 - normal
+
+Name: Rattata
+
+Moves: 
+Quick Attack - m1 - level 1 - normal
+Bite - m2 - level 1 - normal
+Scratch - m3 - level 1 - normal
+Super Fang - m4 - level 12 - normal
+
+Name: Raticate
+
+Moves: 
+Quick Attack - m1 - level 25 - normal
+Bite - m2 - level 25 - normal
+Scratch - m3 - level 25 - normal
+Super Fang - m4 - level 25 - normal
+Fury - passive  - dragon
+
+Name: Spearow
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Sand Attack - m2 - level 10 - earth
+Gust - m3 - level 12 - flying
+Drill Peck - m4 - level 10 - flying
+Rage - m5 - level 15 - dragon
+
+Name: Fearow
+
+Moves: 
+Quick Attack - m1 - level 50 - normal
+Sand Attack - m2 - level 50 - earth
+Drill Peck - m3 - level 50 - flying
+Gust - m4 - level 50 - flying
+Whirlwind - m5 - level 50 - flying
+Wing Attack - m6 - level 52 - flying
+Tornado - m7 - level 60 - flying
+Rage - m8 - level 55 - dragon
+
+Name: Ekans
+
+Moves: 
+Bite - m1 - level 15 - normal
+Poison Fang - m2 - level 17 - poison
+Sting Gun - m3 - level 21 - poison
+Acid - m4 - level 23 - poison
+Fear - m5 - level 25 - ghost
+
+Name: Arbok
+
+Moves: 
+Bite - m1 - level 35 - normal
+Poison Fang - m2 - level 35 - poison
+Sting Gun - m3 - level 35 - poison
+Pin Missile - m4 - level 38 - bug
+Acid - m5 - level 35 - poison
+Iron Tail - m6 - level 40 - normal
+Fear - m7 - level 42 - ghost
+Rage - m8 - level 40 - dragon
+
+Name: Pikachu
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Thunder Shock - m2 - level 20 - electric
+Thunder Bolt - m3 - level 22 - electric
+Thunder Wave - m4 - level 24 - electric
+Iron Tail - m5 - level 26 - normal
+Thunder - m6 - level 40 - electric
+Agility - m7 - level 30 - flying
+Electric Charge - passive  - electric
+
+
+
+Name: Raichu
+
+Moves: 
+Mega Kick - m1 - level 50 - fighting
+Thunder Shock - m2 - level 50 - electric
+Thunder Bolt - m3 - level 50 - electric
+Thunder Wave - m4 - level 50 - electric
+Thunder Punch - m5 - level 50 - electric
+Iron Tail - m6 - level 50 - normal
+Thunder - m7 - level 60 - electric
+Electric Storm - m8 - level 65 - electric
+Agility - m9 - level 60 - flying
+Electric Charge - passive  - electric
+
+Name: Sandshrew
+
+Moves: 
+Sand Attack - m1 - level 20 - earth
+Mud Shot - m2 - level 20 - earth
+Scratch - m3 - level 20 - normal
+Rollout - m4 - level 25 - stone
+Shockwave - m5 - level 30 - earth
+
+Name: Sandslash
+
+Moves: 
+Sand Attack - m1 - level 55 - earth
+Mud Shot - m2 - level 55 - earth
+Scratch - m3 - level 55 - normal
+Rollout - m4 - level 55 - stone
+Shockwave - m5 - level 55 - earth
+Fury Cutter - m6 - level 65 - bug
+Earthshock - m7 - level 60 - earth
+Earthquake - m8 - level 70 - earth
+
+Name: Nidoran Femea
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Horn Attack - m3 - level 12 - normal
+Poison Sting - m4 - level 10 - poison
+Poison Fang - m5 - level 15 - poison
+
+
+
+
+Name: Nidorina
+
+Moves: 
+Quick Attack - m1 - level 30 - normal
+Bite - m2 - level 30 - normal
+Horn Attack - m3 - level 30 - normal
+Poison Sting - m4 - level 30 - poison
+Poison Fang - m5 - level 30 - poison
+Stomp - m6 - level 38 - earth
+Strafe - m7 - level 35 - dragon
+
+Name: Nidoqueen
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Toxic Spikes - m7 - level 67 - poison
+Stomp - m8 - level 69 - earth
+Earthshock - m9 - level 71 - earth
+Strafe - m10 - level 65 - normal
+
+Name: Nidoran Macho
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Horn Attack - m3 - level 12 - normal
+Poison Sting - m4 - level 10 - poison
+Poison Fang - m5 - level 15 - poison
+
+Name: Nidorino
+
+Moves: 
+Quick Attack - m1 - level 30 - normal
+Bite - m2 - level 30 - normal
+Horn Attack - m3 - level 30 - normal
+Poison Sting - m4 - level 30 - poison
+Poison Fang - m5 - level 30 - poison
+Stomp - m6 - level 38 - earth
+Rage - m7 - level 35 - dragon
+
+
+
+Name: Nidoking
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Horn Drill - m7 - level 67 - normal
+Stomp - m8 - level 69 - earth
+Shockwave - m9 - level 71 - earth
+Rage - m10 - level 65 - dragon
+Fear - m11 - level 73 - ghost
+
+Name: Clefairy
+
+Moves: 
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 30 - normal
+Selfheal - m4 - level 28 - normal
+Multi-Slap - m5 - level 22 - normal
+Metronome - m6 - level 30 - normal
+
+Name: Clefable
+
+Moves: 
+Doubleslap - m1 - level 45 - normal
+Lovely Kiss - m2 - level 45 - normal
+Sing - m3 - level 45 - normal
+Multi-Slap - m4 - level 45 - normal
+Great Love - m5 - level 52 - normal
+Selfheal - m6 - level 50 - normal
+Healarea - m7 - level 50 - normal
+Focus - m8 - level 52 - normal
+Metronome - m9 - level 45 - normal
+
+Name: Vulpix
+
+Moves: 
+Quick Attack - m1 - level 15 - normal
+Iron Tail - m2 - level 18 - normal
+Ember - m3 - level 15 - fire
+Flamethrower - m4 - level 22 - fire
+Flame Wheel - m5 - level 25 - fire
+
+Name: Ninetales
+
+Moves: 
+Quick Attack - m1 - level 70 - normal
+Iron Tail - m2 - level 70 - normal
+Ember - m3 - level 70 - fire
+Flamethrower - m4 - level 70 - fire
+Flame Wheel - m5 - level 70 - fire
+Fireball - m6 - level 70 - fire
+Fire Blast - m7 - level 77 - fire
+Magma Storm - m8 - level 85 - fire
+
+Name: Jigglypuff
+
+Moves: 
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 20 - normal
+Selfheal - m4 - level 28 - normal
+Hyper Voice - m5 - level 30 - normal
+Metronome - m6 - level 35 - normal
+
+Name: Wigglytuff
+
+Moves: 
+Doubleslap - m1 - level 45 - normal
+Lovely Kiss - m2 - level 45 - normal
+Sing - m3 - level 45 - normal
+Hyper Voice - m4 - level 45 - normal
+Selfheal - m5 - level 50 - normal
+Healarea - m6 - level 50 - normal
+Focus - m7 - level 52 - normal
+Metronome - m8 - level 45 - normal
+Melody - passive  - normal
+
+Name: Zubat
+
+Moves: 
+Super Sonic - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Poison Fang - m3 - level 10 - poison
+Absorb - m4 - level 12 - grass
+Toxic - m5 - level 15 - poison
+
+
+
+
+Name: Golbat
+
+Moves: 
+Super Sonic - m1 - level 35 - normal
+Bite - m2 - level 35 - normal
+Poison Fang - m3 - level 35 - poison
+Absorb - m4 - level 35 - grass
+Toxic - m5 - level 35 - poison
+Whirlwind - m6 - level 38 - flying
+Wing Attack - m7 - level 40 - flying
+
+Name: Oddish
+
+Moves: 
+Absorb - m1 - level 5 - grass
+Acid - m2 - level 5 - poison
+Leech Seed - m3 - level 7 - grass
+Sleep Powder - m4 - level 12 - grass
+Stun Spore - m5 - level 10 - grass
+Poison Powder - m6 - level 5 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+Name: Gloom
+
+Moves: 
+Absorb - m1 - level 25 - grass
+Leech Seed - m2 - level 25 - grass
+Acid - m3 - level 25 - poison
+Poison Bomb - m4 - level 28 - poison
+Poison Gas - m5 - level 32 - poison
+Sleep Powder - m6 - level 25 - grass
+Stun Spore - m7 - level 25 - grass
+Poison Powder - m8 - level 25 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+
+
+
+
+
+
+
+
+
+
+Name: Vileplume
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Leech Seed - m2 - level 50 - grass
+Acid - m3 - level 50 - poison
+Poison Bomb - m4 - level 50 - poison
+Poison Gas - m5 - level 50 - poison
+Petal Dance - m6 - level 55 - grass
+Solar Beam - m7 - level 60 - grass
+Sleep Powder - m8 - level 50 - grass
+Stun Spore - m9 - level 50 - grass
+Poison Powder - m10 - level 50 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+Name: Paras
+
+Moves: 
+Scratch - m1 - level 5 - normal
+Poison Sting - m2 - level 5 - poison
+Slash - m3 - level 5 - normal
+Stun Spore - m4 - level 10 - grass
+Poison Powder - m5 - level 8 - poison
+Sleep Powder - m6 - level 12 - grass
+
+Name: Parasect
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Scratch - m2 - level 50 - normal
+Poison Sting - m3 - level 50 - poison
+Slash - m4 - level 50 - normal
+Poison Bomb - m5 - level 50 - poison
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 50 - grass
+Fury Cutter - m9 - level 56 - bug
+X-Scissor - m10 - level 58 - bug
+Mega Drain - passive  - normal
+
+
+
+
+
+
+
+Name: Venonat
+
+Moves: 
+Absorb - m1 - level 20 - grass
+Bug Bite - m2 - level 20 - bug
+Super Sonic - m3 - level 20 - normal
+Psychic - m4 - level 30 - psychic
+Poison Fang - m5 - level 20 - poison
+Sleep Powder - m6 - level 35 - grass
+Poison Powder - m7 - level 30 - poison
+Stun Spore - m8 - level 25 - grass
+
+Name: Venomoth
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Bug Bite - m2 - level 50 - bug
+Super Sonic - m3 - level 50 - normal
+Confusion - m4 - level 56 - psychic
+Psychic - m5 - level 50 - psychic
+Poison Fang - m6 - level 50 - poison
+Sleep Powder - m7 - level 50 - grass
+Poison Powder - m8 - level 50 - poison
+Stun Spore - m9 - level 50 - grass
+
+Name: Diglett
+
+Moves: 
+Sand Attack - m1 - level 10 - earth
+Slash - m2 - level 10 - normal
+Mud Shot - m3 - level 10 - earth
+Mud Slap - m4 - level 12 - earth
+Earthshock - m5 - level 15 - earth
+
+Name: Dugtrio
+
+Moves: 
+Sand Attack - m1 - level 35 - earth
+Slash - m2 - level 35 - normal
+Mud Shot - m3 - level 35 - earth
+Mud Slap - m4 - level 35 - earth
+Earthshock - m5 - level 35 - earth
+Shockwave - m6 - level 40 - earth
+Earthquake - m7 - level 42 - earth
+Rage - m8 - level 45 - dragon
+
+
+Name: Meowth
+
+Moves: 
+Slash - m1 - level 15 - normal
+Scratch - m2 - level 15 - normal
+Bite - m3 - level 15 - normal
+Pay Day - m4 - level 20 - normal
+Fury - passive  - dragon
+
+Name: Persian
+
+Moves: 
+Slash - m1 - level 30 - normal
+Scratch - m2 - level 30 - normal
+Bite - m3 - level 30 - normal
+Pay Day - m4 - level 30 - normal
+Fury Cutter - m5 - level 38 - bug
+Fear - m6 - level 40 - ghost
+Fury - passive  - dragon
+
+Name: Psyduck
+
+Moves: 
+Water Gun - m1 - level 24 - water
+Aqua Tail - m2 - level 20 - water
+Confusion - m3 - level 28 - psychic
+Headbutt - m4 - level 20 - normal
+Stunning Confusion - passive  - psychic
+
+Name: Golduck
+
+Moves: 
+Doubleslap - m1 - level 55 - normal
+Water Gun - m2 - level 55 - water
+Aqua Tail - m3 - level 55 - water
+Waterball - m4 - level 55 - water
+Confusion - m5 - level 55 - psychic
+Psybeam - m6 - level 60 - psychic
+Psywave - m7 - level 60 - psychic
+Mega Kick - m8 - level 55 - fighting
+Strafe - m9 - level 60 - normal
+Stunning Confusion - passive  - psychic
+
+
+
+
+
+Name: Mankey
+
+Moves: 
+Scratch - m1 - level 15 - normal
+Triple Kick - m2 - level 15 - fighting
+Karate Chop - m3 - level 18 - fighting
+Cross Chop - m4 - level 20 - fighting
+Rage - m5 - level 22 - dragon
+
+Name: Primeape
+
+Moves: 
+Scratch - m1 - level 50 - normal
+Triple Kick - m2 - level 50 - fighting
+Karate Chop - m3 - level 50 - fighting
+Cross Chop - m4 - level 54 - fighting
+Mega Punch - m5 - level 56 - fighting
+Mega Kick - m6 - level 58 - fighting
+Rage - m7 - level 50 - dragon
+Fear - m8 - level 60 - ghost
+
+Name: Growlithe
+
+Moves: 
+Roar - m1 - level 28 - normal
+Bite - m2 - level 25 - normal
+Quick Attack - m3 - level 25 - normal
+Ember - m4 - level 25 - fire
+Flamethrower - m5 - level 25 - fire
+Fireball - m6 - level 27 - fire
+Rage - m7 - level 30 - dragon
+
+Name: Arcanine
+
+Moves: 
+Roar - m1 - level 90 - normal
+Bite - m2 - level 80 - normal
+Quick Attack - m3 - level 80 - normal
+Ember - m4 - level 80 - fire
+Flamethrower - m5 - level 80 - fire
+Fireball - m6 - level 80 - fire
+Fire Fang - m7 - level 80 - fire
+Fire Blast - m8 - level 82 - fire
+Tri Flames - m9 - level 84 - fire
+War Dog - m10 - level 86 - normal
+
+
+Name: Poliwag
+
+Moves: 
+Doubleslap - m1 - level 5 - normal
+Bubbles - m2 - level 5 - water
+Water Gun - m3 - level 10 - water
+Aqua Tail - m4 - level 7 - water
+Hypnosis - m5 - level 12 - psychic
+
+Name: Poliwhirl
+
+Moves: 
+Mud Shot - m1 - level 25 - earth
+Doubleslap - m2 - level 25 - normal
+Bubbles - m3 - level 25 - water
+Water Gun - m4 - level 25 - water
+Mega Punch - m5 - level 30 - fighting
+Hypnosis - m6 - level 32 - psychic
+
+Name: Poliwrath
+
+Moves: 
+Mud Shot - m1 - level 65 - earth
+Doubleslap - m2 - level 65 - normal
+Bubbles - m3 - level 65 - water
+Water Gun - m4 - level 65 - water
+Dizzy Punch - m5 - level 69 - normal
+Mega Punch - m6 - level 65 - fighting
+Ice Punch - m7 - level 71 - ice
+Ice Beam - m8 - level 73 - ice
+Hypnosis - m9 - level 65 - psychic
+
+Name: Abra
+
+Moves: 
+Restore - m1 - level 20 - psychic
+Psy Pulse - m2 - level 20 - psychic
+Psychic - m3 - level 29 - psychic
+Calm Mind - m4 - level 25 - psychic
+
+
+
+
+
+
+
+
+Name: Kadabra
+
+Moves: 
+Psybeam - m1 - level 45 - psychic
+Psywave - m2 - level 45 - psychic
+Psy Pulse - m3 - level 45 - psychic
+Confusion - m4 - level 45 - psychic
+Psychic - m5 - level 47 - psychic
+Calm Mind - m6 - level 45 - psychic
+Hypnosis - m7 - level 45 - psychic
+Reflect - m8 - level 60 - psychic
+Restore - m9 - level 50 - psychic
+
+Name: Alakazam
+
+Moves: 
+Psybeam - m1 - level 80 - psychic
+Psywave - m2 - level 80 - psychic
+Psy Pulse - m3 - level 80 - psychic
+Confusion - m4 - level 80 - psychic
+Psychic - m5 - level 80 - psychic
+Psyusion - m6 - level 95 - psychic
+Calm Mind - m7 - level 80 - psychic
+Hypnosis - m8 - level 80 - psychic
+Reflect - m9 - level 85 - psychic
+Restore - m10 - level 85 - psychic
+
+Name: Machop
+
+Moves: 
+Triple Punch - m1 - level 20 - fighting
+Mega Punch - m2 - level 20 - fighting
+Karate Chop - m3 - level 24 - fighting
+Ground Chop - m4 - level 28 - fighting
+Strafe - m5 - level 30 - normal
+
+Name: Machoke
+
+Moves: 
+Triple Punch - m1 - level 47 - fighting
+Mega Punch - m2 - level 45 - fighting
+Mega Kick - m3 - level 49 - fighting
+Karate Chop - m4 - level 45 - fighting
+Ground Chop - m5 - level 45 - fighting
+Fist Machine - m6 - level 50 - fighting
+Strafe - m7 - level 53 - normal
+
+Name: Machamp
+
+Moves: 
+Triple Punch - m1 - level 70 - fighting
+Mega Punch - m2 - level 70 - fighting
+Mega Kick - m3 - level 70 - fighting
+Karate Chop - m4 - level 70 - fighting
+Ground Chop - m5 - level 70 - fighting
+Fist Machine - m6 - level 76 - fighting
+Destroyer Hand - m7 - level 78 - fighting
+Strafe - m8 - level 74 - normal
+
+Name: Bellsprout
+
+Moves: 
+Razor Leaf - m1 - level 10 - grass
+Vine Whip - m2 - level 12 - grass
+Acid - m3 - level 8 - poison
+Slash - m4 - level 5 - normal
+
+Name: Weepinbell
+
+Moves: 
+Razor Leaf - m1 - level 25 - grass
+Vine Whip - m2 - level 25 - grass
+Acid - m3 - level 25 - poison
+Poison Bomb - m4 - level 27 - poison
+Slash - m5 - level 25 - normal
+Stun Spore - m6 - level 30 - grass
+
+Name: Victreebel
+
+Moves: 
+Razor Leaf - m1 - level 50 - grass
+Vine Whip - m2 - level 50 - grass
+Acid - m3 - level 50 - poison
+Poison Bomb - m4 - level 50 - poison
+Slash - m5 - level 50 - normal
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 55 - grass
+Leaf Storm - m9 - level 65 - grass
+
+
+
+
+
+Name: Tentacool
+
+Moves: 
+Acid - m1 - level 15 - poison
+Bubbles - m2 - level 15 - water
+Poison Sting - m3 - level 15 - poison
+Psy Pulse - m4 - level 17 - psychic
+Mud Shot - m5 - level 19 - earth
+Super Sonic - m6 - level 21 - normal
+
+Name: Tentacruel
+
+Moves: 
+Super Sonic - m1 - level 75 - normal
+Mud Shot - m2 - level 75 - earth
+Bubbles - m3 - level 75 - water
+Waterball - m4 - level 75 - water
+Acid - m5 - level 75 - poison
+Poison Sting - m6 - level 75 - poison
+Poison Bomb - m7 - level 75 - poison
+Psywave - m8 - level 80 - psychic
+Psy Pulse - m9 - level 83 - psychic
+Hydropump - m10 - level 80 - water
+
+Name: Geodude
+
+Moves: 
+Rock Throw - m1 - level 15 - stone
+Rock Slide - m2 - level 15 - stone
+Mega Punch - m3 - level 18 - fighting
+Earthshock - m4 - level 25 - earth
+Harden - m5 - level 20 - normal
+
+Name: Graveler
+
+Moves: 
+Rock Throw - m1 - level 40 - stone
+Rock Slide - m2 - level 40 - stone
+Mega Punch - m3 - level 40 - fighting
+Earthshock - m4 - level 40 - earth
+Falling Rocks - m5 - level 50 - stone
+Harden - m6 - level 45 - normal
+Selfdestruction - m7 - level 52 - normal
+
+
+
+
+Name: Golem
+
+Moves: 
+Rock Throw - m1 - level 70 - stone
+Rock Slide - m2 - level 70 - stone
+Mega Punch - m3 - level 70 - fighting
+Earthshock - m4 - level 70 - earth
+Falling Rocks - m5 - level 75 - stone
+Harden - m6 - level 70 - normal
+Rollout - m7 - level 70 - stone
+Selfdestruction - m8 - level 75 - normal
+
+Name: Ponyta
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Ember - m2 - level 20 - fire
+Flamethrower - m3 - level 26 - fire
+Fireball - m4 - level 23 - fire
+Stomp - m5 - level 28 - earth
+
+Name: Rapidash
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Ember - m2 - level 55 - fire
+Flamethrower - m3 - level 61 - fire
+Fireball - m4 - level 58 - fire
+Horn Attack - m5 - level 55 - normal
+Stomp - m6 - level 63 - earth
+Crusher Stomp - m7 - level 63 - earth
+
+Name: Slowpoke
+
+Moves: 
+Aqua Tail - m1 - level 15 - water
+Headbutt - m2 - level 15 - normal
+Iron Tail - m3 - level 18 - normal
+Waterball - m4 - level 18 - water
+Water Gun - m5 - level 20 - water
+Confusion - m6 - level 25 - psychic
+
+
+
+
+
+
+Name: Slowbro
+
+Moves: 
+Aqua Tail - m1 - level 45 - water
+Headbutt - m2 - level 45 - normal
+Iron Tail - m3 - level 45 - normal
+Waterball - m4 - level 45 - water
+Water Gun - m5 - level 45 - water
+Confusion - m6 - level 45 - psychic
+Psywave - m7 - level 50 - psychic
+Psychic - m8 - level 55 - psychic
+
+Name: Magnemite
+
+Moves: 
+Super Sonic - m1 - level 15 - normal
+Thunder Shock - m2 - level 15 - electric
+Thunder Bolt - m3 - level 16 - electric
+Thunder Wave - m4 - level 18 - electric
+Sonicboom - m5 - level 20 - normal
+
+Name: Magneton
+
+Moves: 
+Super Sonic - m1 - level 40 - normal
+Thunder Shock - m2 - level 40 - electric
+Thunder Bolt - m3 - level 40 - electric
+Thunder Wave - m4 - level 40 - electric
+Thunder - m5 - level 48 - electric
+Electric Storm - m6 - level 52 - electric
+Sonicboom - m7 - level 40 - normal
+
+Name: Farfetch'd
+
+Moves: 
+Sand Attack - m1 - level 40 - earth
+Drill Peck - m2 - level 40 - flying
+Slash - m3 - level 40 - normal
+Stickmerang - m4 - level 44 - flying
+Stickslash - m5 - level 42 - flying
+Wing Attack - m6 - level 46 - flying
+Strafe - m7 - level 40 - normal
+
+
+
+
+
+Name: Doduo
+
+Moves: 
+Sand Attack - m1 - level 15 - earth
+Quick Attack - m2 - level 15 - normal
+Drill Peck - m3 - level 16 - flying
+Rage - m4 - level 20 - dragon
+Strafe - m5 - level 20 - normal
+
+Name: Dodrio
+
+Moves: 
+Sand Attack - m1 - level 45 - earth
+Quick Attack - m2 - level 45 - normal
+Drill Peck - m3 - level 45 - flying
+Pluck - m4 - level 50 - normal
+Rage - m5 - level 45 - dragon
+Strafe - m6 - level 45 - normal
+
+Name: Seel
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Aqua Tail - m2 - level 20 - water
+Ice Shards - m3 - level 22 - ice
+Ice Beam - m4 - level 26 - ice
+Icy Wind - m5 - level 28 - ice
+Aurora Beam - m6 - level 40 - ice
+
+Name: Dewgong
+
+Moves: 
+Aqua Tail - m1 - level 65 - water
+Headbutt - m2 - level 65 - normal
+Ice Shards - m3 - level 65 - ice
+Ice Beam - m4 - level 65 - ice
+Icy Wind - m5 - level 65 - ice
+Aurora Beam - m6 - level 69 - ice
+Blizzard - m7 - level 71 - ice
+Rest - m8 - level 71 - normal
+
+
+
+
+
+
+
+
+Name: Grimer
+
+Moves: 
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Sludge - m3 - level 17 - poison
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 22 - poison
+Harden - m6 - level 22 - normal
+
+Name: Muk
+
+Moves: 
+Mud Shot - m1 - level 35 - earth
+Acid - m2 - level 35 - poison
+Sludge - m3 - level 35 - poison
+Mud Bomb - m4 - level 35 - earth
+Poison Bomb - m5 - level 35 - poison
+Sludge Rain - m6 - level 47 - poison
+Harden - m7 - level 50 - normal
+
+Name: Shellder
+
+Moves: 
+Lick - m1 - level 10 - normal
+Super Sonic - m2 - level 17 - normal
+Clamp - m3 - level 20 - water
+Bubbles - m4 - level 15 - water
+Ice Beam - m5 - level 22 - ice
+Harden - m6 - level 18 - normal
+
+Name: Cloyster
+
+Moves: 
+Lick - m1 - level 60 - normal
+Super Sonic - m2 - level 60 - normal
+Clamp - m3 - level 60 - water
+Bubbles - m4 - level 60 - water
+Ice Beam - m5 - level 60 - ice
+Aurora Beam - m6 - level 64 - ice
+Blizzard - m7 - level 68 - ice
+Harden - m8 - level 62 - normal
+
+
+
+
+Name: Gastly
+
+Moves: 
+Lick - m1 - level 20 - normal
+Shadow Ball - m2 - level 20 - ghost
+Night Shade - m3 - level 26 - ghost
+Invisible - m4 - level 24 - ghost
+Hypnosis - m5 - level 28 - psychic
+Fear - m6 - level 30 - ghost
+
+Name: Haunter
+
+Moves: 
+Lick - m1 - level 45 - normal
+Shadow Ball - m2 - level 45 - ghost
+Night Shade - m3 - level 45 - ghost
+Shadow Storm - m4 - level 60 - ghost
+Invisible - m5 - level 45 - ghost
+Dream Eater - m6 - level 50 - ghost
+Hypnosis - m7 - level 45 - psychic
+Fear - m8 - level 45 - ghost
+Dark Eye - m9 - level 45 - ghost
+
+Name: Gengar
+
+Moves: 
+Lick - m1 - level 80 - normal
+Shadow Ball - m2 - level 80 - ghost
+Shadow Punch - m3 - level 84 - ghost
+Night Shade - m4 - level 80 - ghost
+Shadow Storm - m5 - level 86 - ghost
+Invisible - m6 - level 80 - ghost
+Dream Eater - m7 - level 80 - ghost
+Hypnosis - m8 - level 80 - psychic
+Fear - m9 - level 80 - ghost
+Dark Eye - m10 - level 80 - ghost
+
+
+
+
+
+
+
+
+
+
+
+Name: Onix
+
+Moves: 
+Sand Attack - m1 - level 50 - earth
+Iron Tail - m2 - level 50 - normal
+Rock Throw - m3 - level 50 - stone
+Rock Slide - m4 - level 50 - stone
+Earthshock - m5 - level 50 - earth
+Falling Rocks - m6 - level 58 - stone
+Earthquake - m7 - level 62 - earth
+Harden - m8 - level 50 - normal
+Name: Drowzee
+
+Moves: 
+Headbutt - m1 - level 25 - normal
+Psybeam - m2 - level 25 - psychic
+Confusion - m3 - level 27 - psychic
+Hypnosis - m4 - level 30 - psychic
+Focus - m5 - level 32 - normal
+
+Name: Hypno
+
+Moves: 
+Headbutt - m1 - level 55 - normal
+Psywave - m2 - level 55 - psychic
+Psybeam - m3 - level 55 - psychic
+Confusion - m4 - level 55 - psychic
+Psychic - m5 - level 58 - psychic
+Dream Eater - m6 - level 68 - ghost
+Hypnosis - m7 - level 60 - psychic
+Focus - m8 - level 70 - normal
+
+Name: Krabby
+
+Moves: 
+Bubbles - m1 - level 10 - water
+Bubblebeam - m2 - level 12 - water
+Mud Shot - m3 - level 10 - earth
+Crabhammer - m4 - level 15 - normal
+Harden - m5 - level 13 - normal
+
+
+
+
+
+
+
+Name: Kingler
+
+Moves: 
+Bubbles - m1 - level 40 - water
+Bubblebeam - m2 - level 40 - water
+Mud Shot - m3 - level 40 - earth
+Crabhammer - m4 - level 40 - normal
+Fury Cutter - m5 - level 45 - bug
+Guillotine - m6 - level 50 - normal
+Harden - m7 - level 40 - normal
+
+Name: Voltorb
+
+Moves: 
+Thunder Shock - m1 - level 10 - electric
+Spark - m2 - level 10 - electric
+Thunder Wave - m3 - level 12 - electric
+Rollout - m4 - level 15 - stone
+Selfdestruction - m5 - level 20 - normal
+
+Name: Electrode
+
+Moves: 
+Thunder Shock - m1 - level 35 - electric
+Spark - m2 - level 35 - electric
+Thunder Wave - m3 - level 35 - electric
+Rollout - m4 - level 35 - stone
+Charge Beam - m5 - level 40 - electric
+Electric Storm - m6 - level 45 - electric
+Selfdestruction - m7 - level 35 - normal
+
+Name: Exeggcute
+
+Moves: 
+Hypnosis - m1 - level 14 - psychic
+Leech Seed - m2 - level 10 - grass
+Egg Bomb - m3 - level 10 - normal
+Confusion - m4 - level 16 - psychic
+
+
+
+
+
+
+
+
+
+Name: Exeggutor
+
+Moves: 
+Hypnosis - m1 - level 55 - psychic
+Leech Seed - m2 - level 55 - grass
+Egg Bomb - m3 - level 55 - normal
+Confusion - m4 - level 55 - psychic
+Psychic - m5 - level 55 - psychic
+Solar Beam - m6 - level 65 - grass
+Stun Spore - m7 - level 55 - grass
+Poison Powder - m8 - level 55 - poison
+Leaf Storm - m9 - level 70 - grass
+
+Name: Cubone
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Bonemerang - m2 - level 20 - earth
+Bone Club - m3 - level 22 - earth
+Bone Slash - m4 - level 27 - earth
+Rage - m5 - level 32 - dragon
+
+Name: Marowak
+
+Moves: 
+Headbutt - m1 - level 55 - normal
+Bonemerang - m2 - level 55 - earth
+Bone Club - m3 - level 55 - earth
+Bone Slash - m4 - level 55 - earth
+Mud Shot - m5 - level 55 - earth
+Earthshock - m6 - level 59 - earth
+Shockwave - m7 - level 61 - earth
+Rage - m8 - level 65 - dragon
+
+Name: Hitmonlee
+
+Moves: 
+Triple Kick Lee - m1 - level 60 - fighting
+Mega Kick - m2 - level 60 - fighting
+Multi-Kick - m3 - level 65 - fighting
+Furious Legs - m4 - level 60 - fighting
+Demon Kicker - passive  - fighting
+Evasion - passive  - normal
+
+
+
+
+Name: Hitmonchan
+
+Moves: 
+Triple Punch - m1 - level 60 - fighting
+Mega Punch - m2 - level 60 - fighting
+Fire Punch - m3 - level 60 - fire
+Ice Punch - m4 - level 60 - ice
+Thunder Punch - m5 - level 60 - electric
+Shadow Punch - m6 - level 60 - ghost
+Multi-Punch - m7 - level 65 - fighting
+Ultimate Champion - m8 - level 60 - fighting
+Evasion - passive  - normal
+
+Name: Lickitung
+
+Moves: 
+Lick - m1 - level 55 - normal
+Headbutt - m2 - level 55 - normal
+Doubleslap - m3 - level 55 - normal
+Mega Punch - m4 - level 55 - fighting
+Iron Tail - m5 - level 55 - normal
+Squishy Licking - m6 - level 60 - normal
+Super Sonic - m7 - level 55 - normal
+Strafe - m8 - level 55 - normal
+
+Name: Koffing
+
+Moves: 
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Headbutt - m3 - level 15 - normal
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 20 - poison
+Poison Gas - m6 - level 20 - poison
+Selfdestruction - m7 - level 25 - normal
+
+
+
+
+
+
+
+
+
+
+
+
+Name: Weezing
+
+Moves: 
+Mud Shot - m1 - level 35 - earth
+Acid - m2 - level 35 - poison
+Headbutt - m3 - level 35 - normal
+Mud Bomb - m4 - level 37 - earth
+Poison Bomb - m5 - level 40 - poison
+Poison Gas - m6 - level 35 - poison
+Mortal Gas - m7 - level 45 - poison
+Selfdestruction - m8 - level 50 - normal
+
+Name: Rhyhorn
+
+Moves: 
+Iron Tail - m1 - level 30 - normal
+Horn Attack - m2 - level 30 - normal
+Stomp - m3 - level 32 - earth
+Horn Drill - m4 - level 35 - normal
+Shockwave - m5 - level 37 - earth
+
+Name: Rhydon
+
+Moves: 
+Iron Tail - m1 - level 75 - normal
+Horn Attack - m2 - level 75 - normal
+Rock Throw - m3 - level 75 - stone
+Stomp - m4 - level 80 - earth
+Horn Drill - m5 - level 75 - normal
+Shockwave - m6 - level 78 - earth
+Falling Rocks - m7 - level 80 - stone
+Mega Horn - m8 - level 82 - stone
+
+Name: Chansey
+
+Moves: 
+Doubleslap - m1 - level 60 - normal
+Egg Bomb - m2 - level 60 - normal
+Great Love - m3 - level 72 - normal
+Selfheal - m4 - level 60 - normal
+Healarea - m5 - level 60 - normal
+
+
+
+
+
+
+Name: Tangela
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Leech Seed - m2 - level 50 - grass
+Vine Whip - m3 - level 50 - grass
+Super Vines - m4 - level 58 - grass
+Poison Powder - m5 - level 50 - poison
+Sleep Powder - m6 - level 55 - grass
+Stun Spore - m7 - level 50 - grass
+Mega Drain - passive  - normal
+
+Name: Kangaskhan
+
+Moves: 
+Bite - m1 - level 80 - normal
+Dizzy Punch - m2 - level 80 - normal
+Headbutt - m3 - level 80 - normal
+Mega Punch - m4 - level 80 - fighting
+Shockwave - m5 - level 80 - earth
+Earthshock - m6 - level 86 - earth
+Epicenter - m7 - level 92 - earth
+Rage - m8 - level 80 - dragon
+Groundshock - passive  - normal
+
+
+Name: Horsea
+
+Moves: 
+Mud Shot - m1 - level 10 - earth
+Bubbles - m2 - level 10 - water
+Bubblebeam - m3 - level 15 - water
+Water Gun - m4 - level 12 - water
+Waterball - m5 - level 10 - water
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name: Seadra
+
+Moves: 
+Mud Shot - m1 - level 45 - earth
+Mud Bomb - m2 - level 45 - earth
+Quick Attack - m3 - level 45 - normal
+Bubbles - m4 - level 45 - water
+Bubblebeam - m5 - level 45 - water
+Water Gun - m6 - level 45 - water
+Waterball - m7 - level 45 - water
+Hydro Cannon - m8 - level 55 - water
+
+Name: Goldeen
+
+Moves: 
+Horn Attack - m1 - level 10 - normal
+Poison Sting - m2 - level 10 - poison
+Water Gun - m3 - level 12 - water
+Water Pulse - m4 - level 15 - water
+Aqua Tail - m5 - level 12 - water
+Super Sonic - m6 - level 18 - normal
+
+Name: Seaking
+
+Moves: 
+Horn Attack - m1 - level 25 - normal
+Poison Sting - m2 - level 25 - poison
+Water Gun - m3 - level 25 - water
+Water Pulse - m4 - level 25 - water
+Aqua Tail - m5 - level 25 - water
+Super Sonic - m6 - level 25 - normal
+Horn Drill - m7 - level  - 30 normal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name: Staryu
+
+Moves: 
+Swift - m1 - level 15 - normal
+Slash - m2 - level 15 - normal
+Bubbles - m3 - level 15 - water
+Water Gun - m4 - level 20 - water
+Waterball - m5 - level 22 - water
+Restore - m6 - level 30 - psychic
+
+Name: Starmie
+
+Moves: 
+Swift - m1 - level 35 - normal
+Slash - m2 - level 35 - normal
+Bubbles - m3 - level 35 - water
+Water Gun - m4 - level 35 - water
+Waterball - m5 - level 35 - water
+Psybeam - m6 - level 42 - psychic
+Thunder Wave - m7 - level 40 - electric
+Restore - m8 - level 35 - psychic
+
+Name: Mr.Mime
+
+Moves: 
+Doubleslap - m1 - level 60 - normal
+Psychic - m2 - level 60 - psychic
+Confusion - m3 - level 60 - psychic
+Psyusion - m4 - level 75 - psychic
+Reflect - m5 - level 60 - psychic
+Mimic Wall - m6 - level 60 - psychic
+
+Name: Scyther
+
+Moves: 
+Quick Attack - m1 - level 80 - normal
+Slash - m2 - level 80 - normal
+Wing Attack - m3 - level 80 - flying
+Fury Cutter - m4 - level 85 - bug
+Shredder Team - m5 - level 95 - normal
+X-Scissor - m6 - level 90 - bug
+Agility - m7 - level 80 - flying
+Counter Helix - passive  - normal
+Evasion - passive  - normal
+
+
+
+Name: Jynx
+
+Moves: 
+Lovely Kiss - m1 - level 75 - normal
+Doubleslap - m2 - level 75 - normal
+Psywave - m3 - level 75 - psychic
+Ice Punch - m4 - level 75 - ice
+Ice Beam - m5 - level 75 - ice
+Icy Wind - m6 - level 75 - ice
+Aurora Beam - m7 - level 79 - ice
+Blizzard - m8 - level 81 - ice
+Great Love - m9 - level 83 - normal
+
+Name: Electabuzz
+
+Moves: 
+Quick Attack - m1 - level 80 - normal
+Thunder Punch - m2 - level 80 - electric
+Thunder Shock - m3 - level 80 - electric
+Thunder Bolt - m4 - level 80 - electric
+Thunder Wave - m5 - level 80 - electric
+Thunder - m6 - level 80 - electric
+Electric Storm - m7 - level 85 - electric
+Electricity - passive  - electric
+
+Name: Magmar
+
+Moves: 
+Scratch - m1 - level 80 - normal
+Fire Punch - m2 - level 80 - fire
+Ember - m3 - level 80 - fire
+Flamethrower - m4 - level 80 - fire
+Fireball - m5 - level 80 - fire
+Fire Blast - m6 - level 80 - fire
+Magma Storm - m7 - level 85 - fire
+Lava Counter - passive  - fire
+
+
+
+
+
+
+
+
+
+
+
+Name: Pinsir
+
+Moves: 
+Scratch - m1 - level 45 - normal
+Bug Bite - m2 - level 45 - bug
+Slash - m3 - level 45 - normal
+X-Scissor - m4 - level 50 - bug
+Fury Cutter - m5 - level 53 - bug
+Guillotine - m6 - level 57 - normal
+Harden - m7 - level 47 - normal
+Rage - m8 - level 60 - dragon
+
+Name: Tauros
+
+Moves: 
+Headbutt - m1 - level 45 - normal
+Quick Attack - m2 - level 45 - normal
+Horn Attack - m3 - level 45 - normal
+Hyper Beam - m4 - level 50 - normal
+Thrash - m5 - level 51 - normal
+Rage - m6 - level 45 - dragon
+Fear - m7 - level 53 - ghost
+
+Name: Magikarp
+
+Moves: 
+Splash - m1 - level 5 - water
+
+Name: Gyarados
+
+Moves: 
+Roar - m1 - level 95 - normal
+Bite - m2 - level 85 - normal
+Aqua Tail - m3 - level 85 - water
+Waterball - m4 - level 85 - water
+Hydro Cannon - m5 - level 85 - water
+Dragon Breath - m6 - level 85 - dragon
+Hyper Beam - m7 - level 85 - normal
+Hydropump - m8 - level 93 - water
+Dragon Fury - passive  - dragon
+
+
+
+
+
+
+
+Name: Lapras
+
+Moves: 
+Horn Attack - m1 - level 80 - normal
+Ice Beam - m2 - level 80 - ice
+Ice Shards - m3 - level 80 - ice
+Water Gun - m4 - level 80 - water
+Waterball - m5 - level 80 - water
+Aurora Beam - m6 - level 80 - ice
+Blizzard - m7 - level 88 - ice
+Hydropump - m8 - level 90 - water
+Sing - m9 - level 80 - normal
+
+Name: Ditto
+
+Moves:  Não Tem... Será  o Mesmo Cd =  Attacke do Pokémon  
+Que Ele Se Transforma.
+
+Ability:
+Transform
+
+Name: Eevee
+
+Moves: 
+Sand Attack - m1 - level 20 - earth
+Quick Attack - m2 - level 20 - normal
+Bite - m3 - level 20 - normal
+Headbutt - m4 - level 24 - normal
+Iron Tail - m5 - level 28 - normal
+Great Love - m6 - level 35 - normal
+
+Name: Vaporeon
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Water Gun - m3 - level 55 - water
+Bubblebeam - m4 - level 55 - water
+Water Pulse - m5 - level 55 - water
+Muddy Water - m6 - level 55 - water
+Aurora Beam - m7 - level 60 - ice
+Hydro Cannon - m8 - level 65 - water
+
+
+
+
+
+Name: Jolteon
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Thunder Bolt - m3 - level 55 - electric
+Thunder Fang - m4 - level 55 - electric
+Thunder Wave - m5 - level 55 - electric
+Pin Missile - m6 - level 55 - bug
+Zap Cannon - m7 - level 60 - electric
+Thunder - m8 - level 65 - electric
+
+Name: Flareon
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Flamethrower - m3 - level 55 - fire
+Sacred Fire - m4 - level 55 - fire
+Blaze Kick - m5 - level 55 - fire
+Raging Blast - m6 - level 55 - fire
+Overheat - m7 - level 60 - fire
+Fire Blast - m8 - level 65 - fire
+
+Name: Porygon
+
+Moves: 
+Super Sonic - m1 - level 40 - normal
+Psybeam - m2 - level 40 - psychic
+Cyber Pulse - m3 - level 45 - psychic
+Psychic - m4 - level 40 - psychic
+Zap Cannon - m5 - level 44 - electric
+Focus - m6 - level 50 - normal
+Magic Coat - m7 - level 48 - psychic
+Restore - m8 - level 40 - psychic
+
+Name: Omanyte
+
+Moves: 
+Bite - m1 - level 20 - normal
+Rock Throw - m2 - level 20 - stone
+Waterball - m3 - level 22 - water
+Water Gun - m4 - level 24 - water
+Mud Shot - m5 - level 26 - earth
+Harden - m6 - level 30 - normal
+Ancient Power - m7 - level 35 - stone
+
+
+
+Name: Omastar
+
+Moves: 
+Bite - m1 - level 80 - normal
+Rock Throw - m2 - level 80 - stone
+Waterball - m3 - level 85 - water
+Water Gun - m4 - level 85 - water
+Bubble Blast - m5 - level 85 - water
+Mud Shot - m6 - level 85 - earth
+Harden - m7 - level 90 - normal
+Ancient Power - m8 - level 95 - stone
+
+Name: Kabuto
+
+Moves: 
+Scratch - m1 - level 20 - normal
+Bubbles - m2 - level 25 - water
+Slash - m3 - level 25 - normal
+Mud Shot - m4 - level 25 - earth
+Harden - m5 - level 30 - normal
+Ancient Power - m6 - level 35 - stone
+Mega Drain - passive  - normal
+
+Name: Kabutops
+
+Moves: 
+Scratch - m1 - level 80 - normal
+Bubbles - m2 - level 85 - water
+Slash - m3 - level 85 - normal
+Fury Cutter - m4 - level 80 - bug
+Mud Shot - m5 - level 85 - earth
+Harden - m6 - level 90 - normal
+Ancient Power - m7 - level 95 - stone
+Mega Drain - passive  - normal
+
+
+
+
+
+
+
+
+
+
+
+Name: Aerodactyl
+
+Moves: 
+Roar - m1 - level 110 - normal
+Super Sonic - m2 - level 100 - normal
+Bite - m3 - level 100 - normal
+Headbutt - m4 - level 100 - normal
+Rock Throw - m5 - level 100 - stone
+Rock Slide - m6 - level 100 - stone
+Fire Fang - m7 - level 100 - fire
+Wing Attack - m8 - level 100 - flying
+Falling Rocks - m9 - level 105 - stone
+Hyper Beam - m10 - level 110 - normal
+Ancient Power - m11 - level 115 - stone
+
+Name: Snorlax
+
+Moves: 
+Scratch - m1 - level 85 - normal
+Bite - m2 - level 85 - normal
+Dizzy Punch - m3 - level 85 - normal
+Mega Punch - m4 - level 85 - fighting
+Headbutt - m5 - level 85 - normal
+Body Slam - m6 - level 89 - normal
+Crusher Stomp - m7 - level 95 - earth
+Rest - m8 - level 91 - normal
+
+Name: Dratini
+
+Moves: 
+Aqua Tail - m1 - level 20 - water
+Thunder Wave - m2 - level 20 - electric
+Hyper Beam - m3 - level 40 - normal
+Dragon Breath - m4 - level 35 - dragon
+Dragon Fury - passive  - dragon
+
+Name: Dragonair
+
+Moves: 
+Headbutt - m1 - level 60 - normal
+Aqua Tail - m2 - level 60 - water
+Thunder Wave - m3 - level 60 - electric
+Dragon Breath - m4 - level 62 - dragon
+Twister - m5 - level 61 - dragon
+Hyper Beam - m6 - level 64 - normal
+Dragon Fury - passive  - dragon
+
+Name: Dragonite
+
+Moves: 
+Headbutt - m1 - level 100 - normal
+Aqua Tail - m2 - level 100 - water
+Thunder Wave - m3 - level 100 - electric
+Thunder Punch - m4 - level 100 - electric
+Fire Punch - m5 - level 100 - fire
+Dragon Claw - m6 - level 100 - dragon
+Dragon Breath - m7 - level 102 - dragon
+Twister - m8 - level 104 - dragon
+Wing Attack - m9 - level 106 - flying
+Hyper Beam - m10 - level 108 - normal
+Dragon Fury - passive  - dragon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LENDARIOS
+
+
+
+
+Zapdos
+
+Moves: 
+Whirlwind - m1 - level 100
+Drill Peck - m2 - level 100
+Wing Attack - m3 - level 100
+Thunder Shock - m4 - level 100
+Thunder Bolt - m5 - level 100
+Thunder Wave - m6 - level 100
+Thunder - m7 - level 100
+Tornado - m8 - level 100
+Electric Storm -- m9 - level 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHINYS POKÉMONS
+
+
+Name: Shiny Charizard
+
+Moves: 
+Dragon Claw - m1 - level 100 - dragon
+Ember - m2 - level 100 - fire
+Flamethrower - m3 - level 100 - fire
+Fireball - m4 - level 100 - fire
+Fire Fang - m5 - level 100 - fire
+Raging Blast - m6 - level 100 - fire
+Fire Blast - m7 - level 100 - fire
+Wing Attack - m8 - level 100 - flying
+Magma Storm - m9 - level 100 - fire
+Ancient Fury - m10 - level 100 - normal
+
+Name: Shiny Venusaur
+
+Moves: 
+Quick Attack - m1 - level 100 - normal
+Razor Leaf - m2 - level 100 - grass
+Vine Whip - m3 - level 100 - grass
+Headbutt - m4 - level 100 - normal
+Leech Seed - m5 - level 100 - grass
+Bullet Seed - m6 - level 100 - grass
+Solar Beam - m7 - level 100 - grass
+Sleep Powder - m8 - level 100 - grass
+Stun Spore - m9 - level 100 - grass
+Poison Powder - m10 - level 100 - poison
+Leaf Storm - m11 - level 110 - grass
+
+Name: Shiny Blastoise
+
+Moves: 
+Headbutt - m1 - level 100 - normal
+Bubbles - m2 - level 100 - water
+Water Gun - m3 - level 100 - water
+Waterball - m4 - level 100 - water
+Aqua Tail - m5 - level 100 - water
+Bubble Blast - m6 - level 100 - water
+Hydro Cannon - m7 - level 100 - water
+Skull Bash - m8 - level 105 - normal
+Hydropump - m9 - level 110 - water
+Ancient Fury - m10 - level 100 – normal
+
+Name: Shiny Beedrill
+
+Moves: 
+String Shot - m1 - level 25 - bug
+Poison Sting - m2 - level 25 - poison
+Fury Cutter - m3 - level 30 - bug
+Pin Missile - m4 - level 30 - bug
+Rage - m5 - level 25 - dragon
+Strafe - m6 - level 33 - normal
+
+Name: Shiny Rattata
+
+Moves: 
+Quick Attack - m1 - level 1 - normal
+Bite - m2 - level 1 - normal
+Scratch - m3 - level 1 - normal
+Super Fang - m4 - level 12 - normal
+
+Name: Shiny  Raticate
+
+Moves: 
+Quick Attack - m1 - level 25 - normal
+Bite - m2 - level 25 - normal
+Scratch - m3 - level 25 - normal
+Super Fang - m4 - level 25 - normal
+Fury - passive  - dragon
+
+Name: Shiny Raichu
+
+Moves: 
+Mega Kick - m1 - level 80 - fighting
+Thunder Shock - m2 - level 80 - electric
+Thunder Bolt - m3 - level 80 - electric
+Thunder Wave - m4 - level 80 - electric
+Thunder Punch - m5 - level 80 - electric
+Iron Tail - m6 - level 80 - normal
+Thunder - m7 - level 90 - electric
+Electric Storm - m8 - level 95 - electric
+Agility - m9 - level 90 - flying
+Electric Charge - passive  - electric
+
+
+
+
+
+
+
+Name: Shiny Zubat
+
+Moves: 
+Super Sonic - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Poison Fang - m3 - level 10 - poison
+Absorb - m4 - level 12 - grass
+Toxic - m5 - level 15 - poison
+
+
+Name: Oddish
+
+Moves: 
+Absorb - m1 - level 5 - grass
+Leech Seed - m2 - level 5 - grass
+Acid - m3 - level 5 - poison
+Poison Bomb - m4 - level 8 - poison
+Poison Gas - m5 - level 12 - poison
+Sleep Powder - m6 - level 5 - grass
+Stun Spore - m7 - level 5 - grass
+Poison Powder - m8 - level 5 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+
+Name: Shiny Paras
+
+Moves: 
+Scratch - m1 - level 5 - normal
+Poison Sting - m2 - level 5 - poison
+Slash - m3 - level 5 - normal
+Stun Spore - m4 - level 10 - grass
+Poison Powder - m5 - level 8 - poison
+Sleep Powder - m6 - level 12 - grass
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name: Shiny Parasect
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Scratch - m2 - level 50 - normal
+Poison Sting - m3 - level 50 - poison
+Slash - m4 - level 50 - normal
+Poison Bomb - m5 - level 50 - poison
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 50 - grass
+Fury Cutter - m9 - level 56 - bug
+X-Scissor - m10 - level 58 - bug
+Mega Drain - passive  - normal
+
+Name: Shiny Venonat
+
+Moves: 
+Absorb - m1 - level 25 - grass
+Bug Bite - m2 - level 25 - bug
+Super Sonic - m3 - level 25 - normal
+Psychic - m4 - level 35 - psychic
+Poison Fang - m5 - level 25 - poison
+Sleep Powder - m6 - level 40 - grass
+Poison Powder - m7 - level 35 - poison
+Stun Spore - m8 - level 30 - grass
+
+Name: Shniny Venomoth
+
+Moves: 
+Absorb - m1 - level 70 - grass
+Bug Bite - m2 - level 70 - bug
+Super Sonic - m3 - level 70 - normal
+Confusion - m4 - level 76 - psychic
+Psychic - m5 - level 70 - psychic
+Poison Fang - m6 - level 70 - poison
+Sleep Powder - m7 - level 70 - grass
+Poison Powder - m8 - level 70 - poison
+Stun Spore - m9 - level 70 - grass
+
+
+
+
+
+
+
+
+Name: Shiny Growlithe
+
+Moves: 
+Roar - m1 - level 28 - normal
+Bite - m2 - level 25 - normal
+Quick Attack - m3 - level 25 - normal
+Ember - m4 - level 25 - fire
+Flamethrower - m5 - level 25 - fire
+Fireball - m6 - level 27 - fire
+Rage - m7 - level 30 - dragon
+
+Name: Shiny Arcanine
+
+Moves: 
+Roar - m1 - level 110 - normal
+Bite - m2 - level 100 - normal
+Quick Attack - m3 - level 100 - normal
+Ember - m4 - level 100 - fire
+Flamethrower - m5 - level 100 - fire
+Fireball - m6 - level 100 - fire
+Fire Fang - m7 - level 100 - fire
+Fire Blast - m8 - level 102 - fire
+Tri Flames - m9 - level 104 - fire
+War Dog - m10 - level 106 - normal
+
+
+Name: Shiny Abra
+
+Moves: 
+Psybeam - m1 - level 80 - psychic
+Psywave - m2 - level 80 - psychic
+Psy Pulse - m3 - level 80 - psychic
+Night Shade - m4 - level 80 - ghost
+Psychic - m5 - level 82 - psychic
+Invisible - m6 - level 80 - ghost
+Dream Eater - m7 - level 80 - ghost
+Hypnosis - m8 - level 80 - psychic
+Reflect - m9 - level 95 - psychic
+Restore - m10 - level 85 - psychic
+
+
+
+
+
+
+
+
+Name: Shiny Tentacool
+
+Moves: 
+Acid - m1 - level 15 - poison
+Bubbles - m2 - level 15 - water
+Poison Sting - m3 - level 15 - poison
+Psy Pulse - m4 - level 17 - psychic
+Mud Shot - m5 - level 19 - earth
+Super Sonic - m6 - level 21 - normal
+
+
+Name: Grimer
+
+Moves: 
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Sludge - m3 - level 17 - poison
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 22 - poison
+Harden - m6 - level 22 - normal
+
+Name: Shiny Muk
+
+Moves: 
+Mud Shot - m1 - level 70 - earth
+Acid - m2 - level 70 - poison
+Sludge - m3 - level 70 - poison
+Mud Bomb - m4 - level 70 - earth
+Poison Bomb - m5 - level 70 - poison
+Sludge Rain - m6 - level 82 - poison
+Harden - m7 - level 85 - normal
+
+Name: Shiny Krabby
+
+Moves: 
+Bubbles - m1 - level 10 - water
+Bubblebeam - m2 - level 12 - water
+Mud Shot - m3 - level 10 - earth
+Crabhammer - m4 - level 15 - normal
+Harden - m5 - level 13 - normal
+
+
+
+
+
+
+
+Name: Shiny Kingler
+
+Moves: 
+Bubbles - m1 - level 40 - water
+Bubblebeam - m2 - level 40 - water
+Mud Shot - m3 - level 40 - earth
+Crabhammer - m4 - level 40 - normal
+Fury Cutter - m5 - level 45 - bug
+Guillotine - m6 - level 50 - normal
+Harden - m7 - level 40 - normal
+
+
+Name: Shiny Voltorb
+
+Moves: 
+Thunder Shock - m1 - level 10 - electric
+Spark - m2 - level 10 - electric
+Thunder Wave - m3 - level 12 - electric
+Rollout - m4 - level 15 - stone
+Selfdestruction - m5 - level 20 - normal
+
+Name: Shiny Electrode
+
+Moves: 
+Thunder Shock - m1 - level 35 - electric
+Spark - m2 - level 35 - electric
+Thunder Wave - m3 - level 35 - electric
+Rollout - m4 - level 35 - stone
+Charge Beam - m5 - level 39 - electric
+Electric Storm - m6 - level 43 - electric
+Selfdestruction - m7 - level 35 - normal
+
+Name: Shiny Horsea
+
+Moves: 
+Mud Shot - m1 - level 10 - earth
+Bubbles - m2 - level 10 - water
+Bubblebeam - m3 - level 15 - water
+Water Gun - m4 - level 12 - water
+Waterball - m5 - level 10 - water
+
+
+
+
+
+
+
+Name: Shiny Seadra
+
+Moves: 
+Mud Shot - m1 - level 70 - earth
+Mud Bomb - m2 - level 70 - earth
+Quick Attack - m3 - level 70 - normal
+Bubbles - m4 - level 70 - water
+Bubblebeam - m5 - level 70 - water
+Water Gun - m6 - level 70 - water
+Waterball - m7 - level 70 - water
+Hydro Cannon - m8 - level 80 - water
+
+Name: Shiny Scyther
+ 
+
+Moves: 
+Quick Attack - m1 - level 100 - normal
+Slash - m2 - level 100 - normal
+Wing Attack - m3 - level 100 - flying
+Fury Cutter - m4 - level 105 - bug
+Shredder Team - m5 - level 115 - normal
+X-Scissor - m6 - level 110 - bug
+Agility - m7 - level 100 - flying
+Counter Helix - passive  - normal
+
+
+Name: Shiny Jynx
+
+Moves: 
+Lovely Kiss - m1 - level 100 - normal
+Doubleslap - m2 - level 100 - normal
+Psywave - m3 - level 100 - psychic
+Ice Punch - m4 - level 100 - ice
+Ice Beam - m5 - level 100 - ice
+Icy Wind - m6 - level 100 - ice
+Aurora Beam - m7 - level 104 - ice
+Blizzard - m8 - level 106 - ice
+Great Love - m9 - level 108 - normal
+
+Name: Shiny Magikarp
+
+Moves: 
+Splash - m1 - level 10 - water
+
+
+
+
+Name: Shiny Gyarados
+
+Moves: 
+Roar - m1 - level 150 - normal
+Bite - m2 - level 150 - normal
+Aqua Tail - m3 - level 150 - water
+Waterball - m4 - level 150 - water
+Hydro Cannon - m5 - level 150 - water
+Dragon Breath - m6 - level 150 - dragon
+Hyper Beam - m7 - level 150 - normal
+Hydropump - m8 - level 150 - water
+Dragon Fury - passive  - dragon
+
+
+
+Name: Shiny Dratini
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Aqua Tail - m2 - level 20 - water
+Thunder Wave - m3 - level 20 - electric
+Dragon Breath - m4 - level 22 - dragon
+Twister - m5 - level 21 - dragon
+Hyper Beam - m6 - level 24 - normal
+Dragon Fury - passive  - dragon
+
+
+
+Name: Shiny Farfetch'd
+
+Moves: 
+Sand Attack - m1 - level 80 - earth
+Drill Peck - m2 - level 80 - flying
+Slash - m3 - level 80 - normal
+Stickmerang - m4 - level 84 - flying
+Stickslash - m5 - level 82 - flying
+Wing Attack - m6 - level 86 - flying
+Strafe - m7 - level 80 - normal
+
+
+
+
+
+
+
+
+
+Name: Shiny Tentacruel
+
+Moves: 
+Super Sonic - m1 - level 80 - normal
+Mud Shot - m2 - level 85 - earth
+Bubbles - m3 - level 80 - water
+Waterball - m4 - level 80 - water
+Acid - m5 - level 80 - poison
+Poison Sting - m6 - level 80 - poison
+Poison Bomb - m7 - level 80 - poison
+Psywave - m8 - level 85 - psychic
+Psy Pulse - m9 - level 88 - psychic
+Hydropump - m10 - level 85 - water
+
+
+Obs: Ainda Não Tenhu Certeza Falaram Qui Era Só Por +5 LvL Em Cada Magia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTROS POKÉMONS
+
+
+Crystal Onix
+
+Moves: 
+Sand Attack - m1 - level 100
+Iron Tail - m2 - level 100
+Rock Throw - m3 - level 100
+Rock Slide - m4 - level 100
+Earthshock - m5 - level 100
+Falling Rocks - m6 - level 108
+Earthquake - m7 - level 112
+Harden - m8 - level 100
+
+
+Name: Shiny Hitmonlee
+
+Moves: 
+Triple Kick Lee - m1 - level 100 - fighting
+Mega Kick - m2 - level 100 - fighting
+Multi-Kick - m3 - level 105 - fighting
+Furious Legs - m4 - level 100 - fighting
+Demon Kicker - passive  - fighting
+Evasion - passive  - normal
+Foresight - passive  - fighting
+
+
+Name: Elite Hitmonchan 
+
+Triple Punch - m1 - level 100 - fighting 
+Mega Punch - m2 - level 100 - fighting 
+Fire Punch - m3 - level 100 - fire 
+IcePunch - m4 - level 100 - ice 
+Thunder Punch - m5 - level 100 - electric 
+Shadow Punch - m6 - level 100 - ghost 
+Multi-Punch - m7 - level 10
+Ultimate Champion - m8 - level 100 - fighting 
+Evasion - passive  - normal 
+Foresight - passive  - fighting
+
+
+
+
+MOVES QUI FALTA!
+
+
+
+Shiny Butterfree =
+
+
+Shiny Electabuzz = 
+
+
+
+Topicos Para Ver Se Alguem Posto Algumas Dessas Dex Com As Moves!
+
+http://forum.pokemononline.com.br/threads/16925-Pokedex-De-Pokemons-Shiny?p=215859#post215859

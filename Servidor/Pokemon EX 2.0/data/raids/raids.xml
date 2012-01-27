@@ -1,0 +1,3 @@
+<raids>
+<raid name="shiny charizard" file="scripts/shiny charizard.xml" chance="0" interval2="40000" margin="0" enabled="yes"/>
+</raids>

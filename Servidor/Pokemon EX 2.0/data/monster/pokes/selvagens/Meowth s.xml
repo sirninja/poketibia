@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Meowth" namedescription="a Meowth" race="undead" experience="285" speed="180" manacost="200">
+  <health now="1050" max="1050"/>
+  <look type="105" head="20" body="30" legs="40" feet="50" corpse="6034"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1600" range="1" min="-60" max="-70"/>
+    <attack name="bite" interval="2000" chance="22" range="1" target="1" min="-77" max="-100"> </attack>
+    <attack name="slash" interval="2000" chance="22" range="1" target="1" min="-77" max="-100"> </attack>
+    <attack name="scratch" interval="2000" chance="42" range="1" target="1" min="-77" max="-100"> </attack>
+    <attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="3"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="500" chance="10">
+    <voice sentence="Meowth"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="32000"/> -- nail
+	<item id="8858" countmax="1" chance="28000"/> -- pot of moss bug
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

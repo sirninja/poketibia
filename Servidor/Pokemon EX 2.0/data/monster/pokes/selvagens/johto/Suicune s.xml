@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Suicune" nameDescription="a Suicune" race="undead" experience="90000" speed="340" manacost="0">
+  <health now="95000" max="95000"/>
+  <look type="420" head="0" body="0" legs="0" feet="0" corpse="2860"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="80"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="headbutt" interval="1500" chance="50" min="-3330" max="-4360">
+    </attack>
+    <attack name="bubble" interval="1000" chance="50" min="-7820" max="-8995">
+    </attack>
+    <attack name="waterball" interval="2500" chance="90" min="-9050" max="-11500">
+    </attack>
+    <attack name="hydro pump" interval="2500" chance="90" min="-13000" max="-15000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <elements>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+		<element grassPercent="-100"/>
+		<element electricPercent="-100"/>
+		<element icePercent="50"/>
+  </elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Suicune!"/>
+		<voice sentence="Cune!"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="6569" countmax="2" chance="10000"/><!-- Sell Item -->
+		<item id="6126" countmax="1" chance="1500"/><!-- Sell Item -->
+		<item id="5810" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

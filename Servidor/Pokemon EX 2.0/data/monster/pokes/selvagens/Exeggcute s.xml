@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exeggcute" nameDescription="a Exeggcute" race="undead" experience="175" speed="200" manacost="280">
+  <health now="800" max="800"/>
+  <look type="213" head="20" body="30" legs="40" feet="50" corpse="2982"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="egg bomb" interval="1000" chance="50" min="-1" max="-40">
+    </attack>
+    <attack name="confusion" interval="4500" chance="50" min="-50" max="-100">
+    </attack>
+    <attack name="tackle" interval="5000" chance="50" min="-50" max="-100">
+    </attack>
+    <attack name="confusion" interval="5500" chance="50" min="-50" max="-100">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <immunities>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Bsssss!"/>
+    <voice sentence="Bsssssss!"/>
+	</voices>
+ <loot>
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fightman" script="default.lua" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="304" head="97" body="114" legs="114" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Bom dia eu compro Pedras Raras {trade}."/>
+			<parameter key="message_farewell" value="Até logo mais |PLAYERNAME|"/>
+			<parameter key="message_idletimeout" value="Até logo mais |PLAYERNAME|"/>
+			<parameter key="message_walkaway" value="Até logo mais |PLAYERNAME|"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_sellable" value="Coccon Stone,2284,80000;Venom Stone,2278,200000;Heart Stone,2289,300000;Leaf Stone,2276,300000;Rock Stone,2280,450000;Earth Stone,2287,400000;Thunder Stone,2279,500000;Water Stone,2277,450000;Ice Stone,2290,450000;Fire Stone,2283,450000;Punch Stone,2281,500000;Enigma Stone,2288,700000;Darkness Stone,2286,700000;Crystal Stone,2285,1500000"/>
+	</parameters>
+</npc>

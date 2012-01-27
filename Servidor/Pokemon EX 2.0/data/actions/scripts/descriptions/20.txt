@@ -1,0 +1,23 @@
+Raticate
+Nome: Raticate 
+Tipo: normal
+Nível: 20
+
+Evoluçoes:
+
+Rattata, nível 1
+Raticate, nível 20
+
+Descriçao: Quando suas presas crescem roendo coisas duras, pode roer até paredes.
+
+Ataques:
+
+Quick Attack - Ataque Rápido - 20
+Bite - Mordida - 20
+Scratch - Arranhar - 20
+Super Fang - Super Presa - 20
+Fury - Fúria (Passivo)
+
+Capacidade:
+
+Dig

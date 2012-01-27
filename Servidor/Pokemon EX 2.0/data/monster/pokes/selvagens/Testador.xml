@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Testador" nameDescription="a Testador" race="undead" experience="0" speed="100" manacost="490">
+  <health now="999000" max="999000"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="lick" interval="1000" chance="0" min="-20" max="-120">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="1000" chance="100" min="80000" max="100000">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+ <loot>
+	<item id="2145" countmax="1" chance="2500"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="1500"/><!-- rare candy -->
+	<item id="5913" countmax="1" chance="12500"/>-- Brown POC
+	<item id="5909" countmax="1" chance="12500"/>-- White POC
+	<item id="2286" countmax="1" chance="4000"/>-- Darkness Stone
+	<item id="5926" countmax="1" chance="4000"/> -- Gengar Backpack
+
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

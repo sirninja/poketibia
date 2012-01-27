@@ -1,0 +1,25 @@
+Nome: Kadabra
+Tipo: Pisiquico
+Nivel Necessario: 50
+
+Evolutions:
+Abra, requer level 10
+Kadabra, requer level 50
+
+Descriçao: Existem rumores de que um garoto com habiliades psiquicas se transformou num kadabra enquanto estava tentando usar poderes ultra sensiveis.
+
+Ataques: 
+Psybeam - Raio Psiquico - m1 - level 50
+Psywave - Onda Psiquica -m2 - level 50
+Psy Pulse - Pulso Psiquico - m3 - level 50
+Confusion - Confusao - m4 - level 50
+Psychic - Psiquico - m5 - level 52
+Calm Mind - Mente Calma - m6 - level 50
+Hypnosis - Hypnosi - m7 - level 50
+Reflect - Refletir - m8 - level 65
+Restore - Restaurar - m9 - level 55
+
+Habilidade:
+Teleportar (Teleport)
+Light (Luz)
+Piscar (Blink)

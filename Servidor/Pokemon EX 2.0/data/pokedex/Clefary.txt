@@ -1,0 +1,21 @@
+Nome: Clefary
+Tipo: veneno
+Nível necessário: 20
+
+Evoluções:
+clefary 20
+clefable 35 
+
+Descrição: 
+
+Ataques:
+doubleslap lvl 20
+lovely kiss 20 
+sing lvl 30
+selfheal lvl 28
+multi-slap lvl 22
+metronome lvl 30
+
+Habilidade:
+
+nenhuma

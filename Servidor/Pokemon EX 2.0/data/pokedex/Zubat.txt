@@ -1,0 +1,19 @@
+Name: Zubat
+Type: poison
+Required level: 10
+
+Evolutions:
+Zubat, requires level 10
+Golbat, requires level 35
+
+Description: Disliking sunlight, it sleeps deep in forests and caves until sundown.
+
+Moves: 
+Super Sonic - m1 - level 10 - normal
+Bite - m2 - level 10 - normal
+Poison Fang - m3 - level 10 - poison
+Absorb - m4 - level 12 - grass
+Toxic - m5 - level 15 - poison
+
+Ability:
+None

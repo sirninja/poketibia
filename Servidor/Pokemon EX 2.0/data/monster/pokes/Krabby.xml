@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Krabby" namedescription="a Krabby" race="undead" experience="200" speed="180" manacost="305">
+  <health now="271" max="271"/>
+  <look type="112" head="20" body="30" legs="40" feet="50" corpse="6039"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" skill="35" attack="25"/>
+    <attack name="auraagua" interval="2000" chance="5" min="-100" max="-400"> </attack>
+  </attacks>
+
+  <defenses armor="5" defense="5"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Krabby"/>
+  </voices>
+	<loot>
+		<item id="7159" countmax="8" chance="20000"/><!-- Water Gem -->
+		<item id="5886" countmax="1" chance="5000"/><!-- crab claw -->
+	</loot>
+</monster>

@@ -1,0 +1,23 @@
+Name: Dugtrio
+Type: earth
+Required level: 35
+
+Evolutions:
+Diglett, requires level 10
+Dugtrio, requires level 35
+
+Description: Its three heads move alternately, driving it through tough soil to depths of over 60 miles.
+
+Moves: 
+Sand Attack - m1 - level 35 - earth
+Slash - m2 - level 35 - normal
+Mud Shot - m3 - level 35 - earth
+Mud Slap - m4 - level 35 - earth
+Earthshock - m5 - level 35 - earth
+Shockwave - m6 - level 40 - earth
+Earthquake - m7 - level 42 - earth
+Rage - m8 - level 45 - dragon
+
+Ability:
+Dig
+Rock smash

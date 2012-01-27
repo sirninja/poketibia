@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magikarp" nameDescription="a shiny magikarp" race="water" experience="112" speed="150" manacost="0">
+  <health now="280" max="280"/>
+  <look type="504" head="20" body="30" legs="40" feet="50" corpse="105"/>
+	<targetchange interval="500" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2500" min="-8" max="-16"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<loot>
+	</loot>
+
+</monster>

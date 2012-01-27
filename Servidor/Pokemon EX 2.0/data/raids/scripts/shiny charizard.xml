@@ -1,0 +1,12 @@
+<raid>
+        <announce delay="10000" type="22" message="Bulbasaur was born!" />
+ 
+        <singlespawn delay="5000" name="shiny charizard" x="490" y="1047" z="7" />
+        <singlespawn delay="5500" name="shiny charizard" x="504" y="1045" z="7" />
+        <singlespawn delay="6000" name="shiny charizard" x="508" y="1053" z="7" />
+ 
+        <areaspawn delay="6500" fromx="510" fromy="1055" fromz="7" tox="515" toy="1060" toz="7">
+                <monster name="shiny charizard" amount="1" />
+                <monster name="shiny charizard" amount="1" />
+        </areaspawn>
+ </raid>

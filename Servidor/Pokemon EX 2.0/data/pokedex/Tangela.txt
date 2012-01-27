@@ -1,0 +1,21 @@
+Name: Tangela
+Type: grass
+Required level: 50
+
+Evolutions:
+Tangela, requires level 50
+
+Description: Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Leech Seed - m2 - level 50 - grass
+Vine Whip - m3 - level 50 - grass
+Super Vines - m4 - level 58 - grass
+Poison Powder - m5 - level 50 - poison
+Sleep Powder - m6 - level 55 - grass
+Stun Spore - m7 - level 50 - grass
+Mega Drain - passive  - normal
+
+Ability:
+Cut

@@ -1,0 +1,20 @@
+Name: Staryu
+Type: water
+Required level: 15
+
+Evolutions:
+Staryu, requires level 15
+Starmie, requires level 35
+
+Description: It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body
+
+Moves: 
+Swift - m1 - level 15 - normal
+Slash - m2 - level 15 - normal
+Bubbles - m3 - level 15 - water
+Water Gun - m4 - level 20 - water
+Waterball - m5 - level 22 - water
+Restore - m6 - level 30 - psychic
+
+Ability:
+Surf

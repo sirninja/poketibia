@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Hiker Johnny" script="hiker.lua" walkinterval="350000" floorchange="0" speed="0">
+
+	<health now="150" max="150"/>
+
+	<look type="172" head="0" body="116" legs="116" feet="115"/>
+
+	<parameters>
+
+			<parameter key="message_greet" value="Heyas, brave adventurer! As prize for taking this mountain till the end, would you accept the hiker clothes?"/>
+
+			<parameter key="message_farewell" value="We love mountains!"/>
+
+			<parameter key="message_idletimeout" value="We love mountains!"/>
+
+			<parameter key="message_walkaway" value="We love mountains!"/>
+
+	</parameters>
+
+</npc>

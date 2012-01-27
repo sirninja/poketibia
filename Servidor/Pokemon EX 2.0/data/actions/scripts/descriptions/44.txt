@@ -1,0 +1,28 @@
+Nome: Gloom
+Tipo: grama
+Nível necessário: 18
+
+Evoluções:
+
+Oddish, exige nível 5
+Gloom, requer nível 18
+Vileplume, requer nível 50
+
+Descrição: A baba de sua boca cheira muito mal, que o cheiro chega a mais de um quilometro de distancia.
+
+Ataques:
+
+Absorb - Absorver - nível 18
+Leech Seed - Semente Sugadora - nível 18
+Acid - Acido - nível 18
+Poison Bomb - Bomba Tóxica - nível 24
+Poison Gas - Gás Venenoso - nível 26
+Sleep Powder - Pó do Sono - nível 18
+Stun Spore - Pó Atodoante - nível 18
+Poison Powder - Pó Venenoso - nível 18
+Esporos Reaction - Reaçao de Esporos - passiva
+Mega Drain - Mega Drenagem - passiva
+
+Capacidade:
+
+Cut (Corte)

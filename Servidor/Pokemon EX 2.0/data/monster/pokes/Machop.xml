@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machop" nameDescription="a Machop" race="undead" experience="280" speed="220" manacost="0">
+  <health now="425" max="425"/>
+  <look type="118" head="20" body="30" legs="40" feet="50" corpse="6045"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="34" attack="15"/>
+    <attack name="auralutador" interval="2000" chance="5" min="-100" max="-400"> </attack>
+
+  </attacks>
+  <defenses armor="15" defense="12">
+  </defenses>
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Machooo"/>
+    <voice sentence="Machop!"/>
+    <voice sentence="maa!!"/>
+  </voices>
+
+	<loot>
+		<item id="5804" countmax="1" chance="2"/><!-- Pot of lava -->
+		<item id="2674" countmax="6" chance="5000"/><!-- Nail -->
+
+	</loot>
+</monster>

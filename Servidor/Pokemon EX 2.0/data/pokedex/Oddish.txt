@@ -1,0 +1,23 @@
+Name: Oddish
+Type: grass
+Required level: 5
+
+Evolutions:
+Oddish, requires level 5
+Gloom, requires level 25
+Vileplume, requires level 50
+
+Description: It often plants its root feet in the ground during the day and sows seeds as it walks about at night.
+
+Moves: 
+Absorb - m1 - level 5 - grass
+Acid - m2 - level 5 - poison
+Leech Seed - m3 - level 7 - grass
+Sleep Powder - m4 - level 12 - grass
+Stun Spore - m5 - level 10 - grass
+Poison Powder - m6 - level 5 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+Ability:
+Cut

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hypno" nameDescription="a Hypno" race="undead" experience="780" speed="280" manacost="350">
+  <health now="5400" max="5400"/>
+  <look type="119" head="20" body="30" legs="40" feet="50" corpse="6046"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-10" max="-50">
+    </attack>
+    <attack name="confusion" interval="4000" chance="90" min="-70" max="-280">
+    </attack>
+    <attack name="scratch" interval="3000" chance="90" min="-30" max="-70">
+    </attack>
+    <attack name="teleport" interval="7000" chance="90" min="-0" max="-0">
+    </attack>
+    <attack name="psychic" interval="6500" chance="90" min="-800" max="-900">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="80" max="180">
+    </defense>
+  </defenses>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hyyypno!"/>
+	</voices>
+ <loot>
+	<item id="8869" countmax="2" chance="55500"/> -- future orb
+	<item id="8870" countmax="2" chance="24000"/> -- psy spoon
+	<item id="2295" countmax="1" chance="1200"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,19 @@
+Name: Kakuna
+Type: bug
+Required level: 15
+
+Evolutions:
+Weedle, requires level 1
+Kakuna, requires level 15
+Beedrill, requires level 25
+
+Description: While awaiting evolution, it hides from predators under leaves and in nooks of branches.
+
+Moves: 
+String Shot - m1 - level 15 - bug
+Headbutt - m2 - level 15 - normal
+Harden - m3 - level 15 - normal
+Bug Bite - m4 - level 15 - bug
+
+Ability:
+None

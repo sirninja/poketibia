@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonite" nameDescription="a Dragonite" race="undead" experience="3500" speed="280" manacost="280">
+  <health now="14000" max="14000"/>
+  <look type="210" head="20" body="30" legs="40" feet="50" corpse="4295"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1500" skill="50" attack="40"/>
+    <attack name="ice wave" interval="3000" chance="100" min="-100" max="-1020">
+    <attack name="auragelo" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+
+   </attack>
+
+
+  </attacks>
+  <defenses armor="4" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element dragonPercent="-30"/>
+		<element icePercent="-30"/>
+		<element firePercent="30"/>
+		<element waterPercent="30"/>
+		<element electricPercent="30"/>
+		<element grassPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Dragooniite"/>
+  </voices>
+</monster>

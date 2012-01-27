@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Onix" nameDescription="a Crystal Onix" race="undead" experience="1750" speed="260" manacost="390">
+	<health now="8300" max="8300"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="2020"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+   <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" />
+  </flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70"/>
+		<attack name="lifedrain" interval="3000" chance="10" length="7" spread="3" min="0" max="-350">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="11" length="7" spread="3" speedchange="-650">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+               <attack name="auragelo" interval="2000" chance="20" min="-1000" max="-1600"> </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-160" max="-420">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-40" max="-340">
+    </attack>
+
+
+
+	</attacks>
+  <defenses armor="45" defense="45">
+    <defense name="healing" interval="1000" chance="10" min="50" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	</defenses>
+	  <elements>
+		<element firePercent="-50"/>
+  	  </elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="200">
+		<voice sentence="Onixx"/>
+		<voice sentence="Ooon!"/>
+	</voices>
+		<loot>
+		<item id="2290" chance="1900"/><!-- Stone -->
+	</loot>
+
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+ </monster>

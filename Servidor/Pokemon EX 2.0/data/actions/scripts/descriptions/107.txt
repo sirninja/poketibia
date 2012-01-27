@@ -1,0 +1,21 @@
+Name: Hitmonchan
+Type: Lutador
+Required level: 60
+
+Evolutions:
+-/-
+
+
+Moves: 
+Triple Punch - m1 - level 60
+Mega Punch - m2 - level 60
+Fire Punch - m3 - level 60
+Ice Punch - m4 - level 60
+Thunder Punch - m5- level 60
+Shadow Punch - m6 - level 60
+Multi-Punch - m7 - level 65
+Ultimate Champion - m8 - level 60
+Evasion - Passiva
+
+Ability:
+Rock smash

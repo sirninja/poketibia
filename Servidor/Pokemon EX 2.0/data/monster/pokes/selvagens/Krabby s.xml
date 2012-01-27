@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Krabby" namedescription="a Krabby" race="undead" experience="150" speed="180" manacost="305">
+  <health now="800" max="800"/>
+  <look type="112" head="20" body="30" legs="40" feet="50" corpse="6039"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-40" max="-50">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-25" max="-32">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="25">
+    </attack>
+    <attack name="hammer" range="4" interval="2300" chance="18" min="-30" max="-80" > </attack>
+
+  </attacks>
+
+
+  <defenses armor="5" defense="5"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Krabby"/>
+  </voices>
+	<loot>
+		<item id="7159" countmax="8" chance="20000"/><!-- Water Gem -->
+		<item id="5886" countmax="1" chance="5000"/><!-- crab claw -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

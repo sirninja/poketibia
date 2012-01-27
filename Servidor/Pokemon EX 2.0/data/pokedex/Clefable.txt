@@ -1,0 +1,23 @@
+Name: Clefable
+Type: normal
+Required level: 45
+
+Evolutions:
+Clefairy, requires level 20
+Clefable, requires level 45
+
+Description: Rarely seen by people, it is said to be drawn by the full moon to play at deserted lakes.
+
+Moves: 
+Doubleslap - m1 - level 45 - normal
+Lovely Kiss - m2 - level 45 - normal
+Sing - m3 - level 45 - normal
+Multi-Slap - m4 - level 45 - normal
+Great Love - m5 - level 52 - normal
+Selfheal - m6 - level 50 - normal
+Healarea - m7 - level 50 - normal
+Focus - m8 - level 52 - normal
+Metronome - m9 - level 45 - normal
+
+Ability:
+None

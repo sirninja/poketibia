@@ -1,0 +1,20 @@
+Nome: Ponyta
+Tipo: fogo
+Nível necessário: 20
+
+Evoluções:
+Ponyta, requer nível 20
+Rapidash, requer nível 60
+
+Descrição: Aproximadamente uma hora após o nascimento, sua crina e sua cauda impetuosa cresce, dando-lhe uma aparência impressionante.
+
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 20
+Ember - Brasa - m2 - nível 20
+Flamethrower - Lança Chamas - m3 - nível 26
+Fireball - Bolas de Fogo - M4 - nível 23
+Stomp - Chifrar - m5 - nível 28
+
+Habilidade:
+Montar (Ride)

@@ -1,0 +1,19 @@
+Name: Voltorb
+Type: electric
+Required level: 10
+
+Evolutions:
+Voltorb, requires level 10
+Electrode, requires level 35
+
+Description: It looks just like a Poke Ball. It is dangerous because it may electrocute or explode on touch.
+
+Moves: 
+Thunder Shock - m1 - level 10 - electric
+Spark - m2 - level 10 - electric
+Thunder Wave - m3 - level 12 - electric
+Rollout - m4 - level 15 - stone
+Selfdestruction - m5 - level 20 - normal
+
+Ability:
+Light

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Primeape" nameDescription="a Primeape" race="undead" experience="1625" speed="240" manacost="0">
+  <health now="4500" max="4500"/>
+  <look type="103" head="20" body="30" legs="40" feet="50" corpse="6032"/>
+ 	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-60" max="-150"/>
+    <attack name="auralutador" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+    </attacks>
+
+
+  <defenses armor="15" defense="20">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Primeeape!"/>
+  </voices>
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+  <loot>
+		<item id="5087" countmax="21" chance="100000"/><!-- seed -->
+		<item id="2152" countmax="3" chance="30000"/><!-- Leaves -->
+		<item id="5883" countmax="1" chance="1000"/><!-- Bulb -->
+  </loot>
+</monster>

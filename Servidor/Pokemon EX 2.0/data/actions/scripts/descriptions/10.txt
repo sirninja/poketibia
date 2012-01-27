@@ -1,0 +1,16 @@
+Nome: Caterpie
+Tipo: Inseto
+Level Requerido: 1
+
+Moves:
+Headbutt - m1 - level 1
+String Shot - m2 - level 1
+Bug Bite - m3 - level 1
+
+Evoluções:
+Caterpie, requer level 1
+Metapod, requer level 15
+Buterfree, requer level 30
+
+Habilidade:
+Nenhuma

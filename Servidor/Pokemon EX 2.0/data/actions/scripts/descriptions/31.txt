@@ -1,0 +1,24 @@
+Nome: Nidoqueen
+Tipo: veneno
+Nível necessário: 65
+
+Evoluções:
+NidoranFE, requer nível 10
+Nidorina, requer nível 25
+Nidoqueen, requer nível 65
+
+Descrição: Seu corpo inteiro é blindado com escamas duras. Ela protegera seus filhos com sua vida.
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 65
+Bite - Mordida - m2 - nível 65
+Horn Attack - Ataque de Chifre - m3 - nível 65
+Poison Fang - Presa VenenosaM4 - nível 65
+Rage - Raiva - m5 nível - 65
+Rock Throw - Jogar Pedra - m6 nível - 65
+Mega Punch - Mega Soco - m7 nível - 65
+Shockwave - Onda de choque - M8 - nível 65
+
+Habilidade:
+Escavar (Dig)
+Quebrar Pedra (Rock Smash)

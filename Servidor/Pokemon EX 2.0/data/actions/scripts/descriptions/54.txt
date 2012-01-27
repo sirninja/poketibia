@@ -1,0 +1,22 @@
+Nome: PsyDuck 
+Tipo: áquatico
+Level Necessário: 12
+
+Evoluçoes:
+
+Psyduck, Nível 12
+GOlduck, Nível 55
+
+Descriçao: É constantemente afetado por sua dor de cabeça. Quando sua do de cabeça aumenta, começa a soltar um poder misterioso.
+
+Ataques:
+
+Water Gun - Arma de Água - Nível 18
+Áqua Tail - Cauda de Água - Nivel 18
+Confusion - Confusão - Nível 28
+Headbutt - Cabeçada - Nível 12
+Stunning Confusion - Confusao Paralisante - Passiva
+
+Habilidades:
+
+Nenhuma.

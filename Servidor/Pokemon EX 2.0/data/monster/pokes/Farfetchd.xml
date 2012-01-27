@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farfetch'd" nameDescription="a Farfetch'd" race="undead" experience="700" speed="220" manacost="600">
+  <health now="3000" max="3000"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="2836"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-40" max="-140"/>
+  </attacks>
+
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <defenses armor="20" defense="22">
+    <defense name="healing" interval="1000" chance="17" min="30" max="50">
+      <attribute key="areaEffect" value="blueshimmer"/>    </defense>
+  </defenses>
+
+
+  <elements>
+  <element deathPercent="50"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="'Repent heretic!, Feel my kick!. A prayer for Zathroth"/>
+  </voices>
+</monster>

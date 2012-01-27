@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmonlee" nameDescription="a Hitmonlee" race="undead" experience="1600" speed="310" manacost="0">
+  <health now="6000" max="6000"/>
+  <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+	<attacks>
+   <attack name="melee" interval="2000" skill="30" attack="30"/>
+    <attack name="hit" interval="8200" chance="100" min="-100" max="-200">
+	</attack>
+
+    <attack name="auralutador" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+	</attacks>
+
+
+  <defenses armor="20" defense="15">
+  </defenses>
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Gnarrr!"/>
+  </voices>
+</monster>

@@ -1,0 +1,20 @@
+Name: Rhyhorn
+Type: stone
+Required level: 30
+
+Evolutions:
+Rhyhorn, requires level 30
+Rhydon, requires level 75
+
+Description: Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.
+
+Moves: 
+Iron Tail - m1 - level 30 - normal
+Horn Attack - m2 - level 30 - normal
+Stomp - m3 - level 32 - earth
+Horn Drill - m4 - level 35 - normal
+Shockwave - m5 - level 37 - earth
+
+Ability:
+Rock smash
+Ride

@@ -1,0 +1,11 @@
+FEITO POR MASTERCRAFT (OTSERV.COM.BR) / BRUN123 (XTIBIA.COM)
+
+Na pasta data/actions/scripts, você encontra o goback.lua e ultragoback.lua, como editar:
+
+["Venusaur"] = {level = 85, cons = 189, vida = 5200},
+
+Nome do pokemon / level para usar / quanto life ele ganha por level do treinador / vida base que ele tem. respectivamente.
+
+Exemplo do venusaur: Um treinador level 90 usando ele, o venusaur vai ter de vida:
+
+5200 + (189 x 90) = 22210 de vida.

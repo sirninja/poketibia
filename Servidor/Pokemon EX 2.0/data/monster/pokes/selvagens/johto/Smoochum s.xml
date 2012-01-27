@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Smoochum" nameDescription="a smoochum" race="undead" experience="200" speed="200" manacost="550">
+	<health now="700" max="700"/>
+	<look type="402" corpse="2929"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="icy wind" interval="5000" chance="90" min="-100" max="-240">
+    </attack>
+    <attack name="ice shard" interval="3500" chance="90" min="-20" max="-70">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-100"/>
+		<element icePercent="50"/>
+		<element fightPercent="-100"/>
+		<element bugPercent="-100"/>
+		<element rockPercent="-100"/>
+		<element deathPercent="-100"/>
+		<element psychcPercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Smoochum!"/>
+    <voice sentence="Smoo!"/>
+	</voices>
+	<loot>
+		<item id="5901" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5917" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

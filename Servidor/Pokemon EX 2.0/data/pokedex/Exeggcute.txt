@@ -1,0 +1,18 @@
+Name: Exeggcute
+Type: grass
+Required level: 10
+
+Evolutions:
+Exeggcute, requires level 10
+Exeggutor, requires level 55
+
+Description: Its six eggs converse using telepathy. They can quickly gather if they become separated.
+
+Moves: 
+Hypnosis - m1 - level 14 - psychic
+Leech Seed - m2 - level 10 - grass
+Egg Bomb - m3 - level 10 - normal
+Confusion - m4 - level 16 - psychic
+
+Ability:
+None

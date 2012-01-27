@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electrode" nameDescription="a wild electrode" race="electric" experience="575" speed="183" manacost="420">
+  <health now="3000" max="3000"/>
+  <look type="125" head="20" body="30" legs="40" feet="50" corpse="6051"/>
+<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="98"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-78" max="-86"/>
+    <attack name="thundershock" range="3" interval="2000" chance="19" min="-115" max="-129">
+    </attack>
+    <attack name="slam" range="1" interval="2500" chance="18" min="-90" max="-120">
+    </attack>
+    <attack name="rollout" range="10" interval="4500" chance="20">
+    </attack>
+    <attack name="spark" range="1" interval="2100" chance="21">
+    </attack>
+    <attack name="charge beam" range="1" interval="3000" chance="40" min="-250" max="-300">
+    </attack>
+    <attack name="discharge" range="1" interval="3500" chance="25">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="ELECTRODE!"/>
+    <voice sentence="TRODE!"/>
+    <voice sentence="ELEC!"/>
+  </voices>
+<script>
+<event name="Exp"/>
+</script>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	<item id="2299" countmax="1" chance="900"/> -- thunder stone
+	</loot>
+</monster>

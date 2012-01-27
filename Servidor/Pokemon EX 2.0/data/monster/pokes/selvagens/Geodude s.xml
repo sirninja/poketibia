@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Geodude" nameDescription="a wild geodude" race="rock" experience="275" speed="153" manacost="0">
+  <health now="1080" max="1080"/>
+  <look type="196" head="0" body="0" legs="0" feet="0" corpse="6071"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+    <attack name="rock throw" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+    <attack name="rock slide" interval="2300" range="1" chance="20" min="-50" max="-70">
+    </attack>
+    <attack name="mega punch" interval="2700" range="1" chance="24" min="-30" max="-55">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="50"></attack>
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element normalPercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GEO!"/>
+    <voice sentence="DUDE!"/>
+    <voice sentence="GEODUDE!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="15" chance="62000"/> -- small stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

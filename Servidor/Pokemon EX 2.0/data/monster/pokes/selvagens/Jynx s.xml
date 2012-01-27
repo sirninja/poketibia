@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jynx" nameDescription="a Jynx" race="undead" experience="925" speed="250" manacost="290">
+  <health now="7000" max="7000"/>
+  <look type="282" head="20" body="30" legs="40" feet="50" corpse="5765"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+
+
+    <attack name="tackle" interval="1000" chance="50" min="-40" max="-130">
+    </attack>
+    <attack name="thunder wave" interval="5000" chance="90" min="-120" max="-830">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-160" max="-420">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-200" max="-350">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-400" max="-1200">
+    </attack>
+
+
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="80" max="120">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element icePercent="30"/>
+		<element fightPercent="-30"/>
+		<element fightPercent="-30"/>
+  </elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Jyynx!"/>
+		<voice sentence="Jyynx!"/>
+	</voices>
+	<loot>
+	        <item id="6528" countmin="70" countmax="100" chance="85000"/> -- water gem
+	        <item id="8820" countmax="4" chance="27000"/> -- water pendant
+		<item id="7441" countmax="1" chance="9000"/><!-- Ice cube -->
+		<item id="2298" chance="1200"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

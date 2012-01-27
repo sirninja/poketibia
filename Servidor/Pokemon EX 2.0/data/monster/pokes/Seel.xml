@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seel" nameDescription="a Seel" race="UNDEAD" experience="580" speed="210" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="101" head="20" body="30" legs="40" feet="50" corpse="6030"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="47" poison="110"/>
+    <attack name="auragelo" interval="2000" chance="5" min="-100" max="-800"> </attack>
+  </attacks>
+
+  <defenses armor="20" defense="35">
+  </defenses>
+  <immunities>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element icePercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="seeell!"/>
+
+  </voices>
+</monster>
+

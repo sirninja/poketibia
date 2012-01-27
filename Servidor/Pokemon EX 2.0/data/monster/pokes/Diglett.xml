@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Diglett" nameDescription="a Diglett" race="undead" experience="250" speed="200" manacost="355">
+  <health now="1000" max="1000"/>
+  <look type="82" head="20" body="30" legs="40" feet="50" corpse="6023"/>
+ 	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="15"/>
+    <attack name="aurapedra" interval="2000" chance="5" min="-100" max="-400"> </attack>
+
+  </attacks>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <defenses armor="14" defense="14"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Diigleett"/>
+  </voices>
+	<loot>
+		<item id="2668" countmax="20" chance="10000"/><!-- pot of moss bug -->
+		<item id="2148" countmax="100" chance="10000"/><!-- pot of moss bug -->
+	</loot>
+
+</monster>

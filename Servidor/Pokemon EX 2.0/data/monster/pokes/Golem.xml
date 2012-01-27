@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golem" nameDescription="a golem" race="rock" experience="1800" speed="170" manacost="0">
+  <health now="6500" max="6500"/>
+  <look type="116" head="20" body="30" legs="40" feet="50" corpse="6043"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-155" max="-195"/>
+    <attack name="aurapedra" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element normalPercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLEM!"/>
+    <voice sentence="GOOLEM!"/>
+    <voice sentence="LEM!"/>
+  </voices>
+	<loot>
+	</loot>
+</monster>

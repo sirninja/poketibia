@@ -1,0 +1,22 @@
+Nome: Pidgeot
+Tipo: Voador
+Nível necessário: 65
+
+Evoluções:
+Pidgey, requer nivel 1
+Pidgeotto, requer nível 20
+Pidgeot, requer nível 65
+
+Descrição: Batendo suas asas com toda a sua força, Pidgeot pode fazer uma rajada de vento capaz de arrancar arvores.
+
+Ataques:
+Quick Attack - Ataques Rapido - m1 - nível 65
+Sand Attack - Ataque de Areia - m2 - nível 65
+Whirlwind - Redemoinho - m3 - nível 65
+Drill Peck - Bicadas - M4 - nível 65
+Wing Attack - Ataque de Asas - m5 - nível 65
+Tornado - Furacao - m6 - nível 65
+Strafe - Metralhar - M7 - nível 65
+
+Habilidade:
+Voar (Fly)

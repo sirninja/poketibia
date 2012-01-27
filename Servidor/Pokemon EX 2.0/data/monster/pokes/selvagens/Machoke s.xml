@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machoke" nameDescription="a Machoke" race="undead" experience="675" speed="220" manacost="0">
+  <health now="4500" max="4500"/>
+  <look type="113" head="20" body="30" legs="40" feet="50" corpse="4251"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1800" min="-85" max="-125"/>
+    <attack name="machoke" interval="3200" chance="100" min="-100" max="-300">    </attack>
+    <attack name="mega punch" range="1" interval="2800" chance="37" min="-180" max="-210">    </attack>
+    <attack name="triple punch" range="1" interval="2800" chance="37" min="-180" max="-90">    </attack>
+    <attack name="Mega Kick" range="1" interval="2800" chance="37" min="-280" max="-290">    </attack>
+    <attack name="strafe" interval="4200" chance="61" min="600" max="750"> </attack>
+
+  </attacks>
+
+
+
+  <defenses armor="20" defense="10"/>
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Machooke!"/>
+  </voices>
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="45" chance="62000"/> -- small stone
+	<item id="2315" countmax="1" chance="1200"/> -- fight stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

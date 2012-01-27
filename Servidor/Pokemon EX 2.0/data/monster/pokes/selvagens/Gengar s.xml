@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gengar" nameDescription="a Gengar" race="undead" experience="1000" speed="250" manacost="490">
+  <health now="7000" max="7000"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="shadow ball" interval="5000" chance="90" min="-50" max="-90">
+    </attack>
+    <attack name="dream eater" interval="3000" chance="90" min="-20" max="-40">
+    </attack>
+    <attack name="shadow punch" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+    <attack name="night shade" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <immunities>
+  </immunities>
+  <elements>
+		<element fightPercent="500"/>
+		<element normalPercent="500"/>
+		<element poisonPercent="30"/>
+		<element darkPercent="-30"/>
+		<element ghostPercent="-30"/>
+		<element bugPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+ <loot>
+	<item id="8869" countmax="1" chance="32500"/>-- future orb
+	<item id="5913" countmax="1" chance="10500"/>-- Brown POC
+
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

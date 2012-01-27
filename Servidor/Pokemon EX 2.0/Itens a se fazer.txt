@@ -1,0 +1,32 @@
+1- fast ball 2219 - goback ajeitar - 2216 - sprite no editor
+   cath do cyndaquil
+   aimpom não está indo pro slot pokeball
+
+2- ajeitar descrição das pokedex
+
+3- ajeitar surf e sprite dos pokemons shiny, que não mudam a sprite 
+
+4- ajeitar vip
+
+5- ajeitar fly/surf/teleport em battle
+
+6- ajeitar pokemons passivos
+
+-----------------------
+
+gráficos
+
+--------------------------
+imagem punch na earth stone
+
+
+--------------------------------
+itens
+
+casco do blastoise - adicionar 7552 
+7553  -  shell orange
+7551 - shell
+
+
+
+

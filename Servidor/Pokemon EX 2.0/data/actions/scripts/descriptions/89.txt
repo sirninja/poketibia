@@ -1,0 +1,21 @@
+Name: Muk
+Type: Venenoso
+Required level: 35
+
+Evolutions:
+Grimer, requires level 20
+Muk, requires level 40
+
+Description: It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning.
+
+Moves: 
+Mud Shot - m1 - level 35 - earth
+Acid - m2 - level 35 - poison
+Sludge - m3 - level 35 - poison
+Mud Bomb - m4 - level 35 - earth
+Poison Bomb - m5 - level 35 - poison
+Sludge Rain - m6 - level 47 - poison
+Harden - m7 - level 50 - normal
+
+Habilities:
+None

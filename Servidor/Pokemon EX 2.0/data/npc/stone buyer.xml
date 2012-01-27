@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Flint" script="stones.lua" walkinterval="350000" floorchange="0" speed="0">
+        <health now="150" max="150"/>
+        <look type="299"/>
+        <parameters>
+                        <parameter key="message_greet" value="Pewter is the rock's city, I sell them to tourists. You seem to be a trainer, you wouldn'st want to buy them. I buy rare stones, doyou have any?"/>
+                        <parameter key="message_farewell" value="Bye..."/>
+                        <parameter key="message_idletimeout" value="Bye..."/>
+                        <parameter key="message_walkaway" value="Bye..."/>
+        </parameters>
+</npc>

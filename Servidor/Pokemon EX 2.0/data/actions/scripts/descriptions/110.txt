@@ -1,0 +1,19 @@
+Name: Weezing
+Type: Veneno
+Required level: 30
+
+Evolutions:
+Koffing, requires level 15
+Weezing, requires level 35
+
+Moves: 
+Mud Shot - m1 - level 35
+Acid - m2 - level 35
+MudBomb - m3 - level 37
+Poison Bomb - m4 - level 40
+Poison Gas - m5 -level 35
+Mortal Gas - m6 - level 45
+Selfdestruction - m7 - level 50
+
+Ability:
+-/-

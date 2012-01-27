@@ -1,0 +1,50 @@
+[30] = {x = { - Looktype do pokemon, acha em monster, no xml do poke!
+pok = pidgey,
+spell = "Quick Attack", - Magia que o pokemon vai usar (nem todas funcionam em todos moves)
+minLv = 1, - Level mínimo para usar o move
+ex = 1600001, Storage do pokemon na pokedex, tutorial abaixo.
+base1 = 20, - Base de dano mínimo
+base2 = 21, - Base de dano máximo
+dista = 1, - Distância que o Pokémon precisa estar do inimigo para utilizar o move
+bonus = 2, - Bonus de dano que o pokemon recebe a cada level do player
+type = "normal", - Tipo de dano
+cd = 7 - cooldown
+}
+},
+
+Tutorial de storage:
+No script citado no acima, aparece a storage: "ex = 1600001",
+o número 16 do início, representa o número do Pokémon na Pokedex, se fosse o Bulbasaur por exemplo, ficaria 1000001.
+o último 1 do storage, que se encontra em vermelho, é 1 por ser script do m1, se fosse m2, ali ficaria 2, e assim vai...
+
+No caso do Gyarados, ficaria assim:
+
+Quote
+[117] = {x = {
+pok = Gyarados,
+spell = "Quick Attack",
+minLv = 1,
+ex = 13000001,
+base1 = x,
+base2 = x,
+dista = 1,
+bonus = x,
+type = "normal",
+cd = x
+}
+},
+
+
+No meu OT, o looktype do Gyarados é 117, o seu pode ser diferente, para ver o looktype do Gyarados, basta abrir o arquivo Gyarados.xml na pasta "data\monster\pokes"
+
+Damage mínimo
+
+Damage máximo
+
+Bonus de damage que o Quick Attack vai tirar a cada level upado
+
+Cooldown desejado
+
+Se ajudei, por favor, clique no + ali em baixo  
+
+PS: informações retiradas do post do usuário lokodorock, os créditos são todos deles, eu apenas estou repassando as informações 

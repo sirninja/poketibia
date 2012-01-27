@@ -1,0 +1,21 @@
+Name: Persian
+Type: normal
+Required level: 30
+
+Evolutions:
+Meowth, requires level 15
+Persian, requires level 30
+
+Description: Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.
+
+Moves: 
+Slash - m1 - level 30 - normal
+Scratch - m2 - level 30 - normal
+Bite - m3 - level 30 - normal
+Pay Day - m4 - level 30 - normal
+Fury Cutter - m5 - level 38 - bug
+Fear - m6 - level 40 - ghost
+Fury - passive  - dragon
+
+Ability:
+Cut

@@ -1,0 +1,21 @@
+Name: Poliwhirl
+Type: Água
+Required level: 25
+
+Evolutions:
+Poliwag, requires level 10
+Poliwhirl, requires level 30
+Poliwrath, requires level 70
+
+Description: Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
+
+Moves: 
+Mud Shot - m1 - level 25 - earth
+Doubleslap - m2 - level 25 - normal
+Bubbles - m3 - level 25 - water
+Water Gun - m4 - level 25 - water
+Mega Punch - m5 - level 30 - fighting
+Hypnosis - m6 - level 32 - psychic
+
+Habilities:
+Surf

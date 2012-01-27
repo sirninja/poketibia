@@ -1,0 +1,22 @@
+Name: Lapras
+Type: water
+Required level: 80
+
+Evolutions:
+Lapras, requires level 80
+
+Description: It loves crossing the sea with people and Pokemon on its back. It understands human speech.
+
+Moves: 
+Horn Attack - m1 - level 80 - normal
+Ice Beam - m2 - level 80 - ice
+Ice Shards - m3 - level 80 - ice
+Water Gun - m4 - level 80 - water
+Waterball - m5 - level 80 - water
+Aurora Beam - m6 - level 80 - ice
+Blizzard - m7 - level 88 - ice
+Hydropump - m8 - level 90 - water
+Sing - m9 - level 80 - normal
+
+Ability:
+Surf

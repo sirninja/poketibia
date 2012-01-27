@@ -1,0 +1,19 @@
+Nome: Beedrill
+Tipo: Inseto
+Level Requerido: 30
+
+Moves:
+String Shot - m1 - level 25
+Poison Sting - m2 - level 25
+Fury Cutter - m3 - level 30
+Pin Missile - m4 - level 30
+Rage - m5 - level 25
+Strafe - m6 - level 33
+
+Evoluções:
+Weedle, requer level 1
+Kakuna, requer level 10
+Beedrill, requer level 30
+
+Habilidade:
+Nenhuma

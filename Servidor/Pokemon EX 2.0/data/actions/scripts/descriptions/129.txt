@@ -1,0 +1,17 @@
+Nome: Magikarp
+Tipo: água
+Nível necessário: 1
+
+Evoluções:
+Magikarp, exige nível 1
+Gyarados, requer nível 75
+
+Descrição: Dizem que é o pokemon mais fraco do mundo. Ninguém sabe por que ele conseguiu sobreviver.
+
+Ataques:
+
+Splash - Borrifada - nível 1
+
+Capacidade:
+
+Nenhum

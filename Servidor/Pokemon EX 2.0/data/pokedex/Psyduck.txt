@@ -1,0 +1,19 @@
+Name: Psyduck
+Type: water
+Required level: 20
+
+Evolutions:
+Psyduck, requires level 20
+Golduck, requires level 55
+
+Description: It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.
+
+Moves: 
+Water Gun - m1 - level 24 - water
+Aqua Tail - m2 - level 20 - water
+Confusion - m3 - level 28 - psychic
+Headbutt - m4 - level 20 - normal
+Stunning Confusion - passive  - psychic
+
+Ability:
+None

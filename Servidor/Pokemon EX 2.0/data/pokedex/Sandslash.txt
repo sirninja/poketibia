@@ -1,0 +1,24 @@
+Name: Sandslash
+Type: earth
+Required level: 55
+
+Evolutions:
+Sandshrew, requires level 20
+Sandslash, requires level 55
+
+Description: It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke during the daytime when temperatures rise sharply.
+
+Moves: 
+Sand Attack - m1 - level 55 - earth
+Mud Shot - m2 - level 55 - earth
+Scratch - m3 - level 55 - normal
+Rollout - m4 - level 55 - stone
+Shockwave - m5 - level 55 - earth
+Fury Cutter - m6 - level 65 - bug
+Earthshock - m7 - level 60 - earth
+Earthquake - m8 - level 70 - earth
+
+Ability:
+Dig
+Rock smash
+Cut

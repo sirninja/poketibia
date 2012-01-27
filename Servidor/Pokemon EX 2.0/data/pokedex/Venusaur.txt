@@ -1,0 +1,27 @@
+Name: Venusaur
+Type: grass
+Required level: 85
+
+Evolutions:
+Bulbasaur, requires level 20
+Ivysaur, requires level 40
+Venusaur, requires level 85
+
+Description: There is a large flower on Venosaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.
+
+Moves: 
+Quick Attack - m1 - level 85 - normal
+Razor Leaf - m2 - level 85 - grass
+Vine Whip - m3 - level 85 - grass
+Headbutt - m4 - level 85 - normal
+Leech Seed - m5 - level 85 - grass
+Bullet Seed - m6 - level 85 - grass
+Solar Beam - m7 - level 85 - grass
+Sleep Powder - m8 - level 85 - grass
+Stun Spore - m9 - level 85 - grass
+Poison Powder - m10 - level 85 - poison
+Leaf Storm - m11 - level 95 - grass
+
+Ability:
+Cut
+Ride

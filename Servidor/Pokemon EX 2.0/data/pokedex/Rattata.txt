@@ -1,0 +1,18 @@
+Name: Rattata
+Type: normal
+Required level: 1
+
+Evolutions:
+Rattata, requires level 1
+Raticate, requires level 25
+
+Description: Cautious in the extreme, its hardy vitality lets it live in any kind of environment.
+
+Moves: 
+Quick Attack - m1 - level 1 - normal
+Bite - m2 - level 1 - normal
+Scratch - m3 - level 1 - normal
+Super Fang - m4 - level 12 - normal
+
+Ability:
+None

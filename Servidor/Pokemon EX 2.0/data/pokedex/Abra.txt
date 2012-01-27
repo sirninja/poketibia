@@ -1,0 +1,21 @@
+Name: Abra
+Type: psychic
+Required level: 15
+
+Evolutions:
+Abra, requires level 15
+Kadabra, requires level 45
+Alakazam, requires level 80
+
+Description: A Pokemon that sleeps 18 hours a day. Observation revealed that it uses teleport to change its location.
+
+Moves: 
+Restore - m1 - level 20 - psychic
+Psy Pulse - m2 - level 20 - psychic
+Psychic - m3 - level 29 - psychic
+Calm Mind - m4 - level 25 - psychic
+
+Ability:
+Teleport
+Light
+Blink

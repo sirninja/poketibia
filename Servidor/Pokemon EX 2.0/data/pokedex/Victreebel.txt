@@ -1,0 +1,24 @@
+Name: Victreebel
+Type: grass
+Required level: 50
+
+Evolutions:
+Bellsprout, requires level 5
+Weepinbell, requires level 25
+Victreebel, requires level 50
+
+Description: It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.
+
+Moves: 
+Razor Leaf - m1 - level 50 - grass
+Vine Whip - m2 - level 50 - grass
+Acid - m3 - level 50 - poison
+Poison Bomb - m4 - level 50 - poison
+Slash - m5 - level 50 - normal
+Stun Spore - m6 - level 50 - grass
+Poison Powder - m7 - level 50 - poison
+Sleep Powder - m8 - level 55 - grass
+Leaf Storm - m9 - level 65 - grass
+
+Ability:
+Cut

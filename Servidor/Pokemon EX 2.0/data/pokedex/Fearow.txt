@@ -1,0 +1,22 @@
+Name: Fearow
+Type: flying
+Required level: 50
+
+Evolutions:
+Spearow, requires level 10
+Fearow, requires level 50
+
+Description: It has the stamina to keep flying all day on its broad wings. It fights by using its sharp beak.
+
+Moves: 
+Quick Attack - m1 - level 50 - normal
+Sand Attack - m2 - level 50 - earth
+Drill Peck - m3 - level 50 - flying
+Gust - m4 - level 50 - flying
+Whirlwind - m5 - level 50 - flying
+Wing Attack - m6 - level 52 - flying
+Tornado - m7 - level 60 - flying
+Rage - m8 - level 55 - dragon
+
+Ability:
+Fly

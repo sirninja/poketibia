@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charizard" nameDescription="a wild charizard" race="fire" experience="1100" speed="220" manacost="590">
+  <health now="11500" max="11500"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-105" max="-180"/>
+    <attack name="scratch" interval="1400" chance="25" min="-135" max="-195">
+    </attack>
+    <attack name="ember" interval="1700" chance="20" min="-145" max="-255">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-365" max="-475">
+    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-345" max="-455">
+    </attack>
+    <attack name="wing attack" interval="2700" chance="21" min="-345" max="-355">
+    </attack>
+    <attack name="flamethrower" interval="4000" chance="30">
+    </attack>
+    <attack name="raging blast" interval="3800" chance="27">
+    </attack>
+    <attack name="fire blast" interval="3100" chance="20" min="-500" max="-800">
+    </attack>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+
+	<loot>
+	<item id="8866" countmax="100" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="4" chance="42000"/> -- pot of lava
+	<item id="2291" countmax="1" chance="950"/> -- fire stone
+	<item id="2672" countmin="1" countmax="2" chance="10000"/> -- dragon ham
+	
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

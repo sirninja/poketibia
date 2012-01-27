@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zubat" nameDescription="a wild zubat" race="poison" experience="150" speed="152" manacost="280">
+  <health now="500" max="500"/>
+  <look type="44" head="20" body="30" legs="40" feet="50" corpse="5989"/>
+	<targetchange interval="5000" chance="0"/>
+<targetchange interval="100" chance="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-11" max="-30"/>
+    <attack name="bite" interval="3400" chance="22" range="1" target="1" min="-35" max="-45">
+    </attack>
+    <attack name="absorb" interval="4500" chance="24" range="1" target="1" min="-40" max="-60">
+    </attack>
+    <attack name="toxic" interval="3900" chance="17" range="10" target="1" min="-61" max="-81">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="45" range="5" target="1">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZUBAT!"/>
+    <voice sentence="BAT!"/>
+  </voices>
+	<loot>
+	<item id="8855" countmax="1" chance="12000"/> -- bat wing
+	<item id="8856" countmax="11" chance="68000"/> -- bottle of poison
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

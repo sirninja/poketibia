@@ -1,0 +1,24 @@
+Name: Dragonite
+Type: Dragão
+Required level: 100
+
+Evolutions:
+Dratini, requires level 20
+Dragonair, requires level 60
+Dragonite, requires level 100
+
+Moves: 
+Headbutt - m1 - level 100
+Aqua Tail - m2 - level 100
+Thunder Wave - m3 - level 100
+Thunder Punch - m4 - level 100
+Fire Punch- m5 - level 100
+Dragon Claw - m6 - level 100
+Dragon Breath - m7 - level 102
+Twister - m8 - level 104
+WingAttack - m9 - level 106
+Hyper Beam- m10 - level 108
+Dragon Fury - passive 
+
+Ability:
+Fly

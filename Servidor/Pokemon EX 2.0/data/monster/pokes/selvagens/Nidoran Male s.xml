@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Nidoran Male" nameDescription="a male nidoran" race="poison" experience="125" speed="120" manacost="0">
+
+	<health now="650" max="650"/>
+
+	<look type="66" corpse="6015"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="1"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="95"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-5" /> 
+  <attack name="quick attack" range="1" interval="2300" chance="18" min="-15" max="-20" > </attack>
+  <attack name="acid" interval="3400" chance="22" range="1" target="1" min="-45" max="-50" > </attack>
+  <attack name="poison sting" range="1" interval="2200" chance="17" min="-40" max="-80" > </attack>
+  <attack name="horn attack" range="1" interval="2000" chance="15" min="-60" max="-65" > </attack>
+
+
+	</attacks>
+
+	<defenses armor="0" defense="0">
+
+		<defense name="healing" interval="1000" chance="15" min="90" max="200">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
+		<defense name="speed" interval="1000" chance="15" speedchange="200" duration="20000">
+
+			<attribute key="areaEffect" value="redshimmer"/>
+
+		</defense>
+
+	</defenses>
+
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+	<immunities>
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="fire elemental" interval="200000" chance="0" max="2"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nidoo!" yell="0"/>
+		<voice sentence="Niidoraan!" yell="0"/>
+		<voice sentence="Nii!" yell="0"/>
+	</voices>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+	<item id="8857" countmax="1" chance="12000"/> -- gosme
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

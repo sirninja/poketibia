@@ -1,0 +1,23 @@
+Name: Jolteon
+Type: electric
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Jolteon, requires level 55
+
+Description: It controls 10,000-volt power and can raise all the fur on its body as if it were sharp needles.
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Bite - m2 - level 55 - normal
+Thunder Bolt - m3 - level 55 - electric
+Thunder Fang - m4 - level 55 - electric
+Thunder Wave - m5 - level 55 - electric
+Pin Missile - m6 - level 55 - bug
+Zap Cannon - m7 - level 60 - electric
+Thunder - m8 - level 65 - electric
+
+Ability:
+Dig
+Light

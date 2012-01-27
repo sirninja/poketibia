@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoqueen" nameDescription="Nidoqueen" race="undead" experience="975" speed="250">
+	<health now="7500" max="7500"/>
+	<look type="79" head="20" body="30" legs="40" feet="50" corpse="3004"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag canpushitems="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+	</flags>
+
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" min="-100" max="-200"/>
+    <attack name="melee" interval="2000" min="-200" max="-300" poison="-50" > 
+   </attack>
+    <attack name="queen" interval="4000" chance="20" min="-45" max="-650">
+  </attack>
+  <attack name="fury" interval="4000" chance="35" range="10" > 
+  </attack>
+  <attack name="fury attack" interval="3000" chance="24" range="1" > 
+  </attack>
+  <attack name="quick attack" range="1" interval="2300" chance="30" min="-250" max="-350" >
+</attack>
+  <attack name="poison sting" range="1" interval="2200" chance="35" min="-300" max="-320" > 
+</attack>
+  <attack name="horn attack" range="1" interval="2000" chance="25" min="-280" max="-350" > 
+</attack>
+  <attack name="pluck" interval="2100" chance="17" range="1" min="-200" max="-280" > 
+</attack>
+  <attack name="earthshock" interval="2600" range="1" chance="30" min="-340" max="-372" > </attack>
+  <attack name="bite" interval="2000" chance="35" range="1" target="1" min="-177" max="-300" ></attack>
+
+  </attacks>
+
+
+	- <defenses armor="15" defense="20">
+- <defense name="healing" interval="1000" chance="25" min="113" max="187">
+  <attribute key="areaEffect" value="blueshimmer" /> 
+  </defense>
+  </defenses>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+- <immunities>
+  <immunity death="1" /> 
+  <immunity earth="1" /> 
+  <immunity fire="1" /> 
+  <immunity lifedrain="1" /> 
+  <immunity paralyze="1" /> 
+  <immunity invisible="1" /> 
+  </immunities>
+
+- <voices interval="5000" chance="10">
+  <voice sentence="Nidoo!" yell="0" /> 
+  <voice sentence="Niidoqueen!" yell="1" /> 
+  </voices>
+	<loot>
+	<item id="3976" countmax="100" chance="10000"/><!-- Pot of moss bug -->
+	<item id="2307" countmax="1" chance="1400"/> -- earth stone
+	<item id="2297" countmax="1" chance="1400"/>-- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

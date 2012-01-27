@@ -1,0 +1,23 @@
+Nome: Machamp
+Tipo: lutador
+Nível necessário: 65
+
+Evoluções:
+Machop, requer nível 18
+Machoke, requer nível 40
+Machamp, requer nível 65
+
+Descrição: É impossível se defender contra socos e chutes que distribui pelos seus quatro braços. Seu espírito de luta fortalece quando enfrenta um adversário difícil.
+
+Ataques:
+Triple Punch - m1 - Soco Triplo
+Mega Punch - m2 - Super Soco
+Mega Kick - m3 - Mega Chute
+Karate Chop - M4 - Chute Karate
+Ground Chop - m5 - Chute Terrestre
+Fist Machine - m6 - Maquina de Porrada
+Destroyer Hand - m7 - Maos Detruidoras
+Strafe - M8 - Metralhar
+
+Habilidade:
+Rock Smash (Quebrar Pedra)

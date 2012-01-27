@@ -1,0 +1,21 @@
+Nome: Seaking
+Tipo: água
+Nível necessário: 25
+
+Evoluções:
+Goldeen, requer nível 10
+Seaking, requer nível 25
+
+Descrição: Consegue abrir buracos com um soco em seu habitat. Esta é uma inovação inteligente que impede que os ovos sejam atacados ou arrastados pela corrente.
+
+Move-se:
+Horn Attack - Ataque de Chifre
+Poison Sting - Picada Venenosa
+Water Gun - Arma de Agua
+Water Pulse - Pulso de Agua
+Aqua Tail - Cauda de Agua
+Super Sonic - Super Sonico
+Horn Drill - Furadeira de Chifre
+
+Habilidade:
+Surf (Surfar)

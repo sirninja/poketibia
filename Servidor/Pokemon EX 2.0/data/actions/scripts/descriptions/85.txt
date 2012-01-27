@@ -1,0 +1,20 @@
+Name: Dodrio
+Type: Normal
+Required level: 45
+
+Evolutions:
+Doduo, requires level 20
+Dodrio, requires level 50
+
+Description: Apparently, the heads aren't the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.
+
+Moves: 
+Sand Attack - m1 - level 45 - earth
+Quick Attack - m2 - level 45 - normal
+Drill Peck - m3 - level 45 - flying
+Pluck - m4 - level 50 - normal
+Rage - m5 - level 45 - dragon
+Strafe - m6 - level 45 - normal
+
+Habilities:
+Ride

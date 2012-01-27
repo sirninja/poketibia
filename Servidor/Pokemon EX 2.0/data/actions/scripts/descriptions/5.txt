@@ -1,0 +1,21 @@
+Nome: Charmeleon
+Tipo: Fogo
+Level Requerido: 40
+
+Moves:
+Scratch - m1 - level 40
+Ember - m2 - level 40
+Flamethrower - m3 - level 40
+Fireball - m4 - level 40
+Fire Fang - m5 - level 40
+Raging Blast - m6 - level 45
+Fire Blast - m7 - level 50
+Rage - m8 - level 40
+
+Evoluções:
+Charmander, requer level 20
+Charmeleon, requer level 40
+Charizard, requer level 80
+
+Habilidade:
+Cortar

@@ -1,0 +1,20 @@
+Name: Goldeen
+Type: water
+Required level: 10
+
+Evolutions:
+Goldeen, requires level 10
+Seaking, requires level 35
+
+Description: Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.
+
+Moves: 
+Horn Attack - m1 - level 10 - normal
+Poison Sting - m2 - level 10 - poison
+Water Gun - m3 - level 12 - water
+Water Pulse - m4 - level 15 - water
+Aqua Tail - m5 - level 12 - water
+Super Sonic - m6 - level 18 - normal
+
+Ability:
+Surf

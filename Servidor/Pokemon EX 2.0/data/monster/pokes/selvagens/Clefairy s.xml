@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Clefairy" nameDescription="a Clefairy" race="undead" experience="300" speed="268" manacost="0">
+  <health now="700" max="700"/>
+  <look type="73" head="20" body="30" legs="40" feet="50" corpse="2968"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+  <attack name="melee" interval="1900" min="-35" max="-65">
+  </attack> 
+  <attack name="restore" interval="4200" chance="30" min="300" max="350"> 
+  </attack>
+  <attack name="metronome" range="4" interval="4000" chance="20" min="-100" max="-120"> 
+  </attack>
+  </attacks>
+  <defenses armor="30" defense="20">
+    <defense name="healing" interval="1000" chance="10" min="200" max="350">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Clefairy!!"/>
+  </voices>
+
+</monster>

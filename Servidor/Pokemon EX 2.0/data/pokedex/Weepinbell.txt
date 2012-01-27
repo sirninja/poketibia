@@ -1,0 +1,21 @@
+Name: Weepinbell
+Type: grass
+Required level: 25
+
+Evolutions:
+Bellsprout, requires level 5
+Weepinbell, requires level 25
+Victreebel, requires level 50
+
+Description: A Pokemon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.
+
+Moves: 
+Razor Leaf - m1 - level 25 - grass
+Vine Whip - m2 - level 25 - grass
+Acid - m3 - level 25 - poison
+Poison Bomb - m4 - level 27 - poison
+Slash - m5 - level 25 - normal
+Stun Spore - m6 - level 30 - grass
+
+Ability:
+Cut

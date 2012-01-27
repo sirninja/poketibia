@@ -1,0 +1,22 @@
+Nome: Arbok
+Tipo: veneno
+Nível necessário: 30
+
+Evoluções:
+Ekans, requer nível 12
+Arbok, requer nível 30
+
+Descrição: Tem um cara super assustadora. Os Inimigos fugirao, só de olhar para a sua cara.
+
+Ataques:
+Bite - m1 - Mordida
+Poison Fang - m2 - Presa Venenosa
+Sting Gun - m3 - Ferrao
+Pin Missile - M4 - Missil de Farpas
+Acid - m5 - Acido
+Iron Tail - m6 - Cauda de Ferro
+Fear - m7 - Amedrontar
+Rage - m8 - Raiva
+
+Habilidade:
+Dig (Escavar)

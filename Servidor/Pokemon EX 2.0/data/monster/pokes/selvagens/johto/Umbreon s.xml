@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Umbreon" nameDescription="a Umbreon" race="undead" experience="6000" speed="250" manacost="0">
+  <health now="8400" max="8400"/>
+  <look type="378" corpse="2972"/>
+  	<targetchange interval="1000" chance="10554"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="20"/>
+  </flags>
+   <attacks>
+    <attack name="shadow ball" interval="2000" chance="90" min="-1500" max="-2000">
+    </attack>
+    <attack name="dream eater" interval="3000" chance="90" min="-4000" max="-5000">
+    </attack>
+    <attack name="shadow punch" interval="3000" chance="90" min="-6000" max="-8000">
+    </attack>
+    <attack name="night shade" interval="4500" chance="90" min="-7900" max="-8000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="1000" chance="100" min="1" max="9">
+    </defense>
+  </defenses>
+	<loot>
+		<item id="5888" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5908" chance="50"/><!-- Stone -->
+	</loot>
+</monster>

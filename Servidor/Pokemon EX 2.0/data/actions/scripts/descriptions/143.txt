@@ -1,0 +1,19 @@
+Name: Snorlax
+Type: Normal
+Required level: 85
+
+Evolutions:
+-/-
+
+Moves: 
+Scratch - m1 - level 85
+Bite - m2 - level 85
+Dizzy Punch - m3 - level 85
+MegaPunch - m3 - level 85
+Headbutt - m4 - level 85
+Body Slam - m5 - level 89
+Crusher Stomp - m6 - level 95
+Rest - m7 - level 91
+
+Ability:
+Surf,Rock Smash

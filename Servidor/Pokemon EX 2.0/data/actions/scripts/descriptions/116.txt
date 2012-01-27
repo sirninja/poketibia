@@ -1,0 +1,24 @@
+Nome: Horsea 
+Tipo: água
+nível necessário: 5
+
+Evoluções:
+
+Horsea, exige nível 5
+Seadra, requer nível 45
+
+Descrição: Por inteligentemente em sua parte traseira para o lado tem uma pincelada, ele se 
+
+move em qualquer direção, enquanto para a frente. Ele cospe tinta para escapar se do perigo.
+
+Ataques:
+
+Mud Shot - Tiro de Lama - nível 5
+Bubbles - Bolhas - nível 5
+Bubblebeam - Paredes de Bolha - nível 18
+Water Gun - Arma de Agua - nível 15
+Waterball - bola de agua - nível 12
+
+Capacidade:
+
+Nenhuma

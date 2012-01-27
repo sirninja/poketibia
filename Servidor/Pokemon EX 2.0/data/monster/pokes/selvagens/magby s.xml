@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magby" nameDescription="a wild Magby" race="fire" experience="400" speed="166" manacost="550">
+  <health now="1400" max="1400"/>
+  <look type="386" head="20" body="30" legs="40" feet="50" corpse="5983"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-50" max="-150">
+    </attack>
+    <attack name="dragon rage" interval="4500" chance="90" min="-120" max="-210">
+    </attack>
+    <attack name="fire spin" interval="5000" chance="90" min="-190" max="-320">
+    </attack>
+    <attack name="ember" interval="3500" chance="90" min="-50" max="-150">
+    </attack>
+    <attack name="quick attack" interval="8000" chance="100" min="-100" max="-200">
+    </attack>
+    <attack name="flamethrower" interval="7000" chance="80" min="-200" max="-350">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="magbyy!"/>
+  </voices>
+  
+	<loot>
+	<item id="8866" countmax="15" chance="45000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="12000"/> -- pot of lava
+	<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+	<item id="8868" countmax="1" chance="52000"/> -- nail
+	</loot>
+	
+<script>
+<event name="Exp"/>
+<event name="BlockSpells"/>
+</script>
+</monster>

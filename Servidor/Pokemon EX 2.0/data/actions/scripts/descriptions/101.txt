@@ -1,0 +1,21 @@
+Name: Electrode
+Type: Elétrico
+Required level: 40
+
+Evolutions:
+Voltorb, requires level 10
+Electrode, requires level 35
+
+Description: Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
+
+Moves: 
+Thunder Shock - m1 - level 35
+Spark - m2 - level 35
+Thunder Wave - m3 - level 35
+Rollout - m4 - level 35
+Charge Beam - m5 - level 40
+Electric Storm - m6 - level 45
+Selfdestruction - m7 - level 35
+
+Ability:
+Light

@@ -1,0 +1,13 @@
+Name: Ditto
+Type: normal
+Required level: 40
+
+Evolutions:
+Ditto, requires level 40
+
+Description: It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.
+
+Moves: 
+
+Ability:
+Transform

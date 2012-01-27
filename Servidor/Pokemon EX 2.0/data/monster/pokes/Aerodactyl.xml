@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Aerodactyl" namedescription="a wild aerodactyl" race="rock" experience="5000" speed="210" manacost="250">
+  <health now="7100" max="7100"/>
+  <look type="10" head="20" body="30" legs="40" feet="50" corpse="6338"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="rock throw" interval="4000" chance="100" min="-190" max="-205">
+    </attack>
+    <attack name="auragelo" interval="2000" chance="10" min="-1600" max="-2000"> </attack>
+   <attack name="auravoador" interval="2000" chance="10" min="-1600" max="-1800"> </attack>
+  </attacks>
+  <defenses armor="15" defense="15">
+    <defense name="healing" interval="1000" chance="20" min="1000" max="2000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+
+
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="AERODACTYL!"/>
+    <voice sentence="AERO!"/>
+  </voices>
+  <loot>
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

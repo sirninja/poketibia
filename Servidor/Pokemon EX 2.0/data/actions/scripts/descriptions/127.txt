@@ -1,0 +1,20 @@
+Name: Pinsir
+Type: Normal
+Required level: 45
+
+Evolutions:
+-/-
+
+
+Moves: 
+Scratch - m1 - level 45
+Bug Bite - m2 - level 45
+Slash - m3 - level 45
+X-Scissor - m4 - level 50
+Fury Cutter - m5 - level 53
+Guillotine - m6 - level 57
+Harden - m7 - level 47
+Rage - m8 - level 60
+
+Ability:
+Cut

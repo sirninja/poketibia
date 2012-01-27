@@ -1,0 +1,22 @@
+Nome: Goldeen
+Tipo: água
+Nível necessário: 10
+
+Evoluções:
+
+Goldeen, requer nível 10
+Seaking, requer nível 25
+
+Descrição: A sua barbatana dorsal e peitoral são fortemente desenvolvidos, como os músculos. Pode nadar a uma velocidade de cinco nós.
+
+Ataques:
+Horn Attack - Ataque de chifre - nível 10
+Poison Sting - tiro venenoso - nível 12
+Water Gun - Arma de agua - nível 15
+Water Pulse - Pulso de Agua - nível 18
+Aqua Tail - Cauda Aquatica - nível 12
+Super Sonic - Super Sonico - nível 20
+
+Habilidade:
+
+Surf

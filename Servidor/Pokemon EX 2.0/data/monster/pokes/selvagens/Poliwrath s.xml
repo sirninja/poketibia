@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwrath" nameDescription="a wild poliwrath" race="water" experience="825" speed="210" manacost="0">
+  <health now="6220" max="6220"/>
+  <look type="104" head="20" body="30" legs="40" feet="50" corpse="6033"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+     <attack name="melee" interval="1700" min="-140" max="-180"/>
+    <attack name="water gun" interval="2800" chance="20" min="-400" max="-440">
+    </attack>
+    <attack name="waterball" range="5" interval="2400" chance="21" min="-300" max="-420">
+    </attack>
+    <attack name="dynamicpch" range="1" interval="2700" chance="20" min="-480" max="-520">
+    </attack>
+    <attack name="mega punch" range="1" interval="2800" chance="17" min="-280" max="-300">
+    </attack>
+    <attack name="mud shot" range="5" interval="2200" chance="17" min="-190" max="-240">
+    </attack>
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="WRATH!"/>
+    <voice sentence="POLIWRATH!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="100" chance="85000"/> -- water gem
+	<item id="8820" countmax="3" chance="35000"/> -- water pendant
+	<item id="8821" countmax="1" chance="1900"/> -- poliwrath doll
+	<item id="2292" countmax="1" chance="1400"/> -- water stone
+	<item id="2315" countmax="1" chance="1500"/> -- fight stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

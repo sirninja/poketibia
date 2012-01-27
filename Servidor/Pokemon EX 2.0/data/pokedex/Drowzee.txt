@@ -1,0 +1,21 @@
+Name: Drowzee
+Type: psychic
+Required level: 25
+
+Evolutions:
+Drowzee, requires level 25
+Hypno, requires level 55
+
+Description: A descendent of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism.
+
+Moves: 
+Headbutt - m1 - level 25 - normal
+Psybeam - m2 - level 25 - psychic
+Confusion - m3 - level 27 - psychic
+Dream Eater - m4 - level 38 - psychic
+Hypnosis - m5 - level 30 - psychic
+Focus - m6 - level 32 - normal
+
+Ability:
+Teleport
+Light

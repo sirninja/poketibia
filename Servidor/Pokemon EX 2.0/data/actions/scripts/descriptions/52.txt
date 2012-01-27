@@ -1,0 +1,21 @@
+Nome: Meowth ( Miau)
+Tipo: normal
+Nível necessário: 12
+
+Evoluções:
+
+Meowth, requer nível 12
+Persian, requer nível 25
+
+Descrição: Tudo o que se faz é dormir durante o dia. À noite, cuida do seu território com seus olhos brilhando.
+
+Ataques:
+
+Slash - Cortar - m1 - 12 - Normal
+Scratch - Arranhar - m2 - 12 - Normal
+Bite - Morder - m3 - 12 - Normal
+Pay Day - Dia de Pagamento - m4 - 18 - Normal 
+Rage - Raiva - m5 - 20 - Normal
+
+Habilidade:
+Corte (Cut)

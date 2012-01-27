@@ -1,0 +1,18 @@
+Name: Koffing
+Type: Veneno
+Required level: 15
+
+Evolutions:
+Koffing, requires level 15
+Weezing, requires level 35
+
+Moves: 
+Mud Shot - m1 - level 15
+Acid - m2 - level 15
+MudBomb - m3 - level 18
+Poison Bomb - m4 - level 20
+Poison Gas - m5 -level 20
+Selfdestruction - m6 - level 25
+
+Ability:
+-/-

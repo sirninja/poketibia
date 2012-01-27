@@ -1,0 +1,21 @@
+Name: Elder Charizard 	
+Type: Fogo
+Required level: 100
+
+Evolutions:
+-/-
+
+Moves: 
+Dragon Claw - m1 - level 100
+Ember - m2 - level 100
+Flamethrower - m3 - level 100
+Fireball - m4 - level 100
+Fire Fang - m5 - level 100
+Raging Blast - m6 - level 100
+Fire Blast - m7 - level 100
+Wing Attack - m8 - level 105
+Magma Storm - m9 - level 110
+Rage - m10 - level 100
+
+Ability:
+Fly, Cut

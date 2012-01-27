@@ -1,0 +1,20 @@
+Name: Lapras
+Type: Água
+Required level: 80
+
+Evolutions:
+-/-
+
+Moves: 
+Horn Attack - m1 - level 80
+Ice Beam - m2 - level 80
+Ice Shards - m3 - level 80
+Water Gun - m4 - level 80
+Waterball - m5 - level 80
+Aurora Beam - m6 - level 80
+Blizzard - m7 - level 88
+Hydropump - m8 - level 90
+Sing - m9 - level 80
+
+Ability:
+Surf

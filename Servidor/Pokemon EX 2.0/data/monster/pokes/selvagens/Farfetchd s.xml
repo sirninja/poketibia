@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Farfetchd" nameDescription="a Farfetch'd" race="undead" experience="665" speed="220" manacost="600">
+  <health now="3200" max="3200"/>
+  <look type="57" head="20" body="30" legs="40" feet="50" corpse="2836"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="peck" interval="1000" chance="50" min="-50" max="-90">
+    </attack>
+    <attack name="wing attack" interval="3500" chance="90" min="-100" max="-130">
+    </attack>
+    <attack name="gust" interval="5000" chance="90" min="-250" max="-450">
+    </attack>
+    <attack name="stickmerang" interval="4500" chance="90" min="-100" max="-250">
+    </attack>
+    <attack name="slash" interval="6000" chance="90" min="-300" max="-600">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="250">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Farfetch'D"/>
+	</voices>
+	<loot>
+	<item id="2694" countmax="19" chance="65000"/> -- straw
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	<item id="8822" countmax="1" chance="15000"/> -- bird beak
+	<item id="2294" countmax="1" chance="1400"/> -- heart stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

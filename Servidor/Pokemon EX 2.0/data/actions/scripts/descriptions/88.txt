@@ -1,0 +1,19 @@
+nome: Grimer
+Tipo: Veneno
+Nivel Necessario: 12
+
+Evoluçoes: Grimer, requer nivel 12
+Muk, requer nivel 30
+
+Descriçao: Nasceu quando a lama podre foi exposta ao raio-x da lua. Aperece em esgotos.
+
+Ataques:
+Mud Shot - Tiro de Lama - m1 - 12
+Acid - Acido - m2 - 12
+Sludge - m3 - 18
+Mud Bomb - Bomba de Lama - m4 - 20
+Poison Bomb - Bomba Venenosa - m5 - 22
+Harden - Endurecer - m6 - 25
+
+Habilidade:
+Nenhuma

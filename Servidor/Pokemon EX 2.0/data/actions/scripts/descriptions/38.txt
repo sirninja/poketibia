@@ -1,0 +1,22 @@
+Name: Ninetales
+Type: fire
+Required level: 65
+
+Evolutions:
+Vulpix, requires level 20
+Ninetales, requires level 65
+
+Description: It has long been said that each of the nine tails embody an enchanted power. A long-lived Ninetales will have fur that shines like gold.
+
+Moves: 
+Quick Attack - m1 - level 65
+Iron Tail - m2 - level 65
+Ember - m3 - level 65
+Flamethrower - m4 - level 65
+Flame Wheel - m5 - level 65
+Fireball - m6 - level 65
+Fire Blast - m7 - level 72
+Magma Storm - m8 - level 80
+
+Ability:
+Ride

@@ -1,0 +1,18 @@
+Name: Exeggcute
+Type: Planta
+Required level: 8
+
+Evolutions:
+Exeggcute, requires level 10
+Exeggutor, requires level 55
+
+Description: Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
+
+Moves: 
+Hypnosis - m1 - level 14
+Leech Seed - m2 - level 10
+Egg Bomb - m3 - level 10
+Confusion - m4 - level 16
+
+Ability:
+-/-

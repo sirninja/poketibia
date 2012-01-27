@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mr. mime" nameDescription="a Mr. mime" race="undead" experience="25" speed="460" manacost="280">
+  <health now="5500" max="5500"/>
+  <look type="246" head="20" body="30" legs="40" feet="50" corpse="6069"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1500" skill="18" attack="12" poison="2"/>
+    <attack name="auranormal" interval="2000" chance="10" min="-1200" max="-1600"> </attack>
+    <attack name="aurapsiquica" interval="2000" chance="10" min="-1200" max="-1600"> </attack>
+  </attacks>
+
+
+  <defenses armor="4" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Bsssssss"/>
+  </voices>
+</monster>

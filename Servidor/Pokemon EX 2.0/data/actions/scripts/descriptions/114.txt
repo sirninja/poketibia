@@ -1,0 +1,20 @@
+Name: Tangela
+Type: Planta
+Required level: 40
+
+Evolutions:
+-/-
+
+
+Moves: 
+Absorb - m1 - level 40
+Leech Seed - m2 - level 40
+Vine Whip - m3 - level 40
+Super Vines - m4 - level 48
+Poison Powder - m5 - level 40
+Sleep Powder - m6 - level 45
+Stun Spore - m7 - level 40
+Mega Drain - passive
+
+Ability:
+Cut

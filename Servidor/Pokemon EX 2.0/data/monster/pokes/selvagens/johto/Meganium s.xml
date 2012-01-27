@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a Meganium" race="undead" experience="2300" speed="570" manacost="330">
+  <health now="7000" max="7000"/>
+  <look type="320" head="20" body="30" legs="40" feet="50" corpse="2877"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="leech seed" interval="4500" chance="93" min="-4000" max="-5750">
+    </attack>
+    <attack name="razor leaf" interval="5000" chance="93" min="-4500" max="-5000">
+    </attack>
+    <attack name="stun spore" interval="3500" chance="92" min="-3000" max="-3900">
+    </attack>
+    <attack name="vine whip" interval="3500" chance="90" min="-8000" max="-9000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+<defenses armor="1" defense="1"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Megaaaaaa!"/>
+    <voice sentence="Niiiiiiiiium!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8851" countmax="5" chance="21000"/> -- leaves
+	<item id="8852" countmax="3" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

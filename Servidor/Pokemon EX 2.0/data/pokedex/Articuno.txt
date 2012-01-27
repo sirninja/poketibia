@@ -1,0 +1,13 @@
+Name: Articuno
+Type: Gelo, Voador
+Required level: 100
+
+Evolutions:
+-/-
+
+
+Moves: 
+-/-
+
+Ability:
+Fly????

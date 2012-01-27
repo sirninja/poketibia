@@ -1,0 +1,20 @@
+Name: Seel
+Type: Gelo
+Required level: 20
+
+Evolutions:
+Seel, requires level 25
+Dewgong, requires level 70
+
+Description: A Pokemon that lives on icebergs. It swims in the sea using the point on its head to break up ice.
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Aqua Tail - m2 - level 20 - water
+Ice Shards - m3 - level 22 - ice
+Ice Beam - m4 - level 26 - ice
+Icy Wind - m5 - level 28 - ice
+Aurora Beam - m6 - level 40 - ice
+
+Habilities:
+None

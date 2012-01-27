@@ -1,0 +1,20 @@
+Name: Grimer
+Type: poison
+Required level: 15
+
+Evolutions:
+Grimer, requires level 15
+Muk, requires level 35
+
+Description: It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.
+
+Moves: 
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Sludge - m3 - level 17 - poison
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 22 - poison
+Harden - m6 - level 22 - normal
+
+Ability:
+None

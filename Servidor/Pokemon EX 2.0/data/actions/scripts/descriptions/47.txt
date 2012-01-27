@@ -1,0 +1,27 @@
+Name: parasect
+Tipo: Inseto
+Nível necessário: 50
+
+Evoluçoes:
+
+Paras, requer 1
+Parasect, requer 50
+
+Descriçao: Cogumelos crescem em suas costas, chamados de Tochukaso. Os cogumelos crescem junto com ele.
+
+Ataques:
+
+absord lvl 50 
+scratch lvl 50
+poison sting lvl 50 
+alash 50
+poison bomb lvl 50
+sturn spore lvl 50
+poison powder lvl 50
+sleep powder lvl 50 
+fury cutter lvl 56 x- scissor lvl 58
+mega drain passive
+
+Capacidade:
+
+Corte (Cut)

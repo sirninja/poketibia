@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vileplume" nameDescription="a vileplume" race="grass" experience="9847" speed="175" manacost="0">
+  <health now="3300" max="3300"/>
+  <look type="86" head="20" body="30" legs="40" feet="50" corpse="6025"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-80" max="-150"/>
+    <attack name="auraplanta" interval="2000" chance="8" min="-1200" max="-1600"> </attack>
+    <attack name="auraveneno" interval="2000" chance="8" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="VILEPLUME!"/>
+    <voice sentence="PLUME!"/>
+  </voices>
+</monster>

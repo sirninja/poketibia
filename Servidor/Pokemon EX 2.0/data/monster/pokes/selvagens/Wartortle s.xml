@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wartortle" nameDescription="a Wartortle" race="undead" experience="700" speed="280" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="6" head="0" body="0" legs="0" feet="0" corpse="5978"/>
+
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+  <attacks>
+
+    <attack name="melee" interval="1900" range="1" min="-35" max="-50"/>
+    <attack name="headbutt" interval="2000" chance="25" min="-90" max="-105" > </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-45" max="-55">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-125" max="-130">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-120" max="-140">
+    </attack>
+    <attack name="aqua tail" range="5" interval="3000" chance="15" min="-150" max="-180">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-170" max="-200" > </attack>
+    <attack name="harden" interval="4000" range="10" chance="21" min="-156" max="-172" > </attack>
+
+  </attacks>
+
+  <defenses armor="8" defense="10">
+
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+	<voices interval="2000" chance="10">
+		<voice sentence="Wartortle!"/>
+		<voice sentence="Waar!"/>
+	</voices>
+	<loot>
+	      <item id="2292" countmax="1" chance="1300"/><!-- Water Stone -->
+	      <item id="6528" countmin="40" countmax="19" chance="85000"/> -- water gem
+	      <item id="6126" chance="5000"/><!-- Squirtle hull -->
+	</loot>
+</monster>

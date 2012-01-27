@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Oak" floorchange="0" walkinterval="0" script="oracle.lua">
+<health now="150" max="150"/>
+<look type="177" head="17" body="54" legs="114" feet="0" addons="2"/>
+</npc>

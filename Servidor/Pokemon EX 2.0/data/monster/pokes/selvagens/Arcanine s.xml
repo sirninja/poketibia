@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arcanine" nameDescription="a Arcanine" race="undead" experience="950" speed="276" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="88" head="20" body="30" legs="40" feet="50" corpse="6031"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>    
+     <attack name="melee" interval="1200" range="1" min="-165" max="-180"/>
+    <attack name="fire wave" interval="2000" chance="50" min="-100" max="-300"></attack>
+    <attack name="divine caldera" interval="5000" chance="30" min="-10" max="-700">    </attack>
+    <attack name="char" interval="3000" chance="30" min="-0" max="-280">    </attack>
+    <attack name="quick attack" interval="2000" chance="25" min="-150" max="-250" > </attack>
+    <attack name="ember" interval="2000" chance="40" min="-180" max="-250" > </attack>
+   <attack name="scratch" interval="2400" chance="27" range="1" target="1" min="-170" max="-295">    </attack>
+   <attack name="bite" interval="2100" chance="26" range="1" target="1" min="-150" max="-290">    </attack>
+    <attack name="fire fang" interval="2300" chance="25" min="-345" max="-455">    </attack>
+    <attack name="fire blast" interval="3100" chance="20">    </attack>
+    <attack name="trifire" interval="2500" chance="27" range="1" min="-340" max="-490">    </attack>
+
+
+  </attacks>
+
+
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+  </voices>
+  <loot>
+	<item id="8866" countmax="80" chance="50000"/><!-- Essence of fire -->
+	<item id="8867" countmax="2" chance="30000"/><!-- Pot of lava --> 
+	<item id="8868" countmax="2" chance="10000"/><!-- Nail -->
+	<item id="2283" countmax="1" chance="2500"/><!-- Fire stone -->
+	<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+		
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a wild Meganium" race="grass" experience="2300" speed="200" manacost="490">
+  <health now="7000" max="7000"/>
+  <look type="320" head="0" body="0" legs="0" feet="0" corpse="5962"/>
+        <targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+ <attacks>
+
+    <attack name="melee" interval="1700" min="-105" max="-145"/>
+    <attack name="razor leaf" interval="2300" chance="22" min="-75" max="-100">
+    </attack>
+    <attack name="vine whip" interval="2700" chance="30" min="-280" max="-360">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="25" min="-140" max="-160">
+    </attack>
+    <attack name="acid" interval="2400" range="6" chance="25" min="-180" max="-210">
+    </attack>
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-490" max="-500">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-350" max="-480">
+    </attack>
+    <attack name="leech seed 2" range="3" interval="4000" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="solar beam" range="3" interval="4500" chance="20" min="-800" max="-1200">
+    </attack>
+
+
+
+  </attacks>
+<defenses armor="1" defense="1"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Saur!"/>
+    <voice sentence="VENUSAUR!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8851" countmax="5" chance="21000"/> -- leaves
+	<item id="8852" countmax="3" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

@@ -1,0 +1,21 @@
+Nome: Geodude
+Tipo: Pedra
+Nível necessário: 12
+
+Evoluções:
+Geodude, requer nível 12
+Graveler, requer level 40
+Golem, requer nível 65
+
+Descrição: Sobe monstanhas utilizando apenas suas maos. Por serem parecidos com pedras podem se esconder no caminho, treinadores podem pisar neles sem perceber.
+
+Ataques:
+Rock Throw - Jogar Pedra - m1 - nível 12
+Rock Slide - Deslizamento de Terra - m2 - nível 15
+Mega Punch - Mega Soco - m3 - nível 20
+Earthshock - Terremoto - M4 - nível 24
+Harden - Endurecer - m5 - nível 20
+
+Habilidade:
+Escavar (Dig)
+Quebrar Pedra (Rock Smash)

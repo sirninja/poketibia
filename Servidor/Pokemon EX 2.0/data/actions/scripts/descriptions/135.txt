@@ -1,0 +1,21 @@
+Name: Jolteon
+Type: Elétrico
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Jolteon, requires level 60
+
+Moves: 
+Quick Attack - m1 - level 55
+Bite - m2 - level 55
+Thunder Bolt - m3 - level 55
+Thunder Fang - m4 - level 55
+Thunder Wave - m5 -level 55
+Pin Missile - m6 - level 55
+Zap Cannon - m7 - level 60
+Thunder- m8 - level 65
+
+
+Ability:
+Dig, Light

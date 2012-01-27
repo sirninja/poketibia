@@ -1,0 +1,16 @@
+Nome: Weedle
+Tipo: Inseto
+Level Requerido: 1
+
+Moves:
+Horn Attack - m1 - level 1
+String Shot - m2 - level 1
+Poison Sting - m3 - level 1
+
+Evoluções:
+Weedle, requer level 1
+Kakuna, requer level 10
+Beedrill, requer level 30
+
+Habilidade:
+Nenhuma

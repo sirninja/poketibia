@@ -1,0 +1,22 @@
+Name: Squirtle
+Type: water
+Required level: 20
+
+Evolutions:
+Squirtle, requires level 20
+Wartortle, requires level 40
+Blastoise, requires level 85
+
+Description: It shelters itself in its shell, then strikes back with spouts of water at every opportunity.
+
+Moves: 
+Headbutt - m1 - level 20 - normal
+Bubbles - m2 - level 20 - water
+Water Gun - m3 - level 20 - water
+Waterball - m4 - level 24 - water
+Aqua Tail - m5 - level 22 - water
+Hydro Cannon - m6 - level 40 - water
+Harden - m7 - level 30 - normal
+
+Ability:
+Surf

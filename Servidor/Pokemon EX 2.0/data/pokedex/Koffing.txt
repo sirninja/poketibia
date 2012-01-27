@@ -1,0 +1,21 @@
+Name: Koffing
+Type: poison
+Required level: 15
+
+Evolutions:
+Koffing, requires level 15
+Weezing, requires level 35
+
+Description: Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.
+
+Moves: 
+Mud Shot - m1 - level 15 - earth
+Acid - m2 - level 15 - poison
+Headbutt - m3 - level 15 - normal
+Mud Bomb - m4 - level 18 - earth
+Poison Bomb - m5 - level 20 - poison
+Poison Gas - m6 - level 20 - poison
+Selfdestruction - m7 - level 25 - normal
+
+Ability:
+None

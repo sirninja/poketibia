@@ -1,0 +1,24 @@
+Name: Golem
+Type: stone
+Required level: 70
+
+Evolutions:
+Geodude, requires level 15
+Graveler, requires level 40
+Golem, requires level 70
+
+Description: It is said to live in volcanic craters on mountain peaks. Once a year, it sheds its hide and grows larger. The shed hide crumbles and returns to the soil.
+
+Moves: 
+Rock Throw - m1 - level 70 - stone
+Rock Slide - m2 - level 70 - stone
+Mega Punch - m3 - level 70 - fighting
+Earthshock - m4 - level 70 - earth
+Falling Rocks - m5 - level 75 - stone
+Harden - m6 - level 70 - normal
+Rollout - m7 - level 70 - stone
+Selfdestruction - m8 - level 75 - normal
+
+Ability:
+Dig
+Rock smash

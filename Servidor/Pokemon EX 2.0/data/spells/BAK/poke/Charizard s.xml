@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charizard" nameDescription="a wild charizard" race="fire" experience="11991" speed="220" manacost="590">
+  <health now="11500" max="11500"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-165" max="-180"/>
+    <attack name="scratch" interval="2500" chance="25" min="-235" max="-245">
+    </attack>
+    <attack name="ember" interval="2000" chance="20" min="-345" max="-355">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-365" max="-375">
+    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-345" max="-355">
+    </attack>
+    <attack name="wing attack" interval="2700" chance="18" min="-345" max="-355">
+    </attack>
+    <attack name="flamethrower" interval="4000" chance="20">
+    </attack>
+    <attack name="raging blast" interval="3800" chance="20">
+    </attack>
+    <attack name="fire blast" interval="3100" chance="20">
+    </attack>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="62" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="2" chance="42000"/> -- pot of lava
+	<item id="2283" countmax="1" chance="2200"/> -- fire stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

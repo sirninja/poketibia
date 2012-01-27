@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="ADVANCED AUCTION HOUSE" version="1.0" author="josejunior23" contact="x1zy@hotmail.com" enabled="yes">
+	<talkaction words="!auction-sell;!auction-buy;!auction-list;!auction-info;!auction-del;!auction-cmd;!auction;!auction-find;!auction-clean;!auction-withdraw;!auction-balance" case-sensitive="yes" event="script" value="AAH.lua"/>
+	<globalevent name="aution_check" time="00:01" event="script" value="AAH.lua"/>
+</mod>

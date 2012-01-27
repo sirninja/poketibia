@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Soya" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="91" body="114" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Ola amigo, eu vendo todo o tipo de frutas totalmente organicas, tambem compro sementes de arvores e pago bem!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="coconut,2678,300;cherry,2679,50;strawberry,2680,200;pear,2673,200;Red apple,2674,100;Orange,2675,150;"/>
+			<parameter key="shop_sellable" value="Three seed,7732,300;"/>
+	</parameters>
+</npc>

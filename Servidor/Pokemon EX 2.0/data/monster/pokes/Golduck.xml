@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golduck" nameDescription="a Golduck" race="UNDEAD" experience="1050" speed="265" manacost="0">
+  <health now="4500" max="4500"/>
+  <look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-30" max="-100"/>
+    <attack name="auraagua" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <defenses armor="20" defense="20">
+    <defense name="cofusion stun" interval="5000" chance="40" min="-100" max="-200">
+    </defense>
+  </defenses>
+  <elements>
+  <element energyPercent="80"/>
+  <element holyPercent="-20"/>
+  </elements>
+  <immunities>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Doomed be the living!"/>
+    <voice sentence="You will endure agony beyond thy death!"/>
+    <voice sentence="Death awaits all!"/>
+    <voice sentence="Thy living flesh offends me!"/>
+    <voice sentence="Death and Decay!"/>
+  </voices>
+</monster>

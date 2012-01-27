@@ -1,0 +1,15 @@
+Name: Magikarp
+Type: water
+Required level: 5
+
+Evolutions:
+Magikarp, requires level 5
+Gyarados, requires level 85
+
+Description: It is said to be the world's weakest Pokemon. No one knows why it has managed to survive.
+
+Moves: 
+Splash - m1 - level 5 - water
+
+Ability:
+None

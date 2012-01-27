@@ -1,0 +1,30 @@
+ -- POR MASTERCRAFT (otserv.com.br) / BRUN123 (xtibia.com) --
+
+Para um pokemon tornar-se passivo, você deve adicionar a seguinte tag no final do arquivo XML do monstro
+(antes de </monster>) as seguintes tags:
+
+        <script>
+        <event name="BlockSpells"/>
+	<event name="BlockHit"/>
+	<event name="Configuration"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+
+LEMBRANDO: Deve-se colocar a velocidade (speed) do monstro = 0, senão não funcionará.
+
+Agora vai em data/lib/speed.lua, aqui você deve colocar a velocidade que o monstro vai ter ao ser atacado
+por algum player. Se não for adicionado aqui, o monstro ficará com a velocidade 145.
+
+
+
+OBS: EM MONSTROS AGRESSIVOS, DEVE-SE COLOCAR A TAG:
+
+	<script>
+	<event name="Exp"/>
+        </script>
+
+ISSO É PARA O FUNCIONAMENTO GERAL DO MONSTRO. ESSA TAG DEVE ESTAR EM CADA MONSTRO SELVAGEM SENDO AGRESSIVO OU NÃO.
+
+LEMBRANDO QUE POKEMONS SELVAGEM TEM UM "S" NA FRENTE DO NOME. EXEMPLO: "Bellsprout s".
+OS POKEMONS DE PLAYERS NÃO TEM ESSE "S" NA FRENTE E NÃO É NECESSÁRIO ADICIONAR NENHUM TIPOE DE SCRIPT NELE.

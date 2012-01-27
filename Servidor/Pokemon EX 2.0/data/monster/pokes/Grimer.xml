@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grimer" namedescription="a grimer" race="poison" experience="250" speed="155" manacost="0">
+  <health now="600" max="600"/>
+  <look type="214" head="20" body="30" legs="40" feet="50" corpse="6055"/>
+	<targetchange interval="50000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-65" max="-95"/>
+    <attack name="auraveneno" interval="2000" chance="5" min="-100" max="-400"> </attack>
+  </attacks>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRIMER!"/>
+    <voice sentence="GRII!"/>
+    <voice sentence="MER!"/>
+  </voices>
+
+</monster>

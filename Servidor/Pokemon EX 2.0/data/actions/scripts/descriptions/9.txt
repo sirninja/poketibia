@@ -1,0 +1,23 @@
+Nome: Blastoise
+Tipo: Água
+Level Requerido: 80
+
+Moves:
+Headbutt - m1- level 85
+Bubbles- m2 - level 85
+Water Gun - m3 - level 85
+Waterball - m4 - level 85
+Aqua Tail - m5 - level 85
+Bubble Blast - m6 - level 85
+Hydro Cannon - m7 - level 85
+Skull Bash - 8 - level 85
+Hydropump - m9 - level 90
+Harden - m10 - level 95
+
+Evoluções:
+Squirtle, requer level 20
+Wartortle, requer level 40
+Blastoise, requer level 80
+
+Habilidade:
+Surfar

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Caterpie" nameDescription="a Caterpie" race="undead" experience="17" speed="25" manacost="220">
+  <health now="200" max="200"/>
+  <look type="32" head="20" body="30" legs="40" feet="50" corpse="5971"/>
+
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="8"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="5" attack="9"/>
+  </attacks>
+  <defenses armor="1" defense="20"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Pieeeeee"/>
+  </voices>
+	<loot>
+		<item id="2148" countmax="10" chance="1000000"/><!-- Pot of moss bug -->
+	</loot>
+</monster>

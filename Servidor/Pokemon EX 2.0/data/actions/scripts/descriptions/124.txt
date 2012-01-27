@@ -1,0 +1,19 @@
+Name: Jynx
+Type: Gelo
+Required level: 75
+
+Evolutions:
+-/-
+
+Moves: 
+Lovely Kiss - m1 - level 75
+Doubleslap - m2 - level 75
+Ice Punch - m3 - level 75
+Ice Beam - m4 - level 75
+Icy Wind - m5 -level 75
+Aurora Beam - m6 - level 79
+Blizzard - m7 - level 81
+Great Love - m8 - level 83
+
+Ability:
+-/-

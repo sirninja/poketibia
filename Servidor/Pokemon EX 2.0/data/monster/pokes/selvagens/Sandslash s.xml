@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="a wild sandslash" race="ground" experience="750" speed="195" manacost="0">
+  <health now="5200" max="5200"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-99" max="-121"/>
+    <attack name="rollout" interval="5700" chance="29" min="-100" max="-157">
+    </attack>
+    <attack name="shockwave" interval="2700" chance="17" min="-290" max="-300">
+    </attack>
+    <attack name="slash" interval="1800" chance="23" min="-240" max="-250">
+    </attack>
+    <attack name="mud shot" interval="2400" chance="20" min="-98" max="-216">
+    </attack>
+    <attack name="earthshock" interval="2400" chance="60" min="-278" max="-311">
+    </attack>
+    <attack name="mud bomb" interval="2400" chance="20" min="-148" max="-156">
+    </attack>
+    <attack name="sand attack" interval="2500" chance="25" min="-148" max="-156">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="4" chance="65000"/> -- sandbag
+	<item id="1294" countmax="100" chance="62000"/> -- small stone
+	<item id="2307" countmax="1" chance="1400"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

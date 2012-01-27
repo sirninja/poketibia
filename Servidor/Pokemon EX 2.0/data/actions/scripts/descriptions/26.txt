@@ -1,0 +1,23 @@
+Raichu
+Nome: Raichu
+Tipo: elétrico
+Nível necessário: 45
+
+Evoluções:
+Pikachu, requer nível 20
+Raichu, requer nível 45
+
+Descrição: Se ele armazena eletricidade, seu comportamento fica agressivo. Para evitar isso, ele da alguns choques e se acalma.
+
+Ataques:
+Quick Attack - Ataque rapido - m1 - nível 45
+Mega Kick - Mega Chute - m2 - nível 45
+Thunder Shock - Choque do Trovao - m3 - nível 45
+Thunder Bolt - Raio do Trovao - M4 - nível 45
+Thunder Wave - Onda do Tovao - m5 - nível 45
+Thunder Punch - Soco do Trovao - m6 - nível 45
+Thunder - Trovao - M7 - nível 55
+Electric Storm - Tempestade Eletrica - m8 - nivel 60
+
+Habilidade:
+Luz (Light)

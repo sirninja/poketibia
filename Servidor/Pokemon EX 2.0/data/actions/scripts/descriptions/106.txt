@@ -1,0 +1,18 @@
+Name: Hitmonlee
+Type: Lutador
+Required level: 60
+
+Evolutions:
+-/-
+
+
+Moves: 
+Triple Kick Lee - m1 - level 60
+Mega Kick - m2 - level 60
+Multi-Kick - m3 - level 65
+Furious Legs - m4 - level 60
+Demon Kicker - passive
+Evasion - Passive
+
+Ability:
+Rock smash

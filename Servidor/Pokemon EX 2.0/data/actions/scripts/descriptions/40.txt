@@ -1,0 +1,23 @@
+Nome: Wigglytuff
+Tipo: normal
+Nível necessário: 42
+
+Evoluções:
+Jigglypuff, requer nível 10
+Wigglytuff, requer nível 42
+
+Descrição: Sua pele é a ultima palavra em luxo. Dormir ao lado de um Wigglytuff é simplesmente divino. Seu corpo se expande, aparentemente sem fim, quando ele respira.
+
+Ataques:
+Doubleslap - Tapa Duplo - m1 - nível 42
+Lovely Kiss - Beijo Amoroso - m2 nível - 42
+Sing - Cantar - m3 - nível 42
+Hyper Voice - Super Voz - M4 - nível 57
+Selfheal - Auto-Curar - m5 - Nível 52
+Healarea - Curar area - m6 - nível 52
+Focus - Foco - M7 - nível 57
+Metronome - Metronomo - M8 - nível 50
+Melody - Melodia - passiva
+
+Habilidade:
+Nenhum

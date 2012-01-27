@@ -1,0 +1,15 @@
+html, body { margin:0; padding:0; color: #5A2800;}
+body { font: 11px/16px "Lucida Grande", Verdana, sans-serif; color: #5A2800;}
+
+h1 { font-size: 14px; color: #5A2800;}
+h2 { font-size: 13px; color: #5A2800;}
+
+div#container {
+  color: #5A2800;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+div.button { margin-top: 5px; text-align: center; }

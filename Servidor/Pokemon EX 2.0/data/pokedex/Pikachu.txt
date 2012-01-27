@@ -1,0 +1,22 @@
+Name: Pikachu
+Type: electric
+Required level: 20
+
+Evolutions:
+Pikachu, requires level 20
+Raichu, requires level 50
+
+Description: It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Thunder Shock - m2 - level 20 - electric
+Thunder Bolt - m3 - level 22 - electric
+Thunder Wave - m4 - level 24 - electric
+Iron Tail - m5 - level 26 - normal
+Thunder - m6 - level 40 - electric
+Agility - m7 - level 30 - flying
+Electric Charge - passive  - electric
+
+Ability:
+Light

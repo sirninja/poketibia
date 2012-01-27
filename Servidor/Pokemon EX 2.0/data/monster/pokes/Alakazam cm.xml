@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Alakazam" nameDescription="a alakazam" race="psychic" experience="8642" speed="0" manacost="490">
+  <health now="4000" max="4000"/>
+  <look type="257" head="20" body="30" legs="40" feet="50" corpse="0"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="0"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+</monster>

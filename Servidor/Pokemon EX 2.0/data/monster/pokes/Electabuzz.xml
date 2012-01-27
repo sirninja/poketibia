@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electabuzz" nameDescription="a Electabuzz" race="undead" experience="2300" speed="200" manacost="340">
+	<health now="7500" max="7500"/>
+	<look type="281" head="0" body="0" legs="0" feet="0" corpse="6065"/>
+	<targetchange interval="5" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="20"/>
+	</flags>
+	<attacks>
+		  <attack name="melee" interval="2000" skill="25" attack="15"/>
+           <attack name="auraeletrica" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+	</attacks>
+	
+	<defenses armor="8" defense="8"/>
+	
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Meee maity!"/>
+		<voice sentence="Grrrr"/>
+		<voice sentence="Whaaaz up!?"/>
+		<voice sentence="Gruntz!"/>
+	</voices>
+</monster>

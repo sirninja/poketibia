@@ -1,0 +1,21 @@
+Name: Electrode
+Type: electric
+Required level: 35
+
+Evolutions:
+Voltorb, requires level 10
+Electrode, requires level 35
+
+Description: It is known to drift on winds if it is bloated to bursting with stored electricity.
+
+Moves: 
+Thunder Shock - m1 - level 35 - electric
+Spark - m2 - level 35 - electric
+Thunder Wave - m3 - level 35 - electric
+Rollout - m4 - level 35 - stone
+Charge Beam - m5 - level 40 - electric
+Electric Storm - m6 - level 45 - electric
+Selfdestruction - m7 - level 35 - normal
+
+Ability:
+Light

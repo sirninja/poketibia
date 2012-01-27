@@ -1,0 +1,19 @@
+Name: Raticate
+Type: normal
+Required level: 25
+
+Evolutions:
+Rattata, requires level 1
+Raticate, requires level 25
+
+Description: It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.
+
+Moves: 
+Quick Attack - m1 - level 25 - normal
+Bite - m2 - level 25 - normal
+Scratch - m3 - level 25 - normal
+Super Fang - m4 - level 25 - normal
+Fury - passive  - dragon
+
+Ability:
+Dig

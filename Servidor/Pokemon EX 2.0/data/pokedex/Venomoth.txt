@@ -1,0 +1,23 @@
+Name: Venomoth
+Type: poison
+Required level: 50
+
+Evolutions:
+Venonat, requires level 20
+Venomoth, requires level 50
+
+Description: The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.
+
+Moves: 
+Absorb - m1 - level 50 - grass
+Bug Bite - m2 - level 50 - bug
+Super Sonic - m3 - level 50 - normal
+Confusion - m4 - level 56 - psychic
+Psychic - m5 - level 50 - psychic
+Poison Fang - m6 - level 50 - poison
+Sleep Powder - m7 - level 50 - grass
+Poison Powder - m8 - level 50 - poison
+Stun Spore - m9 - level 50 - grass
+
+Ability:
+None

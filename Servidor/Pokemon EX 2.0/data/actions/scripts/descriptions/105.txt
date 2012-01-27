@@ -1,0 +1,23 @@
+Name: Marowak
+Type: earth
+Required level: 45
+
+Evolutions:
+Cubone, requires level 18
+Marowak, requires level 45
+
+Description: MarowaK is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokemon's tempered and hardened spirit is not easily broken.
+
+Moves: 
+Headbutt - m1 - level 45
+Bonemerang - m2 - level 45
+Bone Club - m3 - level 45
+Bone Slash - m4 - level 45
+Mud Shot - m5 - level 45
+Earthshock - m6 - level 49
+Shockwave - m7 - level 51
+Rage - m8 - level 60
+
+Ability:
+Rock smash
+Cut

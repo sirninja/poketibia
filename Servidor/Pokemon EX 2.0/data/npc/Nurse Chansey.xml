@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nurse Chansey" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="150" head="91" body="102" legs="83" feet="0"/>
+	<parameters>
+			<parameter key="talkradius" value="0"/>
+	</parameters>
+</npc>

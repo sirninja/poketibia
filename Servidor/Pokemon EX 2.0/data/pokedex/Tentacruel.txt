@@ -1,0 +1,25 @@
+Name: Tentacruel
+Type: water
+Required level: 75
+
+Evolutions:
+Tentacool, requires level 15
+Tentacruel, requires level 75
+
+Description: It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated.
+
+Moves: 
+Super Sonic - m1 - level 75 - normal
+Mud Shot - m2 - level 75 - earth
+Bubbles - m3 - level 75 - water
+Waterball - m4 - level 75 - water
+Acid - m5 - level 75 - poison
+Poison Sting - m6 - level 75 - poison
+Poison Bomb - m7 - level 75 - poison
+Psywave - m8 - level 80 - psychic
+Psy Pulse - m9 - level 83 - psychic
+Hydropump - m10 - level 80 - water
+
+Ability:
+Surf
+Control minds

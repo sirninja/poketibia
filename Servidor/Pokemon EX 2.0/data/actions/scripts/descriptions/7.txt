@@ -1,0 +1,20 @@
+Nome: Squirtle
+Tipo: Água
+Level Requerido: 20
+
+Moves:
+Headbutt - m1 - level 20
+Bubbles - m2 - level 20
+Water Gun - m3 - level 20
+Waterball - m4 - level 24
+Aqua Tail - m5 - level 22
+Hydro Cannon - m6 - level 40
+Harden - m7 - level 30
+
+Evoluções:
+Squirtle, requer level 20
+Wartortle, requer level 40
+Blastoise, requer level 80
+
+Habilidade:
+Surfar

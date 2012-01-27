@@ -1,0 +1,16 @@
+Name: Tauros
+Type: Normal
+Required level: 45
+
+Evolutions:
+-/-
+
+Moves: 
+Quick Attack - m2 - level 45
+Horn Attack - m3 - level 45
+Hyper Beam - m4 - level 50
+Thrash - m5 - level 52
+Rage - m6 - level 45
+
+Ability:
+Ride, Rock Smash.

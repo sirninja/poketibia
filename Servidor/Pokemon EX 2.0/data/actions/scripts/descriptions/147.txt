@@ -1,0 +1,22 @@
+Nome: Dratini
+Tipo: dragão
+Nível necessário: 10
+
+Evoluções:
+Dratini, requer nível 10
+Dragonair, requer nível 70
+Dragonite, exige nível 100
+
+Descrição: É um poquemom raro, porque poucos o viram. Sua pele é azul cor da 
+
+agua onde vive
+
+Move-se:
+Aqua Tail - Cauda de Agua
+Thunder Wave - Onda do Trovao
+Hyper Beam - Super Raio
+Dragon Breath - Respiraçao de Dragao
+Dragon Fury - Furia do Dragao
+
+Habilidade:
+Nenhum

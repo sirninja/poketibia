@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Delibird" namedescription="a Delibird" race="undead" experience="500" speed="400" manacost="250">
+  <health now="1500" max="1500"/>
+  <look type="399" head="20" body="30" legs="40" feet="50" corpse="2905"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="3"/>
+  </flags>
+    <attacks>
+    <attack name="gust" interval="2000" chance="90" min="-1000" max="-1400">
+    </attack>
+    <attack name="supersonic" interval="3500" chance="80" min="-3280" max="-4160">
+    </attack>
+    <attack name="bite" interval="3000" chance="90" min="-6310" max="-7550">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="4000" chance="100" min="500" max="1000">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-100"/>
+		<element icePercent="50"/>
+		<element rockPercent="-100"/>
+		<element electricPercent="-100"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Gliii"/>
+    <voice sentence="gar"/>
+	</voices>
+	<loot>
+		<item id="5881" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="200"/><!-- Stone -->
+	</loot>
+</monster>

@@ -1,0 +1,20 @@
+Nome: Voltorb
+Tipo: Eletrico
+Nivel necessário: 10
+
+Evolucoes:
+
+Voltorb, requer nível 10
+Electrode, requer nivel 40
+
+Descriçao: Se parece com uma pokebola. Ele é perigoso porque pode eletrocutar ou explodir, ao toca-lo.
+
+Ataques:
+Thunder Shock - Choque do Trovao - m1 - 10
+Spark - Faiscas - m2 - 12
+Thunder Wave - Onda do Trovao - m3 - 14
+Rollout - Rolar para fora - m4 - 16
+Selfdestruct - Auto destruir - m5 - 20
+
+Habilidade:
+Luz (Light)

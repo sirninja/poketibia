@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golbat" namedescription="a wild golbat" race="poison" experience="600" speed="188" manacost="250">
+  <health now="2900" max="2900"/>
+  <look type="122" head="20" body="30" legs="40" feet="50" corpse="6053"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1750" min="-81" max="-102"/>
+    <attack name="bite" interval="2000" chance="22" range="1" target="1" min="-77" max="-100">
+    </attack>
+    <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-65" max="-80">
+    </attack>
+    <attack name="toxic" interval="2700" chance="17" range="10" target="1" min="-90" max="-99">
+    </attack>
+    <attack name="whirlwind" interval="3300" chance="15" range="10" target="1" min="-110" max="-125">
+    </attack>
+    <attack name="poisonous wing" interval="2800" chance="12" range="1" target="1" min="-140" max="-150">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="35" range="5" target="1">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLBAT!"/>
+    <voice sentence="BAAT!"/>
+  </voices>
+	<loot>
+	<item id="8855" countmax="1" chance="29000"/> -- bat wing
+	<item id="8856" countmax="44" chance="79000"/> -- bottle of poison
+	<item id="2297" countmax="1" chance="1700"/> -- venom stone
+	</loot>
+	<script>
+	<event name="Exp"/>
+        </script>
+</monster>

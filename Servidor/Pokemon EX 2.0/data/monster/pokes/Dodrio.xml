@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dodrio" nameDescription="a dodrio" race="flying" experience="900" speed="245" manacost="0">
+  <health now="2650" max="2650"/>
+  <look type="120" head="20" body="30" legs="40" feet="50" corpse="6047"/>
+	<targetchange interval="4000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="1600" range="1" min="-87" max="-112"/>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="auranormal" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+  </attacks>
+
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="DODRIO!"/>
+<voice sentence="DRIO!"/>
+  </voices>
+    <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+
+	<loot>
+		<item id="2148" countmax="74" chance="10000"/><!-- Apple bite -->
+		<item id="2111" countmax="3" chance="50000"/><!-- Essence of fire -->
+		<item id="2671" countmax="9" chance="10000"/><!-- Essence of fire -->
+	</loot>
+
+</monster>

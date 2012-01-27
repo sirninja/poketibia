@@ -1,0 +1,24 @@
+Nome: Golem
+Tipo: Pedra
+Nivel Necessário: 65
+
+Evoluçoes:
+Geodude, requer nivel 12
+Graveler, requer nivel 40
+Golem, requer nivel 65
+
+Descriçao: Dizem que mora em vulcoes ou em montanhas. Cada ano, eles se escondem e crecem mais. Eles saem do escoderijo, e voltam para o solo.
+
+Ataques:
+Rock Trow - Jogar Pedra - m1 - 65
+Rock Slide - Mover Pedra - m2 - 65
+Mega Punch - Mega Soco - m3 - 65
+Earthshock - Terremoto - m4 - 65
+Falling Rocks - Pedras descendo - m5 - 70
+Harden - Endurecer - m6 - 65
+Rollout - Sair Fora - m7 - 65
+Selfdestruction - Auto Destruiçao - m8 - 70
+
+Habilidade:
+Cavar (Dig)
+Quebrar Pedra (Rock Smash)

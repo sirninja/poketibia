@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Hitmonchan" nameDescription="a Elite Hitmonchan" race="undead" experience="900" speed="340" manacost="0">
+	
+<health now="17500" max="10500"/>
+	
+<look type="486" corpse="5977"/>
+	
+	<targetchange interval="5" chance="1000"/>
+	
+<strategy attack="100" defense="0"/>
+	
+<flags>
+		
+<flag summonable="1"/>
+		
+<flag attackable="1"/>
+		
+<flag hostile="1"/>
+		
+<flag illusionable="1"/>
+		
+<flag convinceable="1"/>
+		
+<flag pushable="0"/>
+		
+<flag canpushitems="1"/>
+		
+<flag canpushcreatures="1"/>
+		
+<flag targetdistance="1"/>
+		
+<flag staticattack="90"/>
+		
+<flag runonhealth="0"/>
+	
+</flags>
+	
+<attacks>
+	
+<attack name="melee" interval="2000" min="-240" max="-400"/>
+<attack name="auralutador" interval="2000" chance="15" min="-2200" max="-2600"> </attack>
+		
+</attacks>
+
+
+<defenses armor="20" defense="20">		
+<defense name="speed" interval="1000" chance="6" speedchange="310" duration="20000">			
+<attribute key="areaEffect" value="redshimmer"/>		
+</defense>
+	
+</defenses>
+	
+<elements>
+		
+<element earthPercent="100"/>
+		
+<element energyPercent="20"/>
+		
+<element icePercent="20"/>
+		
+<element firePercent="-10"/>
+	
+</elements>
+	
+<immunities>
+		
+<immunity lifedrain="0"/>
+		
+<immunity paralyze="0"/>
+		
+<immunity outfit="1"/>
+		
+<immunity drunk="1"/>
+		
+<immunity invisible="1"/>
+	
+</immunities>
+	
+	
+</monster>

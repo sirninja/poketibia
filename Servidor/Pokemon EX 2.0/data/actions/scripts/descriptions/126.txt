@@ -1,0 +1,20 @@
+Name: Magmar
+Type: Fogo
+Required level: 80
+
+Evolutions:
+-/-
+
+
+Moves: 
+Scratch - m1 - level 80
+Fire Punch - m2 - level 80
+Ember - m3 - level 80
+Flamethrower - m4 - level 80
+Fireball - m5 -level 80
+Fire Blast - m6 - level 80
+Magma Storm - m7 - level 85
+LavaCounter - passive
+
+Ability:
+Rock smash

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Saffari	" script="data/npc/scripts/Safariin.lua" access="3" lookdir="2" autowalk="25">
+<health now="150" max="150"/>
+<look type="171" head="115" body="114" legs="0" feet="114" corpse="2212"/>
+<parameters>
+<parameter key="module_travel" value="1"/>
+<parameter key="message_greet" value="Hi |PLAYERNAME|. Bem Vindo a Saffari Zone Para Entrar Diga Saffari."/>
+<parameter key="Saffari_destinations" value="Saffari,1185,1300,7,100000"/>
+</parameters>
+</npc>

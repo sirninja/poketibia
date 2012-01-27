@@ -1,0 +1,19 @@
+Name: Horsea
+Type: water
+Required level: 10
+
+Evolutions:
+Horsea, requires level 10
+Seadra, requires level 45
+
+Description: By cleverly flicking the fins on its back side to side, it moves in any direction while facing forward. It spits ink to escape if it senses danger.
+
+Moves: 
+Mud Shot - m1 - level 10 - earth
+Bubbles - m2 - level 10 - water
+Bubblebeam - m3 - level 15 - water
+Water Gun - m4 - level 12 - water
+Waterball - m5 - level 10 - water
+
+Ability:
+None

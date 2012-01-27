@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Togepi" nameDescription="a togepi" race="undead" experience="40" speed="250" manacost="0">
+	<health now="400" max="400"/>
+	<look type="344" corpse="2952"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+    <attacks>
+    <attack name="melee" interval="5000" chance="90" min="-50" max="-200">
+    </attack>
+  </attacks>
+  <defenses armor="8" defense="8"/>
+  <elements>
+		<element fightPercent="-100"/>
+		<element deathPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Priii"/>
+    <voice sentence="Toge! Toge!"/>
+  </voices>
+	<loot>
+		<item id="5888" countmax="1" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5908" chance="100"/><!-- Stone -->
+	</loot>
+</monster>

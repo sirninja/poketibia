@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crobat" namedescription="a crobat" race="undead" experience="1300" speed="500" manacost="250">
+  <health now="3900" max="3900"/>
+  <look type="338" head="20" body="30" legs="40" feet="50" corpse="5535"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1750" min="-102" max="-141"/>
+    <attack name="auraveneno" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element grassPercent="50"/>
+		<element fightingPercent="50"/>
+		<element poisonPercent="50"/>
+		<element groundPercent="-50"/>
+		<element psychicPercent="-50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Crobaaaaaat!"/>
+    <voice sentence="Baat!"/>
+  </voices>
+	<loot>
+	</loot>
+</monster>

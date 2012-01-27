@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="venomoth" nameDescription="a venomoth" race="undead" experience="2080" speed="220" manacost="650">
+  <health now="3850" max="3850"/>
+  <look type="49" corpse="2925"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="38" attack="38"/>
+  </attacks>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="80"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <defenses armor="0" defense="0"/>
+</monster>

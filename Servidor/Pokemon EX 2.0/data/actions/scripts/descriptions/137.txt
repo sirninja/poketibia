@@ -1,0 +1,19 @@
+Name: Porygon
+Type: Normal
+Required level: 40
+
+Evolutions:
+-/-
+
+Moves: 
+Super Sonic - m1 - level 40
+Psybeam - m2 -level 40
+Psywave - m3 - level 40
+Psychic - m4 - level 40
+Zap Cannon -m5 - level 44
+Focus - m6 - level 50
+Magic Coat - m7 - level 48
+Restore -m8 - level 40
+
+Ability:
+Light, teleport, Fly, Blink

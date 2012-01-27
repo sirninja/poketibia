@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mr.Mime" nameDescription="a Mr.Mime" race="undead" experience="925" speed="250" manacost="280">
+  <health now="6000" max="6000"/>
+  <look type="246" head="20" body="30" legs="40" feet="50" corpse="6069"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-20" max="-60">
+    </attack>
+    <attack name="confusion" interval="4000" chance="90" min="-50" max="-290">
+    </attack>
+    <attack name="psy pulse" interval="3000" chance="90" min="-40" max="-80">
+    </attack>
+    <attack name="psybeam" interval="7000" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="psychic" interval="6500" chance="90" min="-1000" max="-1500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="10000" chance="100" min="500" max="500">
+    </defense>
+  </defenses>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Mister Miime!"/>
+	</voices>
+	<loot>
+	<item id="2295" countmax="1" chance="1200"/> -- enigma stone
+	<item id="2180" countmax="1" chance="13000"/> -- orb of nature
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

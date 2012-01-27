@@ -1,0 +1,19 @@
+Name: Pidgey
+Type: flying
+Required level: 5
+
+Evolutions:
+Pidgey, requires level 5
+Pidgeotto, requires level 20
+Pidgeot, requires level 65
+
+Description: It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.
+
+Moves: 
+Quick Attack - m1 - level 5 - normal
+Sand Attack - m2 - level 5 - earth
+Gust - m3 - level 7 - flying
+Drill Peck - m4 - level 12 - flying
+
+Ability:
+None

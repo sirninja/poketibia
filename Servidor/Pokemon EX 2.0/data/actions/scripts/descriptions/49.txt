@@ -1,0 +1,27 @@
+Nome: vileplume
+Tipo: planta
+Nível necessário: 50
+
+Evoluções:
+Zubat, requer nível 5
+Golbat, requer nível 30
+
+Descrição: Quando começa a sugar sangue, não para até que a vitima perca todo seu sangue. Ele voa na noite em busca de presas.
+
+Ataque:
+Absorb - Absorver - nível 18
+Leech Seed - Semente Sugadora - nível 18
+Acid - Acido - nível 18
+Poison Bomb - Bomba Tóxica - nível 24
+Poison Gas - Gás Venenoso - nível 26
+petal dance m6 nivel 55
+solar beam m7 nivel 60
+Sleep Powder - Pó do Sono - nível 18
+Stun Spore - Pó Atodoante - nível 18
+Poison Powder - Pó Venenoso - nível 18
+Esporos Reaction - Reaçao de Esporos - passiva
+Mega Drain - Mega Drenagem - passiva
+
+
+Habilidade:
+corte(cut)

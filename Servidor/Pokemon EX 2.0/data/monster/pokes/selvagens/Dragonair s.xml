@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonair" nameDescription="a Dragonair" race="undead" experience="950" speed="250" manacost="290">
+  <health now="6300" max="6300"/>
+  <look type="61" head="20" body="30" legs="40" feet="50" corpse="6002"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+    <attacks>
+    <attack name="headbutt" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="thunder wave" interval="4500" chance="90" min="-90" max="-180">
+    </attack>
+    <attack name="dragon claw" interval="5000" chance="90" min="-350" max="-700">
+    </attack>
+    <attack name="aqua tail" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+    <attack name="twister" interval="3000" chance="30" min="-180" max="-320">
+    </attack>
+    <attack name="aqua tail" interval="3500" chance="90" min="-100" max="-150">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="90" min="-500" max="-900">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="120" max="180">
+    </defense>
+  </defenses>
+  <elements>
+		<element dragonPercent="-30"/>
+		<element icePercent="-30"/>
+		<element firePercent="30"/>
+		<element waterPercent="30"/>
+		<element electricPercent="30"/>
+		<element grassPercent="30"/>
+  </elements>
+	<voices interval="5000" chance="100">
+		<voice sentence="Draagonair!"/>
+		<voice sentence="Nair!"/>
+	</voices>
+	<loot>
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+	        <item id="2672" countmin="1" countmax="2" chance="5000"/> -- dragon ham
+		<item id="7441" countmax="1" chance="9000"/><!-- Ice cube -->
+		<item id="2300" chance="500"/><!-- crystal Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

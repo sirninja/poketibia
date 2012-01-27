@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragonite" nameDescription="a Dragonite" race="undead" experience="1750" speed="260" manacost="280">
+  <health now="14000" max="14000"/>
+  <look type="210" head="20" body="30" legs="40" feet="50" corpse="4295"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="headbutt" interval="1000" chance="50" min="-20" max="-140">
+    </attack>
+    <attack name="aqua tail" interval="2000" chance="70" min="-140" max="-180">
+    </attack>
+    <attack name="thunder punch" interval="3000" chance="80" min="-180" max="-200">
+    </attack>
+    <attack name="fire punch" interval="4000" chance="50" min="-100" max="-300">
+    </attack>
+    <attack name="twister" interval="4000" chance="50" min="-100" max="-300">
+    </attack>
+    <attack name="dragon claw" interval="5000" chance="90" min="-300" max="-600">
+    </attack>
+    <attack name="thunder wave" interval="6000" chance="90" min="-600" max="-1000">
+    </attack>
+    <attack name="hyper beam" interval="10000" chance="90" min="-2000" max="-2800">
+    </attack>
+    <attack name="dragon pulse" range="5" interval="2400" chance="25" min="-145" max="-852">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="300">
+    </defense>
+  </defenses>
+  <elements>
+		<element dragonPercent="-30"/>
+		<element icePercent="-30"/>
+		<element firePercent="30"/>
+		<element waterPercent="30"/>
+		<element electricPercent="30"/>
+		<element grassPercent="30"/>
+  </elements>
+	<voices interval="5000" chance="100">
+		<voice sentence="Draagonite!"/>
+		<voice sentence="Nitee!"/>
+	</voices>
+	<loot>
+	    <item id="8820" countmax="10" chance="27000"/> -- water pendant
+	    <item id="2672" countmin="1" countmax="3" chance="10000"/> -- dragon ham
+		<item id="2300" countmax="1" chance="600"/><!-- crystal Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

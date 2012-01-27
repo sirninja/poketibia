@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+
+    <track>
+      <title>Image name 1</title>
+      <creator>Author name 1</creator>
+      <location>gallery/images/1.jpg</location>
+      <info></info>
+    </track>
+
+    <track>
+      <title>Image name 2</title>
+      <creator>Author name 2</creator>
+      <location>gallery/images/2.jpg</location>
+      <info></info>
+    </track>
+
+    <track>
+      <title>Screenshot of the Day</title>
+      <creator>Author name 2</creator>
+      <location>gallery/images/screenshotoftheday.jpg</location>
+      <info></info>
+    </track>
+
+  </trackList>
+</playlist>

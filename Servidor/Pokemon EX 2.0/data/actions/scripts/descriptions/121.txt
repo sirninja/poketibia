@@ -1,0 +1,20 @@
+Nome: Staryu
+Tipo: água
+Nível necessário: 15
+
+Evoluções:
+Staryu, requer nível 15
+Starmie, requer nível 45
+
+Descrição: Reune se com outros staryus durante a noite e seu rubi vermelho no centro brilha com as estrelas cintilantes. Ele pode regenerar os membros de seu corpo se forem cortados.
+
+Ataques:
+Swift - Rapidez - m1 - nível 15
+Slash - Corte - m2 - nível 15
+Bubbles - Bolhas - m3 - nível 15
+Water Gun - Arma de Agua - M4 - nível 25
+Waterball - Bolas de Agua - m5 - nível 20
+Restore - Restaurar - m6 - nível 35
+
+Habilidade:
+Surfar (Surf)

@@ -1,0 +1,23 @@
+Nome: Graveler
+Tipo: Pedra
+Nivel necessário: 40
+
+Evoluçoes:
+Geodude, requer nicel 12
+Graveler, requer nivel 40
+Golem, requer nivel 65
+
+Descriçao: Sao descendentes de montanhas, descendo-as. Eles sao brutais, conseguem quebrar arvores, apenas se jogando contra elas.
+
+Ataques:
+Rock Throw - Jogar Pedra - m1 - 40
+Rock Slide - Mover Pedra - m2 - 40
+Mega Punch - Mega Soco - m3 - 40
+Earthshock - Terremoto - m4 - 40
+Falling Rocks - Pedras Descendo - m5 - 50
+Harden - Endurecer - m6 - 47
+Selfdestruction - Auto destruiçao - m7 - 52 - 
+
+Habilidade:
+Cavar (Dig)
+Quebrar Pedra (Rock Smash)

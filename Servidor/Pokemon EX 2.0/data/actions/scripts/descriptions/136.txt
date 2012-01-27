@@ -1,0 +1,20 @@
+Name: Flareon
+Type: Fogo
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Flareon, requires level 60
+
+Moves: 
+Quick Attack - m1 - level 55
+Bite - m2 - level 55
+Flamethrower - m3 - level 55
+Sacred Fire - m4 - level 55
+Blaze Kick - m5 -level 55
+Raging Blast - m6 - level 55
+Overheat - m7 - level 60
+Fire Blast- m8 - level 65 
+
+Ability:
+Dig

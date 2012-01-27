@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spearow" nameDescription="a Spearow" race="undead" experience="275" speed="195" manacost="255">
+  <health now="500" max="500"/>
+  <look type="27" head="20" body="30" legs="40" feet="50" corpse="5968"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="8"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1900" min="-10" max="-20" /> 
+  <attack name="sand attack" range="1" interval="2400" chance="15" min="-27" max="-35" > </attack>
+  <attack name="gust" range="1" interval="3000" chance="25" min="-27" max="-42" > </attack>
+  <attack name="peck" range="1" interval="2700" chance="19" min="-20" max="-25" > </attack>
+  <attack name="quick attack" range="1" interval="2300" chance="18" min="-15" max="-20" > </attack>
+  <attack name="fury" interval="4000" chance="35" range="10" > </attack>
+
+  </attacks>
+
+
+  <defenses armor="8" defense="8"/>
+    <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+<voices interval="5000" chance="10">
+    <voice sentence="Pidgey!"/>
+    <voice sentence="Geyyy!"/>
+  </voices>
+ <loot>
+		<item id="2694" countmax="8" chance="100000"/><!-- Straw -->
+		<item id="5888" countmax="1" chance="30000"/><!-- Feather -->
+  </loot>
+</monster>

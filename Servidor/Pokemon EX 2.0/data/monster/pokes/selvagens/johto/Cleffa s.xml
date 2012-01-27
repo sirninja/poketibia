@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cleffa" nameDescription="a Cleffa" race="undead" experience="300" speed="260" manacost="0">
+	<health now="500" max="500"/>
+	<look type="343" corpse="2909"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tail whip" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="psy pulse" interval="3000" chance="80" min="-100" max="-150">
+    </attack>
+    <attack name="razor leaf" interval="4000" chance="68" min="-20" max="-35">
+    </attack>
+    <attack name="hydro pump" interval="5000" chance="68" min="-40" max="-50">
+    </attack>
+    <attack name="leaf storm" interval="6000" chance="68" min="-80" max="-130">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="85" min="150" max="200">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-100"/>
+		<element deathPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Cleeffa"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="10" chance="10000"/><!-- Sell Item -->
+		<item id="6569" countmax="2" chance="5000"/><!-- Sell Item -->
+		<item id="5791" chance="300"/><!-- Stone -->
+		<item id="5810" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

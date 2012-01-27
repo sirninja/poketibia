@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Croconaw" nameDescription="a Croconaw" race="undead" experience="1500" speed="270" manacost="330">
+  <health now="3500" max="3500"/>
+  <look type="328" head="20" body="30" legs="40" feet="50" corpse="6342"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="headbutt" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="bubble" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="aqua tail" interval="4500" chance="90" min="-30" max="-45">
+    </attack>
+    <attack name="waterball" interval="5000" chance="90" min="-50" max="-120">
+    </attack>
+    <attack name="water gun" interval="3500" chance="50" min="-20" max="-70">
+    </attack>
+    <attack name="hydro cannon" interval="7000" chance="90" min="-99" max="-109">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="50"/>
+		<element grassPercent="-100"/>
+		<element electricPercent="-100"/>
+		<element drownPercent="50"/>
+		<element icePercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bay!"/>
+    <voice sentence="Bayleef!"/>
+	</voices>
+	<loot>
+		<item id="7732" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="2111" countmax="5" chance="4000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5918" chance="100"/><!-- Stone -->
+	</loot>
+</monster>

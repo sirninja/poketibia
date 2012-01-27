@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tangela" nameDescription="a Tangela" race="undead" experience="285" speed="144" manacost="450">
+  <health now="3500" max="3500"/>
+  <look type="18" head="20" body="30" legs="40" feet="50" corpse="5976"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="30" attack="32"/>
+    <attack name="auraplanta" interval="2000" chance="8" min="-800" max="-1200"> </attack>
+    <attack name="auraveneno" interval="2000" chance="8" min="-800" max="-1200"> </attack>
+    <attack name="aurainseto" interval="2000" chance="8" min="-800" max="-1200"> </attack>
+	<attack name="lifedrain" interval="2000" chance="20" min="-300" max="-500"> </attack>
+  </attacks>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+
+  <defenses armor="8" defense="17">
+    <defense name="healing" interval="1000" chance="13" min="9" max="15">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+</monster>

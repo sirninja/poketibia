@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Squirtle" nameDescription="a Squirtle" race="undead" experience="270" speed="250" manacost="0">
+  <health now="1350" max="1350"/>
+  <look type="2" head="20" body="30" legs="40" feet="50" corpse="6008"/>
+
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="35" attack="15"/>
+    <attack name="auraagua" interval="2000" chance="5" min="-100" max="-800"> </attack>
+  </attacks>
+  <defenses armor="2" defense="3">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Squirtle!"/>
+    <voice sentence="Squirrrr!"/>
+  </voices>
+	<loot>
+		<item id="7159" countmax="10" chance="50000"/><!-- Water gem -->
+		<item id="6569" countmax="1" chance="5000"/><!-- Water Pendant -->
+		<item id="6126" chance="2000"/><!-- Squirtle hull -->
+	</loot>
+</monster>

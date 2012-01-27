@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chansey" nameDescription="a Chansey" race="undead" experience="900" speed="155" manacost="0">
+  <health now="8000" max="8000"/>
+  <look type="4" head="20" body="30" legs="40" feet="50" corpse="6010"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+   <attacks>
+    <attack name="future sight" interval="4500" chance="95" min="-60" max="-90">
+    </attack>
+    <attack name="peck" interval="5000" chance="95" min="-180" max="-320">
+    </attack>
+    <attack name="future sight" interval="3500" chance="95" min="-180" max="-220">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="95" min="-600" max="-800">
+    </attack>
+  <attack name="restore" interval="4200" chance="41" min="2000" max="3500" > </attack>
+  <attack name="metronome" range="4" interval="4000" chance="20" min="-300" max="-600" > </attack>
+  </attacks>
+
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="3500" chance="100" min="100" max="200">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Chanseey!"/>
+    <voice sentence="Chansey!"/>
+	</voices>
+	<loot>
+
+	<item id="2289" countmax="1" chance="1300"/> -- heart stone
+	<item id="2180" countmax="1" chance="13000"/> -- orb of nature
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,19 @@
+Nome: Bellsprout
+Tipo: grama
+nível necessário: 5
+
+Evoluções:
+Bellsprout, exige nível 5
+Weepinbell, requer nível 18
+Victreebel, requer nível 50
+
+Descrição: A sua aparência de plantas como um rosto humano. Por causa do broto, existem boatos de que é um tipo de planta carnívora lendária.
+
+Move-se:
+Razor Leaf - Folha Navalha - nível 10
+Vine Whip - Chicote de Vinha - nível 12
+Acid - Acido - nível 8
+Slash - Corte - nível 5
+
+Habilidade:
+Cut (Corte)

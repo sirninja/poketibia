@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="a raticate" race="normal" experience="918" speed="189" manacost="320">
+<health now="900" max="900"/>
+<look type="69" corpse="6007"/>
+<targetchange interval="100" chance="0"/>
+<strategy attack="100" defense="0"/>
+	
+<flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+	
+</flags>	
+<attacks>		
+	<attack name="melee" interval="1550" min="-65" max="-90"/>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    <attack name="auranormal" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+    </attack>
+</attacks>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>	
+<defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+	<loot>
+	</loot>
+
+</monster>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwhirl" nameDescription="a wild poliwhirl" race="water" experience="475" speed="160" manacost="250">
+  <health now="1900" max="1900"/>
+  <look type="212" head="20" body="30" legs="40" feet="50" corpse="6054"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" min="-35" max="-65"/>
+    <attack name="water gun" interval="4200" chance="25" min="-140" max="-150">
+    </attack>
+    <attack name="bubbles" range="5" interval="2700" chance="19" min="-80" max="-90">
+    </attack>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-90" max="-100">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+	<loot>
+	<item id="2292" countmax="1" chance="1100"/> -- water stone
+	<item id="6528" countmax="31" chance="72000"/> -- water gem
+	<item id="8820" countmax="1" chance="35000"/> -- water pendant
+	<item id="8821" countmax="1" chance="300"/> -- poliwrath doll
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

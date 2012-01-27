@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhydon" nameDescription="a Rhydon" race="undead" experience="825" speed="210" manacost="505">
+  <health now="9000" max="9000"/>
+  <look type="200" head="0" body="0" legs="0" feet="0" corpse="2858"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+<attacks>
+
+    <attack name="melee" interval="1800" min="-85" max="-225"/>
+    <attack name="rock tomb" interval="2800" range="1" chance="20" min="-202" max="-320">
+    </attack>
+    <attack name="sand attack" interval="2150" range="1" chance="17" min="-270" max="-285">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="40"></attack>
+    <attack name="rock slide" interval="3300" range="10" chance="21" min="-100" max="-122">
+    </attack>
+    <attack name="falling rocks" interval="3300" range="10" chance="21" min="-156" max="-172">
+    </attack>
+    <attack name="earthshock" interval="2600" range="1" chance="15" min="-340" max="-372">
+    </attack>
+  <attack name="horn attack" range="1" interval="2000" chance="25" min="-280" max="-330" > 
+    </attack>
+
+</attacks>
+
+
+  <defenses armor="10" defense="15"/>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Rhydon!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="24000"/> -- stone orb
+	<item id="1294" countmax="81" chance="72000"/> -- small stone
+	<item id="2296" countmax="1" chance="1500"/> -- rock stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

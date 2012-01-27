@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rattata" nameDescription="a shiny rattata" race="normal" experience="325" speed="180" manacost="270">
+	<health now="1200" max="1200"/>
+	<look type="512" corpse="110"/>
+	<targetchange interval="1000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	
+ <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+	
+ </flags>	
+ <attacks>		
+	<attack name="melee" interval="1300" min="-24" max="-40"/>
+	<attack name="quick attack" range="1" interval="2000" chance="36" min="-30" max="-40">
+   	</attack>
+	<attack name="scratch" range="1" interval="1900" chance="34" min="-30" max="-40">
+   	</attack>
+	<attack name="bite" range="1" interval="2300" chance="32" min="-40" max="-50">
+   	</attack>	
+	<attack name="hyper fang" range="1" interval="2500" chance="36" min="-70" max="-80">
+   	</attack>
+</attacks>	
+
+  <defenses armor="0" defense="0">
+  </defenses>
+	
+    <elements>
+		<element fightPercent="-41"/>
+		<element deathPercent="100"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATTATA!"/>
+    <voice sentence="TAA!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="1" chance="59000"/> -- apple bite
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

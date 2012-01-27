@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ekans" nameDescription="a Ekans" race="undead" experience="300" speed="290" manacost="360">
+  <health now="650" max="650"/>
+  <look type="7" head="20" body="30" legs="40" feet="50" corpse="5979"/>
+<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-20" max="-160" poison="25"/>
+    <attack name="auraveneno" interval="2000" chance="5" min="-100" max="-400"> </attack>
+  </attacks>
+  <defenses armor="8" defense="14"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ekaans."/>
+    <voice sentence="eeeeeee."/>
+    <voice sentence="kaaaans!"/>
+  </voices>
+	<loot>
+		<item id="2111" countmax="1" chance="10000"/><!-- bottle of poison -->
+		<item id="2148" countmax="100" chance="5000"/><!-- bat wing -->
+		<item id="2148" countmax="60" chance="50000"/><!-- bat wing -->
+	</loot>
+</monster>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raichu" nameDescription="a Raichu" race="undead" experience="775" speed="300" manacost="310">
+  <health now="6450" max="6450"/>
+  <look type="50" head="20" body="30" legs="40" feet="50" corpse="5996"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-200" max="-220" />
+  <attack name="thunderbolt" range="4" interval="2300" chance="18" min="-200" max="-240" > </attack>
+  <attack name="thunder wave" range="4" interval="2000" chance="16" min="-143" max="-200" > </attack>
+  <attack name="thundershock" range="4" interval="1800" chance="22" min="-183" max="-200" > </attack>
+  <attack name="zap cannon" range="4" interval="3000" chance="25" min="-300" max="-320" > </attack>
+  <attack name="iron tail" range="4" interval="3000" chance="25" min="-230" max="-250" > </attack>
+  <attack name="thunder punch" range="4" interval="5000" chance="25" min="-300" max="-350" > </attack> 
+    <attack name="groundshaker" interval="10000" chance="100" min="-300" max="-400">
+    </attack>
+    <attack name="solar beam" interval="7000" chance="100" min="-400" max="-800">
+    </attack>
+
+
+  </attacks>
+
+
+
+  <defenses armor="6" defense="12"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Raiichu!"/>
+  </voices>
+	<loot>
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	<item id="2299" countmax="1" chance="1400"/> -- thunder stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

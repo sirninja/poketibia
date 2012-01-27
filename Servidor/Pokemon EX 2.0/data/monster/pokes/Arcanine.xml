@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arcanine" nameDescription="a Arcanine" race="undead" experience="2100" speed="500" manacost="0">
+  <health now="7000" max="7000"/>
+  <look type="88" head="20" body="30" legs="40" feet="50" corpse="6031"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="30" attack="74"/>
+  </attacks>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <defenses armor="25" defense="30">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+  </voices>
+  <loot>
+		<item id="5894" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="5913" countmax="1" chance="30000"/><!-- Pot of lava --> 
+		<item id="5910" chance="10000"/><!-- Nail -->
+		<item id="5907" countmax="1" chance="50"/><!-- Fire stone -->
+		<item id="5890" countmax="1" chance="2000"/><!-- Dragon Tooth --> 
+  </loot>
+</monster>

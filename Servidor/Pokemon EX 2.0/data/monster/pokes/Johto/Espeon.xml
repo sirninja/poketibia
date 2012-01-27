@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Espeon" nameDescription="a Espeon" race="undead" experience="2400" speed="450" manacost="0">
+  <health now="9000" max="9000"/>
+  <look type="377" corpse="3032"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+	<elements>
+		<element fightingPercent="50"/>
+		<element psychicPercent="50"/>
+		<element deathPercent="-100"/>
+		<element bugPercent="-100"/>
+	</elements>
+	<loot>
+		<item id="5888" countmax="5" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5908" chance="50"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

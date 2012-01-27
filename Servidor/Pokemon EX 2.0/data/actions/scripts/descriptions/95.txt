@@ -1,0 +1,22 @@
+Nome: Onix
+Tipo: Pedra
+Nível necessário: 50
+
+Evoluções:
+Onix, requer nível 50
+
+Descrição: Existe um imã no seu cérebro que o impede se perder a dieçao enquanto esta em baixo da terra. Conforme vai envelhecendo, seu corpo torna-se cada vez mais redondo e liso.
+Ataque:
+Sand Attack - Ataque de Areia - m1 - nível 50
+Iron Tail - Cauda de Ferro - m2 - nível 50
+Rock Throw - Jogar Pedra - m3 nível - 50
+Rock Slide - Mover Pedra - M4 - nível 50
+Earthshock - Choque Terrestre - m5 - nível 50
+Falling Rocks - Deslizamento de Pedra - m6 - nível 58
+Earthquake - Terremoto - m7 nível - 62
+Harden - Endurecer - M8 - nível 50
+
+Habilidade:
+Escavar (Dig)
+Quebrar PEdra (Rock Smash)
+Passeio (Ride)

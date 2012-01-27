@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gloom" nameDescription="a wild gloom" race="grass" experience="375" speed="200" manacost="220">
+  <health now="2000" max="2000"/>
+  <look type="74" head="20" body="30" legs="40" feet="50" corpse="6017"/>
+	<targetchange interval="1005" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" range="1" chance="100" min="-65" max="-90"/>
+    <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="absorb2" range="1" interval="1900" chance="18" min="-150" max="-160">
+    </attack>
+    <attack name="acid" range="3" interval="2000" chance="20" min="-125" max="-130">
+    </attack>
+    <attack name="poison gas" range="1" interval="4200" chance="21" min="-75" max="-80">
+    </attack>
+    <attack name="poisonbomb" range="3" interval="2400" chance="19" min="-155" max="-170">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GLOOM!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="78000"/> -- seeds
+	<item id="8852" countmax="1" chance="24000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1400"/> -- leaf stone
+	<item id="5300" countmax="1" chance="1400"/> -- sun stone
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="koffing" nameDescription="a koffing" race="undead" experience="500" speed="220" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="228" head="0" body="0" legs="0" feet="0" corpse="2936"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="80"/>
+    <flag targetdistance="5"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="30" attack="35"/>
+    <attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="auraveneno" interval="2000" chance="5" min="-100" max="-400"> </attack>
+
+
+</attacks>
+
+  <defenses armor="15" defense="20">
+    <defense name="invisible" interval="2000" chance="15" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+
+</monster>

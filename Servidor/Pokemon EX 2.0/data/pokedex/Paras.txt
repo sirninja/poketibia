@@ -1,0 +1,21 @@
+Name: Paras
+Type: bug
+Required level: 5
+
+Evolutions:
+Paras, requires level 5
+Parasect, requires level 50
+
+Description: Growing out of the bug's back are mushrooms called tochukaso. The mushrooms grow with the bug host.
+
+Moves: 
+Scratch - m1 - level 5 - normal
+Poison Sting - m2 - level 5 - poison
+Slash - m3 - level 5 - normal
+Stun Spore - m4 - level 10 - grass
+Poison Powder - m5 - level 8 - poison
+Sleep Powder - m6 - level 12 - grass
+
+Ability:
+Dig
+Cut

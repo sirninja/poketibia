@@ -1,0 +1,24 @@
+Name: Porygon
+Type: normal
+Required level: 40
+
+Evolutions:
+Porygon, requires level 40
+
+Description: The world's first artificially created Pokemon. It can travel through electronic space.
+
+Moves: 
+Super Sonic - m1 - level 40 - normal
+Psybeam - m2 - level 40 - psychic
+Cyber Pulse - m3 - level 45 - psychic
+Psychic - m4 - level 40 - psychic
+Zap Cannon - m5 - level 44 - electric
+Focus - m6 - level 50 - normal
+Magic Coat - m7 - level 48 - psychic
+Restore - m8 - level 40 - psychic
+
+Ability:
+Teleport
+Light
+Fly
+Blink

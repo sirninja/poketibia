@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venusaur" nameDescription="a Venusaur" race="undead" experience="2300" speed="200" manacost="490">
+  <health now="9000" max="9000"/>
+  <look type="22" head="0" body="0" legs="0" feet="0" corpse="5962"/>
+
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="75"/>
+    <attack name="auraplanta" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+  </attacks>
+  
+  <defenses armor="15" defense="15"/>
+  
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Veenu"/>
+    <voice sentence="VENUSAUR!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8851" countmax="5" chance="21000"/> -- leaves
+	<item id="8852" countmax="3" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+</monster>

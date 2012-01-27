@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Muk" nameDescription="a wild muk" race="poison" experience="3822" speed="180" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="47" head="0" body="0" legs="0" feet="0" corpse="2845"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-60" max="-80"/>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-90" max="-95">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="2600" chance="18" min="-100" max="-105">
+    </attack>
+    <attack name="sludge" range="5" interval="2900" chance="19" min="-110" max="-120">
+    </attack>
+    <attack name="acid" range="5" interval="3000" chance="21" min="-90" max="-95">
+    </attack>
+    <attack name="gunk shot" range="2" interval="3300" chance="22" min="-150" max="-160">
+    </attack>
+    <attack name="slime wave" range="3" interval="3700" chance="25" min="-200" max="-220">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MUK!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8857" countmax="3" chance="28000"/> -- gosme
+	<item id="2278" countmax="1" chance="4600"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

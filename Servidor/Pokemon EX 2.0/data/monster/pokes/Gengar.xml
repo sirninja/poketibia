@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Gengar" nameDescription="a Gengar" race="undead" experience="2100" speed="390" manacost="0">
+	
+<health now="8000" max="8000"/>
+	
+<look type="244" corpse="6336"/>
+	
+<targetchange interval="5" chance="1000"/>
+	
+<strategy attack="100" defense="0"/>
+	
+<flags>
+		
+<flag summonable="0"/>
+		
+<flag attackable="1"/>
+		
+<flag hostile="1"/>
+		
+<flag illusionable="1"/>
+	
+<flag convinceable="0"/>
+		
+<flag pushable="0"/>
+		
+<flag canpushitems="1"/>
+		
+<flag canpushcreatures="1"/>
+		
+<flag targetdistance="1"/>
+		
+<flag staticattack="90"/>
+		
+<flag runonhealth="0"/>
+	
+</flags>
+	
+<attacks>
+<attack name="melee" interval="2000" skill="50" attack="50"/>
+</attacks>
+	
+<defenses armor="15" defense="15">
+		
+<defense name="speed" interval="2000" chance="12" speedchange="350" duration="4000">		
+<attribute key="areaEffect" value="redshimmer"/>	
+</defense>
+
+<defense name="invisibility" interval="3000" chance="10" speedchange="250" duration="10000">		
+<attribute key="areaEffect" value="redshimmer"/>	
+</defense>
+	
+</defenses>
+	
+<immunities>		
+<immunity physical="1"/>		
+<immunity energy="1"/>		
+<immunity fire="0"/>		
+<immunity poison="0"/>		
+<immunity lifedrain="0"/>		
+<immunity paralyze="1"/>		
+<immunity outfit="0"/>	
+<immunity drunk="0"/>		
+<immunity invisible="1"/>	
+</immunities>
+  <elements>
+		<element fightPercent="500"/>
+		<element normalPercent="500"/>
+		<element poisonPercent="30"/>
+		<element darkPercent="-30"/>
+		<element ghostPercent="-30"/>
+		<element bugPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="Geeeeeeeeeen!"/>
+    <voice sentence="Gengaaaaaaaar!"/>
+	</voices>
+ <loot>
+	<item id="5913" countmax="1" chance="12500"/>-- Brown POC
+	<item id="5909" countmax="1" chance="12500"/>-- White POC
+	<item id="2286" countmax="1" chance="40000"/>-- Darkness Stone
+	<item id="5926" countmax="1" chance="1500"/> -- Gengar Backpack
+
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

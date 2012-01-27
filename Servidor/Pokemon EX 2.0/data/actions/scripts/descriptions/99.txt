@@ -1,0 +1,22 @@
+Nome: Kingler
+Tipo: Agua
+Nível necessário: 35
+
+Evoluções:
+Krabby, requer nível 10
+Kingler, requer nível 35
+
+Descrição: Move suas garras enormes no ar para se comunicar com os outros kinglers. Como a garra é tao pesada, ele rapidamente a recolhe.
+
+Move-se:
+Bubbles - Bolhas - m1 - nível 35
+Bubblebeam - Jato de BOlhas - m2 - nível 35
+Mud Shot - Tiro de Lama - M3 - nível 35
+Crabhammer - Martelo Carangueijo - M4 - nível 35
+Fury Cutter - Corte Furia - m5 - nível 45
+Guillotine - Guilhotina - m6 - nível 49
+Harden - Endurecer - M7 - nível 35
+
+Habilidade:
+Escavar (dig)
+Corte (cut)

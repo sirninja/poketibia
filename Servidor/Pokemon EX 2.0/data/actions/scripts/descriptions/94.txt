@@ -1,0 +1,24 @@
+Name: Gengar
+Type: Fantama
+Required level: 80
+
+Evolutions:
+Gastly, requires level 25
+Haunter, requires level 50
+Gengar, requires level 85
+
+Description: When exposed to a strong wind, a Gastly's gaseous body quickly dwindles away. They cluster under the eaves of houses to escape the ravages of wind.
+
+Moves: 
+Lick - m1 - level 80
+Shadow Ball - m2 - level 80
+Shadow Punch - m3 - level 84
+Night Shade - m4 - level 80
+Shadow Storm - m5 - level 86
+Invisible - m6 - level 80
+Dream Eater - m7 - level 80
+Hypnosis - m8 - level 80
+Fear - m9 - level 80
+
+Habilities:
+Control minds

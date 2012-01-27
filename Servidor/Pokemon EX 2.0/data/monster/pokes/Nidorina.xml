@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorina" nameDescription="a Nidorina" race="undead" experience="1070" speed="170" manacost="360">
+  <health now="2000" max="2000"/>
+  <look type="71" head="20" body="30" legs="40" feet="50" corpse="6014"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="40" attack="36"/>
+        <attack name="auranormal" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+
+  </attacks>
+	<defenses armor="15" defense="22">
+	
+	    <defense name="speed" interval="2000" chance="12" speedchange="250" duration="8000">		
+   <attribute key="areaEffect" value="greenshimmer"/>	
+   </defense>
+    <defense name="strafe" interval="3000" chance="25" min="200" max="300">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+	
+  </defenses>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="nidooooriinaa!"/>
+  </voices>
+</monster>

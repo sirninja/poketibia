@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Togetic" nameDescription="a Togetic" race="undead" experience="1550" speed="260" manacost="595">
+  <health now="4000" max="4000"/>
+  <look type="345" head="0" body="0" legs="0" feet="0" corpse="2956"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="50"/>
+  </flags>
+  <attacks>
+    <attack name="peck" interval="1000" chance="50" min="-20" max="-60">
+    </attack>
+    <attack name="psy pulse" interval="4500" chance="90" min="-50" max="-290">
+    </attack>
+    <attack name="whirlwind" interval="3000" chance="90" min="-40" max="-80">
+    </attack>
+    <attack name="psybeam" interval="7000" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="psychic" interval="6500" chance="90" min="-1000" max="-1500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="1000" chance="100" min="1" max="90">
+    </defense>
+  </defenses>
+    <elements>
+		<element grassPercent="50"/>
+		<element electricPercent="-100"/>
+		<element icePercent="-100"/>
+		<element groundPercent="100"/>
+		<element bugPercent="50"/>
+		<element rockPercent="-100"/>
+  </elements>
+
+  <voices interval="500000" chance="1">
+    <voice sentence="Togeeetic!"/>
+	</voices>
+	<loot>
+		<item id="5896" countmax="1" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5885" chance="200"/><!-- Stone -->
+	</loot>
+</monster>

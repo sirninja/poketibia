@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorlax" nameDescription="a Snorlax" race="undead" experience="1500" speed="220" manacost="0">
+  <health now="11000" max="11000"/>
+  <look type="51" head="20" body="30" legs="40" feet="50" corpse="6016"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="dizzy punch" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="body slam" interval="3000" chance="90" min="-100" max="-150">
+    </attack>
+    <attack name="pluck" interval="7000" chance="70" range="1" min="-700" max="-800">    
+    </attack>
+    <attack name="mega punch" interval="6750" chance="90" min="-400" max="-500">
+    </attack>
+    <attack name="earthshock" interval="6500" chance="90" min="-150" max="-670">
+    </attack>
+    <attack name="scratch" interval="2000" chance="50" min="-50" max="-60">
+    </attack>
+    <attack name="sleep" interval="8200" chance="40" min="1600" max="2000">
+     </attack>
+  </attacks>
+  
+  <defenses armor="1" defense="1">
+    <defense name="healing" interval="5000" chance="100" min="200" max="2000">
+			<attribute key="areaEffect" value="sleep"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Snooorlax!"/>
+	</voices>
+	
+	<loot>
+	<item id="2294" countmax="1" chance="1400"/> -- heart stone
+	<item id="2686" countmax="1" chance="20000"/> -- Hamburguer
+	<item id="2683" countmax="1" chance="30000"/> -- Hotdog
+	<item id="2684" countmax="1" chance="20000"/> -- limo
+	</loot>
+	
+<script>
+	<event name="Exp"/>
+</script>
+</monster>

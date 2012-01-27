@@ -1,0 +1,22 @@
+Name: Omastar
+Type: stone
+Required level: 80
+
+Evolutions:
+Omanyte, requires level 20
+Omastar, requires level 80
+
+Description: It is thought that this Pokemon became extinct because its spiral shell grew too large.
+
+Moves: 
+Bite - m1 - level 80 - normal
+Rock Throw - m2 - level 80 - stone
+Waterball - m3 - level 85 - water
+Water Gun - m4 - level 85 - water
+Bubble Blast - m5 - level 85 - water
+Mud Shot - m6 - level 85 - earth
+Harden - m7 - level 90 - normal
+Ancient Power - m8 - level 95 - stone
+
+Ability:
+Surf

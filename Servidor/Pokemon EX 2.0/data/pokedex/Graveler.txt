@@ -1,0 +1,23 @@
+Name: Graveler
+Type: stone
+Required level: 40
+
+Evolutions:
+Geodude, requires level 15
+Graveler, requires level 40
+Golem, requires level 70
+
+Description: They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and massive boulders with thunderous tackles.
+
+Moves: 
+Rock Throw - m1 - level 40 - stone
+Rock Slide - m2 - level 40 - stone
+Mega Punch - m3 - level 40 - fighting
+Earthshock - m4 - level 40 - earth
+Falling Rocks - m5 - level 50 - stone
+Harden - m6 - level 45 - normal
+Selfdestruction - m7 - level 52 - normal
+
+Ability:
+Dig
+Rock smash

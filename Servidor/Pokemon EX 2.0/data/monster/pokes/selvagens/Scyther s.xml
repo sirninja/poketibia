@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scyther" nameDescription="a Scyther" race="undead" experience="950" speed="290" manacost="290">
+  <health now="7000" max="7000"/>
+  <look type="15" head="20" body="30" legs="40" feet="50" corpse="3002"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="fury cutter" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="swift" interval="3000" chance="90" min="-50" max="-80">
+    </attack>
+    <attack name="tackle" interval="10000" chance="90" min="-400" max="-1100">
+    </attack>
+    <attack name="quick attack" interval="9750" chance="90" min="-400" max="-800">
+    </attack>
+    <attack name="petal dance" interval="6500" chance="50" min="-20" max="-420">
+    </attack>
+    <attack name="slash" interval="2000" chance="25" min="-250" max="-360">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="counter helix" interval="5000" chance="100" min="150" max="300">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Scytheer!"/>
+    <voice sentence="Scytheer!"/>
+    <voice sentence="Scyyy!"/>
+    <voice sentence="Scytheer!"/>
+    <voice sentence="Theeer!"/>
+	</voices>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8852" countmax="5" chance="50000"/> -- bag of polem
+	<item id="2301" countmax="1" chance="3000"/> -- coccon stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<npc name="Nurse Joy" script="heal.lua" walkinterval="0" speed="0" floorchange="0"> 
+    <health now="100" max="100"/> 
+    <look type="181" head="0" body="0" legs="0" feet="0" addons="0"/> 
+    <parameters> 
+    </parameters> 
+</npc>

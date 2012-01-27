@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weezing" nameDescription="a Weezing" race="undead" experience="550" speed="460" manacost="280">
+  <health now="5000" max="5000"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1700" range="1" chance="100" min="-60" max="-80" />
+  <attack name="mud shot" range="5" interval="2100" chance="18" min="-100" max="-120" > </attack>
+  <attack name="poisonbomb" range="5" interval="2600" chance="18" min="-120" max="-140" > </attack>
+  <attack name="sludge" range="5" interval="2900" chance="19" min="-140" max="-150" > </attack>
+  <attack name="acid" range="5" interval="3000" chance="21" min="-130" max="-160" > </attack>
+  <attack name="poison gas" range="5" interval="3000" chance="21" min="-220" max="350" > </attack>
+  <attack name="gastro acid" range="5" interval="2000" chance="21" min="-150" max="180" > </attack>
+  </attacks>
+
+
+
+
+  <defenses armor="4" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Bsssssss"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="8857" countmax="3" chance="28000"/> -- gosme
+	<item id="2297" countmax="1" chance="1400"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

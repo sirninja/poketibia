@@ -1,0 +1,21 @@
+Name: Gastly
+Type: ghost
+Required level: 20
+
+Evolutions:
+Gastly, requires level 20
+Haunter, requires level 45
+Gengar, requires level 80
+
+Description: When exposed to a strong wind, a Gastly's gaseous body quickly dwindles away. They cluster under the eaves of houses to escape the ravages of wind.
+
+Moves: 
+Lick - m1 - level 20 - normal
+Shadow Ball - m2 - level 20 - ghost
+Night Shade - m3 - level 26 - ghost
+Invisible - m4 - level 24 - ghost
+Hypnosis - m5 - level 28 - psychic
+Fear - m6 - level 30 - ghost
+
+Ability:
+None

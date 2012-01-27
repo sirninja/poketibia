@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kadabra" nameDescription="a kadabra" race="psychic" experience="1524" speed="165" manacost="485">
+  <health now="2500" max="2500"/>
+  <look type="219" head="20" body="30" legs="40" feet="50" corpse="6060"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1900" chance="100" range="3" min="-91" max="-121">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+  <voices interval="5000" chance="10">
+	<voice sentence="KADABRA!"/>
+    <voice sentence="KAADABRA!"/>
+  </voices>
+  <loot>
+  </loot>
+
+</monster>

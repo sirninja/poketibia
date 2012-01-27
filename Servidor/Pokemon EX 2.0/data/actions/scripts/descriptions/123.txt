@@ -1,0 +1,20 @@
+Name: Scyther
+Type: Inseto
+Required level: 80
+
+Evolutions:
+-/-
+
+
+Moves: 
+Quick Attack - m1 - level 80
+Slash - m2 - level 80
+Wing Attack - m3 - level 80
+Fury Cutter - m4 - level 85
+Shredder Team - m5- level 95
+X-Scissor - m6 - level 90
+Agility - m7 - level 80
+CounterHelix - passive 
+
+Ability:
+Cut

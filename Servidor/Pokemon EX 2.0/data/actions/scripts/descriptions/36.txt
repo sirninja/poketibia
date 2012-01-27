@@ -1,0 +1,21 @@
+Nome: Clefable
+Tipo: normal
+Nível necessário: 35
+
+Evoluções:
+Clefairy, requer nível 10
+Clefable, requer nível 35
+
+Descrição: Raramente visto pelo povo, dizem que foi criado pela lua cheia para brincar em lagos no deserto.
+
+Ataques:
+Doubleslap - Tapa Duplo - m1 - nível 35
+Lovely Kiss - Beijo Amoroso - m2 nível - 35
+Metronome - Metronomo - m3 - nível 35
+Sing - Cantar - M4 - nível 35
+Selfheal - Auto-Curar - m5 - nível 35
+Healarea - Curar - m6 - nível 45
+Focus - Foco - M7 - nível 50
+
+Habilidade:
+Nenhum

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gyarados" nameDescription="a Shiny Gyarados" race="undead" experience="3900" speed="250" manacost="0">
+  <health now="21000" max="21000"/>
+  <look type="528" head="20" body="30" legs="40" feet="50" corpse="144"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="1"/>
+  </flags>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="90"/>
+    <attack name="fire" interval="2000" chance="28" range="7" min="-600" max="-1450">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="energy" interval="3000" chance="52" range="7" min="-500" max="-1750">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+    <attack name="poisonfield" interval="1000" chance="24" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="twister" range="5" interval="2200" chance="38" min="-1100" max="-1220">
+    </attack>
+    <attack name="dragon pulse" range="5" interval="2400" chance="34" min="-2000" max="-2520">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="28" min="-1700" max="-3000">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="36" min="-1200" max="-2000">
+    </attack>
+    <attack name="water oath" range="5" interval="3700" chance="34" min="-2600" max="-4000">
+    </attack>
+    <attack name="aqua tail" range="1" interval="2300" chance="36" min="-2200" max="-2300">
+    </attack>
+    <attack name="bite" interval="2000" chance="50" min="-1000" max="-1800" > </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="36" min="-2600" max="-3200">    
+    </attack>
+    <attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+
+  </attacks>
+
+
+  <defenses armor="16" defense="10">
+    <defense name="healing" interval="1000" chance="10" min="100" max="4000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+
+  <elements>
+	<element firePercent="20"/>
+	<element energyPercent="10"/>
+	<element holyPercent="10"/>
+	<element icePercent="-15"/>
+	<element deathPercent="-5"/>
+  </elements>
+
+
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GYARADOS!!"/>
+    <voice sentence="Gyaaa!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="2145" countmax="1" chance="1000"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="500"/><!-- rare candy -->
+	<item id="8820" countmax="5" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="5000"/> -- water stone
+	<item id="2672" countmin="1" countmax="3" chance="12000"/> -- dragon ham
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

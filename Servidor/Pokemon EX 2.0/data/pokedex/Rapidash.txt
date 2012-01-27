@@ -1,0 +1,21 @@
+Name: Rapidash
+Type: fire
+Required level: 55
+
+Evolutions:
+Ponyta, requires level 20
+Rapidash, requires level 55
+
+Description: It usually canters casually in the fields and plains. But once a Rapidash turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.
+
+Moves: 
+Quick Attack - m1 - level 55 - normal
+Ember - m2 - level 55 - fire
+Flamethrower - m3 - level 61 - fire
+Fireball - m4 - level 58 - fire
+Horn Attack - m5 - level 55 - normal
+Stomp - m6 - level 63 - earth
+Crusher Stomp - m7 - level 63 - earth
+
+Ability:
+Ride

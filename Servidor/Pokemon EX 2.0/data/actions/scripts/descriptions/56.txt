@@ -1,0 +1,19 @@
+Name: Mankey
+Type: fighting
+Required level: 10
+
+Evolutions:
+Mankey, requires level 10
+Primeape, requires level 45
+
+Description: It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.
+
+Moves: 
+Scratch - m1 - level 10
+Triple Kick - m2 - level 14
+Karate Chop - m3 - level 16
+Cross Chop - m4 - level 22
+Rage - m5 - level 20
+
+Ability:
+None

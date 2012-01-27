@@ -1,0 +1,22 @@
+Name: Dragonair
+Type: dragon
+Required level: 60
+
+Evolutions:
+Dratini, requires level 20
+Dragonair, requires level 60
+Dragonite, requires level 100
+
+Description: If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.
+
+Moves: 
+Headbutt - m1 - level 60 - normal
+Aqua Tail - m2 - level 60 - water
+Thunder Wave - m3 - level 60 - electric
+Dragon Breath - m4 - level 62 - dragon
+Twister - m5 - level 61 - dragon
+Hyper Beam - m6 - level 64 - normal
+Dragon Fury - passive  - dragon
+
+Ability:
+None

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Primeape" nameDescription="a Primeape" race="undead" experience="700" speed="240" manacost="0">
+  <health now="4550" max="4550"/>
+  <look type="103" head="20" body="30" legs="40" feet="50" corpse="6032"/>
+ 		<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="1800" min="-85" max="-125"/>
+    <attack name="mega kick" range="1" interval="2800" chance="40" min="-180" max="-310">    </attack>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+	<attack name="fury attack" interval="3000" chance="24" range="1">
+    </attack>
+	<attack name="drill peck" interval="2200" chance="20" range="1">
+    </attack>
+	<attack name="pluck" interval="2100" chance="17" range="1" min="-260" max="-280">
+    </attack>
+	<attack name="rapid hit" interval="1700" chance="20" range="1" min="-160" max="-200">
+    </attack>
+
+
+    </attacks>
+
+
+  <defenses armor="15" defense="20">
+  </defenses>
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Primeeape!"/>
+  </voices>
+	<loot>
+	<item id="2315" countmax="1" chance="1700"/> -- fight stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

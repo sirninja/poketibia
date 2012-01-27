@@ -1,0 +1,30 @@
+FEITO POR MASTERCRAFT (OTSERV.COM.BR) / BRUN123 (XTIBIA.COM)
+
+Na pasta data/actions/scripts, você encontra o evolution.lua, para adicionar uma nova evolução, basta adicionar a tag:
+
+["Sandshrew"] = {level = 55, evolution = "Sandslash", maxh = 3400, count = 2, stoneid = 2287, stoneid2 = 0},
+
+     /\                  /\                  /\                /\
+Aqui fica o nome      level neces-        nome do novo       vida que o
+do pokemon que        sário para          pokemon.          novo pokemon
+vai evoluir.         efetuar a evo-                         vai ter.
+                      lução.
+
+COUNT - Aqui quantas stones precisa pra evoluir, segue o modelo:
+
+PARA FAZER UM POKEMON EVOLUIR COM 1 STONE, COLOQUE:
+
+count = 1, stoneid = xxxx, stoneid2 = 0.
+
+PARA FAZER UM POKEMON EVOLUIR COM 2 STONES IGUAIS COLOQUE:
+
+count = 2, stoneid = xxxx, stoneid2 = 0.
+
+PARA FAZER UM POKEMON EVOLUIR COM 2 STONES DIFERENTES COLOQUE:
+
+count = 1, stoneid = xxxx, stoneid2 = yyyy.
+
+SENDO XXXX E YYYY OS IDS DAS STONES.
+
+NO CASO DO EEVEE, COMO TEM 3 EVOLUÇÕES DIFERENTES, FOI NECESSÁRIO FAZÊ-LO A PARTE,
+BASTA 1 STONE PARA EVOLUIR ELE PARA "VAPOREON" (1 WATER) / "JOLTEON" (1 THUNDER) / "FLAREON" (1 FIRE)

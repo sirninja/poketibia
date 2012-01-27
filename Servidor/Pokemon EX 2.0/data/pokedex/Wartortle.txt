@@ -1,0 +1,23 @@
+Name: Wartortle
+Type: water
+Required level: 40
+
+Evolutions:
+Squirtle, requires level 20
+Wartortle, requires level 40
+Blastoise, requires level 85
+
+Description: It often hides in water to stalk unwary prey. For fast swimming, it moves its ears to maintain balance.
+
+Moves: 
+Headbutt - m1 - level 40 - normal
+Bubbles - m2 - level 40 - water
+Water Gun - m3 - level 40 - water
+Waterball - m4 - level 40 - water
+Aqua Tail - m5 - level 40 - water
+Bubble Blast - m6 - level 45 - water
+Hydro Cannon - m7 - level 50 - water
+Harden - m8 - level 40 - normal
+
+Ability:
+Surf

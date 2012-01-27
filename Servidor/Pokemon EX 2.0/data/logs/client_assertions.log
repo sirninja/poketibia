@@ -1,0 +1,955 @@
+----- 21/01/2011 21:23:27 - Nosferat (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Home Premium Edition 32 Bit in BRA
+Processor: Intel Core 2 QUAD Q660
+Video Card: NVIDIA GeForce 8600 GT
+Last Packet Types: 110 110 180 163 108 180 106 132 140 131
+Last Packet: 110 002 172 023 016 000 100 101 102 101 097 116 101 100 032 107
+Player Position: [1010,1016,7]
+Player Name: Lucci (Pokemon Dash)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25329448), reason:
+Communication.cpp 2136: exception occurred (Container = 2), reason:
+Objects.cpp 280: exception occurred (Type = 8041) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 8041) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Fri Jan 21 21:22:32 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 09:47:39 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 124 123 123 160 123 160 123 160 180
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1081,937,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 056 046 050 048 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 3374896), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 09:47:09 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 09:48:13 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 030 101 109 170 102 109 130 111 030
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1082,936,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 056 046 050 048 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25193888), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 09:47:52 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 09:51:37 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 108 131 140 140 140 170 160 160 120
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1061,909,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 056 046 050 048 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25193888), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 09:48:57 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 13:14:53 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 030 104 109 143 143 131 180 180 210
+Last Packet: 030 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000
+Player Position: [1060,909,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 056 046 050 048 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25521568), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 09:51:45 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 13:16:57 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 030 030 170 172 030 171 103 109 030
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1060,903,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 053 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 24276384), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 13:15:24 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 13:19:49 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 180 030 108 030 162 144 104 109 030
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1069,911,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 053 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 24079776), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 13:19:35 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 13:23:21 - No Cry (189.111.7.85) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 110 030 162 144 163 108 180 106 132 160
+Last Packet: 110 001 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [1063,912,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 053 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25521568), reason:
+Communication.cpp 2136: exception occurred (Container = 1), reason:
+Objects.cpp 280: exception occurred (Type = 55346) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 55346) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 13:23:01 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 16:43:02 - Avadazk (189.71.112.5) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.26GHZ
+Video Card: Chrome VIA/S3G U
+Last Packet Types: 110 109 109 108 104 109 108 109 109 109
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 012
+Player Position: [1232,1060,7]
+Player Name: Avadazk (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 053 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 117313864), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 56069) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 56069) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 16:42:33 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 17:07:31 - Avadazk (189.71.112.5) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.26GHZ
+Video Card: Chrome VIA/S3G U
+Last Packet Types: 110 109 103 109 104 109 109 109 106 030
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 012
+Player Position: [1228,1061,7]
+Player Name: Avadazk (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 053 057 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 117471064), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 56069) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 56069) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 16:43:09 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 17:19:00 - Masterzs Full (201.25.249.120) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Core 2 DUO E7500
+Video Card: NVIDIA GeForce 9400 GT
+Last Packet Types: 142 030 180 030 170 030 030 170 030 170
+Last Packet: 142 170 032 000 016 019 002 000 000 000 000 000 000 000 000 000
+Player Position: [1060,915,7]
+Player Name: Masterzs Full (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 049 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1328AE8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 1260), reason:
+MapWindow.cpp 1146: exception occurred (posx = 288) (posy = 128), reason:
+MapWindow.cpp 1049: exception occurred (i = 0) (Creatures[i]->OutfitType = 531), reason:
+MapWindow.cpp 1028: exception occurred, reason:
+MapWindow.cpp 1257: outfit has not all four directions (Creature->OutfitType = 531) (GetOutfitPatternWidth(Creature->OutfitType) = 2)
+Tue May 24 17:17:47 2011
+Debug Assertion 8.54 MapWindow.cpp 1257
+
+----- 24/05/2011 17:47:31 - Test (173.0.0.110) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E7400
+Video Card: Intel (R) G33/G
+Last Packet Types: 100 011 010 031 100 020 010 000 000 000
+Last Packet: 010 085 033 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [0,0,0]
+Player Name: [GOD] Scizor (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 049 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 28864184), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1062) (PlayerY = 914), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 3892), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268443989), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 531) (GetOutfitPatternWidth(Creature->OutfitType) = 2)
+Tue May 24 17:41:43 2011
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 24/05/2011 17:48:50 - No Cry (189.111.7.85) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 7300 LE
+Last Packet Types: 106 211 030 132 131 140 140 133 131 131
+Last Packet: 211 011 000 000 000 106 038 004 146 003 007 002 097 000 000 000
+Player Position: [1068,909,7]
+Player Name: No Cry (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 049 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 25591600), reason:
+Communication.cpp 1743: exception occurred (rx = 2) (ry = 11), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268444024), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 531) (GetOutfitPatternWidth(Creature->OutfitType) = 2)
+Tue May 24 17:48:09 2011
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 24/05/2011 18:40:34 - Pascoal (186.213.101.44) -----
+
+Graphic Engine: OpenGL (1)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.53GHZ
+Video Card: Intel (R) 82865
+Last Packet Types: 102 109 102 109 110 102 109 102 109 102
+Last Packet: 109 013 004 000 004 007 001 014 004 000 004 007 102 167 017 076
+Player Position: [1038,1024,7]
+Player Name: Pascoal (Pheonix)
+Player Action: 056 056 046 050 050 050 046 050 049 051 046 053 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 102) (MainWindow = 147279584), reason:
+Communication.cpp 1666: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 17) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 48895) (OldType = 3163), reason:
+Objects.cpp 280: exception occurred (Type = 48895) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 48895) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 24 18:30:17 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 24/05/2011 19:57:59 - Denzeru (173.0.5.225) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Business Edition 32 Bit in BRA
+Processor: Intel Core 2 DUO E7400
+Video Card: Intel (R) G33/G
+Last Packet Types: 100 011 010 031 030 030 030 101 109 104
+Last Packet: 010 120 033 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [0,0,0]
+Player Name: [GOD] Scizor (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 049 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 29388472), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1062) (PlayerY = 914), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 3892), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268444024), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 531) (GetOutfitPatternWidth(Creature->OutfitType) = 2)
+Tue May 24 17:48:03 2011
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 24/05/2011 20:29:18 - Dark Maniac (187.56.76.68) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Athlon 64 3800+
+Video Card: NVIDIA GeForce 6100 NFOR
+Last Packet Types: 106 180 180 180 180 180 180 180 110 111
+Last Packet: 106 038 004 146 003 007 002 097 000 000 000 000 000 208 032 000
+Player Position: [1068,909,7]
+Player Name: Dark Maniac (Pokemon EX)
+Player Action: 049 055 051 046 048 046 053 046 050 050 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 16747328), reason:
+Communication.cpp 1743: exception occurred (rx = 2) (ry = 11), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268443856), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 531) (GetOutfitPatternWidth(Creature->OutfitType) = 2)
+Tue May 24 20:26:01 2011
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 26/05/2011 14:54:09 - Shiyt'zu (201.12.141.12) -----
+
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Pentium 4 3.06GHZ
+Video Card: Chrome VIA/S3G U
+Last Packet Types: 103 109 180 162 103 109 030 103 109 102
+Last Packet: 109 007 004 006 004 007 002 007 004 007 004 007 103 102 003 184
+Player Position: [1031,1031,7]
+Player Name: Shiyt'zu (Pheonix)
+Player Action: 056 056 046 050 050 050 046 050 049 051 046 053 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 103) (MainWindow = 80975104), reason:
+Communication.cpp 1679: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 13), reason:
+Communication.cpp 1597: exception occurred (Type = 11804) (OldType = 3159), reason:
+Objects.cpp 280: exception occurred (Type = 11804) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 11804) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Thu May 26 13:49:36 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 26/05/2011 20:34:24 - Anyone (187.126.198.164) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Dual Core AMD Athlon 64 X2 420
+Video Card: NVIDIA GeForce 6200 TURB
+Last Packet Types: 160 131 160 160 160 143 180 140 143 180
+Last Packet: 160 150 000 150 000 088 002 000 000 000 000 000 000 001 000 000
+Player Position: [1058,1048,6]
+Player Name: Anyone (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 050 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 1178BC0 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 13), reason:
+Objects.cpp 280: exception occurred (Type = 88) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 88) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Thu May 26 20:33:43 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 26/05/2011 20:39:56 - Astoreko (187.115.106.74) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 2800+
+Video Card: ATI Radeon 9600/9550
+Last Packet Types: 143 143 131 180 180 162 142 180 162 141
+Last Packet: 010 232 032 000 016 050 000 000 100 189 004 045 005 007 201 018
+Player Position: [1213,1325,7]
+Player Name: Astoreko (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 050 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 31747848), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Thu May 26 20:39:30 2011
+Debug Assertion 8.54 Network.cpp 444
+
+----- 26/05/2011 20:44:14 - Astorekoo (187.115.106.74) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 2800+
+Video Card: ATI Radeon 9600/9550
+Last Packet Types: 162 141 130 161 160 120 121 120 120 120
+Last Packet: 010 232 032 000 016 050 000 000 011 002 002 002 002 000 000 000
+Player Position: [1213,1325,7]
+Player Name: Astoreko (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 050 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = -1) (MainWindow = 31749416), reason:
+Network.cpp 491: exception occurred, reason:
+Network.cpp 478: exception occurred, reason:
+Network.cpp 444: packet size does not fit to symmetric encryption (PacketSize = 15341)
+Thu May 26 20:40:04 2011
+Debug Assertion 8.54 Network.cpp 444
+
+----- 27/05/2011 16:03:43 - Pepe (187.114.85.5) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 2200+
+Video Card: NVIDIA GeForce4 MX 4000 (
+Last Packet Types: 109 131 132 131 140 140 170 132 140 131
+Last Packet: 109 234 003 217 005 001 001 234 003 216 005 001 109 228 003 205
+Player Position: [1003,1495,1]
+Player Name: Pepe (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 049 046 050 049 050 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 109) (MainWindow = 81227688), reason:
+Communication.cpp 2110: exception occurred, reason:
+Communication.cpp 2101: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 7 sy: 8 sz: 6
+ Position: 1
+ zx: 7 zy: 7 zz: 6
+ dx: 0 dy: -1 dz: 0
+ abs_sx: 1002 abs_sy: 1497 abs_sz: 1
+ abs_zx: 1002 abs_zy: 1496 abs_zz: 1
+ Start Cylinder (1):  (408,0)
+ Start Cylinder (2):  (408,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (408,0)
+ Destination Cylinder (2):  (408,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Fri May 27 16:04:36 2011
+Debug Assertion 8.54 Communication.cpp 2101
+
+----- 27/05/2011 19:42:21 - Pepe (187.114.85.5) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 2200+
+Video Card: NVIDIA GeForce4 MX 4000 (
+Last Packet Types: 110 030 162 144 102 109 109 102 109 109
+Last Packet: 144 184 032 000 016 000 162 128 000 030 110 001 162 028 012 000
+Player Position: [1040,1454,4]
+Player Name: Pepe (Pokemon EX)
+Player Action: 049 055 051 046 048 046 053 046 050 050 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 81227688), reason:
+Communication.cpp 2136: exception occurred (Container = 1), reason:
+Network.cpp 502: exception occurred, reason:
+Utils.cpp 490: assertion failed (Position = 41) (Size = 41), reason:
+Position<=Size-1
+Fri May 27 19:42:54 2011
+Debug Assertion 8.54 Utils.cpp 490
+
+----- 27/05/2011 23:57:21 - Yuri (186.193.56.124) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 3000+
+Video Card: NVIDIA GeForce FX 5500
+Last Packet Types: 170 109 170 107 030 133 131 132 131 140
+Last Packet: 170 000 000 000 000 008 000 083 108 111 119 112 111 107 101 000
+Player Position: [1082,823,7]
+Player Name: [ADM] Yuri (Pkm Flash)
+Player Action: 053 046 050 052 054 046 050 052 048 046 049 049 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 170) (MainWindow = 18173224), reason:
+Communication.cpp 2754: exception occurred (Mode = 0) (Channel = 0), reason:
+Communication.cpp 2748: unknown talk mode (Mode = 0), reason:
+[bug0000649]
+Fri May 27 23:50:59 2011
+Debug Assertion 8.54 Communication.cpp 2748
+
+----- 28/05/2011 12:48:52 - Brolymatador (189.91.189.146) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Pentium DUAL E218
+Video Card: Intel (R) 82945
+Last Packet Types: 109 102 109 109 102 109 109 102 109 109
+Last Packet: 109 031 004 031 004 007 001 032 004 031 004 007 000 000 000 000
+Player Position: [1058,1057,7]
+Player Name: Brolymatador (Pokemon EX)
+Player Action: 049 055 051 046 048 046 056 046 049 050 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 8E56F20 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 6), reason:
+Objects.cpp 280: exception occurred (Type = 11205) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11205) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sat May 28 12:48:19 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 28/05/2011 20:09:49 - Soverte (189.19.140.176) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows Vista Home Premium Edition 32 Bit in BRA
+Processor: Intel Pentium DUAL E220
+Video Card: Intel (R) 82945
+Last Packet Types: 030 111 109 111 103 109 104 109 160 112
+Last Packet: 030 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000
+Player Position: [568,685,7]
+Player Name: Soverte (Pokemon EX)
+Player Action: 049 055 051 046 048 046 050 046 050 050 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 26A6B48 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 14), reason:
+Objects.cpp 280: exception occurred (Type = 11254) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11254) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sat May 28 20:09:22 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 28/05/2011 20:28:09 - Soverte (189.19.140.176) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows Vista Home Premium Edition 32 Bit in BRA
+Processor: Intel Pentium DUAL E220
+Video Card: Intel (R) 82945
+Last Packet Types: 162 101 109 101 109 101 109 101 109 162
+Last Packet: 109 059 002 160 002 006 001 059 002 159 002 006 101 169 017 082
+Player Position: [571,671,6]
+Player Name: Soverte (Pokemon EX)
+Player Action: 049 055 051 046 048 046 050 046 050 050 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 24D6D98 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 14), reason:
+Objects.cpp 280: exception occurred (Type = 11254) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11254) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sat May 28 20:27:52 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 29/05/2011 09:49:18 - Mastriny (189.124.208.149) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Core 2 DUO E7400
+Video Card: NVIDIA GeForce GT 240
+Last Packet Types: 101 109 101 109 162 101 109 104 109 030
+Last Packet: 109 033 004 139 003 007 002 033 004 138 003 007 101 234 004 000
+Player Position: [1057,906,7]
+Player Name: Mastriny (Pokemon EX)
+Player Action: 049 055 051 046 048 046 050 046 050 050 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 101) (MainWindow = 34706624), reason:
+Communication.cpp 1653: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 5581), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = -2147482610), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 181) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Sun May 29 09:48:29 2011
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 29/05/2011 11:42:29 - Storm Warrior (187.10.1.5) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: Dual Core AMD Athlon 64 X2 420
+Video Card: NVIDIA GeForce 6100 NFOR
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 1 MaW: 1144D58 MoW: 111F9E0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+GUI.cpp 1234: exception occurred (Surface = 1) (i = 1), reason:
+GUI.cpp 1208: dialog origin outside main window (surface: 1 x: -2424 y: 259 DrawingListLength: 9 i: 1 DrawingList.Skin: 49 DrawingList.x: 4 DrawingList.y: 0 DrawingList.width: 5861 DrawingList.height: 17 DrawingList.srcx: 0 DrawingList.srcy: 0)
+Sun May 29 11:40:50 2011
+Debug Assertion 8.54 GUI.cpp 1208
+
+----- 29/05/2011 12:40:16 - Spartacus (189.18.171.95) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Starter Edition 32 Bit in BRA
+Processor: Dual Core AMD Athlon 4450E
+Video Card: NVIDIA GeForce 6150SE NF
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 24D78F0 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 8), reason:
+Objects.cpp 280: exception occurred (Type = 11118) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11118) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sun May 29 12:40:00 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 29/05/2011 15:10:39 - Komuro (200.199.81.226) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Dual Core AMD Athlon 64 X2 440
+Video Card: NVIDIA GeForce 8500 GT
+Last Packet Types: 170 109 131 132 140 109 109 109 107 107
+Last Packet: 170 000 000 000 000 007 000 080 111 114 121 103 111 110 000 000
+Player Position: [1352,928,7]
+Player Name: Komuro (Pkm Flash)
+Player Action: 049 056 057 046 054 056 046 053 052 046 050 049 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 170) (MainWindow = 29051536), reason:
+Communication.cpp 2754: exception occurred (Mode = 0) (Channel = 0), reason:
+Communication.cpp 2748: unknown talk mode (Mode = 0), reason:
+[bug0000649]
+Sun May 29 15:10:07 2011
+Debug Assertion 8.54 Communication.cpp 2748
+
+----- 30/05/2011 19:15:06 - Yuri (186.193.48.2) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 3000+
+Video Card: NVIDIA GeForce FX 5500
+Last Packet Types: 106 109 109 109 109 109 101 109 109 109
+Last Packet: 106 038 004 038 004 007 001 097 000 000 000 000 000 072 025 000
+Player Position: [1063,1060,7]
+Player Name: Yuri (Pkm Avast)
+Player Action: 049 056 057 046 055 057 046 049 053 048 046 050 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 4164016), reason:
+Communication.cpp 1743: exception occurred (rx = 7) (ry = 8), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073748296), reason:
+Objects.cpp 604: exception occurred (Number = 634), reason:
+Container.h 226: index out of range (original i: 634, i: 633, min: 1, d: 585)
+Mon May 30 18:59:32 2011
+Debug Assertion 8.54 Container.h 226
+
+----- 31/05/2011 08:50:42 - Helb (201.68.79.50) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in BRA
+Processor: Intel Core 2 DUO E7400
+Video Card: NVIDIA GeForce 7050 / NV
+Last Packet Types: 110 030 180 180 110 030 102 109 102 109
+Last Packet: 110 001 037 011 007 000 112 111 107 101 098 097 103 028 000 018
+Player Position: [1062,903,7]
+Player Name: Helb (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 057 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 39925776), reason:
+Communication.cpp 2136: exception occurred (Container = 1), reason:
+Objects.cpp 280: exception occurred (Type = 57356) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 57356) (ObjectProperties->high() = 8053), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 31 08:49:22 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 31/05/2011 10:37:14 - Hitsu (189.89.208.130) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows Vista Home Premium Edition 32 Bit in KOR
+Processor: Quad Core AMD Phenom 9500
+Video Card: NVIDIA GeForce 6100 NFOR
+Last Packet Types: 109 131 140 170 104 109 162 030 131 140
+Last Packet: 109 031 004 031 004 007 001 032 004 031 004 007 000 000 000 000
+Player Position: [1055,1053,7]
+Player Name: Hitsu (Xtreme)
+Player Action: 053 046 049 051 054 046 049 052 051 046 049 053 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+MainFrm.cpp 827: exception occurred (nChar = 119) (nFlags = 66), reason:
+Control.cpp 1119: exception occurred (Key = 263), reason:
+MainWindow.cpp 214: exception occurred (Key = 263), reason:
+ConsoleWindow.cpp 1888: exception occurred (Key = 263), reason:
+ConsoleWindow.cpp 1862: exception occurred (ObjectType = 11242) (ObjectData = 0), reason:
+Objects.cpp 280: exception occurred (Type = 11242) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11242) (ObjectProperties->high() = 8146), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Thu May 19 21:47:29 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 31/05/2011 14:42:35 - Helb (201.68.79.50) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Business Edition 64 Bit in BRA
+Processor: Intel Core 2 DUO E7400
+Video Card: NVIDIA GeForce 7050 / NV
+Last Packet Types: 100 010 031 100 020 132 132 132 132 180
+Last Packet: 010 234 039 000 016 050 000 000 100 233 002 205 003 009 251 003
+Player Position: [745,973,9]
+Player Name: Helb (Pokemon SotBr)
+Player Action: 049 056 055 046 049 048 054 046 056 050 046 056 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 40363392), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 745) (PlayerY = 973), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 9291) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 9291) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 9291) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue May 31 14:39:08 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 31/05/2011 15:14:59 - Snorlax Shiny (201.43.93.125) -----
+
+Graphic Engine: DirectX5 (0)
+Operating System: Windows Vista Starter Edition 32 Bit in BRA
+Processor: Intel Celeron 420 @ 1.6
+Video Card: Intel (R) 946GZ
+Last Packet Types: 107 107 109 106 161 131 180 109 109 030
+Last Packet: 107 011 004 078 004 007 001 099 000 106 183 003 064 000 000 000
+Player Position: [1035,1101,7]
+Player Name: Snorlax Shiny (Johto)
+Player Action: 049 055 052 046 049 050 056 046 050 051 053 046 051 052 058 055 048 049 051
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 46 MaW: 1667EC0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 122: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 707: exception occurred (Surface = 1) ((int) Child = 22524072), reason:
+ContentWindows.cpp 2668: exception occurred (Surface = 1), reason:
+Graphics.cpp 1244: exception occurred (Surface = 1) (OutfitType = 536), reason:
+NWin32Exception.cpp 75: win32 exception occurred, reason:
+integer divide by zero
+Tue May 31 14:11:43 2011
+Debug Assertion 8.54 NWin32Exception.cpp 75
+
+----- 31/05/2011 19:35:04 - Supreme Lfrt (201.47.218.67) -----
+Comment: 
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Intel Celeron 550 @ 2.0
+Video Card: Mobile Intel (R) 965 E
+Last Packet Types: 103 109 103 109 103 109 103 109 103 109
+Last Packet: 109 035 004 156 003 007 001 035 004 157 003 007 103 163 017 070
+Player Position: [1059,925,7]
+Player Name: [ADM] Lfrt (Pokemon Dash)
+Player Action: 049 055 051 046 048 046 054 046 049 053 055 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 103) (MainWindow = 33534384), reason:
+Communication.cpp 1679: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 13), reason:
+Communication.cpp 1597: exception occurred (Type = 8230) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 8230) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 8230) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Fri May 27 19:23:09 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 31/05/2011 21:22:50 - Darkus (189.102.91.177) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Sempron 140
+Video Card: NVIDIA GeForce 7025 / NV
+Last Packet Types: 109 107 109 131 131 131 131 131 131 132
+Last Packet: 109 036 004 144 003 007 001 036 004 145 003 007 109 043 004 145
+Player Position: [1068,911,7]
+Player Name: Darkus (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 049 057 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 109) (MainWindow = 19885832), reason:
+Communication.cpp 2110: exception occurred, reason:
+Communication.cpp 2101: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017], reason:
+ sx: 0 sy: 7 sz: 0
+ Position: 1
+ zx: 0 zy: 8 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 1060 abs_sy: 912 abs_sz: 7
+ abs_zx: 1060 abs_zy: 913 abs_zz: 7
+ Start Cylinder (1):  (1258,0)
+ Start Cylinder (2):  (1258,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (1258,0)
+ Destination Cylinder (2):  (1258,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Tue May 31 20:05:48 2011
+Debug Assertion 8.54 Communication.cpp 2101
+
+----- 31/05/2011 21:55:24 - Dark Maniac (200.161.109.51) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows XP Professional in BRA
+Processor: AMD Athlon 64 3800+
+Video Card: NVIDIA GeForce 6100 NFOR
+Player.cpp 361: exception occurred, reason:
+Network.cpp 938: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1214: exception occurred, reason:
+Communication.cpp 117: exception occurred, reason:
+Communication.cpp 105: Asymmetric encryption for login server failed
+000 023 208 225 228 032 164 214 179 205 208 230 128 238 032 148 
+101 010 000 120 120 120 106 117 099 097 120 120 120 006 000 102 
+101 108 105 112 101 019 066 082 065 254 006 004 091 000 064 004 
+000 054 052 032 051 056 048 048 043 000 017 017 107 009 107 009 
+128 064 000 000 054 049 048 048 032 078 070 079 082 000 002 000 
+004 000 003 060 139 146 090 080 122 226 151 115 063 199 101 031 
+018 094 009 010 020 134 165 237 060 180 201 209 138 159 040 160 
+066 055 194 237 183 068 177 087 001 228 040 096 042 075 081 058 
+, reason:
+m_ModulusM is 0
+Tue May 31 21:50:56 2011
+Debug Assertion 8.54 Communication.cpp 105
+
+----- 01/06/2011 17:06:07 - Avadazk (189.71.121.216) -----
+
+Graphic Engine: DirectX5 (0)
+Operating System: Windows XP Professional in BRA
+Processor: Intel Celeron 2.26GHZ
+Video Card: Chrome VIA/S3G U
+Last Packet Types: 100 010 030 030 030 030 030 030 030 030
+Last Packet: 010 136 098 020 016 050 000 000 100 254 003 179 001 005 104 004
+Player Name: Avadakz (Yellow)
+Player Action: 054 057 046 049 054 050 046 055 051 046 049 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 121018920), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1022) (PlayerY = 435), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 12379) (OldType = 10873), reason:
+Objects.cpp 280: exception occurred (Type = 12379) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 12379) (ObjectProperties->high() = 12374), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed Jun 01 16:56:29 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 01/06/2011 17:58:31 - Filipesa (186.212.148.118) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 8400 GS
+Last Packet Types: 131 131 131 131 131 131 131 131 131 131
+Last Packet: 131 046 004 144 003 007 115 131 047 004 144 003 007 115 131 048
+Player Position: [1067,909,7]
+Player Name: Filipesa (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 053 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+MainFrm.cpp 827: exception occurred (nChar = 122) (nFlags = 87), reason:
+Control.cpp 1119: exception occurred (Key = 266), reason:
+MainWindow.cpp 214: exception occurred (Key = 266), reason:
+ConsoleWindow.cpp 1888: exception occurred (Key = 266), reason:
+ConsoleWindow.cpp 1862: exception occurred (ObjectType = 11870) (ObjectData = 0), reason:
+Objects.cpp 280: exception occurred (Type = 11870) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11870) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed Jun 01 17:57:50 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 01/06/2011 18:06:11 - Filipesa (186.212.148.118) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 8400 GS
+Last Packet Types: 109 144 162 144 109 102 109 108 030 108
+Last Packet: 109 035 004 138 003 007 002 035 004 139 003 007 000 000 000 000
+Player Position: [1061,909,7]
+Player Name: Filipesa (Pokemon EX)
+Player Action: 049 055 051 046 048 046 048 046 049 053 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: DDAFD8 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 10), reason:
+Objects.cpp 280: exception occurred (Type = 11870) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11870) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed Jun 01 18:04:50 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 01/06/2011 22:40:30 - Fpkfor (177.19.158.109) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: Intel Core 2 DUO E4500
+Video Card: NVIDIA GeForce 8400 GS
+Last Packet Types: 180 102 109 104 109 104 109 170 180 162
+Last Packet: 180 021 062 000 070 117 108 108 032 115 101 114 118 101 114 032
+Player Position: [581,1149,7]
+Player Name: Fpkfor (Pokemon EX)
+Player Action: 049 055 051 046 048 046 049 048 046 050 048 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 40 MaW: 8C6CD8 MoW: 0), reason:
+Control.cpp 1685: exception occurred (Type = 40), reason:
+Dialogs.cpp 652: exception occurred, reason:
+Dialogs.cpp 4252: exception occurred, reason:
+Dialogs.cpp 4314: exception occurred (Number = 10), reason:
+Objects.cpp 280: exception occurred (Type = 11870) (Flag = 7), reason:
+Objects.cpp 277: assertion failed (Type = 11870) (ObjectProperties->high() = 7985), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed Jun 01 22:30:06 2011
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 18/06/2011 21:25:12 - Jotte (189.60.4.77) -----
+Comment: 768425271091
+Graphic Engine: DirectX5 (0)
+Operating System: Windows 7 Ultimate Edition 32 Bit in BRA
+Processor: Dual Core AMD Athlon 64 X2 500
+Video Card: NVIDIA GeForce 8600 GT
+Last Packet Types: 110 109 109 109 109 109 109 109 109 109
+Last Packet: 110 000 037 011 007 000 112 111 107 101 098 097 103 028 000 007
+Player Position: [596,677,7]
+Player Name: Jotte (Pokemon EX)
+Player Action: 049 056 055 046 054 055 046 049 050 048 046 050 052 051 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 26524808), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 49252) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 49252) (ObjectProperties->high() = 7946), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sat Jun 18 21:25:03 2011
+Debug Assertion 8.54 Objects.cpp 277
+

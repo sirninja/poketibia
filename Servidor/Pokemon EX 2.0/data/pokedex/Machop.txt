@@ -1,0 +1,20 @@
+Name: Machop
+Type: fighting
+Required level: 20
+
+Evolutions:
+Machop, requires level 20
+Machoke, requires level 45
+Machamp, requires level 70
+
+Description: It continually undertakes strenuous training to master all forms of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.
+
+Moves: 
+Triple Punch - m1 - level 20 - fighting
+Mega Punch - m2 - level 20 - fighting
+Karate Chop - m3 - level 24 - fighting
+Ground Chop - m4 - level 28 - fighting
+Strafe - m5 - level 30 - normal
+
+Ability:
+Rock smash

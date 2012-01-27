@@ -1,0 +1,247 @@
+<npc name="Prof Oak" floorchange="0" walkinterval="0">
+	<health now="150" max="150"/>
+	<look type="177" head="17" body="54" legs="114" feet="0" addons="2"/>
+	<interaction range="3" idletime="30">
+		<interact keywords="hi" focus="1">
+			<!--These are the keywords will trigger this interaction-->
+			<keywords>oi</keywords>
+			<keywords>hello</keywords>
+
+			<response>
+				<action name="script">
+					<![CDATA[
+						if(getPlayerLevel(cid)) >= 3 then
+							selfSay(getCreatureName(cid) .. ", Entao, sua mae lhe mandou aqui para falar sobre pokemons??")
+							_state.b1 = (isPremium(cid) == TRUE)
+							_state.topic = 1
+						else
+							selfSay("Hey garoto, estou um pouco ocupado, voce poderia pegar um dos pokemons la em baixo pra mim?!")
+							_state.isidle = true
+						end
+					]]>
+				</action>
+			</response>
+		</interact>
+
+		<interact keywords="sim" topic="1">
+					<keywords>yes</keywords>
+			<response text="Pokemons sao monstros que vivem em nosso mundo por mundo tempo, existem diferentes teorias sobre como eles vieram para aqui, porem se adaptaram muito bem e sao criaturas muito doceis se tratadas com carinho e respeito. Quem treina pokemons e chamado Pokemon Trainer, vc quer se tornar um Pokemon Trainer?">
+				<action name="topic" value="2"/>
+			</response>
+		   </interact>
+		   
+		   
+		<interact keywords="sim" topic="2">
+			<keywords>yes</keywords>
+			<response text="Entao lhe darei esse pokemon que voce pegou. Onde voce quer iniciar sua jornada: Pewter, Celadon, Saffron, Fuchsia, Viridian, Vermilion, Cinnabar ou Cerulean?">
+			 <action name="script">
+					<![CDATA[
+						_state.topic = 3
+					]]>
+			</action>
+			</response>
+		</interact>
+		
+	<interact keywords="saffron" topic="3">
+			<response text="Entao voce quer ir para a cidade de Saffron?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 1
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+
+		<interact keywords="cerulean" topic="3">
+			<response text="Entao voce quer ir para a cidade de Cerulean?">
+				<!--n1: 1 = Saffron, 2 = Cerulean, 4 = Fuchsia-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 2
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="fuchsia" topic="3">
+			<response text="Entao voce quer ir para a cidade de Fuchsia?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 4
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="celadon" topic="3">
+			<response text="Entao voce quer ir para a cidade de Celadon?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 5
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="viridian" topic="3">
+			<response text="Entao voce quer ir para a cidade de Viridian?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 6
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="pewter" topic="3">
+			<response text="Entao voce quer ir para a cidade de Pewter?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 8
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="vermilion" topic="3">
+			<response text="Entao voce quer ir para a cidade de Vermilion?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 9
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<interact keywords="cinnabar" topic="3">
+			<response text="Entao voce quer ir para a cidade de Cinnabar?">
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						_state.n1 = 10
+						_state.n2 = 1
+						_state.topic = 4
+					]]>
+				</action>
+			</response>
+		</interact>
+		<!--If the player does not say any city, repeat our question-->
+		<interact keywords="|*|" topic="3">
+			<response text="Pewter, Vermilion, Viridian, Cinnabar, Fuchsia, Saffron, Celadon, ou Cerulean"/>
+		</interact>	
+	
+		<interact keywords="sim" topic="4">
+		<keywords>yes</keywords>
+			<response>
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<!--n2: 1 = Treinador Pokemon-->
+				<action name="script">
+					<![CDATA[
+						local pos = 0
+						if(_state.n1 == 1) then
+							pos = {x=1054, y=1049, z=7}
+						elseif(_state.n1 == 2) then
+							pos = {x=1060, y=904, z=7}
+						elseif(_state.n1 == 4) then
+							pos = {x=1122, y=1449, z=7}
+						elseif(_state.n1 == 5) then
+							pos = {x=863, y=1036, z=6}
+						elseif(_state.n1 == 6) then
+							pos = {x=560, y=1040, z=7}
+						elseif(_state.n1 == 8) then
+							pos = {x=572, y=669, z=6}
+						elseif(_state.n1 == 9) then
+							pos = {x=1073, y=1238, z=7}
+						elseif(_state.n1 == 10) then
+							pos = {x=1345, y=634, z=7}
+						else
+							selfSay("I DO NOT KNOW WHAT PROFESSION THAT IS, ASK THE GODS FOR GUIDANCE!")
+							return
+						end
+
+						selfSay("Boa sorte pequeno Treinador!")
+						doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
+
+						if(doTeleportThing(cid, pos) == 1) then
+							doPlayerSetTown(cid, _state.n1)
+							doPlayerSetVocation(cid, _state.n2)
+							doSendMagicEffect(getplayerPosition(cid), CONST_ME_TELEPORT)
+						end
+						_state.topic = 5
+					]]>
+				</action>
+				<action name="idle" value="1"/>
+			</response>
+		</interact>
+		
+		<interact keywords="go" topic="5">
+		    <response>
+				<!--n1: 1 = Viridian, 2 = Vermilion, 3 = Cerulean-->
+				<action name="script">
+					<![CDATA[
+						local pos = 0
+						if(_state.n1 == 1) then
+							pos = {x=1054, y=1049, z=7}
+						elseif(_state.n1 == 2) then
+							pos = {x=1060, y=904, z=7}
+						elseif(_state.n1 == 4) then
+							pos = {x=1122, y=1449, z=7}
+						elseif(_state.n1 == 5) then
+							pos = {x=863, y=1036, z=6}
+						elseif(_state.n1 == 6) then
+							pos = {x=560, y=1040, z=7}
+						elseif(_state.n1 == 8) then
+							pos = {x=572, y=669, z=6}
+						elseif(_state.n1 == 9) then
+							pos = {x=1073, y=1238, z=7}
+						elseif(_state.n1 == 10) then
+							pos = {x=1345, y=634, z=7}
+						else
+							selfSay("q?")
+							return
+						end
+
+						selfSay("Boa sorte pequeno Treinador!")
+						doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
+
+						if(doTeleportThing(cid, pos) == 1) then
+							doPlayerSetTown(cid, _state.n1)
+							doPlayerSetVocation(cid, _state.n2)
+							doSendMagicEffect(getplayerPosition(cid), CONST_ME_TELEPORT)
+						end
+					]]>
+				</action>
+			</response>	
+		</interact>
+
+		<interact keywords="bye" focus="0">
+			<keywords>farewell</keywords>
+			<response text="Flw."/>
+		</interact>
+
+		<interact event="onBusy">
+			<response text="Espera chegar a sua vez!">
+				<action name="addqueue" value="|PLAYER|"/>
+			</response>
+		</interact>
+
+		<!--This event triggers if the player goes to far away from the npc/logout/idle timeout-->
+		<interact event="onPlayerLeave" focus="0">
+			<response text="Fale comigo quando estiver pronto."/>
+		</interact>
+	</interaction>
+</npc>

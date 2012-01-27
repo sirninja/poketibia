@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shellder" nameDescription="a Shellder" race="undead" experience="125" speed="180" manacost="0">
+  <health now="800" max="800"/>
+  <look type="54" head="20" body="30" legs="40" feet="50" corpse="2837"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="lick" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="bubble" interval="5000" chance="90" min="-50" max="-90">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-20" max="-40">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <immunities>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element icePercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Shell!"/>
+    <voice sentence="Shell!"/>
+	</voices>
+	<loot>
+	<item id="7441" countmax="1" chance="4000"/><!-- Ice cube -->
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

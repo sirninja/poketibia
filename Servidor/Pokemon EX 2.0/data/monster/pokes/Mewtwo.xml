@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mewtwo" nameDescription="a Mewtwo" race="undead" experience="700" speed="500" manacost="0">
+  <health now="8500" max="8500"/>
+  <look type="34" head="20" body="30" legs="40" feet="50" corpse="5973"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="50"/>
+    <attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-65" max="-115">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="fire" interval="3000" chance="15" length="8" spread="3" min="-110" max="-170">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="legendarypower mewtwo" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+
+
+  </attacks>
+
+
+  <defenses armor="25" defense="25">
+    <defense name="healing" interval="1000" chance="10" min="1000" max="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+
+
+  <immunities>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+	<elements>
+		<element fightingPercent="30"/>
+		<element psychicPercent="50"/>
+		<element ghostPercent="-25"/>
+		<element bugPercent="-25"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Mewtwoo!!!" yell="1"/>
+  </voices>
+</monster>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Aerodactyl" namedescription="a wild aerodactyl" race="rock" experience="2000" speed="210" manacost="250">
+  <health now="12000" max="12000"/>
+  <look type="10" head="20" body="30" legs="40" feet="50" corpse="6338"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag staticattack="90"/>
+  <flag runonhealth="0" />
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+    <attack name="rock throw" interval="4000" chance="100" min="-190" max="-205"></attack>
+    <attack name="bite" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="headbutt" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="supersonic" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="rock slide" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+    <attack name="windstorm" interval="3300" chance="18" min="-600" max="-650">
+    </attack>
+    <attack name="tornado" interval="2700" chance="16" min="-450" max="-500">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="50" min="-700" max="-1100">
+    </attack>
+    <attack name="wing attack" interval="6750" chance="90" min="-700" max="-1100">
+    </attack>
+    <attack name="ember" interval="3000" chance="90" min="-150" max="-370">
+    </attack>
+    <attack name="rock polish" interval="2000" chance="50" min="-100" max="-350">
+    </attack>
+    <attack name="falling rocks" interval="10000" chance="90" min="-700" max="-1000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="4000" chance="100" min="100" max="300">
+    </defense>
+  </defenses>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Aeroodactyl!"/>
+		<voice sentence="Moohhhhooooo!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="10" chance="11000"/> -- stone orb
+	<item id="2280" countmax="1" chance="6000"/> -- rock stone
+	<item id="2285" chance="2000"/><!-- crystal Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

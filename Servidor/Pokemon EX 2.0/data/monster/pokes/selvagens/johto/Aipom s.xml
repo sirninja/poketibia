@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Aipom" nameDescription="a Aipom" race="undead" experience="450" speed="230" manacost="550">
+  <health now="1300" max="1300"/>
+  <look type="348" head="20" body="30" legs="40" feet="50" corpse="4252"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="scratch" interval="4500" chance="90" min="-30" max="-45">
+    </attack>
+    <attack name="swift" interval="5000" chance="90" min="-50" max="-120">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="90" min="-99" max="-109">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+    <elements>
+		<element fightPercent="-100"/>
+		<element deathPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Aipom!"/>
+	</voices>
+	<loot>
+		<item id="2679" countmax="4" chance="20000"/><!-- banana -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Onix" nameDescription="a Crystal Onix" race="undead" experience="2100" speed="260" manacost="390">
+	<health now="8300" max="8300"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="2020"/>
+	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70"/>
+		<attack name="lifedrain" interval="3000" chance="10" length="7" spread="3" min="0" max="-350">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="11" length="7" spread="3" speedchange="-650">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+    <attack name="auragelo" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+
+
+
+	</attacks>
+  <defenses armor="45" defense="45">
+    <defense name="healing" interval="1000" chance="10" min="50" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	</defenses>
+	  <elements>
+		<element firePercent="-50"/>
+  	  </elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="200">
+		<voice sentence="Onixx"/>
+		<voice sentence="Ooon!"/>
+	</voices>
+ </monster>

@@ -1,0 +1,22 @@
+Nome: Seadra
+Tipo: Agua
+Nivel Necessário: 45
+
+Evoluçoes:
+Horsea, requer nivel 5
+Seadra, reuqer nivel 45
+
+Descriçao: Sua baba venenosa em todo seu corpo faz farte da lista de ingredientes de uma receita medicinal. Ela mostra raiva pra todo mundo que se aproxima.
+
+Ataques:
+Mud Shot - Tiro de Lama - m1 - 45 
+Mud Bomb - Bomba de Lama - m2 - 45
+Quick Attack - Ataque Rapido - m3 - 45
+Bubbles - Bolhas - m4 - 45
+Bubblebeam - Jato de Bolhas - m5 - 45
+Water gun - Arma de Agua - m6 - 45
+Waterball - Bolas de agua - m7 - 45
+Hydro Cannon - Canhao Hidrico - m8 - 55
+
+Habilidade:
+Surfar (Surf)

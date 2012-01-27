@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmeleon" nameDescription="a charmeleon" race="fire" experience="750" speed="175" manacost="0">
+  <health now="2900" max="2900"/>
+  <look type="23" head="20" body="30" legs="40" feet="50" corpse="5981"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+
+    <attack name="melee" interval="1900" range="1" min="-85" max="-95"/>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="aurafogo" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMELEON!"/>
+    <voice sentence="MELEON!"/>
+  </voices>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+	<loot>
+	</loot>
+</monster>

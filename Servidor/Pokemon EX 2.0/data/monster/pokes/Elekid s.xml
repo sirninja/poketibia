@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elekid" nameDescription="an Eleckid" race="undead" experience="4500" speed="120" manacost="340">
+	<health now="3500" max="3500"/>
+	<look type="387" head="0" body="0" legs="0" feet="0" corpse="5762"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="20"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="25" attack="15"/>
+   <attack name="auraeletrica" interval="2000" chance="15" min="-200" max="-600"> </attack>
+   <attack name="scratch" interval="1000" chance="68" min="-20" max="-80">
+    </attack>
+    <attack name="thundershock" interval="5000" chance="100" min="-100" max="-180">
+    </attack>
+    <attack name="thunderbolt" interval="7000" chance="95" min="-200" max="-400">
+    </attack>
+    <attack name="thunder" interval="6500" chance="95" min="-300" max="-600">
+    </attack>
+
+	</attacks>
+	<defenses armor="8" defense="8"/>
+	<elements>
+		<element energyPercent="22"/>
+		<element holyPercent="11"/>
+		<element earthPercent="-3"/>
+		<element deathPercent="-4"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Elekid!"/>
+	</voices>
+		<loot>
+	<item id="8862" countmax="1" chance="10000"/> -- elec box
+	<item id="8863" countmax="1" chance="1000"/> -- imam
+	<item id="2279" countmax="1" chance="800"/> -- thunder stone
+	</loot>
+	<script>
+<event name="Exp"/>
+</script>
+</monster>

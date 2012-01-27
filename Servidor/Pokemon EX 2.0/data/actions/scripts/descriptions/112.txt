@@ -1,0 +1,22 @@
+Name: Rhydon
+Type: stone
+Required level: 65
+
+Evolutions:
+Rhyhorn, requires level 35
+Rhydon, requires level 65
+
+Description: Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
+
+Moves: 
+Iron Tail - m1 - level 65
+Horn Attack - m2 - level 65
+Rock Throw - m3 - level 65
+Stomp - m4 - level 70
+Horn Drill - m5 - level 65
+Shockwave - m6 - level 68
+Falling Rocks - m7 - level 70
+Mega Horn - m8 - level 72
+
+Ability:
+Rock smash

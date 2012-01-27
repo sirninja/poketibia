@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Persian" nameDescription="a Persian" race="undead" experience="625" speed="200" manacost="0">
+  <health now="4600" max="4600"/>
+  <look type="3" head="20" body="30" legs="40" feet="50" corpse="6009"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="1600" range="1" min="-100" max="-170"/>
+    <attack name="bite" interval="2000" chance="22" range="1" target="1" min="-177" max="-200"> </attack>
+    <attack name="slash" interval="2000" chance="22" range="1" target="1" min="-177" max="-300"> </attack>
+    <attack name="scratch" interval="2000" chance="22" range="1" target="1" min="-150" max="-250"> </attack>
+    <attack name="fury" interval="4000" chance="35" range="10" > </attack>
+    <attack name="fury attack" interval="3000" chance="24" range="1" > </attack>
+    <attack name="ice strike" interval="4000" chance="100" min="-50" max="-150">
+    </attack>
+
+
+  </attacks>
+  <defenses armor="10" defense="16"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Peer"/>
+    <voice sentence="siaaan!" yell="1"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="32000"/> -- nail
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	<item id="2294" countmax="1" chance="1400"/> -- heart stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

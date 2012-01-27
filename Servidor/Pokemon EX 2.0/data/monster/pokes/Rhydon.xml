@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rhydon" nameDescription="a Rhydon" race="undead" experience="4100" speed="210" manacost="505">
+  <health now="7000" max="7000"/>
+  <look type="200" head="0" body="0" legs="0" feet="0" corpse="2858"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-75" max="-225"/>
+    <attack name="aurapedra" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+</attacks>
+
+  <defenses armor="10" defense="15"/>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Rhydon!"/>
+  </voices>
+	<loot>
+		<item id="5804" countmax="1" chance="100"/><!-- Pot of lava -->
+		<item id="3976" countmax="1" chance="10000"/><!-- Pot of moss bug -->
+		<item id="2148" countmax="100" chance="10000"/><!-- Pot of moss bug -->
+	</loot>
+</monster>

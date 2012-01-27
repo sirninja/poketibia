@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="koffing" nameDescription="a koffing" race="undead" experience="225" speed="220" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="228" head="0" body="0" legs="0" feet="0" corpse="2936"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="80"/>
+    <flag targetdistance="5"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+<attacks>
+
+  <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60" /> 
+  <attack name="mud shot" range="5" interval="2100" chance="18" min="-40" max="-50" > </attack>
+  <attack name="poisonbomb" range="5" interval="2600" chance="18" min="-50" max="-60" > </attack>
+  <attack name="sludge" range="5" interval="2900" chance="19" min="-50" max="-80" > </attack>
+  <attack name="acid" range="5" interval="3000" chance="21" min="-40" max="-55" > </attack>
+  <attack name="poison gas" range="5" interval="2000" chance="21" min="-70" max="-90" > </attack>
+
+</attacks>
+
+
+  <defenses armor="15" defense="20">
+    <defense name="invisible" interval="2000" chance="15" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+	<item id="8857" countmax="1" chance="12000"/> -- gosme
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

@@ -1,0 +1,20 @@
+Name: Slowpoke
+Type: water
+Required level: 15
+
+Evolutions:
+Slowpoke, requires level 15
+Slowbro, requires level 45
+
+Description: It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.
+
+Moves: 
+Aqua Tail - m1 - level 15 - water
+Headbutt - m2 - level 15 - normal
+Iron Tail - m3 - level 18 - normal
+Waterball - m4 - level 18 - water
+Water Gun - m5 - level 20 - water
+Confusion - m6 - level 25 - psychic
+
+Ability:
+None

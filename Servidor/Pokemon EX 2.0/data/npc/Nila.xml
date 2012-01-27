@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nila" script="clothes.lua" walkinterval="3500" floorchange="0" speed="90">
+	<health now="150" max="150"/>
+	<look type="168" head="91" body="102" legs="83" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Welcome to the clothing shop! Do you want to see my {offers}?"/>
+			<parameter key="message_farewell" value="Bye! Come back whenever you want to buy a clothing!"/>
+			<parameter key="message_idletimeout" value="When you think you should, you can buy clothes with me!"/>
+			<parameter key="message_walkaway" value="Come back soon, to the clothing store with the lowest prices!"/>
+	</parameters>
+</npc>

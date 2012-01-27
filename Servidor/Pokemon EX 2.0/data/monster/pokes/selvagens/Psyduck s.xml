@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Psyduck" nameDescription="a Psyduck" race="UNDEAD" experience="325" speed="180" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="100" head="20" body="30" legs="40" feet="50" corpse="6029"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" />
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="confusion" range="5" interval="2100" chance="18" min="-60" max="-80">
+    </attack>
+    <attack name="aqua tail" range="5" interval="2600" chance="20" min="-80" max="-90">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-100" max="-200">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="headbutt" range="5" interval="2300" chance="15" min="-50" max="-80">
+    </attack>
+  </attacks>
+
+
+
+  <defenses armor="20" defense="20">
+    <defense name="cofusion stun" interval="5000" chance="30" min="-50" max="-150">
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Uhhhhhhh!"/>
+    <voice sentence="Aaaaahhhh!"/>
+    <voice sentence="Hoooohhh!"/>
+    <voice sentence="Chhhhhhh!"/>
+  </voices>
+
+
+	<loot>
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Seadra" nameDescription="a seadra" race="water" experience="3874" speed="190" manacost="200">
+    <health now="2500" max="2500"/>
+    <look type="276" head="0" body="0" legs="0" feet="0" corpse="2872"/>
+	<targetchange interval="5" chance="1000"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="95"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" range="1" interval="1700" min="-99" max="-109"/>
+    <attack name="auraagua" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+    </attacks>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+    <defenses armor="0" defense="0"/>
+    <voices interval="6000" chance="0">
+      <voice sentence="SEADRA!"/>
+      <voice sentence="DRA!"/>
+    </voices>
+
+  </monster>

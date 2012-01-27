@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Natu" nameDescription="a Natu" race="undead" experience="450" speed="260" manacost="0">
+	<health now="2000" max="2000"/>
+	<look type="346" corpse="4327"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="85" min="150" max="200">
+    </defense>
+  </defenses>
+    <elements>
+		<element fightPercent="50"/>
+		<element grassPercent="50"/>
+		<element electricPercent="-100"/>
+		<element icePercent="-100"/>
+		<element groundPercent="100"/>
+		<element rockPercent="-100"/>
+                <element deathPercent="-100"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Naaatu"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="10" chance="10000"/><!-- Sell Item -->
+		<item id="6569" countmax="2" chance="5000"/><!-- Sell Item -->
+		<item id="5791" chance="300"/><!-- Stone -->
+		<item id="5810" chance="300"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

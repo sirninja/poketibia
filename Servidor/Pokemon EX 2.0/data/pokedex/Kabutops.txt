@@ -1,0 +1,23 @@
+Name: Kabutops
+Type: stone
+Required level: 80
+
+Evolutions:
+Kabuto, requires level 20
+Kabutops, requires level 80
+
+Description: It is thought that this Pokemon came onto land because its prey adapted to life on land.
+
+Moves: 
+Scratch - m1 - level 80 - normal
+Bubbles - m2 - level 85 - water
+Slash - m3 - level 85 - normal
+Fury Cutter - m4 - level 80 - bug
+Mud Shot - m5 - level 85 - earth
+Harden - m6 - level 90 - normal
+Ancient Power - m7 - level 95 - stone
+Mega Drain - passive  - normal
+
+Ability:
+Cut
+Surf

@@ -1,0 +1,24 @@
+Nome: Ivysaur
+Tipo: Grama
+Level Requerido: 40
+
+Moves:
+Quick Attack - m1 - level 40
+Razor Leaf - m2 - level 40
+Vine Whip - m3 - level 40
+Headbutt - m4 - level 40
+Leech Seed - m5 - level 40
+Bullet Seed - m6 - level 45
+Solar Beam - m7 - level 50
+Sleep Powder - m8 - level 44
+Stun Spore - m9 - level 40
+Poison Powder - m10 - level 40
+
+Evoluções:
+
+Bulbasaur, requer level 20
+Ivysaur, requer level 40
+Vanusaur, requer level 80
+
+Habilidade:
+Cortar

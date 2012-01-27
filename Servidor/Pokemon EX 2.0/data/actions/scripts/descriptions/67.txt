@@ -1,0 +1,22 @@
+Nome: Machoke
+Tipo: Lutador
+Nível necessário: 40
+
+Evoluções:
+Machop, requer nível 18
+Machoke, requer nível 40
+Machamp, requer nível 65
+
+Descrição: Seu corpo muscular é tão poderoso, que ele usa um cinto que economiza suas energias para ser capaz de controlar seus movimentos.
+
+Ataques:
+Triple Punch - m1 - Soco Triplo
+Mega Punch - m2 - Super Soco
+Mega Kick - m3 - Mega Chute
+Karate Chop - M4 - Chute Karate
+Ground Chop - m5 - Chute Terrestre
+Fist Machine - m6 - Maquina de Porrada
+Strafe - M7 - Metralhar
+
+Habilidade:
+Rock Smash (Quebrar Pedra)

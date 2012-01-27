@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grimer" namedescription="a wild grimer" race="poison" experience="250" speed="155" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="214" head="20" body="30" legs="40" feet="50" corpse="6055"/>
+	<targetchange interval="50000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-40" max="-50">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="2600" chance="18" min="-50" max="-60">
+    </attack>
+    <attack name="sludge" range="5" interval="2900" chance="19" min="-50" max="-80">
+    </attack>
+    <attack name="acid" range="5" interval="3000" chance="21" min="-40" max="-55">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRIMER!"/>
+    <voice sentence="GRII!"/>
+    <voice sentence="MER!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+	<item id="8857" countmax="1" chance="12000"/> -- gosme
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

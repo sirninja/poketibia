@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pidgeotto" nameDescription="a pidgeotto" race="flying" experience="1770" speed="186" manacost="300">
+  <health now="1400" max="1400"/>
+  <look type="5" head="0" body="0" legs="0" feet="0" corpse="5966"/>
+
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+     <attack name="melee" interval="1900" min="-70" max="-90"/>
+    <attack name="auravoador" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+  </attacks>
+  <defenses armor="0" defense="1"/>
+  <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOTTO!"/>
+    <voice sentence="GEOTTO!"/>
+  </voices>
+
+	<loot>
+	</loot>
+
+</monster>

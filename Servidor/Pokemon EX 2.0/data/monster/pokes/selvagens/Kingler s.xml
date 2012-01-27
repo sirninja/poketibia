@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="a Kingler" race="undead" experience="625" speed="300" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="245" corpse="6340"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="1500" range="1" chance="100" min="-80" max="-120"/>
+    <attack name="death" interval="2000" chance="17" range="7" target="1" min="-130" max="-170">
+      <attribute key="shootEffect" value="suddendeath"/>
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <attack name="earth" interval="2000" chance="13" range="7" radius="4" target="1" min="-250" max="-300">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-80" max="-100">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-100" max="-150">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-80" max="-1000">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="50">
+    </attack>
+    <attack name="hammer" range="4" interval="2300" chance="18" min="-250" max="-311" > </attack>
+
+  </attacks>
+
+  <defenses armor="25" defense="30">
+    <defense name="healing" interval="3000" chance="18" min="200" max="395">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="KINGLER!!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2292" countmax="1" chance="1500"/> -- water stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+
+</monster>

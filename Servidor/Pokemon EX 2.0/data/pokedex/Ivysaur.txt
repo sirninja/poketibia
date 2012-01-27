@@ -1,0 +1,25 @@
+Name: Ivysaur
+Type: grass
+Required level: 40
+
+Evolutions:
+Bulbasaur, requires level 20
+Ivysaur, requires level 40
+Venusaur, requires level 85
+
+Description: When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.
+
+Moves: 
+Quick Attack - m1 - level 40 - normal
+Razor Leaf - m2 - level 40 - grass
+Vine Whip - m3 - level 40 - grass
+Headbutt - m4 - level 40 - normal
+Leech Seed - m5 - level 40 - grass
+Bullet Seed - m6 - level 45 - grass
+Solar Beam - m7 - level 50 - grass
+Sleep Powder - m8 - level 44 - grass
+Stun Spore - m9 - level 40 - grass
+Poison Powder - m10 - level 40 - poison
+
+Ability:
+Cut

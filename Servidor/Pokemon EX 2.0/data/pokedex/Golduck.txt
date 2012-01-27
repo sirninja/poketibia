@@ -1,0 +1,24 @@
+Name: Golduck
+Type: water
+Required level: 55
+
+Evolutions:
+Psyduck, requires level 20
+Golduck, requires level 55
+
+Description: A Pokemon that lives in lakes. It swims faster than any human swimming champion.
+
+Moves: 
+Doubleslap - m1 - level 55 - normal
+Water Gun - m2 - level 55 - water
+Aqua Tail - m3 - level 55 - water
+Waterball - m4 - level 55 - water
+Confusion - m5 - level 55 - psychic
+Psybeam - m6 - level 60 - psychic
+Psywave - m7 - level 60 - psychic
+Mega Kick - m8 - level 55 - fighting
+Strafe - m9 - level 60 - normal
+Stunning Confusion - passive  - psychic
+
+Ability:
+Surf

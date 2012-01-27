@@ -1,0 +1,20 @@
+Name: Vaporeon
+Type: Agua
+Required level: 60
+
+Evolutions:
+Eevee, requires level 20
+Vaporeon, requires level 60
+
+Moves: 
+Quick Attack - m1 - level 60
+Bite - m2 - level 60
+Water Gun - m3 - level 60
+Bubblebeam - m4 - level 60
+Water Pulse - m5- level 60
+Muddy Water - m6 - level 60
+Aurora Beam - m7 - level 65
+Hydro Cannon - m8 - level 70 
+
+Ability:
+Suf, Dig

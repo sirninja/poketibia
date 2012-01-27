@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dunsparce" namedescription="a Dunsparce" race="undead" experience="500" speed="500" manacost="250">
+  <health now="3000" max="3000"/>
+  <look type="364" head="20" body="30" legs="40" feet="50" corpse="2917"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="3"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="4000" chance="100" min="500" max="1000">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-100"/>
+		<element deathPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Spaaarce"/>
+	</voices>
+	<loot>
+		<item id="5881" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5929" chance="200"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

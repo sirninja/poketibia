@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wigglytuff" nameDescription="a Wigglytuff" race="undead" experience="650" speed="225" manacost="360">
+  <health now="5000" max="5000"/>
+  <look type="64" head="20" body="30" legs="40" feet="50" corpse="6012"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+	<attack name="melee" interval="1700" min="-30" max="-50"/>
+    <attack name="physical" interval="1000" chance="10" range="7" min="-150" max="-200">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+    <attack name="energy" interval="1000" chance="9" range="7" min="-300" max="-500">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="12" range="7" min="-400" max="-480">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+  <attack name="restore" interval="4200" chance="21" min="2000" max="3500" > </attack>
+  <attack name="metronome" range="4" interval="4000" chance="20" min="-300" max="-400" > </attack>
+
+
+  </attacks>
+  <defenses armor="7" defense="18"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="wiglypuff"/>
+  </voices>
+ <loot>
+	<item id="2294" countmax="1" chance="1400"/> -- heart stone
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

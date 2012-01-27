@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pinsir" nameDescription="a Pinsir" race="undead" experience="700" speed="260" manacost="300">
+  <health now="4500" max="4500"/>
+  <look type="53" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+    <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-40" max="-60">
+    </attack>
+    <attack name="poison sting" interval="2000" chance="70" min="-50" max="-80">
+    </attack>
+    <attack name="stun spore" interval="3000" chance="90" min="-60" max="-120">
+    </attack>
+    <attack name="peck" interval="4000" chance="90" min="-130" max="-210">
+    </attack>
+    <attack name="scratch" interval="5000" chance="90" min="-300" max="-600">
+    </attack>
+
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="2000" chance="100" min="10" max="90">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="80"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Piiinsir!"/>
+	</voices>
+	<loot>
+		<item id="8858" countmax="10" chance="100000"/>-- pot of moss bug
+		<item id="2079" countmax="2" chance="8500"/>-- horn
+		<item id="2301" countmax="1" chance="2000"/>-- coccon stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

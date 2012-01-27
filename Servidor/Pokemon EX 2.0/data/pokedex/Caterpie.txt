@@ -1,0 +1,18 @@
+Name: Caterpie
+Type: bug
+Required level: 1
+
+Evolutions:
+Caterpie, requires level 1
+Metapod, requires level 15
+Butterfree, requires level 30
+
+Description: It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.
+
+Moves: 
+Headbutt - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Bug Bite - m3 - level 1 - bug
+
+Ability:
+None

@@ -1,0 +1,22 @@
+Name: Pidgeot
+Type: flying
+Required level: 65
+
+Evolutions:
+Pidgey, requires level 5
+Pidgeotto, requires level 20
+Pidgeot, requires level 65
+
+Description: By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Sand Attack - m2 - level 65 - earth
+Whirlwind - m3 - level 65 - flying
+Drill Peck - m4 - level 65 - flying
+Wing Attack - m5 - level 67 - flying
+Tornado - m6 - level 69 - flying
+Strafe - m7 - level 65 - normal
+
+Ability:
+Fly

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Starmie" nameDescription="a Starmie" race="undead" experience="600" speed="260" manacost="280">
+  <health now="5000" max="5000"/>
+  <look type="249" head="20" body="30" legs="40" feet="50" corpse="7320"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="ice wave" interval="3000" chance="100" min="-100" max="-150">	</attack>
+    <attack name="melee" interval="2000" range="1" min="-80" max="-90"/>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-100" max="-250">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-100" max="-132">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-220" max="-330">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-150" max="-160">
+    </attack>
+    <attack name="restore" interval="4200" chance="10" min="600" max="2500">
+    </attack>
+    <attack name="slash" range="1" interval="2300" chance="19" min="-40" max="-80">
+    </attack>
+    <attack name="swift" range="1" interval="2300" chance="19" min="-70" max="-110">
+    </attack>
+	<attack name="psy beam" interval="3500" chance="21" min="-300" max="-450">
+	</attack>
+    <attack name="thunder wave" range="4" interval="2000" chance="16" min="-93" max="-200">
+    </attack>
+
+  </attacks>
+
+  <defenses armor="4" defense="8"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="100">
+    <voice sentence="Staarmie"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2292" countmax="1" chance="1400"/> -- water stone
+	</loot>
+<script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+</script>
+
+</monster>

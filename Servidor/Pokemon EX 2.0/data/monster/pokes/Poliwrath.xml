@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwrath" nameDescription="a poliwrath" race="water" experience="3172" speed="210" manacost="0">
+  <health now="4400" max="4400"/>
+  <look type="104" head="20" body="30" legs="40" feet="50" corpse="6033"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+     <attack name="melee" interval="1700" min="-190" max="-240"/>
+    <attack name="auraagua" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="WRATH!"/>
+    <voice sentence="POLIWRATH!"/>
+  </voices>
+	<loot>
+	</loot>
+
+</monster>

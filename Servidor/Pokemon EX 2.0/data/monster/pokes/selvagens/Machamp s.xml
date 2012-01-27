@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machamp" nameDescription="a Machamp" race="undead" experience="1000" speed="240" manacost="0">
+  <health now="10000" max="10000"/>
+  <look type="121" head="20" body="30" legs="40" feet="50" corpse="6048"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-85" max="-225"/>
+    <attack name="machoke" interval="3200" chance="100" min="-100" max="-500">    </attack>
+    <attack name="mega punch" range="1" interval="2800" chance="37" min="-180" max="-400">    </attack>
+    <attack name="triple punch" range="1" interval="2800" chance="37" min="-180" max="-390">    </attack>
+    <attack name="Mega Kick" range="1" interval="2800" chance="37" min="-380" max="-490">    </attack>
+    <attack name="strafe" interval="4200" chance="61" min="-400" max="-500"> </attack>
+    <attack name="destroyer hand" interval="2600" range="1" chance="35" min="-340" max="-500">
+    </attack>
+
+
+
+  </attacks>
+
+  <defenses armor="25" defense="35">
+    <defense name="healing" interval="2000" chance="30" min="300" max="480">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+
+	<elements>
+		<element bugPercent="30"/>
+		<element psychicPercent="-30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="30"/>
+		<element darkPercent="30"/>
+	</elements>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Machaaamp!"/>
+    <voice sentence="Chammp!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="3" chance="21000"/> -- stone orb
+	<item id="1294" countmax="100" chance="82000"/> -- small stone
+	<item id="2315" countmax="1" chance="1400"/> -- punch stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

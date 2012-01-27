@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Corsola" nameDescription="a Corsola" race="undead" experience="600" speed="400" manacost="290">
+  <health now="4000" max="4000"/>
+  <look type="388" head="20" body="30" legs="40" feet="50" corpse="2986"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-160" max="-170">
+    </attack>
+    <attack name="fury cutter" interval="4000" chance="90" min="-400" max="-470">
+    </attack>
+    <attack name="swift" interval="3000" chance="90" min="-400" max="-580">
+    </attack>
+    <attack name="tackle" interval="2000" chance="90" min="-200" max="-300">
+    </attack>
+    <attack name="quick attack" interval="3000" chance="90" min="-100" max="-100">
+    </attack>
+    <attack name="petal dance" interval="4500" chance="90" min="-900" max="-1200">
+    </attack>
+    <attack name="slash" interval="2000" chance="50" min="-800" max="-900">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="50"/>
+		<element grassPercent="-100"/>
+		<element electricPercent="-100"/>
+		<element icePercent="50"/>
+		<element flyingPercent="50"/>
+		<element poisonPercent="50"/>
+		<element normalPercent="50"/>
+		<element fightPercent="-100"/>
+		<element groundPercent="-100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Corsoooola!"/>
+	</voices>
+	<loot>
+		<item id="5944" countmax="1" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="7497" chance="150"/><!-- Stone -->
+	</loot>
+</monster>

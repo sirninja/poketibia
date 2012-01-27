@@ -1,0 +1,17 @@
+Name: Mr.Mime
+Type: Psíquico
+Required level: 60
+
+Evolutions:
+-/-
+
+Moves: 
+Doubleslap - m1 - level 60
+Psychic - m2 - level 60
+Confusion - m3 - level 60
+Psyusion - m4 - level 75
+Reflect - m5 - level 60
+Mimic Wall - m6 - level 60 
+
+Ability:
+Light e Teleport

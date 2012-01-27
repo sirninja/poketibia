@@ -1,0 +1,20 @@
+Name: Cubone
+Type: Terra
+Required level: 18
+
+Evolutions:
+Cubone, requires level 20
+Marowak, requires level 55
+
+Description: Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.
+
+Moves: 
+Headbutt - m1 - level 20
+Bonemerang - m2 - level 20
+Bone Club - m3 - level 22
+Bone Slash - m4 - level 27
+Rage - m5 - level 32
+	
+
+Ability:
+Rock Smash,Cut

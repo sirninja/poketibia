@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seel" nameDescription="a Seel" race="UNDEAD" experience="400" speed="210" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="101" head="20" body="30" legs="40" feet="50" corpse="6030"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="bubble" interval="5000" chance="90" min="-50" max="-90">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-20" max="-40">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element icePercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Seel!"/>
+    <voice sentence="Seeeeeeeeel"/>
+	</voices>
+	<loot>
+		<item id="7441" countmax="1" chance="1"/><!-- Ice cube -->
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

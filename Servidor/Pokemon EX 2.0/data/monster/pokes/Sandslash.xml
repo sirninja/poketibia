@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="a sandslash" race="ground" experience="2451" speed="180" manacost="0">
+  <health now="3400" max="3400"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+	<targetchange interval="5" chance=""/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-101" max="-143"/>
+    <attack name="auraterra" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+  </attacks>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+</monster>

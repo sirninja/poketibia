@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Voltorb" nameDescription="a wild voltorb" race="electric" experience="160" speed="150" manacost="300">
+  <health now="920" max="920"/>
+  <look type="123" head="20" body="30" legs="40" feet="50" corpse="6049"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="98"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-28" max="-36"/>
+    <attack name="thundershock" range="3" interval="2000" chance="19" min="-35" max="-49">
+    </attack>
+    <attack name="slam" range="1" interval="2500" chance="18" min="-30" max="-40">
+    </attack>
+    <attack name="rollout" range="10" interval="4500" chance="20">
+    </attack>
+    <attack name="spark" range="1" interval="2100" chance="21">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="VOLTORB!"/>
+    <voice sentence="TORB!"/>
+    <voice sentence="VOL!"/>
+  </voices>
+<script>
+<event name="Exp"/>
+</script>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	</loot>
+</monster>

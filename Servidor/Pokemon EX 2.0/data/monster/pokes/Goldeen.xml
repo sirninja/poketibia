@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goldeen" nameDescription="a Goldeen" race="undead" experience="150" speed="156" manacost="315">
+  <health now="850" max="850"/>
+  <look type="274" head="20" body="30" legs="40" feet="50" corpse="2970"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="5"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="19" attack="18"/>
+    <attack name="auraagua" interval="2000" chance="5" min="-100" max="-400"> </attack>
+  </attacks>
+
+
+  <defenses armor="7" defense="10"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="deen!"/>
+  </voices>
+</monster>

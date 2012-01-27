@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Oddish" nameDescription="a Shiny Oddish" race="grass" experience="300" speed="220" manacost="250">
+  <health now="1230" max="1230"/>
+  <look type="509" head="20" body="30" legs="40" feet="50" corpse="115"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-60" max="-150"/>
+    <attack name="leech seed" range="4" interval="4200" chance="60" min="-30" max="-90">
+    </attack>
+    <attack name="absorb" range="1" interval="900" chance="45" min="-70" max="-150">
+    </attack>
+    <attack name="acid" range="6" interval="1500" chance="70" min="-100" max="-150">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Oddish!"/>
+    <voice sentence="Odd!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="38" chance="69000"/> -- seeds
+	<item id="8851" countmax="2" chance="10000"/> -- leaves
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="Exp"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+        </script>
+</monster>

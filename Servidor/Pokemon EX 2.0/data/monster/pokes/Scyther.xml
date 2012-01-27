@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scyther" nameDescription="a Scyther" race="undead" experience="20" speed="126" manacost="290">
+  <health now="6500" max="6500"/>
+  <look type="15" head="20" body="30" legs="40" feet="50" corpse="3002"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1500" skill="15" attack="10"/>
+    <attack name="aurainseto" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+  </attacks>
+  <defenses armor="25" defense="30">
+ <defense name="counter helix" interval="1000" chance="100" min="150" max="300">
+ </defense> 
+ </defenses>
+  	<elements>
+	</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Scy-ie-ie"/>
+    <voice sentence="Scyterr"/>
+  </voices>
+</monster>

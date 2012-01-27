@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Lickitung" nameDescription="a Lickitung" race="undead" experience="1950" species="ice" speed="390" manacost="0">
+    <health now="5800" max="5800"/>
+    <look type="11" corpse="2953"/>
+	<targetchange interval="5" chance="1000"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="85"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="1"/>
+    </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="75" attack="65"/>
+    <attack name="auranormal" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+    <attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+
+</attacks>
+
+
+    <defenses armor="30" defense="30">
+    <defense name="healing" interval="2000" chance="15" min="90" max="150">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Liiick!"/>
+    <voice sentence="Licki!"/>
+	</voices>
+	<loot>
+
+	<item id="2289" countmax="1" chance="1300"/> -- heart stone
+	<item id="2180" countmax="1" chance="13000"/> -- orb of nature
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

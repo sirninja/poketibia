@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a Nidoking" race="undead" experience="975" speed="275" manacost="10000">
+  <health now="8000" max="8000"/>
+  <look type="35" corpse="5995"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" min="-100" max="-200"/>
+    <attack name="melee" interval="2000" min="-200" max="-300" poison="-50" > 
+   </attack>
+    <attack name="queen" interval="4000" chance="20" min="-45" max="-600">
+  </attack>
+  <attack name="fury" interval="4000" chance="35" range="10" > 
+  </attack>
+  <attack name="fury attack" interval="3000" chance="24" range="1" > 
+  </attack>
+  <attack name="quick attack" range="1" interval="2300" chance="30" min="-250" max="-350" >
+</attack>
+  <attack name="poison sting" range="1" interval="2200" chance="35" min="-300" max="-320" > 
+</attack>
+  <attack name="horn attack" range="1" interval="2000" chance="25" min="-280" max="-350" > 
+</attack>
+  <attack name="pluck" interval="2100" chance="17" range="1" min="-200" max="-280" > 
+</attack>
+  <attack name="earthshock" interval="2600" range="1" chance="30" min="-340" max="-372" > </attack>
+  <attack name="bite" interval="2000" chance="22" range="1" target="1" min="-177" max="-300" ></attack>
+
+  </attacks>
+
+
+
+  <defenses armor="55" defense="55">
+  </defenses>
+    <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+  </voices>
+	<loot>
+	<item id="3976" countmax="100" chance="10000"/><!-- Pot of moss bug -->
+	<item id="2297" countmax="1" chance="1400"/> -- venom stone
+	<item id="2307" countmax="1" chance="1500"/>-- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

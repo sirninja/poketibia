@@ -1,0 +1,19 @@
+Name: Kabuto
+Type: Pedra
+Required level: 20
+
+Evolutions:
+Kabuto, requires level 20
+Kabutops, requires level 80
+
+Moves: 
+Scratch - m1 - level 20
+Bubbles - m2 - level 25
+Slash - m3 - level 25
+Mud Shot - m4 - level 25
+Harden - m5 - level 30
+Ancient Power - m6 - level 35
+Mega Drain - passive 
+
+Ability:
+Cut

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+
+<outfits>
+	<outfit id="1">
+		<list gender="0" lookType="160" name="Normal Trainer"/>
+		<list gender="1" lookType="159" name="Normal Trainer"/>
+	</outfit>
+
+	<outfit id="2" quest="100">
+		<list gender="0" lookType="264" name="Elite Trainer"/>
+		<list gender="1" lookType="263" name="Elite Trainer"/>
+	</outfit>
+    	
+<outfit id="3" quest="101">
+		<list gender="0" lookType="162" name="Lady"/>
+		<list gender="1" lookType="163" name="Gentleman"/>
+	</outfit>
+	
+	<outfit id="4" quest="102">
+		<list gender="0" lookType="170" name="Fisher"/>
+		<list gender="1" lookType="169" name="Fisher"/>
+	</outfit>
+	
+	<outfit id="5" quest="103">
+		<list gender="0" lookType="161" name="Rapper"/>
+		<list gender="1" lookType="194" name="Rapper"/>
+	</outfit>
+	
+	<outfit id="6" quest="104">
+		<list gender="0" lookType="166" name="Athletic"/>
+		<list gender="1" lookType="165" name="Athletic"/>
+	</outfit>
+	
+	<outfit id="7" quest="105">
+		<list gender="0" lookType="237" name="Jamaican"/>
+		<list gender="1" lookType="236" name="Jamaican"/>
+	</outfit>
+	
+	<outfit id="8" quest="106">
+		<list gender="0" lookType="235" name="Ninja"/>
+		<list gender="1" lookType="234" name="Kung Fu"/>
+	</outfit>
+	
+	<outfit id="9" quest="107">
+		<list gender="0" lookType="174" name="Hiker"/>
+		<list gender="1" lookType="172" name="Hiker"/>
+	</outfit>
+	
+	<outfit id="10" quest="108">
+		<list gender="0" lookType="173" name="Mercenary"/>
+		<list gender="1" lookType="171" name="Mercenary"/>
+	</outfit>
+	
+	<outfit id="11" quest="109">
+		<list gender="0" lookType="168" name="Punk"/>
+		<list gender="1" lookType="167" name="Punk"/>
+	</outfit>
+	
+	<outfit id="12" quest="110">
+		<list gender="0" lookType="144" name="Adventurer"/>
+		<list gender="1" lookType="143" name="Adventurer"/>
+	</outfit>
+	
+	<outfit id="13" quest="111">
+		<list gender="0" lookType="254" name="Team Rocket"/>
+		<list gender="1" lookType="253" name="Team Rocket"/>
+	</outfit>
+	
+</outfits>      

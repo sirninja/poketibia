@@ -1,0 +1,20 @@
+Nome: Nidoran
+Tipo: Veneno
+Nível necessário: 10
+
+Evoluções:
+Nidoran, requer nível 10
+Nidorina, requer nível 25
+Nidoqueen, requer nível 65
+
+Descrição: Embora não preferem lutar, qualquer gota de eu veneno pode ser fatal.
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 10
+Bite - Mordida - m2 - nível 10
+Horn Attack - Ataque de Chifre - m3 - nível 15
+Poison Sting - Picada Venosa - M4 - nível 15
+Poison Fang - Presa Venenosa - m5 - nível 17
+
+Habilidade:
+Escavar (Dig)

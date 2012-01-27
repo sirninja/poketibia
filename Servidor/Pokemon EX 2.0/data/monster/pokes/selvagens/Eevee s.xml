@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eevee" nameDescription="a Eevee" race="undead" experience="400" speed="370" manacost="0">
+  <health now="1500" max="1500"/>
+  <look type="102" corpse="6364"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+     <attack name="melee" interval="1900" min="-70" max="-80"/>
+    <attack name="sand attack" interval="2400" chance="15" min="-137" max="-145">
+    </attack>
+    <attack name="quick attack" range="1" interval="2300" chance="19" min="-110" max="-125">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="10" defense="10"/>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+	<loot>
+		<item id="5876" countmax="1" chance="10000"/><!-- Apple bite -->
+		<item id="2148" countmax="100" chance="50000"/><!-- Essence of fire -->
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem	
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	<item id="8858" countmax="1" chance="28000"/> -- pot of moss bug
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

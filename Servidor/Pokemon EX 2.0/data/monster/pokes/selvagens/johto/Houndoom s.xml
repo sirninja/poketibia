@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Houndoom" nameDescription="a Houndoom" race="undead" experience="2200" speed="500" manacost="0">
+  <health now="8500" max="8500"/>
+  <look type="395" head="20" body="30" legs="40" feet="50" corpse="2840"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="bite" interval="1000" chance="50" min="-1000" max="-1500">
+    </attack>
+    <attack name="scratch" interval="4500" chance="90" min="-1800" max="-1900">
+    </attack>
+    <attack name="quick attack" interval="5000" chance="90" min="-1900" max="-3700">
+    </attack>
+    <attack name="ember" interval="3500" chance="90" min="-4500" max="-4700">
+    </attack>
+    <attack name="fireball" interval="3500" chance="90" min="-5000" max="-7000">
+    </attack>
+    <attack name="flamethrower" interval="7000" chance="90" min="-6000" max="-8000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="1000" min="1500" max="3500">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="50"/>
+		<element drownPercent="-100"/>
+		<element fightPercent="-100"/>
+		<element grassPercent="50"/>
+		<element icePercent="50"/>
+		<element groundPercent="-100"/>
+		<element bugPercent="50"/>
+		<element rockPercent="-100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Houunnn."/>
+    <voice sentence="Doommm."/>
+	</voices>
+	<loot>
+		<item id="5894" countmax="10" chance="15000"/><!-- Sell Item -->
+		<item id="5910" countmax="2" chance="10000"/><!-- Sell Item -->
+		<item id="5097" countmax="1" chance="6000"/><!-- Sell Item -->
+		<item id="5907" chance="250"/><!-- Stone -->
+	</loot>
+</monster>

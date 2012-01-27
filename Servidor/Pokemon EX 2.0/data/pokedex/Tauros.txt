@@ -1,0 +1,21 @@
+Name: Tauros
+Type: normal
+Required level: 45
+
+Evolutions:
+Tauros, requires level 45
+
+Description: Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.
+
+Moves: 
+Headbutt - m1 - level 45 - normal
+Quick Attack - m2 - level 45 - normal
+Horn Attack - m3 - level 45 - normal
+Hyper Beam - m4 - level 50 - normal
+Thrash - m5 - level 51 - normal
+Rage - m6 - level 45 - dragon
+Fear - m7 - level 53 - ghost
+
+Ability:
+Rock smash
+Ride

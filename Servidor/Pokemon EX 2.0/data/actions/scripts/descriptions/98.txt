@@ -1,0 +1,23 @@
+Nome: Krabby 
+Tipo: água
+nível necessário: 5
+
+Evoluções:
+
+Krabby, exige nível 5
+Kingler, requer nível 35
+
+Descrição: Ele vive em tocas escavadas nas praias. Sua pinça voltam a crescer se forem quebradas em uma batalha.
+
+Ataques:
+
+Bubbles - Bolhas - nível 5
+Bubblebeam - Parede de bolhas - nível 12
+Mud Shot - Tiro de lama - nível 10
+Crabhammer - Martelo Carangueijo - nível 18
+Harden - Endurecer - nível 15
+
+Capacidade:
+
+Dig
+Cut

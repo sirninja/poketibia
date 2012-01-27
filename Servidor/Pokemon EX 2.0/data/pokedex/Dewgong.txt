@@ -1,0 +1,22 @@
+Name: Dewgong
+Type: ice
+Required level: 65
+
+Evolutions:
+Seel, requires level 20
+Dewgong, requires level 65
+
+Description: In snow, the pure white coat covering its body obscures it from predators.
+
+Moves: 
+Aqua Tail - m1 - level 65 - water
+Headbutt - m2 - level 65 - normal
+Ice Shards - m3 - level 65 - ice
+Ice Beam - m4 - level 65 - ice
+Icy Wind - m5 - level 65 - ice
+Aurora Beam - m6 - level 69 - ice
+Blizzard - m7 - level 71 - ice
+Rest - m8 - level 71 - normal
+
+Ability:
+Surf

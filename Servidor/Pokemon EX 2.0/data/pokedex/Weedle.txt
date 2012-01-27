@@ -1,0 +1,18 @@
+Name: Weedle
+Type: bug
+Required level: 1
+
+Evolutions:
+Weedle, requires level 1
+Kakuna, requires level 15
+Beedrill, requires level 25
+
+Description: Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.
+
+Moves: 
+Horn Attack - m1 - level 1 - normal
+String Shot - m2 - level 1 - bug
+Poison Sting - m3 - level 1 - poison
+
+Ability:
+None

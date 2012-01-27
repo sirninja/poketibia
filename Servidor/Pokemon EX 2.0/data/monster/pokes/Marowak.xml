@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Marowak" nameDescription="a Marowak" race="undead" experience="450" speed="200" manacost="445">
+  <health now="3900" max="3900"/>
+  <look type="197" head="0" body="0" legs="0" feet="0" corpse="6072"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <attack name="melee" interval="2000" skill="23" attack="33"/>
+    <attack name="auraterra" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+
+
+</attacks>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <defenses armor="15" defense="15"/>
+</monster>

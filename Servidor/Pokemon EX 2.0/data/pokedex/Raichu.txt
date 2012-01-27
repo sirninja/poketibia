@@ -1,0 +1,24 @@
+Name: Raichu
+Type: electric
+Required level: 50
+
+Evolutions:
+Pikachu, requires level 20
+Raichu, requires level 50
+
+Description: If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.
+
+Moves: 
+Mega Kick - m1 - level 50 - fighting
+Thunder Shock - m2 - level 50 - electric
+Thunder Bolt - m3 - level 50 - electric
+Thunder Wave - m4 - level 50 - electric
+Thunder Punch - m5 - level 50 - electric
+Iron Tail - m6 - level 50 - normal
+Thunder - m7 - level 60 - electric
+Electric Storm - m8 - level 65 - electric
+Agility - m9 - level 60 - flying
+Electric Charge - passive  - electric
+
+Ability:
+Light

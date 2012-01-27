@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Growlithe" nameDescription="a Growlithe" race="undead" experience="425" speed="220" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="109" head="20" body="30" legs="40" feet="50" corpse="6036"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-35" max="-50"/>
+    <attack name="char" interval="3000" chance="100" min="-0" max="-120">
+    <attack name="quick attack" interval="2000" chance="25" min="-35" max="-45" > </attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-105" > </attack>
+   <attack name="scratch" interval="2400" chance="27" range="1" target="1" min="-70" max="-95">
+    </attack>
+   <attack name="bite" interval="2100" chance="26" range="1" target="1" min="-50" max="-90">
+    </attack>
+</attack>
+  </attacks>
+  <defenses armor="4" defense="15">
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Groow!"/>
+    <voice sentence="Growlithee!"/>
+  </voices>
+	<loot>
+		<item id="8866" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava -->
+		<item id="8868" countmax="1" chance="5000"/><!-- Nail -->
+	</loot>
+
+</monster>

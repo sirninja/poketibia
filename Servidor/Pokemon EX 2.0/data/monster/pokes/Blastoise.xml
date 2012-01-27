@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blastoise" nameDescription="a Blastoise" race="undead" experience="2700" speed="280" manacost="0">
+  <health now="6000" max="6000"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+
+  <targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="1"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="60" attack="70"/>
+    <attack name="auraagua" interval="2000" chance="20" min="-1600" max="-2000"> </attack>	
+  </attacks>
+
+  <defenses armor="50" defense="50">
+    <defense name="speed" interval="1000" chance="7" speedchange="320" duration="4000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="BLASTOISE!"/>
+		<voice sentence="TOISE!"/>
+	</voices>
+	<loot>
+		<item id="5810" countmax="1" chance="50"/><!-- Water Stone -->
+		<item id="7159" countmax="40" chance="40000"/><!-- Water gem -->
+		<item id="6569" countmax="1" chance="20000"/><!-- Water Pendant -->
+		<item id="6126" chance="10000"/><!-- Squirtle hull -->
+	</loot>
+</monster>

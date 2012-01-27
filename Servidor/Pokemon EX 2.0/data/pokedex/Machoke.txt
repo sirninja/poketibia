@@ -1,0 +1,22 @@
+Name: Machoke
+Type: fighting
+Required level: 45
+
+Evolutions:
+Machop, requires level 20
+Machoke, requires level 45
+Machamp, requires level 70
+
+Description: Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.
+
+Moves: 
+Triple Punch - m1 - level 47 - fighting
+Mega Punch - m2 - level 45 - fighting
+Mega Kick - m3 - level 49 - fighting
+Karate Chop - m4 - level 45 - fighting
+Ground Chop - m5 - level 45 - fighting
+Fist Machine - m6 - level 50 - fighting
+Strafe - m7 - level 53 - normal
+
+Ability:
+Rock smash

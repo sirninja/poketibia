@@ -1,0 +1,23 @@
+Nome: Diglett (Dígleti)
+Tipo: Terra
+Nível necessário: 5
+
+Evoluçoes:
+
+Diglett, nível 5
+Dugtrio, nível 35
+
+Descriçao: Se move pelo solo a uma pequena profundidade, fazendo com que a terra levante, tornando o facilemnte detectável.
+
+Ataques:
+
+Sand Attack - Ataque de areia
+Slash - Cortar
+Mud Shot - Tiro de Lama
+Mud Slap - Tapa de Lama
+Earthshock - Terremoto
+
+Capacidade:
+
+Cortar (Cut)
+Quebrar Pedras (Rock Smash)

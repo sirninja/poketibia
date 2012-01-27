@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kabuto" nameDescription="a Kabuto" race="undead" experience="700" speed="230" manacost="775">
+  <health now="1375" max="1375"/>
+  <look type="98" head="0" body="0" legs="0" feet="0" corpse="5972"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="1900" chance="100" range="3" min="-71" max="-101">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="restore" interval="4200" chance="41" min="600" max="750">	</attack>
+       <attack name="aurapsiquica" interval="2000" chance="5" min="-100" max="-800"> </attack>
+
+
+
+  </attacks>
+  <defenses armor="15" defense="17">
+  </defenses>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+	</elements>
+ <loot>
+	<item id="8869" countmax="1" chance="16500"/> -- future orb
+	<item id="8870" countmax="1" chance="9000"/> -- psy spoon
+	<item id="2288" countmax="1" chance="500"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

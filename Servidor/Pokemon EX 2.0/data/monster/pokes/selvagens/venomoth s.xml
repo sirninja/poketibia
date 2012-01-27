@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="venomoth" nameDescription="a venomoth" race="undead" experience="725" speed="220" manacost="650">
+  <health now="5800" max="5800"/>
+  <look type="49" corpse="2925"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="2000" min="-150" max="-180" />
+  <attack name="energy strik" interval="5200" chance="18" min="-250" max="-300"> </attack>
+  <attack name="psychic" interval="2500" chance="26" min="-200" max="-250" > </attack>
+  <attack name="poison sting" range="1" interval="2200" chance="17" min="-90" max="-80" > </attack>
+  <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-200" max="-400" > </attack>
+  <attack name="toxic" interval="2700" chance="17" range="10" target="1" min="-190" max="-200" > </attack>
+  <attack name="super sonic" interval="5000" chance="35" range="5" target="1" > </attack>
+  <attack name="poison fang" interval="3000" chance="17" range="10" target="1" min="-190" max="-220" > </attack>
+    <attack name="whirlwind" interval="3000" chance="25" min="-270" max="-312">
+    </attack>
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="80"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+	<loot>
+	<item id="8856" countmax="48" chance="80000"/> -- bottle of poison
+	<item id="2297" countmax="1" chance="1200"/> -- venom stone
+	<item id="8858" countmax="1" chance="90000"/>-- pot of moss bug
+	<item id="8859" countmax="1" chance="85000"/>-- bug antenna
+	<item id="2301" countmax="1" chance="1500"/>-- coccon stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

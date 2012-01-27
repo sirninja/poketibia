@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cloyster" nameDescription="a Cloyster" race="undead" experience="800" speed="250" manacost="480">
+  <health now="6500" max="6500"/>
+  <look type="72" head="0" body="0" legs="0" feet="0" corpse="2932"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="40"/>
+  </flags>
+  <attacks>
+    <attack name="horn attack" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="bubble" interval="5000" chance="90" min="-100" max="-110">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-160" max="-320">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-40" max="-140">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-200" max="-220">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="180">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element icePercent="30"/>
+		<element fightPercent="-30"/>
+		<element fightPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Cloooyster!"/>
+	</voices>
+	<loot>
+	        <item id="6528" countmin="7" countmax="100" chance="85000"/> -- water gem
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+		<item id="2298" countmax="1" chance="1300"/>
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

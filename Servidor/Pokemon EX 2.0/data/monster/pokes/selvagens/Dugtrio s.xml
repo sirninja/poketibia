@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dugtrio" nameDescription="a Dugtrio" race="undead" experience="640" speed="270" manacost="395">
+  <health now="4500" max="4500"/>
+  <look type="83" head="20" body="30" legs="40" feet="50" corpse="6024"/>
+  <targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="80"/>
+  </flags>
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="15" attack="15"/>
+    <attack name="digtrio" interval="3500" chance="100" min="-0" max="-400"> </attack>
+    <attack name="sand attack" interval="2700" chance="17" min="-31" max="-42">
+    </attack>
+    <attack name="scratch" interval="1800" chance="23" min="-150" max="-200">
+    </attack>
+    <attack name="mud shot" interval="2000" chance="21" min="-150" max="-200">
+    </attack>
+    <attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="shockwave" interval="2700" chance="17" min="-300" max="-320"> </attack>
+    <attack name="earthshock" interval="2400" chance="20" min="-200" max="-250"> </attack>
+
+  </attacks>
+
+  <defenses armor="12" defense="15">
+  </defenses>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+  </immunities>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Duugtrioo"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="1" chance="65000"/> -- sandbag
+	<item id="1294" countmax="25" chance="62000"/> -- small stone
+	<item id="2307" countmax="1" chance="1500"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

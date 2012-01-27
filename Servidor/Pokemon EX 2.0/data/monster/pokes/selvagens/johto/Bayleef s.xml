@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bayleef" nameDescription="a Bayleef" race="undead" experience="1700" speed="300" manacost="0">
+  <health now="3000" max="3000"/>
+  <look type="319" head="20" body="30" legs="40" feet="50" corpse="4296"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-130" max="-130">
+    </attack>
+    <attack name="leech seed" interval="3500" chance="93" min="-340" max="-370">
+    </attack>
+    <attack name="razor leaf" interval="2000" chance="93" min="-535" max="-550">
+    </attack>
+    <attack name="stun spore" interval="3500" chance="92" min="-230" max="-290">
+    </attack>
+    <attack name="vine whip" interval="3000" chance="90" min="-850" max="-900">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-100"/>
+		<element electricPercent="50"/>
+		<element groundPercent="50"/>
+		<element flyingPercent="-100"/>
+		<element bugPercent="-100"/>
+		<element drownPercent="50"/>
+		<element icePercent="-100"/>
+		<element poisonPercent="100"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bay!"/>
+    <voice sentence="Bayleef!"/>
+	</voices>
+	<loot>
+		<item id="7732" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="2111" countmax="5" chance="4000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5918" chance="100"/><!-- Stone -->
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+</script>
+</monster>

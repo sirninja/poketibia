@@ -1,0 +1,20 @@
+Name: Krabby
+Type: water
+Required level: 10
+
+Evolutions:
+Krabby, requires level 10
+Kingler, requires level 40
+
+Description: It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.
+
+Moves: 
+Bubbles - m1 - level 10 - water
+Bubblebeam - m2 - level 12 - water
+Mud Shot - m3 - level 10 - earth
+Crabhammer - m4 - level 15 - normal
+Harden - m5 - level 13 - normal
+
+Ability:
+Dig
+Cut

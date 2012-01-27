@@ -1,0 +1,24 @@
+Nome: Nidoking
+Tipo: veneno
+Nível necessário: 65
+
+Evoluções:
+NidoranMA, requer nível 10
+Nidorino, requer nível 25
+Nidoking, requer nível 65
+
+Descrição: É conhecido por ser duro e ter um chifre longo. Tenha cuidado com o chifre que ele contém veneno.
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 65
+Bite - Mordida - m2 - nível 65
+Horn Attack - Ataue de Chifres - m3 - nível 65
+Poison Fang - Presa Venenosa - M4 - nível 65
+Rage - Raiva - m5 nível - 65
+Rock Throw - Jogar Pedra - m6 nível - 65
+Mega Punch - Mega Soco - m7 nível - 65
+Earthshock - Terremoto - M8 - nível 65
+
+Habilidade:
+Escavar (Dig)
+Quebrar Pedra (Rock Smash)

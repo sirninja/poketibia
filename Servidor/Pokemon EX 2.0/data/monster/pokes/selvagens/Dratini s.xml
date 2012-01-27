@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dratini" nameDescription="a Dratini" race="undead" experience="500" speed="240" manacost="500">
+  <health now="1500" max="1500"/>
+  <look type="58" head="20" body="30" legs="40" feet="50" corpse="2879"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="aqua tail" interval="1000" chance="50" min="-15" max="-35">
+    </attack>
+    <attack name="thunder wave" interval="3000" chance="90" min="-30" max="-45">
+    </attack>
+    <attack name="hyper beam" interval="5000" chance="95" min="-300" max="-500">
+    </attack>
+    <attack name="dragon claw" interval="7000" chance="100" min="-250" max="-500">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element dragonPercent="-30"/>
+		<element icePercent="-30"/>
+		<element firePercent="30"/>
+		<element waterPercent="30"/>
+		<element electricPercent="30"/>
+		<element grassPercent="30"/>
+  </elements>
+	<voices interval="5000" chance="100">
+		<voice sentence="Draatini!"/>
+		<voice sentence="Dratii!"/>
+	</voices>
+	<loot>
+	<item id="2672" countmin="1" countmax="1" chance="3000"/> -- dragon ham
+	        <item id="6528" countmin="7" countmax="50" chance="85000"/> -- water gem
+	        <item id="8820" countmax="2" chance="27000"/> -- water pendant
+		<item id="7441" countmax="1" chance="4000"/><!-- Ice cube -->
+	</loot>
+
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

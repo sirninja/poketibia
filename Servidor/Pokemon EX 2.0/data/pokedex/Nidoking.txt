@@ -1,0 +1,27 @@
+Name: Nidoking
+Type: poison
+Required level: 65
+
+Evolutions:
+NidoranMA, requires level 10
+Nidorino, requires level 30
+Nidoking, requires level 65
+
+Description: It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom.
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Horn Drill - m7 - level 67 - normal
+Stomp - m8 - level 69 - earth
+Shockwave - m9 - level 71 - earth
+Rage - m10 - level 65 - dragon
+Fear - m11 - level 73 - ghost
+
+Ability:
+Dig
+Rock smash

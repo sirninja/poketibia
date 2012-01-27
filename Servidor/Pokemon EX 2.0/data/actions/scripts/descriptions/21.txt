@@ -1,0 +1,22 @@
+Spearow
+Nome: Spearow 
+Tipo: Voador
+nível necessário: 5
+
+Evoluções:
+Spearow, requer nível 5
+Fearow, requer nível 50
+
+Descrição: O bate as asas pequenas para voar. Usando o bico, ele procura na grama suas presas.
+
+Ataques:
+
+Quick Attack - Ataque Rapido - nível 5
+Sand Attack - Ataque de Areia - nível 5
+Gust - Ventania - nível 10
+Drill Peck - Bicadas - nível 12
+Rage - Raiva - nível - 5
+
+Capacidade:
+
+Nenhuma

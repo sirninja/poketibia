@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raichu" nameDescription="a Raichu" race="undead" experience="2538" speed="300" manacost="310">
+  <health now="3200" max="3200"/>
+  <look type="50" head="20" body="30" legs="40" feet="50" corpse="5996"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="39" attack="27"/>
+    <attack name="auraeletrica" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+
+  </attacks>
+  <defenses armor="6" defense="12"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Raiichu!"/>
+  </voices>
+	<loot>
+		<item id="5903" countmax="1" chance="10"/><!-- pot of moss bug -->
+		<item id="2148" countmax="60" chance="10000"/><!-- pot of moss bug -->
+		<item id="2668" countmax="3" chance="10000"/><!-- pot of moss bug -->
+	</loot>
+</monster>

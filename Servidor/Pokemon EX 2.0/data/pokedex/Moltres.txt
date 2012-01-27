@@ -1,0 +1,13 @@
+Name: Moltres
+Type: Fogo, Voador
+Required level: 100
+
+Evolutions:
+-/-
+
+
+Moves: 
+-/-
+
+Ability:
+Fly???????

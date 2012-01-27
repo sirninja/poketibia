@@ -1,0 +1,12 @@
+FEITO POR MASTERCRAFT (OTSERV.COM.BR) / BRUN123 (XTIBIA.COM)
+
+Para fazer com que o monstro tenha vantagem / desvantagem sobre outro, você deve ir em data/lib e editar os seguintes
+arquivos:
+
+• supereffect.lua (a partir de tabelas, por exemplo, na tabela "fire", você coloca o nome de todos os pokemons
+que ao receberem um ataque do tipo fire, iram receber o dobro do dano).
+
+• loweffect.lua (coloque o nome dos pokemons que ao receber tal ataque, só levará metade do dano total)
+
+• noneffect.lua (aqui vai o nome dos pokemons que anulam alguns tipos. Exemplo: elétricos vão sempre tirar 0 de
+pokemons do tipo ground, assim como pokemons do tipo normal tiram sempre 0 em pokemons fantasmas).

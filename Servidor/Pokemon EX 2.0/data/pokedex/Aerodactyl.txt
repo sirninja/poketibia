@@ -1,0 +1,24 @@
+Name: Aerodactyl
+Type: stone
+Required level: 100
+
+Evolutions:
+Aerodactyl, requires level 100
+
+Description: A Pokemon that roamed the skies in the dinosaur era. Its teeth are like saw blades.
+
+Moves: 
+Roar - m1 - level 110 - normal
+Super Sonic - m2 - level 100 - normal
+Bite - m3 - level 100 - normal
+Headbutt - m4 - level 100 - normal
+Rock Throw - m5 - level 100 - stone
+Rock Slide - m6 - level 100 - stone
+Fire Fang - m7 - level 100 - fire
+Wing Attack - m8 - level 100 - flying
+Falling Rocks - m9 - level 105 - stone
+Hyper Beam - m10 - level 110 - normal
+Ancient Power - m11 - level 115 - stone
+
+Ability:
+Fly

@@ -1,0 +1,25 @@
+
+Nome: Sandslash
+Tipo: Terra
+Nível necessário: 55
+
+Evoluções:
+Sandshrew, requer nível 18
+Sandslash, requer nível 55
+
+Descrição:
+
+Ataque:
+sand attack lvl 55
+mud sho lvl 55 
+scratch lvl 55
+rollout lvl 55 
+shockwave lvl 55
+fury cutter lvl 65
+eartshock lvl 60
+eartquake lvl 70
+
+Habilidade:
+Escavar (Dig)
+Quebrar Pedra (Rock Smash)
+Corte (cut)

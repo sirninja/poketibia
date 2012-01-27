@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bulbasaur" nameDescription="a Bulbasaur" race="undead" experience="400" speed="270" manacost="330">
+  <health now="1700" max="1700"/>
+  <look type="25" head="20" body="30" legs="40" feet="50" corpse="5969"/>
+
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="-20"/>
+
+    <attack name="quick attack" interval="5000" skill="25" min="-30" max="-40"> </attack>
+
+    <attack name="razor leaf" interval="2400" chance="22" min="-70" max="-80"> </attack>
+
+    <attack name="vine whip" interval="3000" chance="24" min="-150" max="-200"> </attack>
+
+    <attack name="slash" interval="2100" range="1" chance="23" min="-80" max="-100"> </attack>
+
+    <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-60" > </attack>
+
+
+  </attacks>
+
+  <defenses armor="11" defense="11"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bulba!"/>
+    <voice sentence="Bulbasaur!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="25" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem
+
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,23 @@
+Name: Gyarados
+Type: water
+Required level: 85
+
+Evolutions:
+Magikarp, requires level 5
+Gyarados, requires level 85
+
+Description: Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.
+
+Moves: 
+Roar - m1 - level 95 - normal
+Bite - m2 - level 85 - normal
+Aqua Tail - m3 - level 85 - water
+Waterball - m4 - level 85 - water
+Hydro Cannon - m5 - level 85 - water
+Dragon Breath - m6 - level 85 - dragon
+Hyper Beam - m7 - level 85 - normal
+Hydropump - m8 - level 93 - water
+Dragon Fury - passive  - dragon
+
+Ability:
+Surf

@@ -1,0 +1,21 @@
+Nome: Fearow
+Tipo: Voador
+Nível necessário: 50
+
+Evoluções:
+Spearow, requer nível 5
+Fearow, requer nível 50
+
+Descrição: Tem resistência para manter vôo durante dia todo usando suas asas largas. Ele luta usando seu bico afiado.
+
+Ataques:
+Quick Attack - Ataque Rapido - m1 - nível 50
+Sand Attack - Ataque de Areia - m2 - nível 50
+Whirlwind - Redemoinho - m3 - nível 50
+Drill Peck - Bicadas - M4 - nível 50
+Wing Attack - Ataque de Asas - m5 - nível 50
+Tornado - Furacao - m6 - nível 60
+Rage - Raiva - m7 nível - 55
+
+Habilidade:
+Voar (Fly)

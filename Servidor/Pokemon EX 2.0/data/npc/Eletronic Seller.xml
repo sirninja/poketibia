@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Edward" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="98" body="134" legs="86" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Ola amigo, eu vendo todo o tipo de Eletronico e Eletrodomestico!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="wooden television,1452,300;Black plasma television,1446,300;White computer set,2633,300;computer,2631,300;Black computer set,2635,100;Laptop,2637,400;Gameboy Advanced,2630,200;super nintendo,2626,200;Game cube,2628,1000;white freezer,1648,500;green freezer,1646,500;white oven,1460,500;Black oven,1462,500;"/>
+		</parameters>
+</npc>

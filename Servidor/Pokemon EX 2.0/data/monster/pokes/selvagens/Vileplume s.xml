@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vileplume" nameDescription="a wild vileplume" race="grass" experience="750" speed="230" manacost="0">
+  <health now="4800" max="4800"/>
+  <look type="86" head="20" body="30" legs="40" feet="50" corpse="6025"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-95" max="-100"/>
+    <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="absorb2" range="1" interval="1900" chance="18" min="-200" max="-220">
+    </attack>
+    <attack name="acid" interval="2000" chance="20" min="-255" max="-380">
+    </attack>
+    <attack name="poison gas" interval="4200" chance="21" min="-225" max="-240">
+    </attack>
+    <attack name="poisonbomb" interval="2400" chance="19" min="-290" max="-440">
+    </attack>
+    <attack name="petal dance" interval="3200" chance="20" min="-440" max="-500">
+    </attack>
+    <attack name="gastro acid" interval="3400" chance="20" min="-380" max="-500">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="VILEPLUME!"/>
+    <voice sentence="PLUME!"/>
+  </voices>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="Exp"/>
+	<event name="AvoidLook"/>
+        </script>
+ <loot>
+	<item id="8850" countmax="100" chance="80000"/> -- seeds
+	<item id="8852" countmax="4" chance="42000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1400"/> -- leaf stone
+	<item id="2297" countmax="1" chance="2000"/> -- venom stone
+  </loot>
+</monster>

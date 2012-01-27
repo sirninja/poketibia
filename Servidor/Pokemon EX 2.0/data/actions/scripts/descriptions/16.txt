@@ -1,0 +1,23 @@
+pidgey
+
+Tipo: Voador
+Nivel necessário: 1
+
+Evoluçoes:
+
+Pidgey, nível necessário 1
+Pidgeotto, necessário level 20
+Pidgeot, necessário level 65
+
+Descriçao: É doce e prefere evitar coflitos. Se está perturbardo, como sempre, pode ferozmente atacar.
+
+Ataques:
+
+Quick Attack - Ataque Rápido - 1
+Sand Attack - Ataque de Areia - 1
+Gust - Rajada de Vento - 5
+Drill Peck - Bicar - 10
+
+Capacidade:
+
+Nenhuma.

@@ -1,0 +1,22 @@
+Name: Snorlax
+Type: normal
+Required level: 85
+
+Evolutions:
+Snorlax, requires level 85
+
+Description: Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokemon that there are children who use its big belly as a place to play.
+
+Moves: 
+Scratch - m1 - level 85 - normal
+Bite - m2 - level 85 - normal
+Dizzy Punch - m3 - level 85 - normal
+Mega Punch - m4 - level 85 - fighting
+Headbutt - m5 - level 85 - normal
+Body Slam - m6 - level 89 - normal
+Crusher Stomp - m7 - level 95 - earth
+Rest - m8 - level 91 - normal
+
+Ability:
+Rock smash
+Surf

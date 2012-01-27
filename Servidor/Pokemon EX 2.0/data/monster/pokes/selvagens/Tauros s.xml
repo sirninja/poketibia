@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tauros" nameDescription="a Tauros" race="undead" experience="625" speed="280" manacost="490">
+  <health now="4300" max="4300"/>
+  <look type="93" head="0" body="0" legs="0" feet="0" corpse="6302"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="50"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tail whip" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="quick attack" interval="4500" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="fury attack" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+    <attack name="rage" interval="3500" chance="90" min="-40" max="-140">
+    </attack>
+    <attack name="scratch" interval="7000" chance="90" min="-198" max="-218">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="50" max="100">
+    </defense>
+  </defenses>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tauuros!"/>
+	</voices>
+	<loot>
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="2694" countmax="50" chance="65000"/> -- straw
+	<item id="2079" countmax="1" chance="8500"/>-- horn
+	<item id="2294" countmax="1" chance="1300"/> -- heart stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <monster name="Bellsprout" nameDescription="a wild bellsprout" race="grass" experience="135" speed="195" manacost="300">
+  <health now="480" max="480" /> 
+  <look type="250" head="0" body="0" legs="0" feet="0" corpse="3040" /> 
+	<targetchange interval="1000000" chance="0"/>
+  <strategy attack="100" defense="0" /> 
+ <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="0" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" /> 
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1800" min="-15" max="-30"/>
+    <attack name="razor leaf" interval="2400" chance="22" min="-12" max="-25">
+    </attack>
+    <attack name="vine whip" interval="3000" chance="27" min="-50" max="-60">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="23" min="-24" max="-34">
+    </attack>
+    <attack name="acid" interval="2000" range="3" chance="19" min="-15" max="-30">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Bellsprout!"/>
+    <voice sentence="Bells!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="4500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

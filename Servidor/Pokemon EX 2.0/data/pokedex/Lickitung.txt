@@ -1,0 +1,21 @@
+Name: Lickitung
+Type: normal
+Required level: 55
+
+Evolutions:
+Lickitung, requires level 55
+
+Description: Whenever it sees something unfamiliar, it always licks the object because it memorizes things by texture and taste. It is somewhat put off by sour things.
+
+Moves: 
+Lick - m1 - level 55 - normal
+Headbutt - m2 - level 55 - normal
+Doubleslap - m3 - level 55 - normal
+Mega Punch - m4 - level 55 - fighting
+Iron Tail - m5 - level 55 - normal
+Squishy Licking - m6 - level 60 - normal
+Super Sonic - m7 - level 55 - normal
+Strafe - m8 - level 55 - normal
+
+Ability:
+None

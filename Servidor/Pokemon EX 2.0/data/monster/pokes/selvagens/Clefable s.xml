@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Clefable" nameDescription="a Clefable" race="undead" experience="725" speed="255" manacost="100">
+  <health now="4200" max="4200"/>
+  <look type="68" head="20" body="30" legs="40" feet="50" corpse="6006"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+  <attack name="melee" interval="1000" min="-100" max="-150"> 
+  </attack>
+  <attack name="mega punch" range="1" interval="1900" chance="50" min="-200" max="-400" > 
+  </attack>
+  <attack name="restore" interval="4200" chance="41" min="2000" max="3500" > 
+  </attack>
+  <attack name="metronome" range="4" interval="4000" chance="100" min="-300" max="-600" > 
+   </attack>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+  </defenses>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="100"> 
+    <voice sentence="BLOOD!" yell="1"/>
+    <voice sentence="Let me kiss your neck."/>
+    <voice sentence="I smell warm blood."/>
+    <voice sentence="I call you, my bats! Come!"/>
+  </voices>
+ <loot>
+	<item id="2289" countmax="1" chance="1500"/> -- heart stone
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+
+
+</monster>

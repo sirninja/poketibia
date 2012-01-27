@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Heracross" nameDescription="a Heracross" race="undead" experience="700" speed="250" manacost="0">
+  <health now="4200" max="4200"/>
+  <look type="373" head="20" body="30" legs="40" feet="50" corpse="2830"/>
+
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="5">
+  </defenses>
+  <elements>
+		<element firePercent="-100"/>
+		<element grassPercent="50"/>
+		<element flyingPercent="-200"/>
+		<element fightPercent="50"/>
+		<element psychicPercent="-100"/>
+		<element groundPercent="50"/>
+		<element bugPercent="50"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="racrooss"/>
+	</voices>
+	<loot>
+		<item id="7159" countmax="9" chance="10000"/><!-- Sell Item -->
+		<item id="6569" countmax="1" chance="4000"/><!-- Sell Item -->
+		<item id="6126" countmax="1" chance="15000"/><!-- Sell Item -->
+		<item id="5810" chance="100"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scizor" nameDescription="a Scizor" race="undead" experience="2300" speed="400" manacost="290">
+  <health now="7000" max="7000"/>
+  <look type="370" head="20" body="30" legs="40" feet="50" corpse="2902"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+    <attacks>
+    <attack name="tail whip" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="psy pulse" interval="3000" chance="80" min="-100" max="-150">
+    </attack>
+    <attack name="razor leaf" interval="4000" chance="68" min="-20" max="-35">
+    </attack>
+    <attack name="hydro pump" interval="5000" chance="68" min="-40" max="-50">
+    </attack>
+    <attack name="leaf storm" interval="6000" chance="68" min="-80" max="-130">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <elements>
+		<element firePercent="-100"/>
+		<element grassPercent="50"/>
+		<element normalPercent="50"/>
+		<element icePercent="50"/>
+		<element poisonPercent="100"/>
+		<element psychPercent="50"/>
+		<element bugPercent="50"/>
+		<element ghostPercent="50"/>
+		<element dragonPercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Scizoor!"/>
+    <voice sentence="Scizoor!"/>
+    <voice sentence="Sciii!"/>
+    <voice sentence="Scizor!"/>
+    <voice sentence="zoor!"/>
+	</voices>
+	<loot>
+		<item id="5944" countmax="1" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="7497" chance="150"/><!-- Stone -->
+	</loot>
+</monster>

@@ -1,0 +1,22 @@
+Name: Venonat
+Type: poison
+Required level: 20
+
+Evolutions:
+Venonat, requires level 20
+Venomoth, requires level 50
+
+Description: Its eyes act as radar, enabling it to be active in darkness. The eyes can also shoot powerful beams.
+
+Moves: 
+Absorb - m1 - level 20 - grass
+Bug Bite - m2 - level 20 - bug
+Super Sonic - m3 - level 20 - normal
+Psychic - m4 - level 30 - psychic
+Poison Fang - m5 - level 20 - poison
+Sleep Powder - m6 - level 35 - grass
+Poison Powder - m7 - level 30 - poison
+Stun Spore - m8 - level 25 - grass
+
+Ability:
+None

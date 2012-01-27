@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<monsters>
+
+	<monster name="Bulbasaur" file="Bulbasaur.xml"/>
+	<monster name="Ivysaur" file="Ivysaur.xml"/>
+	<monster name="Venusaur" file="Venusaur.xml"/>
+
+	<monster name="Charmander" file="Charmander.xml"/>
+	<monster name="Charmeleon" file="Charmeleon.xml"/>
+	<monster name="Charizard" file="Charizard.xml"/>
+
+	<monster name="Squirtle" file="Squirtle.xml"/>
+	<monster name="Wartortle" file="Wartortle.xml"/>
+	<monster name="Blastoise" file="Blastoise.xml"/>
+
+	<monster name="Caterpie" file="Caterpie.xml"/>
+	<monster name="Metapod" file="Metapod.xml"/>
+	<monster name="Butterfree" file="Butterfree.xml"/>
+
+	<monster name="Weedle" file="Weedle.xml"/>
+	<monster name="Kakuna" file="Kakuna.xml"/>
+	<monster name="Beedrill" file="Beedrill.xml"/>
+
+	<monster name="Pidgey" file="Pidgey.xml"/>
+	<monster name="Pidgeotto" file="Pidgeotto.xml"/>
+	<monster name="Pidgeot" file="Pidgeot.xml"/>
+
+	<monster name="Rattata" file="Rattata.xml"/>
+	<monster name="Raticate" file="Raticate.xml"/>
+
+	<monster name="Spearow" file="Spearow.xml"/>
+	<monster name="Fearow" file="Fearow.xml"/>
+
+	<monster name="Ekans" file="Ekans.xml"/>
+	<monster name="Arbok" file="Arbok.xml"/>
+
+	<monster name="Pikachu" file="Pikachu.xml"/>
+	<monster name="Raichu" file="Raichu.xml"/>
+
+	<monster name="Sandshrew" file="Sandshrew.xml"/>
+	<monster name="Sandslash" file="Sandslash.xml"/>
+
+	<monster name="Nidoranfe" file="Nidoranfe.xml"/>
+	<monster name="Nidorina" file="Nidorina.xml"/>
+	<monster name="Nidoqueen" file="Nidoqueen.xml"/>
+
+	<monster name="Nidoranma" file="Nidoranma.xml"/>
+	<monster name="Nidorino" file="Nidorino.xml"/>
+	<monster name="Nidoking" file="Nidoking.xml"/>
+
+	<monster name="Clefairy" file="Clefairy.xml"/>
+	<monster name="Clefable" file="Clefable.xml"/>
+
+	<monster name="Vulpix" file="Vulpix.xml"/>
+	<monster name="Ninetales" file="Ninetales.xml"/>
+
+	<monster name="Jigglypuff" file="Jigglypuff.xml"/>
+	<monster name="Wigglytuff" file="Wigglytuff.xml"/>
+
+	<monster name="Zubat" file="Zubat.xml"/>
+	<monster name="Golbat" file="Golbat.xml"/>
+
+	<monster name="Oddish" file="Oddish.xml"/>
+	<monster name="Gloom" file="Gloom.xml"/>
+	<monster name="Vileplume" file="Vileplume.xml"/>
+
+	<monster name="Paras" file="Paras.xml"/>
+	<monster name="Parasect" file="Parasect.xml"/>
+
+	<monster name="Venonat" file="Venonat.xml"/>
+	<monster name="venomoth" file="venomoth.xml"/>
+
+	<monster name="Diglett" file="Diglett.xml"/>
+	<monster name="Dugtrio" file="Dugtrio.xml"/>
+
+	<monster name="Meowth" file="Meowth.xml"/>
+	<monster name="Persian" file="Persian.xml"/>
+
+	<monster name="Psyduck" file="Psyduck.xml"/>
+	<monster name="Golduck" file="Golduck.xml"/>
+
+	<monster name="Mankey" file="Mankey.xml"/>
+	<monster name="Primeape" file="Primeape.xml"/>
+
+	<monster name="Growlithe" file="Growlithe.xml"/>
+	<monster name="Arcanine" file="Arcanine.xml"/>
+
+	<monster name="Poliwag" file="Poliwag.xml"/>
+	<monster name="Poliwhirl" file="Poliwhirl.xml"/>
+	<monster name="Poliwrath" file="Poliwrath.xml"/>
+
+	<monster name="Abra" file="Abra.xml"/>
+	<monster name="Kadabra" file="Kadabra.xml"/>
+	<monster name="Alakazam" file="Alakazam.xml"/>
+
+	<monster name="Machop" file="Machop.xml"/>
+	<monster name="Machoke" file="Machoke.xml"/>
+	<monster name="Machamp" file="Machamp.xml"/>
+
+	<monster name="Bellsprout" file="Bellsprout.xml"/>
+	<monster name="Weepinbell" file="Weepinbell.xml"/>
+	<monster name="Victreebel" file="Victreebel.xml"/>
+
+	<monster name="Tentacool" file="Tentacool.xml"/>
+	<monster name="Tentacruel" file="Tentacruel.xml"/>
+
+	<monster name="Geodude" file="Geodude.xml"/>
+	<monster name="Graveler" file="Graveler.xml"/>
+	<monster name="Golem" file="Golem.xml"/>
+
+	<monster name="Ponyta" file="Ponyta.xml"/>
+	<monster name="Rapidash" file="Rapidash.xml"/>
+
+	<monster name="Slowpoke" file="Slowpoke.xml"/>
+	<monster name="Slowbro" file="Slowbro.xml"/>
+
+	<monster name="Magnemite" file="Magnemite.xml"/>
+	<monster name="Magneton" file="Magneton.xml"/>
+
+	<monster name="Farfetch'd" file="Farfetch'd.xml"/>
+
+	<monster name="Doduo" file="Doduo.xml"/>
+	<monster name="Dodrio" file="Dodrio.xml"/>
+
+	<monster name="Seel" file="Seel.xml"/>
+	<monster name="Dewgong" file="Dewgong.xml"/>
+
+	<monster name="Grimer" file="Grimer.xml"/>
+	<monster name="Muk" file="Muk.xml"/>
+
+	<monster name="Shellder" file="Shellder.xml"/>
+	<monster name="Cloyster" file="Cloyster.xml"/>
+
+	<monster name="Gastly" file="Gastly.xml"/>
+	<monster name="Haunter" file="Haunter.xml"/>
+	<monster name="Gengar" file="Gengar.xml"/>
+
+	<monster name="Onix" file="Onix.xml"/>
+
+	<monster name="Drowzee" file="Drowzee.xml"/>
+	<monster name="Hypno" file="Hypno.xml"/>
+
+	<monster name="Krabby" file="Krabby.xml"/>
+	<monster name="Kingler" file="Kingler.xml"/>
+
+	<monster name="Voltorb" file="Voltorb.xml"/>
+	<monster name="Electrode" file="Electrode.xml"/>
+
+	<monster name="Exeggcute" file="Exeggcute.xml"/>
+	<monster name="Exeggutor" file="Exeggutor.xml"/>
+
+	<monster name="Cubone" file="Cubone.xml"/>
+	<monster name="Marowak" file="Marowak.xml"/>
+
+	<monster name="Hitmonlee" file="Hitmonlee.xml"/>
+	<monster name="Hitmonchan" file="Hitmonchan.xml"/>
+
+	<monster name="Lickitung" file="Lickitung.xml"/>
+
+	<monster name="Koffing" file="Koffing.xml"/>
+	<monster name="Weezing" file="Weezing.xml"/>
+
+	<monster name="Rhyhorn" file="Rhyhorn.xml"/>
+	<monster name="Rhydon" file="Rhydon.xml"/>
+
+	<monster name="Chansey" file="Chansey.xml"/>
+
+	<monster name="Tangela" file="Tangela.xml"/>
+
+	<monster name="Kangaskhan" file="Kangaskhan.xml"/>
+
+	<monster name="Seadra" file="Seadra.xml"/>
+
+	<monster name="Goldeen" file="Goldeen.xml"/>
+	<monster name="Seaking" file="Seaking.xml"/>
+
+	<monster name="Staryu" file="Staryu.xml"/>
+	<monster name="Starmie" file="Starmie.xml"/>
+
+	<monster name="Mr.Mime" file="Mr.Mime.xml"/>
+
+	<monster name="Scyther" file="Scyther.xml"/>
+
+	<monster name="Jynx" file="Jynx.xml"/>
+
+	<monster name="Electabuzz" file="Electabuzz.xml"/>
+
+	<monster name="Magmar" file="Magmar.xml"/>
+
+	<monster name="Pinsir" file="Pinsir.xml"/>
+
+	<monster name="Tauros" file="Tauros.xml"/>
+
+	<monster name="Magikarp" file="Magikarp.xml"/>
+	<monster name="Gyarados" file="Gyarados.xml"/>
+
+	<monster name="Lapras" file="Lapras.xml"/>
+
+	<monster name="Ditto" file="Ditto.xml"/>
+
+	<monster name="Eevee" file="Eevee.xml"/>
+	<monster name="Vaporeon" file="Vaporeon.xml"/>
+	<monster name="Jolteon" file="Jolteon.xml"/>
+	<monster name="Flareon" file="Flareon.xml"/>
+
+	<monster name="Porygon" file="Porygon.xml"/>
+
+	<monster name="Omanyte" file="Omanyte.xml"/>
+	<monster name="Omastar" file="Omastar.xml"/>
+
+	<monster name="Kabuto" file="Kabuto.xml"/>
+	<monster name="Aerodactyl" file="Aerodactyl.xml"/>
+
+	<monster name="Snorlax" file="Snorlax.xml"/>
+
+	<monster name="Articuno" file="Articuno.xml"/>
+
+	<monster name="Zapdos" file="Zapdos.xml"/>
+
+	<monster name="Moltres" file="Moltres.xml"/>
+
+	<monster name="Dratini" file="Dratini.xml"/>
+	<monster name="Dragonair" file="Dragonair.xml"/>
+	<monster name="Dragonite" file="Dragonite.xml"/>
+
+	<monster name="Elder Charizard" file="Elder Charizard.xml"/>
+
+
+	<monster name="Mew" file="Mew.xml"/>
+
+	<monster name="Mewtwo" file="Mewtwo.xml"/>
+
+	<monster name="horsea" file="horsea.xml"/>
+
+
+	<monster name="gengar2" file="gengar2.xml"/>
+
+			<!--Shinys-->
+	<monster name="shiny abra" file="shiny abra.xml"/>
+	<monster name="shiny arcanine" file="shiny arcanine.xml"/>
+	<monster name="shiny blastoise" file="shiny blastoise.xml"/>
+	<monster name="shiny growlitle" file="shiny growlitle.xml"/>
+	<monster name="shiny gyarados" file="shiny gyarados.xml"/>
+	<monster name="shiny kingler" file="shiny kingler.xml"/>
+	<monster name="shiny scyther" file="shiny scyther.xml"/>
+	<monster name="shiny tentacruel" file="shiny tentacruel.xml"/>
+	<monster name="shiny venusaur" file="shiny venusaur.xml"/>
+	<monster name="shiny electabuzz" file="shiny electabuzz.xml"/>
+	<monster name="shiny bedril" file="shiny bedril.xml"/>
+	<monster name="shiny butterfle" file="shiny butterfle.xml"/>
+	<monster name="shiny dratini" file="shiny dratini.xml"/>
+	<monster name="shiny electrode" file="shiny electrode.xml"/>
+	<monster name="shiny farfetchd" file="shiny farfetchd.xml"/>
+	<monster name="shiny hitmonchan" file="shiny hitmonchan.xml"/>
+	<monster name="shiny hitmonlee" file="shiny hitmonlee.xml"/>
+	<monster name="shiny horsea" file="shiny horsea.xml"/>
+	<monster name="shiny jynx" file="shiny jynx.xml"/>
+	<monster name="shiny krabby" file="shiny krabby.xml"/>
+	<monster name="shiny magikarp" file="shiny magikarp.xml"/>
+	<monster name="shiny muk" file="shiny muk.xml"/>
+	<monster name="shiny oddish" file="shiny oddish.xml"/>
+	<monster name="shiny paras" file="shiny paras.xml"/>
+	<monster name="shiny tentacool" file="shiny tentacool.xml"/>
+	<monster name="shiny venomath" file="shiny venomath.xml"/>
+	<monster name="shiny voltorb" file="shiny voltorb.xml"/>
+	<monster name="shiny zubat" file="shiny zubat.xml"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<monster name="Bulbasaur1" file="Bulbasaur1.xml"/>
+	<monster name="Ivysaur1" file="Ivysaur1.xml"/>
+	<monster name="Venusaur1" file="Venusaur1.xml"/>
+
+	<monster name="Charmander1" file="Charmander1.xml"/>
+	<monster name="Charmeleon1" file="Charmeleon1.xml"/>
+	<monster name="Charizard1" file="Charizard1.xml"/>
+
+	<monster name="Squirtle1" file="Squirtle1.xml"/>
+	<monster name="Wartortle1" file="Wartortle1.xml"/>
+	<monster name="Blastoise1" file="Blastoise1.xml"/>
+
+	<monster name="Caterpie1" file="Caterpie1.xml"/>
+	<monster name="Metapod1" file="Metapod1.xml"/>
+	<monster name="Butterfree1" file="Butterfree1.xml"/>
+
+	<monster name="Weedle1" file="Weedle1.xml"/>
+	<monster name="Kakuna1" file="Kakuna1.xml"/>
+	<monster name="Beedrill1" file="Beedrill1.xml"/>
+
+	<monster name="Pidgey1" file="Pidgey1.xml"/>
+	<monster name="Pidgeotto1" file="Pidgeotto1.xml"/>
+	<monster name="Pidgeot1" file="Pidgeot1.xml"/>
+
+	<monster name="Rattata1" file="Rattata1.xml"/>
+	<monster name="Raticate1" file="Raticate1.xml"/>
+
+	<monster name="Spearow1" file="Spearow1.xml"/>
+	<monster name="Fearow1" file="Fearow1.xml"/>
+
+	<monster name="Ekans11" file="Ekans1.xml"/>
+	<monster name="Arbok" file="Arbok1.xml"/>
+
+	<monster name="Pikachu1" file="Pikachu1.xml"/>
+	<monster name="Raichu1" file="Raichu1.xml"/>
+
+	<monster name="Sandshrew1" file="Sandshrew1.xml"/>
+	<monster name="Sandslash1" file="Sandslash1.xml"/>
+
+	<monster name="Nidoranfe1" file="Nidoranfe1.xml"/>
+	<monster name="Nidorina1" file="Nidorina1.xml"/>
+	<monster name="Nidoqueen1" file="Nidoqueen1.xml"/>
+
+	<monster name="Nidoranma" file="Nidoranma1.xml"/>
+	<monster name="Nidorino" file="Nidorino1.xml"/>
+	<monster name="Nidoking" file="Nidoking1.xml"/>
+
+	<monster name="Clefairy1" file="Clefairy1.xml"/>
+	<monster name="Clefable1" file="Clefable1.xml"/>
+
+	<monster name="Vulpix1" file="Vulpix1.xml"/>
+	<monster name="Ninetales1" file="Ninetales1.xml"/>
+
+	<monster name="Jigglypuff1" file="Jigglypuff1.xml"/>
+	<monster name="Wigglytuff1" file="Wigglytuff1.xml"/>
+
+	<monster name="Zubat1" file="Zubat1.xml"/>
+	<monster name="Golbat1" file="Golbat1.xml"/>
+
+	<monster name="Oddish1" file="Oddish1.xml"/>
+	<monster name="Gloom1" file="Gloom1.xml"/>
+	<monster name="Vileplume1" file="Vileplume1.xml"/>
+
+	<monster name="Para1" file="Paras1.xml"/>
+	<monster name="Parasect1" file="Parasect1.xml"/>
+
+	<monster name="Venonat1" file="Venonat1.xml"/>
+	<monster name="venomoth1" file="venomoth1.xml"/>
+
+	<monster name="Diglett1" file="Diglett1.xml"/>
+	<monster name="Dugtrio1" file="Dugtrio1.xml"/>
+
+	<monster name="Meowth1" file="Meowth1.xml"/>
+	<monster name="Persian1" file="Persian1.xml"/>
+
+	<monster name="Psyduck1" file="Psyduck1.xml"/>
+	<monster name="Golduck1" file="Golduck1.xml"/>
+
+	<monster name="Mankey1" file="Mankey1.xml"/>
+	<monster name="Primeape1" file="Primeape.xml"/>
+
+	<monster name="Growlithe1" file="Growlithe1.xml"/>
+	<monster name="Arcanine1" file="Arcanine1.xml"/>
+
+	<monster name="Poliwag1" file="Poliwag1.xml"/>
+	<monster name="Poliwhirl1" file="Poliwhirl1.xml"/>
+	<monster name="Poliwrath1" file="Poliwrath1.xml"/>
+
+	<monster name="Abra1" file="Abra1.xml"/>
+	<monster name="Kadabra1" file="Kadabra1.xml"/>
+	<monster name="Alakazam1" file="Alakazam1.xml"/>
+
+	<monster name="Machop1" file="Machop1.xml"/>
+	<monster name="Machoke1" file="Machoke1.xml"/>
+	<monster name="Machamp1" file="Machamp1.xml"/>
+
+	<monster name="Bellsprout1" file="Bellsprout1.xml"/>
+	<monster name="Weepinbell1" file="Weepinbell1.xml"/>
+	<monster name="Victreebel1" file="Victreebel1.xml"/>
+
+	<monster name="Tentacool1" file="Tentacool.xml"/>
+	<monster name="Tentacruel1" file="Tentacruel.xml"/>
+
+	<monster name="Geodude11" file="Geodude11.xml"/>
+	<monster name="Graveler1" file="Graveler1.xml"/>
+	<monster name="Golem1" file="Golem1.xml"/>
+
+	<monster name="Ponyta1" file="Ponyta1.xml"/>
+	<monster name="Rapidash1" file="Rapidash1.xml"/>
+
+	<monster name="Slowpoke1" file="Slowpoke1.xml"/>
+	<monster name="Slowbro1" file="Slowbro1.xml"/>
+
+	<monster name="Magnemite1" file="Magnemite.xml"/>
+	<monster name="Magneton1" file="Magneton.xml"/>
+
+	<monster name="Farfetch'd1" file="Farfetch'd1.xml"/>
+
+	<monster name="Doduo1" file="Doduo1.xml"/>
+	<monster name="Dodrio1" file="Dodrio1.xml"/>
+
+	<monster name="Seel1" file="Seel1.xml"/>
+	<monster name="Dewgong1" file="Dewgong1.xml"/>
+
+	<monster name="Grimer1" file="Grimer1.xml"/>
+	<monster name="Muk1" file="Muk.xml"/>
+
+	<monster name="Shellder1" file="Shellder1.xml"/>
+	<monster name="Cloyster1" file="Cloyster1.xml"/>
+
+	<monster name="Gastly1" file="Gastly1.xml"/>
+	<monster name="Haunter1" file="Haunter1.xml"/>
+	<monster name="Gengar1" file="Gengar1.xml"/>
+
+	<monster name="Onix1" file="Onix1.xml"/>
+
+	<monster name="Drowzee1" file="Drowzee1.xml"/>
+	<monster name="Hypno1" file="Hypno1.xml"/>
+
+	<monster name="Krabby1" file="Krabby1.xml"/>
+	<monster name="Kingler" file="Kingler1.xml"/>
+
+	<monster name="Voltorb1" file="Voltorb1.xml"/>
+	<monster name="Electrode1" file="Electrode1.xml"/>
+
+	<monster name="Exeggcute" file="Exeggcute.xml"/>
+	<monster name="Exeggutor" file="Exeggutor.xml"/>
+
+	<monster name="Cubone1" file="Cubone1.xml"/>
+	<monster name="Marowak1" file="Marowak1.xml"/>
+
+	<monster name="Hitmonlee1" file="Hitmonlee1.xml"/>
+	<monster name="Hitmonchan1" file="Hitmonchan1.xml"/>
+
+	<monster name="Lickitung" file="Lickitung1.xml"/>
+
+	<monster name="Koffing" file="Koffing1.xml"/>
+	<monster name="Weezing" file="Weezing1.xml"/>
+
+	<monster name="Rhyhorn1" file="Rhyhorn1.xml"/>
+	<monster name="Rhydon1" file="Rhydon1.xml"/>
+
+	<monster name="Chansey" file="Chansey1.xml"/>
+
+	<monster name="Tangela1" file="Tangela1.xml"/>
+
+	<monster name="Kangaskhan" file="Kangaskhan1.xml"/>
+
+	<monster name="Seadra1" file="Seadra1.xml"/>
+
+	<monster name="Goldeen1" file="Goldeen1.xml"/>
+	<monster name="Seaking1" file="Seaking1.xml"/>
+
+	<monster name="Staryu1" file="Staryu1.xml"/>
+	<monster name="Starmie1" file="Starmie.xml"/>
+
+	<monster name="Mr.Mime" file="Mr.Mime1.xml"/>
+
+	<monster name="Scyther1" file="Scyther1.xml"/>
+
+	<monster name="Jynx" file="Jynx1.xml"/>
+
+	<monster name="Electabuzz1" file="Electabuzz1.xml"/>
+
+	<monster name="Magmar1" file="Magmar1.xml"/>
+
+	<monster name="Pinsir" file="Pinsir1.xml"/>
+
+	<monster name="Tauros1" file="Tauros1.xml"/>
+
+	<monster name="Magikarp1" file="Magikarp1.xml"/>
+	<monster name="Gyarados" file="Gyarados1.xml"/>
+
+	<monster name="Lapras1" file="Lapras1.xml"/>
+
+	<monster name="Ditto1" file="Ditto1.xml"/>
+
+	<monster name="Eevee1" file="Eevee1.xml"/>
+	<monster name="Vaporeon1" file="Vaporeon1.xml"/>
+	<monster name="Jolteon1" file="Jolteon1.xml"/>
+	<monster name="Flareon" file="Flareon.xml"/>
+
+	<monster name="Porygon" file="Porygon1.xml"/>
+
+	<monster name="Omanyte" file="Omanyte1.xml"/>
+	<monster name="Omastar" file="Omastar1.xml"/>
+
+	<monster name="Kabuto1" file="Kabuto1.xml"/>
+	<monster name="Kabutops" file="Kabutops.xml"/>
+	<monster name="Kabutops1" file="Kabutops1.xml"/>
+	<monster name="Aerodactyl1" file="Aerodactyl1.xml"/>
+
+	<monster name="Snorlax1" file="Snorlax1.xml"/>
+
+	<monster name="Articuno1" file="Articuno1.xml"/>
+
+	<monster name="Zapdos1" file="Zapdos1.xml"/>
+
+	<monster name="Moltres1" file="Moltres1.xml"/>
+
+	<monster name="Dratini1" file="Dratini1.xml"/>
+	<monster name="Dragonair1" file="Dragonair1.xml"/>
+	<monster name="Dragonite1" file="Dragonite1.xml"/>
+
+	<monster name="Elder Charizard1" file="Elder Charizard1.xml"/>
+
+
+	<monster name="Mew1" file="Mew1.xml"/>
+
+	<monster name="Mewtwo1" file="Mewtwo1.xml"/>
+
+	<monster name="horsea1" file="horsea1.xml"/>
+
+
+	<monster name="gengar2" file="gengar2.xml"/>
+
+
+
+</monsters>
+

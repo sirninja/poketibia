@@ -1,0 +1,31 @@
+<b>Automatic PayPal Donation System.</b><br><br>
+The donation costs 10 EUR (incl. VAT).<br>
+After the donation you will receive <b>10 points + 2 bonus points (Tot. 12 points)</b> in your account automatically. <br>Because you donate with PayPal / Creditcard you will receive +2 extra bonus points for free.<br><br>
+
+<b>Here are the steps you need to make:</b> <br>
+1. You need a valid creditcard <b>or</b> a PayPal account with a required balance [10 EUR]. <br>
+2. Fill in your account number. <br>
+3. Click on the donate button. <br>
+4. Make a transaction on PayPal. <br>
+5. After the transaction 12 points will be automatically added to your account. <br>
+6. Go to Item shop and use your points <br> <br> <br> </b>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="YOUREMAIL@hotmail.com">
+<input type="hidden" name="lc" value="GB">
+<input type="hidden" name="item_name" value="YOURITEMNAME">
+<b>Account number:</b> <input type="text"  name="custom" value="">
+<input type="hidden" name="item_number" value="1">
+<input type="hidden" name="amount" value="10.0">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="no_shipping" value="0">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="notify_url" value="http://www.YOURADDRESS.com/ipn/ipn.php">
+<input type="hidden" name="return" value="http://www.YOURADDRESS.com">
+<input type="hidden" name="rm" value="0">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG_global.gif:NonHosted">
+<input type="image" src="images/paypal_donate_button.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>

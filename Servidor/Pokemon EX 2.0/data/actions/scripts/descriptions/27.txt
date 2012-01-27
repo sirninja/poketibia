@@ -1,0 +1,22 @@
+
+Nome: Sandshrew
+Tipo: Terra
+Nível necessário: 18
+
+Evoluções:
+Sandshrew, requer nível 18
+Sandslash, requer nível 55
+
+Descrição: Para se proteger de invasores, se enrola em uma bola. Ele vive em regiões áridas com chuvas ao mínimo.
+
+Ataque:
+Scratch - Arranhar - m1 - nível 18
+Sand Attack - Ataque de Areia - m2 - nível 18
+Mud Shot - Tiro de Lama - m3 - nível 18
+Rollout - Rolar pra fora - M4 - nível 23
+Shockwave - Onda de choque - m5 - nível 28
+
+Habilidade:
+Escavar (Dig)
+Quebrar Pedra (Rock Smash)
+Corte (cut)

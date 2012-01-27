@@ -1,0 +1,23 @@
+Name: Aerodactyl
+Type: Voador
+Required level: 100
+
+Evolutions:
+-/-
+
+
+Moves: 
+Roar - m1 - level 110
+Super Sonic - m2 - level 100
+Bite -m3 - level 100
+Headbutt - m4 - level 100
+Rock Throw - m5 - level 100
+RockSlide - m6 - level 100
+Fire Fang - m7 - level 100
+Wing Attack - m8 - level 100
+Falling Rocks - m9 - level 105
+Hyper Beam - m10 - level 110
+Ancient Power - m11 -level 115 
+
+Ability:
+Fly

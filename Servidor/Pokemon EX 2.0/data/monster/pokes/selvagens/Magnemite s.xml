@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magnemite" nameDescription="a wild magnemite" race="electric" experience="235" speed="125" manacost="320">
+  <health now="800" max="800"/>
+  <look type="217" head="20" body="30" legs="40" feet="50" corpse="6056"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="physical" interval="2000" chance="100" range="4" min="-22" max="-40">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="thunderbolt" range="4" interval="2300" chance="18" min="-53" max="-68">
+    </attack>
+    <attack name="thunder wave" range="4" interval="2000" chance="16" min="-43" max="-50">
+    </attack>
+    <attack name="super sonic" range="4" interval="3700" chance="20" min="-33" max="-48">
+    </attack>
+    <attack name="thundershock" range="4" interval="1700" chance="20" min="-33" max="-48">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<elements>
+		<element electricPercent="30"/>
+		<element groundPercent="-30"/>
+		<element flyingPercent="30"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="MITE!"/>
+    <voice sentence="MAGNEMITE!"/>
+  </voices>
+<script>
+<event name="Exp"/>
+</script>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	</loot>
+</monster>

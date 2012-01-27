@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Omastar" nameDescription="a Omastar" race="undead" experience="70" speed="250" manacost="280">
+  <health now="6000" max="6000"/>
+  <look type="192" head="0" body="0" legs="0" feet="0" corpse="5994"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="15"/>
+    <attack name="auraagua" interval="2000" chance="20" min="-1600" max="-2000"> </attack>
+    <attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+   <attack name="restore" interval="6000" chance="50" min="1600" max="2750">	</attack>
+
+  </attacks>
+
+
+  <defenses armor="15" defense="15">
+    <defense name="healing" interval="1000" chance="20" min="1000" max="2000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    </defenses>
+
+
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+	</elements>
+  <immunities/>
+</monster>

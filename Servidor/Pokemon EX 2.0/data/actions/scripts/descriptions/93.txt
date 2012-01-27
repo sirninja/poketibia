@@ -1,0 +1,24 @@
+
+Nome: Haunter
+Tipo: fantasma
+Nível necessário: 45
+
+Evoluções:
+Gastly, requer nível 18
+Haunter, requer nível 45
+Gengar, requer nível 80
+
+Descrição: Devido a sua capacidade de atravessar paredes, dizem que ele é de outra dimensao.
+
+Ataque:
+Lick - Lambida - m1 - nível 45
+Shadow Ball - Bola Sombria - m2 - nível 45
+Night Shade - Marcara Noturna - m3 - nível 45
+Shadow Storm - Tempestade Sombia - m4 nível - 65
+Invisible - Invisibilidade - m5 - nível 45
+Dream Eater - Comedor de Sonhos - m6 nível - 53
+Hipnosys - Hipnose - M7 - nível 45
+Fear - Medo- m8 nível - 45
+
+Habilidade:
+Controlar Mentes (Control Mind)

@@ -1,0 +1,288 @@
+function onUse(cid, item, fromPos, itemEx, toPos)
+
+d1 = 
+{
+        [0] = {pokemon = 'Magikarp'}, 
+}
+
+d2 = 
+{
+        [0] = {pokemon = 'Magikarp'}, 
+        [1] = {pokemon = 'Poliwag'},  
+}
+
+d3 = 
+{
+        [0] = {pokemon = 'Magikarp'}, 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'},  
+}
+
+d4 = 
+{
+        [0] = {pokemon = 'Magikarp'}, 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Krabby'},  
+}
+
+d5 = 
+{
+        [0] = {pokemon = 'Magikarp'}, 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'},  
+}
+
+d6 = 
+{ 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},  
+
+}
+
+d7 = 
+{
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},  
+
+}
+
+d8 = 
+{ 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},  
+
+}
+
+d9 = 
+{ 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'},  
+
+}
+
+d10 = 
+{ 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'},
+        [9] = {pokemon = 'Kingler'},  
+
+}
+
+d11 = 
+{
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'},
+        [9] = {pokemon = 'Kingler'},
+        [10] = {pokemon = 'Seadra'},  
+
+}
+
+d12 = 
+{
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'}, 
+        [9] = {pokemon = 'Kingler'}, 
+        [10] = {pokemon = 'Seadra'},
+        [11] = {pokemon = 'Starmie'},
+
+}
+
+d13 = 
+{
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'},  
+        [9] = {pokemon = 'Kingler'},
+        [10] = {pokemon = 'Seadra'},
+        [11] = {pokemon = 'Starmie'},
+        [12] = {pokemon = 'Squirtle'},
+
+}
+
+d14 = 
+{ 
+        [1] = {pokemon = 'Horsea'}, 
+        [2] = {pokemon = 'Poliwag'}, 
+        [3] = {pokemon = 'Goldeen'}, 
+        [4] = {pokemon = 'Krabby'}, 
+        [5] = {pokemon = 'Tentacool'},
+        [6] = {pokemon = 'Poliwhirl'},
+        [7] = {pokemon = 'Seaking'},
+        [8] = {pokemon = 'Staryu'},  
+        [9] = {pokemon = 'Kingler'},
+        [10] = {pokemon = 'Seadra'},
+        [11] = {pokemon = 'Starmie'},
+        [12] = {pokemon = 'Squirtle'},
+        [13] = {pokemon = 'Gyarados'},
+
+}
+        local config = {
+        waters = {4614, 4615, 4616, 4617, 4618, 4619, 4608, 4609, 4610, 4611, 4612, 4613, 7236, 4614, 4615, 4616, 4617, 4618, 4619, 4620, 4621, 4622, 4623, 4624, 4625, 4665, 4666, 4820, 4821, 4822, 4823, 4824, 4825},
+}
+
+local skill = getPlayerSkillLevel(cid, 6)
+local playerpos = {x=getCreaturePosition(cid).x, y=getCreaturePosition(cid).y+1, z=getCreaturePosition(cid).z}
+
+        if(isInArray(config.waters, itemEx.itemid)) then
+                doSendMagicEffect(toPos, CONST_ME_LOSEENERGY)
+
+                        if skill == 23 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d14[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 22 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d13[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 21 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d12[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 20 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d11[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 19 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d10[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 18 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d9[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 17 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d8[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 16 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d7[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 15 then
+                                local random = math.random(1, 10)
+                                if random <= 35 then
+                                        doSummonCreature(d6[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 14 then
+                                local random = math.random(1, 100)
+                                if random <= 35 then
+                                        doSummonCreature(d5[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 13 then
+                                local random = math.random(1, 100)
+                                if random <= 35 then
+                                        doSummonCreature(d4[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 12 then
+                                local random = math.random(1, 100)
+                                if random <= 35 then
+                                        doSummonCreature(d3[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 11 then
+                                local random = math.random(1, 100)
+                                if random <= 35 then
+                                        doSummonCreature(d2[random].pokemon, playerpos)
+                                        return true
+                                end
+                        else
+                        if skill == 10 then
+                                local random = math.random(1, 100)
+                                if random <= 45 then
+                                        doSummonCreature(d1[random].pokemon, playerpos)
+                                        return true
+                                end
+                                return true
+                        end
+                return true
+        end
+        return true
+end
+end
+end
+end
+end
+end
+end
+end
+end
+end
+end
+end
+end
+end

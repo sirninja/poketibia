@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ivysaur" nameDescription="a Ivysaur" race="undead" experience="700" speed="370" manacost="390">
+  <health now="3600" max="3600"/>
+  <look type="24" head="20" body="30" legs="40" feet="50" corpse="5982"/>
+ 
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-65" max="-100"/>
+    <attack name="razor leaf" interval="2400" chance="22" min="-50" max="-250">
+    </attack>
+    <attack name="vine whip" interval="3000" chance="24" min="-150" max="-350">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="23" min="-80" max="-160">
+    </attack>
+    <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-80" > </attack>
+    <attack name="bullet seed" interval="4200" chance="100" min="-250" max="-350">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-150" max="-360">
+    </attack>
+    <attack name="solar beam" range="3" interval="5000" chance="20" min="-400" max="-600">
+    </attack>
+  </attacks>
+
+
+  <defenses armor="7" defense="8"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Ivyyyyy!"/>
+    <voice sentence="Ivysaur!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="44" chance="59000"/> -- seeds
+	<item id="8851" countmax="2" chance="21000"/> -- leaves
+	<item id="8852" countmax="1" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1400"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

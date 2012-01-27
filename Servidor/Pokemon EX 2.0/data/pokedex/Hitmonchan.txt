@@ -1,0 +1,20 @@
+Name: Hitmonchan
+Type: fighting
+Required level: 60
+
+Evolutions:
+Hitmonchan, requires level 60
+
+Description: A Hitmonchan is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up.
+
+Moves: 
+Triple Punch - m1 - level 60 - fighting
+Mega Punch - m2 - level 60 - fighting
+Multi-Punch - m3 - level 65 - fighting
+Ultimate Champion - m4 - level 60 - fighting
+Elemental Hands - m5 - level 60 - fighting
+Demon Puncher - passive  - undefined
+Evasion - passive  - normal
+
+Ability:
+Rock smash

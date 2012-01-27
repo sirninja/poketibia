@@ -1,0 +1,24 @@
+Nome: pidgeotto
+Tipo: Voador
+Nível necessário: 20
+
+Evoluçoes
+
+Pidgey nível 1
+Pidgeotto nível 20
+Pidgeot, nível 65
+
+Descriçao: Voa sobre seu território em busca de sua presa, descendo com sua garras altamente desenvolvidas.
+
+Ataques:
+
+Quick Attack - Ataque rápido - 20
+Sand Attack - Ataque de areia - 20
+Whirlwind - Turbilhao de Vento - 20
+Drill Peck - Bicadas - 20
+Wing Attack - Ataque de Asas - 28
+Tornado - Furacao - 50
+
+Capacidade:
+
+Nenhuma.

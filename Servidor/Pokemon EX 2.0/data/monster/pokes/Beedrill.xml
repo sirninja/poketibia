@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Beedrill" namedescription="a beedrill" race="bug" experience="600" speed="182" manacost="250">
+  <health now="1900" max="1900"/>
+  <look type="45" head="20" body="30" legs="40" feet="50" corpse="5990"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-67" max="-81"/>
+	<attack name="fury" interval="4000" chance="35" range="10">    </attack>
+    <attack name="aurainseto" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+
+
+
+  </attacks>
+	<defenses armor="5" defense="5">
+	
+	    <defense name="speed" interval="2000" chance="12" speedchange="250" duration="8000">		
+   <attribute key="areaEffect" value="greenshimmer"/>	
+   </defense>
+    <defense name="strafe" interval="3000" chance="25" min="200" max="300">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+	
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element fightPercent="80"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="BEE!"/>
+    <voice sentence="BEEDRILL!"/>
+    <voice sentence="DRILL!"/>
+  </voices>
+  <loot>
+  </loot>
+
+</monster>

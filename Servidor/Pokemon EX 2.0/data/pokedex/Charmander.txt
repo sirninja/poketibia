@@ -1,0 +1,22 @@
+Name: Charmander
+Type: fire
+Required level: 20
+
+Evolutions:
+Charmander, requires level 20
+Charmeleon, requires level 40
+Charizard, requires level 85
+
+Description: The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
+
+Moves: 
+Scratch - m1 - level 20 - normal
+Ember - m2 - level 20 - fire
+Flamethrower - m3 - level 20 - fire
+Fireball - m4 - level 24 - fire
+Fire Fang - m5 - level 22 - fire
+Fire Blast - m6 - level 40 - fire
+Rage - m7 - level 30 - dragon
+
+Ability:
+Cut

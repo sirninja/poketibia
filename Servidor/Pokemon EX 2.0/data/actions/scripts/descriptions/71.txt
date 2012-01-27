@@ -1,0 +1,24 @@
+Nome: Victreebel
+Tipo: grama
+Nível necessário: 50
+
+Evoluções:
+Bellsprout, requer nível 10
+Weepinbell, requer nível 18
+Victreebel, requer nível 50
+
+Descrição: Existem piscinas de acidos na sua boca, que é realmente um ácido que dissolve qualquer coisa.
+
+Move-se:
+Razor Leaf - Folha Navalha
+Vine Whip - Chicote de Vinha
+Acid - Acido
+Poison Bomb - Bomba Venenosa
+Slash - Cortar
+Stun Spore - Pó atordoante
+Poison Powder - Pó venenoso
+Sleep Powder - Pó do sono
+Leaf Storm - Tempestade de folha
+
+Habilidade:
+Corte (Cut)

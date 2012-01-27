@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a Nidoking" race="undead" experience="3000" speed="275" manacost="10000">
+  <health now="4800" max="4800"/>
+  <look type="35" corpse="5995"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="100" attack="110"/>
+  </attacks>
+  
+	<defenses armor="15" defense="22">
+	
+	    <defense name="speed" interval="2000" chance="12" speedchange="250" duration="8000">		
+   <attribute key="areaEffect" value="greenshimmer"/>	
+   </defense>
+    <defense name="strafe" interval="3000" chance="25" min="200" max="500">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+	
+  </defenses>
+    <elements>
+		<element grassPercent="30"/>
+		<element fightingPercent="30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+		<element psychicPercent="-30"/>
+  </elements>
+  
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+  </voices>
+	<loot>
+		<item id="3976" countmax="100" chance="10000"/><!-- Pot of moss bug -->
+	</loot>
+</monster>

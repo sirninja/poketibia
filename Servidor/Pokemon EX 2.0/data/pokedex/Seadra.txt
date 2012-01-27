@@ -1,0 +1,22 @@
+Name: Seadra
+Type: water
+Required level: 45
+
+Evolutions:
+Horsea, requires level 10
+Seadra, requires level 45
+
+Description: The poisonous barbs all over its body are highly valued as ingredients for making traditional herbal medicine. It shows no mercy to anything approaching its nest.
+
+Moves: 
+Mud Shot - m1 - level 45 - earth
+Mud Bomb - m2 - level 45 - earth
+Quick Attack - m3 - level 45 - normal
+Bubbles - m4 - level 45 - water
+Bubblebeam - m5 - level 45 - water
+Water Gun - m6 - level 45 - water
+Waterball - m7 - level 45 - water
+Hydro Cannon - m8 - level 55 - water
+
+Ability:
+Surf

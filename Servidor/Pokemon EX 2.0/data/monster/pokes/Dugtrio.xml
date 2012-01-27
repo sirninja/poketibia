@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dugtrio" nameDescription="a Dugtrio" race="undead" experience="750" speed="270" manacost="395">
+  <health now="3500" max="3500"/>
+  <look type="83" head="20" body="30" legs="40" feet="50" corpse="6024"/>
+  <targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="80"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="20" attack="43"/>
+    <attack name="aurapedra" interval="2000" chance="10" min="-800" max="-1200"> </attack>
+
+  </attacks>
+
+
+  <defenses armor="12" defense="15">
+  </defenses>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+  </immunities>
+  <elements>
+		<element grassPercent="-30"/>
+		<element electricPercent="500"/>
+		<element waterPercent="-30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="30"/>
+		<element rockPercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Duugtrioo"/>
+  </voices>
+	<loot>
+		<item id="2668" countmax="20" chance="100000"/><!-- pot of moss bug -->
+		<item id="2148" countmax="100" chance="100000"/><!-- pot of moss bug -->
+	</loot>
+</monster>

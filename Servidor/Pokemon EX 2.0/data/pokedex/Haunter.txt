@@ -1,0 +1,24 @@
+Name: Haunter
+Type: ghost
+Required level: 45
+
+Evolutions:
+Gastly, requires level 20
+Haunter, requires level 45
+Gengar, requires level 80
+
+Description: Because of its ability to slip through block walls, it is said to be from another dimension.
+
+Moves: 
+Lick - m1 - level 45 - normal
+Shadow Ball - m2 - level 45 - ghost
+Night Shade - m3 - level 45 - ghost
+Shadow Storm - m4 - level 60 - ghost
+Invisible - m5 - level 45 - ghost
+Nightmare - m6 - level 50 - ghost
+Hypnosis - m7 - level 45 - psychic
+Fear - m8 - level 45 - ghost
+Dark Eye - m9 - level 45 - ghost
+
+Ability:
+Control minds

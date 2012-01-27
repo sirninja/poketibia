@@ -1,0 +1,22 @@
+Name: Electabuzz
+Type: electric
+Required level: 80
+
+Evolutions:
+Electabuzz, requires level 80
+
+Description: Half of all blackouts occur when this Pokemon appears at power plants and eats electricity.
+
+Moves: 
+Quick Attack - m1 - level 80 - normal
+Thunder Punch - m2 - level 80 - electric
+Thunder Shock - m3 - level 80 - electric
+Thunder Bolt - m4 - level 80 - electric
+Thunder Wave - m5 - level 80 - electric
+Thunder - m6 - level 80 - electric
+Electric Storm - m7 - level 85 - electric
+Electricity - passive  - electric
+
+Ability:
+Rock smash
+Light

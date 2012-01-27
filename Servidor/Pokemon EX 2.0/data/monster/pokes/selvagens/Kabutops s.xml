@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Kabutops" namedescription="a Kabutops" race="undead" experience="1000" speed="230" manacost="250">
+  <health now="10000" max="10000"/>
+  <look type="13" head="20" body="30" legs="40" feet="50" corpse="6345"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="20"/>
+  </flags>
+  <attacks>
+
+    <attack name="scratch" interval="1000" chance="50" min="-60" max="-200">
+    </attack>
+    <attack name="bubble" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="slash" interval="3000" chance="90" min="-100" max="-150">
+    </attack>
+    <attack name="falling rocks" interval="3300" range="10" chance="21" min="-156" max="-172">
+    </attack>
+    <attack name="earthshock" interval="2600" range="1" chance="15" min="-340" max="-372">
+    </attack>
+    <attack name="mud shot" interval="6750" chance="90" min="-700" max="-1100">
+    </attack>
+    <attack name="fury cutter" interval="6500" chance="90" min="-150" max="-370">
+    </attack>
+    <attack name="rock slide" interval="3300" range="10" chance="21" min="-356" max="-372">
+    </attack>
+
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="300">
+    </defense>
+  </defenses>
+    <elements>
+		<element normalPercent="30"/>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="-30"/>
+		<element fightingPercent="-30"/>
+		<element poisonPercent="30"/>
+		<element groundPercent="-30"/>
+	</elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Kabutops!"/>
+		<voice sentence="Kabutops!"/>
+	</voices>
+	<loot>
+		<item id="8864" countmax="5" chance="11000"/> -- stone orb
+	      <item id="2296" countmax="1" chance="6890"/> -- rocl stone
+		<item id="2300" chance="900"/> -- crystal Stone 
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

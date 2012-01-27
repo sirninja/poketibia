@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magcargo" nameDescription="a Magcargo" race="undead" experience="2500" speed="150" manacost="0">
+  <health now="7000" max="7000"/>
+  <look type="397" head="20" body="30" legs="40" feet="50" corpse="2873"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="scratch" interval="1000" chance="50" min="-1600" max="-1700">
+    </attack>
+    <attack name="fury cutter" interval="4000" chance="90" min="-4600" max="-4700">
+    </attack>
+    <attack name="swift" interval="3000" chance="90" min="-4000" max="-5800">
+    </attack>
+    <attack name="tackle" interval="2000" chance="90" min="-2000" max="-3000">
+    </attack>
+    <attack name="quick attack" interval="3000" chance="90" min="-1000" max="-1000">
+    </attack>
+    <attack name="petal dance" interval="4500" chance="90" min="-9000" max="-12000">
+    </attack>
+    <attack name="slash" interval="2000" chance="50" min="-8000" max="-9000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+  </defenses>
+  <elements>
+		<element normalPercent="50"/>
+		<element poisonPercent="50"/>
+		<element flyingPercent="50"/>
+		<element fightPercent="-50"/>
+		<element firePercent="75"/>
+		<element waterPercent="-100"/>
+		<element grassPercent="50"/>
+		<element icePercent="50"/>
+		<element groundPercent="-100"/>
+		<element bugPercent="50"/>
+		<element rockPercent="-50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Magcargo!"/>
+	</voices>
+	<loot>
+		<item id="5944" countmax="1" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="7497" chance="150"/><!-- Stone -->
+	</loot>
+</monster>

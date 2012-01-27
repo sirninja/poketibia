@@ -1,0 +1,23 @@
+Name: Wigglytuff
+Type: normal
+Required level: 45
+
+Evolutions:
+Jigglypuff, requires level 20
+Wigglytuff, requires level 45
+
+Description: Its fur is the ultimate in luxuriousness. Sleeping alongside a Wigglytuff is simply divine. Its body expands seemingly without end when it inhales.
+
+Moves: 
+Doubleslap - m1 - level 45 - normal
+Lovely Kiss - m2 - level 45 - normal
+Sing - m3 - level 45 - normal
+Hyper Voice - m4 - level 45 - normal
+Selfheal - m5 - level 50 - normal
+Healarea - m6 - level 50 - normal
+Focus - m7 - level 52 - normal
+Metronome - m8 - level 45 - normal
+Melody - passive  - normal
+
+Ability:
+None

@@ -1,0 +1,19 @@
+Name: Kangaskhan
+Type: Normal
+Required level: 75
+
+Evolutions:
+-/-
+
+Moves: 
+Bite - m1 - level 75
+Dizzy Punch - m2 - level 75
+Headbutt- m3 - level 75
+Mega Punch - m4 - level 75
+Shockwave - m5 - level 75
+Earthshock - m6 - level 81
+Epicenter - m7 - level 87
+Rage - m8 - level 75
+
+Ability:
+Cut

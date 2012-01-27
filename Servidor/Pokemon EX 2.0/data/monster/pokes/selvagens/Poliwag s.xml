@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Poliwag" namedescription="a wild poliwag" race="water" experience="90" speed="150" manacost="220">
+  <health now="400" max="400"/>
+  <look type="111" head="20" body="30" legs="40" feet="50" corpse="6042"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-10" max="-22"/>
+    <attack name="aqua tail" interval="2200" range="1" chance="20" min="-16" max="-25"> </attack>
+    <attack name="water gun" interval="4200" chance="25" min="-30" max="-40">
+    </attack>
+    <attack name="bubbles" range="5" interval="2700" chance="19" min="-15" max="-19">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="pooliwag!"/>
+    <voice sentence="poli!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="10" chance="65000"/> -- water gem
+	<item id="8820" countmax="1" chance="10000"/> -- water pendant
+	<item id="8821" countmax="1" chance="200"/> -- poliwrath doll
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

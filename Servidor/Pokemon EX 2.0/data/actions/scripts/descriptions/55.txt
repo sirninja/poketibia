@@ -1,0 +1,27 @@
+Nome: Golduck 
+Tipo: Aquático
+Nível Necessário: 55
+
+Evoluçoes:
+
+Psyduck, Nível 12
+GOlduck, Nível 55
+
+Descriçao: Um pokemon que vive em lagos. Nada mais rapido que um nadador campeao.
+
+Ataques:
+
+DoubleSlap - Tapa Duplo - Nível 55
+Water Gun - Arma de agua - Nível 55
+Aqua Tail - Cauda de água - Nível 55
+Waterball - Bola de Água - Nível 55
+Confusion - Confusão - Nível 55
+Psybeam - Raio Psíquico - Nível 60
+Psywave - Onda Pisíquica - Nível 65
+Mega Kick - Mega Chute - Nível 55
+Strafe - Metralhar - Nível 65
+Stunning Confusion - Confusao Impressionante - Passiva
+
+Capacidade:
+
+Surfar

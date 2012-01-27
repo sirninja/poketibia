@@ -1,0 +1,22 @@
+Name: Cloyster
+Type: Gelo
+Required level: 60
+
+Evolutions:
+Shellder, requires level 10
+Cloyster, requires level 60
+
+Description: It swims backward by opening and closing its two shells. Its large tongue is always kept hanging out.
+
+Moves: 
+Lick - m1 - level 60
+Super Sonic - m2 - level 60
+Clamp - m3 - level 60
+Bubbles - m4 - level 60
+Ice Beam - m5 - level 60
+AuroraBeam - m6 - level 64
+Blizzard - m7 - level 68
+Harden - m8 - level 62
+
+Habilities:
+None

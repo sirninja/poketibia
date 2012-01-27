@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Flint" script="stoneman2.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="299" head="17" body="54" legs="114" feet="0" addons="0"/>
+    <parameters>
+		<parameter key="message_greet" value="Hey there! If you are level 85 high you will be able to help me!I can pay very well and be sure that you will win a lot of experience." />
+    </parameters>
+</npc>

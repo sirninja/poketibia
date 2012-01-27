@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golduck" nameDescription="a Golduck" race="UNDEAD" experience="750" speed="265" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-100" max="-150"/>
+    <attack name="aqua tail" range="5" interval="2600" chance="20" min="-100" max="-200">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-300" max="-450">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-150" max="-250">
+    </attack>
+    <attack name="Cofusion Stun" range="5" interval="2300" chance="15" min="-50" max="-180">
+    </attack>
+    <attack name="psy beam" interval="3500" chance="21" min="-300" max="-450">
+    </attack>
+    <attack name="psychic" interval="2500" chance="26" min="-402" max="-411">
+    </attack>
+
+  </attacks>
+
+
+
+  <defenses armor="20" defense="20">
+    <defense name="cofusion stun" interval="5000" chance="40" min="-100" max="-200">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  <immunities>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+    <elements>
+		<element energyPercent="100"/>
+		<element earthPercent="-100"/>
+		<element firePercent="50"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Golduck!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2292" countmax="1" chance="1200"/> -- water stone
+	<item id="2293" countmax="1" chance="900"/> -- leaf stone
+	</loot>
+<script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+</script>
+
+</monster>

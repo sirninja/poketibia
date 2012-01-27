@@ -1,0 +1,22 @@
+Rattata
+Nome: Rattata 
+Type: normal
+Nível necessário: 1
+
+Evoluçoes:
+
+Rattata, nível 1
+Raticate, nível 20
+
+Descriçao: Cuidado ao etremo, por te uma grande vitalidade, vivem em qualquer tipo de ambiente.
+
+Ataques:
+
+Quick Attack - Ataque Rapido - 1
+Bite - Mordida - 1
+Scratch - Arranhar - 1
+Super Fang - Super Presa - 12
+
+Capacidade:
+
+Nenhuma.

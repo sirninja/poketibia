@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cloyster" nameDescription="a Cloyster" race="undead" experience="1500" speed="520" manacost="480">
+  <health now="5800" max="5800"/>
+  <look type="72" head="0" body="0" legs="0" feet="0" corpse="2932"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="40"/>
+  </flags>
+
+
+<attacks>
+    <attack name="melee" interval="2000" skill="75" attack="75"/>
+    <attack name="auragelo" interval="2000" chance="15" min="-1200" max="-1600"> </attack>
+</attacks>
+
+
+  <defenses armor="15" defense="15">
+  </defenses>
+
+  <immunities>
+    <immunity ice="1"/>
+    <immunity fire="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="-30"/>
+		<element icePercent="30"/>
+		<element fightPercent="-30"/>
+		<element fightPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Cloysteeer!"/>
+  </voices>
+
+</monster>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blastoise" nameDescription="a Blastoise" race="undead" experience="1100" speed="280" manacost="0">
+  <health now="9500" max="9500"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+  <targetchange interval="1000" chance="0"/>
+  
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="1"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="-110" attack="-140"/>
+    <attack name="headbutt" interval="2000" chance="25" min="-90" max="-290" > </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="20" min="-360" max="-500">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-250" max="-360">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="35" min="-300" max="-450">
+    </attack>
+    <attack name="aqua tail" range="5" interval="3000" chance="25" min="-250" max="-380">    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="15" min="-400" max="-620" > </attack>
+    <attack name="harden" interval="5500" range="1" chance="50"></attack>
+    <attack name="water oath" interval="3000" range="5" chance="22" min="-350" max="-480" > </attack>
+  </attacks>
+
+
+
+  <defenses armor="30" defense="30">
+
+  </defenses>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+  	<voices interval="2000" chance="10">
+		<voice sentence="BLASTOISE!"/>
+		<voice sentence="TOISE!"/>
+	</voices>
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="4" chance="50000"/> -- water pendant
+	<item id="2292" countmax="1" chance="950"/> -- water stone
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+
+  </monster>

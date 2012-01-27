@@ -1,0 +1,22 @@
+Name: Cloyster
+Type: ice
+Required level: 60
+
+Evolutions:
+Shellder, requires level 10
+Cloyster, requires level 60
+
+Description: It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.
+
+Moves: 
+Lick - m1 - level 60 - normal
+Super Sonic - m2 - level 60 - normal
+Clamp - m3 - level 60 - water
+Bubbles - m4 - level 60 - water
+Ice Beam - m5 - level 60 - ice
+Aurora Beam - m6 - level 64 - ice
+Blizzard - m7 - level 68 - ice
+Harden - m8 - level 62 - normal
+
+Ability:
+None

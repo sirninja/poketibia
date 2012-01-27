@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Seadra" nameDescription="a wild seadra" race="water" experience="700" speed="190" manacost="200">
+    <health now="3500" max="3500"/>
+    <look type="276" head="0" body="0" legs="0" feet="0" corpse="2872"/>
+	<targetchange interval="10000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="95"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+    <attack name="melee" interval="2000" range="1" min="-75" max="-100"/>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-94" max="-150">
+    </attack>
+    <attack name="water spout" range="5" interval="2300" chance="21" min="-125" max="-132">
+    </attack>
+    <attack name="twister" range="5" interval="2200" chance="19" min="-110" max="-122">
+    </attack>
+    <attack name="dragon pulse" range="5" interval="2400" chance="17" min="-145" max="-152">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-150" max="-180">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="18" min="-120" max="-130">
+    </attack>
+    <attack name="water oath" range="5" interval="3700" chance="17" min="-190" max="-230">
+    </attack>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2292" countmax="1" chance="1200"/> -- water stone
+	<item id="5298" countmax="1" chance="300"/> -- dragon scale
+	</loot>
+    <voices interval="6000" chance="0">
+      <voice sentence="SEADRA!"/>
+      <voice sentence="DRA!"/>
+    </voices>
+<script>
+<event name="Exp"/>
+</script>
+  </monster>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmander" nameDescription="a wild charmander" race="fire" experience="400" speed="166" manacost="550">
+  <health now="1400" max="1400"/>
+  <look type="29" head="20" body="30" legs="40" feet="50" corpse="5983"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-35" max="-50"/>
+    <attack name="scratch" interval="2000" chance="25" min="-35" max="-45">
+    </attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-55">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-65" max="-75">
+    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-45" max="-55">
+    </attack>
+    <attack name="flamethrower" interval="4000" chance="20">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <elements>
+		<element firePercent="30"/>
+		<element waterPercent="-30"/>
+		<element grassPercent="30"/>
+		<element icePercent="30"/>
+		<element groundPercent="-30"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMANDER!"/>
+    <voice sentence="CHAR!"/>
+    <voice sentence="MANDER!"/>
+  </voices>
+	<loot>
+	<item id="8866" countmax="15" chance="45000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="12000"/> -- pot of lava
+	</loot>
+<script>
+<event name="Exp"/>
+<event name="BlockSpells"/>
+</script>
+</monster>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tangela" nameDescription="a Tangela" race="undead" experience="675" speed="180" manacost="450">
+  <health now="3800" max="3800"/>
+  <look type="18" head="20" body="30" legs="40" feet="50" corpse="5976"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-50" max="-90">
+    </attack>
+    <attack name="quick attack" interval="3500" chance="90" min="-100" max="-130">
+    </attack>
+    <attack name="leech seed" interval="5000" chance="90" min="-250" max="-450">
+    </attack>
+    <attack name="stun spore" interval="4500" chance="90" min="-100" max="-250">
+    </attack>
+    <attack name="super vines" interval="6000" chance="90" min="-300" max="-600">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="250">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8851" countmax="2" chance="21000"/> -- leaves
+	<item id="8852" countmax="1" chance="14000"/> -- bag of polem
+	<item id="2293" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

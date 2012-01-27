@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raikou" nameDescription="a Raikou" race="undead" experience="85000" speed="470" manacost="0">
+  <health now="95000" max="95000"/>
+  <look type="419" head="0" body="0" legs="0" feet="0" corpse="2945"/>
+  	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" skill="800" attack="800"/>
+    <attack name="thunder wave" interval="5000" chance="100" range="1" min="-5500" max="6000">
+    </attack>
+    <attack name="thunderbolt" interval="3500" chance="95" min="-8000" max="-10000">
+    </attack>
+    <attack name="bite" interval="3000" chance="50" min="-4000" max="-5000">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="10000" chance="50" min="1000" max="2500">
+    </defense>
+  </defenses>
+	<elements>
+		<element electricPercent="50"/>
+		<element groundPercent="-100"/>
+		<element flyingPercent="50"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Raikouuuu!"/>
+	</voices>
+	<loot>
+		<item id="5893" countmax="15" chance="15000"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="1" chance="1"/><!-- Sell Item -->
+		<item id="5928" chance="300"/><!-- Stone -->
+	</loot>
+</monster>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Doduo" nameDescription="a doduo" race="flying" experience="225" speed="225" manacost="0">
+  <health now="880" max="880"/>
+  <look type="26" head="20" body="30" legs="40" feet="50" corpse="2842"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" range="1" min="-15" max="-35"/>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="quick attack" range="1" interval="1700" chance="21" min="-52" max="-62">
+    </attack>
+	<attack name="fury attack" interval="2400" chance="18" range="1">
+    </attack>
+	<attack name="drill peck" interval="2200" chance="18" range="1">
+    </attack>
+	<attack name="pluck" interval="2400" chance="20" range="1" min="-58" max="-70">
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+    <elements>
+		<element fightPercent="30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="-30"/>
+		<element icePercent="-30"/>
+		<element groundPercent="500"/>
+		<element bugPercent="30"/>
+		<element rockPercent="-30"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Doduo!"/>
+<voice sentence="Duo!"/>
+  </voices>
+	<loot>
+	<item id="2694" countmax="6" chance="33000"/> -- straw
+	<item id="8823" countmax="1" chance="22000"/> -- feather
+	<item id="8822" countmax="1" chance="45000"/> -- bird beak
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

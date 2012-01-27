@@ -1,0 +1,25 @@
+Name: Gengar
+Type: ghost
+Required level: 80
+
+Evolutions:
+Gastly, requires level 20
+Haunter, requires level 45
+Gengar, requires level 80
+
+Description: Deep in the night, your shadow cast by a streetlight may suddenly overtake you. It is actually a Gengar running past you, pretending to be your shadow.
+
+Moves: 
+Lick - m1 - level 80 - normal
+Shadow Ball - m2 - level 80 - ghost
+Shadow Punch - m3 - level 84 - ghost
+Night Shade - m4 - level 80 - ghost
+Shadow Storm - m5 - level 86 - ghost
+Invisible - m6 - level 80 - ghost
+Nightmare - m7 - level 80 - ghost
+Hypnosis - m8 - level 80 - psychic
+Fear - m9 - level 80 - ghost
+Dark Eye - m10 - level 80 - ghost
+
+Ability:
+Control minds

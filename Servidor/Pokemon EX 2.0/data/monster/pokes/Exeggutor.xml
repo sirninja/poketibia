@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exeggutor" nameDescription="a Exeggutor" race="undead" experience="1100" speed="250" manacost="670">
+  <health now="4000" max="4000"/>
+  <look type="46" head="0" body="0" legs="0" feet="0" corpse="3005"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+<attacks>
+    <attack name="melee" interval="2000" skill="65" attack="55"/>
+    <attack name="lifedrain" interval="1000" chance="13" radius="3" target="0" min="-50" max="-90">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+</attacks>
+	
+  <defenses armor="15" defense="15"/>
+  <elements>
+		<element firePercent="-30"/>
+		<element grassPercent="30"/>
+		<element electricPercent="30"/>
+		<element groundPercent="30"/>
+		<element flyingPercent="-30"/>
+		<element bugPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="-30"/>
+		<element poisonPercent="-30"/>
+  </elements>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity ice="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+</monster>

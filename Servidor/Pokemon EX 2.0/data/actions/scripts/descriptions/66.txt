@@ -1,0 +1,22 @@
+Nome: Machop (Matiopi)
+Tipo: lutador
+Nível necessário: 18
+
+Evoluções:
+Machop, requer nível 18
+Machoke, requer nível 40
+Machamp, requer nível 65
+
+Descrição: Nao para de treinar para atingi todas as formas de artes marciais. Sua força permite que facilmente carregar um lutador de sumô em seus ombros.
+
+Ataques:
+
+Triple Punch - Soco Triplo
+Mega Punch - Super Soco
+Karate Chop - Chute Karate
+Ground Chop - Chute Terrestre
+Strafe - Metralhar
+
+Habilidade:
+
+Rock Smash (Quebrar Pedra)

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="a wild raticate" race="normal" experience="425" speed="189" manacost="320">
+<health now="1400" max="1400"/>
+<look type="69" corpse="6007"/>
+<targetchange interval="100" chance="0"/>
+<strategy attack="100" defense="0"/>
+	
+<flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+	
+</flags>	
+<attacks>		
+	<attack name="melee" interval="1550" min="-55" max="-70"/>
+   	<attack name="scratch" interval="2400" chance="27" range="1" target="1" min="-80" max="-95">
+    </attack>
+   	<attack name="bite" interval="2100" chance="26" range="1" target="1" min="-80" max="-90">
+    </attack>
+   	<attack name="hyper fang" interval="2400" chance="19" range="1" target="1" min="-100" max="-110">
+    </attack>
+   	<attack name="quick attack" interval="1800" chance="16" range="1" target="1" min="-65" max="-85">
+    </attack>
+	<attack name="fury" interval="4000" chance="35" range="10">
+    </attack>
+</attacks>	
+<defenses armor="0" defense="0"/>
+  <elements>
+		<element fightPercent="-80"/>
+		<element ghostPercent="0"/>
+  </elements>	
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="1" chance="89000"/> -- apple bite
+	<item id="8854" countmax="1" chance="50000"/> -- rat tail
+	<item id="2294" countmax="1" chance="2100"/> -- heart stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

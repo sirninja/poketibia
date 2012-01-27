@@ -1,0 +1,19 @@
+Name: Vulpix
+Type: fire
+Required level: 15
+
+Evolutions:
+Vulpix, requires level 15
+Ninetales, requires level 70
+
+Description: It controls balls of fire. As it grows, its six tails split from their tips to make more tails.
+
+Moves: 
+Quick Attack - m1 - level 15 - normal
+Iron Tail - m2 - level 18 - normal
+Ember - m3 - level 15 - fire
+Flamethrower - m4 - level 22 - fire
+Flame Wheel - m5 - level 25 - fire
+
+Ability:
+None

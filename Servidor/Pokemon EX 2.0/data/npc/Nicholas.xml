@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nicholas" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="255" head="74" body="25" legs="81" feet="66"/>
+	<parameters>
+			<parameter key="message_greet" value="Nice day, dont you think? Nice day to trade with me!"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+			<parameter key="module_shop" value="1"/>
+			<parameter key="shop_buyable" value="pokeball,2147,550;ultraball,2146,11000;potion,2272,400;super potion,2274,1500;mega potion,2271,4000;hyper potion,2275,8000;"/>
+			<parameter key="shop_sellable" value="nail,8868,1250;psychic spoon,8870,3000;future orb,8869,2000;pot of lava,8867,2250;essence of fire,8866,200;sandbag,8865,950;stone orb,8864,2050;small stone,1294,90;pot of moss bug,8858,250;electric box,8862,1300;screw,8861,85;imam,8863,900;bug antenna,8859,1600;straw,2694,65;water gems,6528,20;remains of magikarp,2687,100;water pendant,8820,800;bird beak,8822,1300;feather,8823,500;pena grande,8849,2500;coisinha verde,8850,25;pair of leaves,8851,500;bag of polem,8852,1000;bitten apple,8853,450;rat tail,8854,1300;bat wing,8855,550;garrafa veneno,8856,40;gosme,8857,2000;"/>
+	</parameters>
+</npc>

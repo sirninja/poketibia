@@ -1,0 +1,21 @@
+Nome: Pikachu
+Tipo: elétrico
+Nível necessário: 20
+
+Evoluções:
+Pikachu, requer nível 20
+Raichu, requer nível 45
+
+Descrição: Contem muita eletrecidade nos pontos vermelhor de seu rosto. Quando se libera a energia contida em uma explosão, a energia elétrica é igual a um relâmpago.
+
+Ataque:
+Quick Attack - Ataque Rapido - m1 - nível 20
+Iron Tail - Cauda de Ferro - m2 - nível 20
+Thunder Shock - Choque do Trovao - m3 nível - 20
+Thunder Bolt - Raio do Trovao - M4 - nível 30
+Thunder Wave - Onda do Trovao - m5 - nível 25
+Thunder - Trovao - m6 - nível 40
+Strafe - Metralhar - M7 - nível 20
+
+Habilidade:
+Luz (light)

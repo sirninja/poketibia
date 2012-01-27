@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fisher Greg" script="fish.lua" access="6" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="169" head="22" body="68" legs="41" feet="39"/>
+	<parameters>
+			<parameter key="message_greet" value="Hello, I am professor burton. I study evolutionary stones, would you like me to help your pokemons evolve?"/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+	</parameters>
+</npc>

@@ -1,0 +1,19 @@
+Name: Ponyta
+Type: fire
+Required level: 20
+
+Evolutions:
+Ponyta, requires level 20
+Rapidash, requires level 55
+
+Description: About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.
+
+Moves: 
+Quick Attack - m1 - level 20 - normal
+Ember - m2 - level 20 - fire
+Flamethrower - m3 - level 26 - fire
+Fireball - m4 - level 23 - fire
+Stomp - m5 - level 28 - earth
+
+Ability:
+Ride

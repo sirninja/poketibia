@@ -1,0 +1,23 @@
+Name: Paras
+Tipo: Inseto
+Nível necessário: 1
+
+Evoluçoes:
+
+Paras, requer 1
+Parasect, requer 50
+
+Descriçao: Cogumelos crescem em suas costas, chamados de Tochukaso. Os cogumelos crescem junto com ele.
+
+Ataques:
+
+Scratch - Arranhar
+Poison Sting - Tiro Venenoso
+Slash - Cortar
+Stun Spore - Pó Atordoante
+Poison Powder - Pó Venenoso
+Sleep Powder - Pó do Sono
+
+Capacidade:
+
+Corte (Cut)

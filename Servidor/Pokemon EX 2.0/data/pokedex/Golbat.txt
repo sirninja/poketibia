@@ -1,0 +1,21 @@
+Name: Golbat
+Type: poison
+Required level: 35
+
+Evolutions:
+Zubat, requires level 10
+Golbat, requires level 35
+
+Description: Once it starts sucking blood, it does not stop until it is full. It flies at night in search of prey.
+
+Moves: 
+Super Sonic - m1 - level 35 - normal
+Bite - m2 - level 35 - normal
+Poison Fang - m3 - level 35 - poison
+Absorb - m4 - level 35 - grass
+Toxic - m5 - level 35 - poison
+Whirlwind - m6 - level 38 - flying
+Wing Attack - m7 - level 40 - flying
+
+Ability:
+None

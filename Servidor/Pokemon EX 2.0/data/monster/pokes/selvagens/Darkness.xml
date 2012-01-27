@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Darkness" nameDescription="Ghosts Boss" race="undead" experience="2500" speed="250" manacost="490">
+  <health now="9000" max="9000"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="lick" interval="1000" chance="50" min="-20" max="-120">
+    </attack>
+    <attack name="shadow ball" interval="4000" chance="90" min="-150" max="-290">
+    </attack>
+    <attack name="dream eater" interval="3000" chance="90" min="-140" max="-480">
+    </attack>
+    <attack name="shadow punch" interval="7000" chance="90" min="-190" max="-300">
+    </attack>
+    <attack name="night shade" interval="6500" chance="90" min="-1050" max="-1232">
+    </attack>
+    <attack name="aurafantasma" interval="2000" chance="15" min="-1200" max="-2000"> </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="10000" chance="100" min="800" max="1000">
+    </defense>
+  </defenses>
+	<summons maxSummons="3">
+		<summon name="Gengar s" interval="2000" chance="10" max="2"/>
+		<summon name="Haunter s" interval="2000" chance="40" max="2"/>
+	</summons>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+	
+ <loot>
+	<item id="5913" countmax="1" chance="50000"/>-- Brown POC
+	<item id="5909" countmax="1" chance="50000"/>-- White POC
+	<item id="2286" countmax="1" chance="5000"/>-- Darkness Stone
+	<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="300"/><!-- rare candy -->
+	<item id="2142" countmax="1" chance="500"/> -- Diamond
+  </loot>
+  
+  
+  
+<script>
+<event name="Exp"/>
+</script>
+</monster>

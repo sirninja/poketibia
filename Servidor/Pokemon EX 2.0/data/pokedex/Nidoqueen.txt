@@ -1,0 +1,26 @@
+Name: Nidoqueen
+Type: poison
+Required level: 65
+
+Evolutions:
+NidoranFE, requires level 10
+Nidorina, requires level 30
+Nidoqueen, requires level 65
+
+Description: Its entire body is armored with hard scales. It will protect the young in its burrow with its life.
+
+Moves: 
+Quick Attack - m1 - level 65 - normal
+Bite - m2 - level 65 - normal
+Horn Attack - m3 - level 65 - normal
+Poison Sting - m4 - level 65 - poison
+Poison Fang - m5 - level 65 - poison
+Mega Punch - m6 - level 65 - fighting
+Toxic Spikes - m7 - level 67 - poison
+Stomp - m8 - level 69 - earth
+Earthshock - m9 - level 71 - earth
+Strafe - m10 - level 65 - normal
+
+Ability:
+Dig
+Rock smash

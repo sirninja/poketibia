@@ -1,0 +1,20 @@
+Name: Tentacool
+Type: water
+Required level: 15
+
+Evolutions:
+Tentacool, requires level 15
+Tentacruel, requires level 75
+
+Description: Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips.
+
+Moves: 
+Acid - m1 - level 15 - poison
+Bubbles - m2 - level 15 - water
+Poison Sting - m3 - level 15 - poison
+Psy Pulse - m4 - level 17 - psychic
+Mud Shot - m5 - level 19 - earth
+Super Sonic - m6 - level 21 - normal
+
+Ability:
+Surf

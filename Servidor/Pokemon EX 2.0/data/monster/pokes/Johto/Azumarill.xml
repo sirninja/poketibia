@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Azumarill" nameDescription="an Azumarill" race="undead" experience="1400" speed="300" manacost="0">
+  <health now="2600" max="2600"/>
+  <look type="352" head="20" body="30" legs="40" feet="50" corpse="2806"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-145" max="-205"/>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="1000" min="1500" max="3500">
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="50"/>
+		<element grassPercent="-100"/>
+		<element electricPercent="-100"/>
+		<element drownPercent="50"/>
+		<element icePercent="50"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Azuuu."/>
+    <voice sentence="Azumarill"/>
+	</voices>
+	<loot>
+		<item id="5894" countmax="10" chance="15000"/><!-- Sell Item -->
+		<item id="5910" countmax="2" chance="10000"/><!-- Sell Item -->
+		<item id="5097" countmax="1" chance="6000"/><!-- Sell Item -->
+		<item id="5907" chance="250"/><!-- Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

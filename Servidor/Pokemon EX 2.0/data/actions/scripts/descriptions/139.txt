@@ -1,0 +1,21 @@
+Name: Omastar
+Type: Água
+Required level: 70
+
+Evolutions:
+Omanyte, requires level 20
+Omastar, requires level 80
+
+
+Moves: 
+Bite - m1 - level 80
+Rock Throw - m2 - level 80
+Waterball - m3 - level 85
+Water Gun - m4 - level 85
+Bubble Blast - m5 -level 85
+Mud Shot - m6 - level 85
+Harden - m7 - level 90
+Ancient Power- m8 - level 95
+
+Ability:
+Surf

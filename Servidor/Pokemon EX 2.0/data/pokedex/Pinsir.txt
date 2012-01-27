@@ -1,0 +1,21 @@
+Name: Pinsir
+Type: bug
+Required level: 45
+
+Evolutions:
+Pinsir, requires level 45
+
+Description: It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.
+
+Moves: 
+Scratch - m1 - level 45 - normal
+Bug Bite - m2 - level 45 - bug
+Slash - m3 - level 45 - normal
+X-Scissor - m4 - level 50 - bug
+Fury Cutter - m5 - level 53 - bug
+Guillotine - m6 - level 57 - normal
+Harden - m7 - level 47 - normal
+Rage - m8 - level 60 - dragon
+
+Ability:
+Cut

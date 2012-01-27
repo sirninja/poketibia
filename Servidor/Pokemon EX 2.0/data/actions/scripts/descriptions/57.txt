@@ -1,0 +1,22 @@
+Name: Primeape
+Type: Lutador
+Required level: 50
+
+Evolutions:
+Mankey, requires level 20
+Primeape, requires level 55
+
+Description: It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.
+
+Moves: 
+Scratch - m1 - level 50 - normal
+Triple Kick - m2 - level 50 - fighting
+Karate Chop - m3 - level 50 - fighting
+Cross Chop - m4 - level 54 - fighting
+Mega Punch - m5 - level 56 - fighting
+Mega Kick - m6 - level 58 - fighting
+Rage - m7 - level 50 - dragon
+Fear - m8 - level 60 - ghost
+
+Habilities:
+Rock smash

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lapras" nameDescription="a Lapras" race="undead" experience="1100" speed="265" manacost="0">
+  <health now="9800" max="9800"/>
+  <look type="193" head="0" body="0" legs="0" feet="0" corpse="6018"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="80"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-20" max="-60">
+    </attack>
+    <attack name="bubble" interval="5000" chance="50" min="-100" max="-110">
+    </attack>
+    <attack name="blizzard" interval="5000" chance="50" min="-100" max="-110">
+    </attack>
+    <attack name="waterball" interval="3000" chance="90" min="-160" max="-320">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="50" min="-300" max="-350">
+    </attack>
+    <attack name="hydro pump" interval="7000" chance="50" min="-300" max="-350">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="50" min="-600" max="-900">
+    </attack>
+    <attack name="water gun" interval="6500" chance="50" min="-600" max="-900">
+    </attack>
+    <attack name="hyper beam" interval="10000" chance="50" min="-800" max="-1200">
+    </attack>
+  </attacks>
+
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="150" max="300">
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+		<element firePercent="30"/>
+		<element grassPercent="-30"/>
+		<element electricPercent="-30"/>
+		<element waterPercent="30"/>
+		<element icePercent="30"/>
+  </elements>
+	<loot>
+	        <item id="6528" countmin="2" countmax="100" chance="85000"/> -- water gem
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+		<item id="7441" countmax="1" chance="9000"/><!-- Ice cube -->
+		<item id="2292" chance="1200"/> water stone
+	        <item id="2298" countmax="1" chance="1400"/> -- ice stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

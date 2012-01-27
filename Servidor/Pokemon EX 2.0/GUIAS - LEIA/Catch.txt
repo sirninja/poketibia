@@ -1,0 +1,16 @@
+FEITO POR MASTERCRAFT (OTSERV.COM.BR) / BRUN123 (XTIBIA.COM)
+
+Na pasta data/actions/scripts, você encontra o catch.lua, para adicionar um novo catch, basta adicionar a tag:
+
+["NOME"] = {chance = 10, corpse = 9999, health = 5000, maxhealth = 5000},
+
+Em health/max health, você coloca a vida máxima que esse pokemon possui, basta olhar no xml do monstro.
+Em corpse, você precisa colocar o id do corpo quando o monstro morrer, e é preciso também editar o items.xml,
+você procura o id do corpo e faz as seguintes modificações:
+no campo "decayto", você põem 0, no campo "duration", você põem 50, e o nome, você coloca "defeated <nome>".
+
+A chance foi editada na versão 2, agora, quanto menor for a chance, maior é a chance de capturar.
+Chance 1 = 100%
+Chance 20 = Aprox. a cada 20 pokeballs você captura 1, mas precisa ter muita sorte também...
+
+Ao usar uma ultraball, a chance automaticamente é multiplicada por 4x.

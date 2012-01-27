@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorlax" nameDescription="a shiny snorlax" race="poison" experience="356" speed="185" manacost="280">
+  <health now="1200" max="1200"/>
+  <look type="548" head="20" body="30" legs="40" feet="50" corpse="114"/>
+	<targetchange interval="5000" chance="0"/>
+<targetchange interval="100" chance="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-22" max="-112"/>
+    <attack name="auraveneno" interval="2000" chance="5" min="-300" max="-500"> </attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZUBAT!"/>
+    <voice sentence="BAT!"/>
+  </voices>
+	<loot>
+	</loot>
+
+</monster>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Unown T" nameDescription="an Unow T" race="undead" experience="450" speed="230" manacost="550">
+  <health now="800" max="800"/>
+  <look type="442" head="20" body="30" legs="40" feet="50" corpse="2975"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+    <attack name="scratch" interval="4500" chance="90" min="-30" max="-45">
+    </attack>
+    <attack name="swift" interval="5000" chance="90" min="-50" max="-120">
+    </attack>
+    <attack name="hyper beam" interval="7000" chance="90" min="-99" max="-109">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+	<elements>
+		<element fightingPercent="50"/>
+		<element psychicPercent="50"/>
+		<element deathPercent="-100"/>
+		<element bugPercent="-100"/>
+	</elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Aipom!"/>
+    <voice sentence="Aipoom!"/>
+	</voices>
+	<loot>
+		<item id="5888" countmax="4" chance="20000"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5888" countmax="0" chance="1"/><!-- Sell Item -->
+		<item id="5908" chance="120"/><!-- Stone -->
+	</loot>
+</monster>

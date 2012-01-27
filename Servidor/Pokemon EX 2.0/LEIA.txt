@@ -1,0 +1,41 @@
+Order 100%
+Teleport 100%
+Surf 100%
+9 Pokemons Shinys (Charizard,Rattata,Magikarp,Paras,Oddish,Zubat,EliteLee,EliteChan,Gyarados)
+Control Mind 90% (se você controlar um pokemon shiny ele vira normal)
+!cd [34/160]
+NPC que compra pokemon 100%
+Mapa uns 80% Svke
+7 Quest (Pokeballs<Venom<Cerulean<Pewter<RockTunnel<Gengar<Charizard)
+Gym System BETA(So tem o Brock nao ganha nada depois de derrotar ele e depois que se ganha dele ele não fala mais com você , você pode editar mais e usar eles em evento quem ganhar receber um premio do GM...
+10 Cidades
+m1-m12(90%)
+Loot,Catch,Corpses(99%)
+Evolução(100%)
+Rare Candy
+Box1-4
+Fishing 100%
+Max 6 pokemons o resto vai DP
+Ja esta editado no items.otb , items.xml , portrait e corpse de 35 shinys em outros lugares vai se so preciso ageitar xml do monstro , moves , o lv necessario , a chance de catch o life e quanto ganha de life por level(cons)
+
+Dicas:
+O Catch esta 5xSVKE
+se quiser botar + ageite no catch.xml
+VARIE O CATCH ENTRE 5x-10x NADA MAIS NADA MENOS 
+SE BOTAR MENOS VAI FICAR MUITO DIFICIL SO BOTE MENOS
+SE VOCÊ TIVER EDITADO MUITO BEM O SERVER TIVER SEI LA
+FULL JOHTO UNS 70 SHINYS DEDICADO SO ASSIM PARA BOTAR -5x
+E NAO BOTE MAIS SE NAO EM MENOS DE 5 DIAS VAO ENJOAR DO SEU SERVER]
+
+O servidor tem uma rate propria +/- = SVKE
+ageite a rate no config.lua
+recomendo que o loot fique de 1.5x-2.5x
+e a rate de 5x-25x
+
+Para um jogador fazer Elite Hitmonlee ou Elite Hitmonchan ele precisa ter 10 Punch Stones 
+
+Pokemon Shinys que tem evoluções estão sem espaço por que se não não da para evoluir eles !
+
+
+
+

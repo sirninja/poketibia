@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Graveler" nameDescription="a wild graveler" race="rock" experience="575" speed="179" manacost="0">
+  <health now="4200" max="4200"/>
+  <look type="247" corpse="6516"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-85" max="-125"/>
+    <attack name="rock throw" interval="2400" chance="19" min="-140" max="-155">
+    </attack>
+    <attack name="rock tomb" interval="2800" range="1" chance="20" min="-142" max="-170">
+    </attack>
+    <attack name="sand attack" interval="2150" range="1" chance="17" min="-127" max="-135">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="50"></attack>
+    <attack name="rock slide" interval="3300" range="10" chance="21" min="-206" max="-272">
+    </attack>
+    <attack name="falling rocks" interval="3300" range="10" chance="21" min="-156" max="-172">
+    </attack>
+</attacks>
+  <defenses armor="0" defense="8">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRAVELER!"/>
+    <voice sentence="GRAVE!"/>
+    <voice sentence="LER!"/>
+  </voices>
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="45" chance="62000"/> -- small stone
+	<item id="2280" countmax="1" chance="1600"/> -- rock stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

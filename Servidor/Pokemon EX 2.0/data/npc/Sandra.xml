@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Sandra" script="data/npc/scripts/Sell/sandra.lua" walkinterval="2000">
+  <health now="200" max="200" />
+<look type="137" head="115" body="120" legs="121" feet="19" addons="0"/>
+  <parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|" />
+    
+    <parameter key="shop_buyable" value="great spirit potion,8472,120;great mana potion,7590,120;great health potion,7591,190;strong health potion,7588,100;strong mana potion,7589,80;health potion,7618,45;mana potion,7620,50;ultimate health potion,8473,310" />
+    <parameter key="shop_sellable" value="empty potion flask,7634,5;empty potion flask,7635,5;empty potion flask,7636,5;vial,2006,5;" />
+  </parameters>
+</npc>

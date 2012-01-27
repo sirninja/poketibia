@@ -1,0 +1,19 @@
+Name: Bellsprout
+Type: grass
+Required level: 5
+
+Evolutions:
+Bellsprout, requires level 5
+Weepinbell, requires level 25
+Victreebel, requires level 50
+
+Description: Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.
+
+Moves: 
+Razor Leaf - m1 - level 10 - grass
+Vine Whip - m2 - level 12 - grass
+Acid - m3 - level 8 - poison
+Slash - m4 - level 5 - normal
+
+Ability:
+Cut
