@@ -19,6 +19,7 @@
 	<event type="death" name="PlayerPokeDeath" event="script" value="playerpdeath.lua"/>
 	<event type="think" name="Flying" event="script" value="flycool.lua"/>
 	<event type="think" name="Tele" event="script" value="poketele.lua"/>
+	<event type="login" name="FimVip" event="script" value="vip.lua"/>
 
 	<event type="cast" name="BlockSpells" event="script" value="wildpoke.lua"/>
 	<event type="cast" name="Controled" event="script" value="controlmind.lua"/>

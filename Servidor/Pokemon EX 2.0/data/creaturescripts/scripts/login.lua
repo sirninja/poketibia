@@ -125,7 +125,8 @@ local rides = {
 ["Quagsire"] = {lookType=456, speed = 700},
 ["Kingdra"] = {lookType=457, speed = 1000},
 }
-
+	registerCreatureEvent(cid, "FimVip")
+        registerCreatureEvent(cid, "VipReceive")
 	registerCreatureEvent(cid, "GuildMotd")
 	registerCreatureEvent(cid, "PlayerPokeDeath")
 	registerCreatureEvent(cid, "LogoutPoke")

@@ -67,6 +67,9 @@
 
         <talkaction log="yes" access="5" words="/installvip;/addvip;/removevip;/checkvip" event="script" value="vipaccgod.lua"/>
         <talkaction words="/buyvip" event="script" value="vipaccplayer.lua"/>
+        <!-- VIP System -->
+        <talkaction log="yes" words="/vip" access="5" event="script" value="VIP/addvipp.lua" />
+        <talkaction words="!vipdays" event="script" value="VIP/vipdays.lua" />
 
         <!-- Gamemasters -->
 
