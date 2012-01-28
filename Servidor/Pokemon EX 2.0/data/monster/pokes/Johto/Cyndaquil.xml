@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Cyndaquil" nameDescription="a Cyndaquil" race="undead" experience="400" speed="230" manacost="550">
   <health now="1300" max="1300"/>
-  <look type="324" head="20" body="30" legs="40" feet="50" corpse="2992"/>
+  <look type="324" head="20" body="30" legs="40" feet="50" corpse="3022"/>
 	<targetchange interval="1000" chance="1000"/>
   <strategy attack="100" defense="0"/>
   <flags>

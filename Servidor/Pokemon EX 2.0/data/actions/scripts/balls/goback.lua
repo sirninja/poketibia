@@ -95,6 +95,7 @@ local pokes = {
 ["Haunter"] = {level = 45, cons = 105, vida = 3000},
 ["Gengar"] = {level = 80, cons = 175, vida = 7000},
 ["Onix"] = {level = 50, cons = 150, vida = 5300},
+["Crystal Onix"] = {level = 80, cons = 950, vida = 20000},
 ["Drowzee"] = {level = 22, cons = 58, vida = 1150},
 ["Hypno"] = {level = 50, cons = 100, vida = 4600},
 ["Krabby"] = {level = 5, cons = 45, vida = 850},

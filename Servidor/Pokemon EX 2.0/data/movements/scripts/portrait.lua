@@ -94,6 +94,7 @@ local fotos = {
 ["Haunter"] = {fotopoke = 2469},
 ["Gengar"] = {fotopoke = 2470},
 ["Onix"] = {fotopoke = 2471},
+["Crystal Onix"] = {fotopoke = 2471},
 ["Drowzee"] = {fotopoke = 2472},
 ["Hypno"] = {fotopoke = 2473},
 ["Krabby"] = {fotopoke = 2474},

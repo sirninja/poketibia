@@ -4314,7 +4314,7 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
 	</item>
-	<item id="2916" article="a" name="defeated nidoking">
+	<item id="2916" article="a" name="defeated nidoking2">
 		<attribute key="containerSize" value="8" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="10" />
@@ -4706,7 +4706,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="2992" article="a" name="cyndaquil">
+	<item id="2992" article="a" name="defeated cyndaquil1">
 		<attribute key="containerSize" value="6" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
@@ -4780,7 +4780,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="venom" />
 	</item>
-	<item id="3007" article="a" name="defeated paras">
+	<item id="3007" article="a" name="defeated paras2">
 		<attribute key="decayTo" value="0" />
 		<attribute key="containerSize" value="6" />
 
@@ -4886,7 +4886,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="undead" />
 	</item>
-	<item id="3025" article="a" name="defeated cyndaquil">
+	<item id="3025" article="a" name="defeated cyndaquil3">
 		<attribute key="containerSize" value="6" />
 		<attribute key="decayTo" value = "0"/>
 				<attribute key="duration" value="60" />
@@ -10522,7 +10522,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="7330" article="a" name="dead moltres">
+	<item id="7330" article="a" name="defeated moltres">
 		<attribute key="containerSize" value="6" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="50" />

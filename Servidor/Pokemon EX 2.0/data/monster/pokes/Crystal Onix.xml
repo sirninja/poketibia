@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Crystal Onix" nameDescription="a Crystal Onix" race="undead" experience="2100" speed="260" manacost="390">
-	<health now="8300" max="8300"/>
+	<health now="80000" max="80000"/>
 	<look type="292" head="0" body="0" legs="0" feet="0" corpse="2020"/>
 	<targetchange interval="1000" chance="1000"/>
 	<strategy attack="100" defense="0"/>
