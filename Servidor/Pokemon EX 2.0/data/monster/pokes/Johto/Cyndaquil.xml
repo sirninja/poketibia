@@ -11,10 +11,10 @@
     <flag illusionable="1"/>
     <flag convinceable="1"/>
     <flag pushable="0"/>
-    <flag canpushitems="1"/>
-    <flag canpushcreatures="1"/>
-    <flag targetdistance="0"/>
-    <flag staticattack="90"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="100"/>
     <flag runonhealth="0"/>
   </flags>
   <attacks>

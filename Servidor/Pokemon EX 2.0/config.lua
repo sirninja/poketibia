@@ -70,7 +70,7 @@ allowFightback = true
 
 
 worldId = 0
-ip = "187.67.125.43"
+ip = "5.68.36.113"
 bindOnlyConfiguredIpAddress = false
 loginPort = 7171
 gamePort = 7172

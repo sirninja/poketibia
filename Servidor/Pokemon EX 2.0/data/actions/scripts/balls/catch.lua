@@ -209,7 +209,7 @@ local pokes = {
 ["Corsola"] = {chance = 1, corpse = 2986, health = 4000, maxhealth = 4000},
 ["Crobat"] = {chance = 1, corpse = 5535, health = 3900, maxhealth = 3900},
 ["Croconaw"] = {chance = 1, corpse = 6342, health = 3500, maxhealth = 3500},
-["Cyndaquil"] = {chance = 1, corpse = 2992, health = 1500, maxhealth = 1500},
+["Cyndaquil"] = {chance = 1, corpse = 3022, health = 1500, maxhealth = 1500},
 ["Delibird"] = {chance = 1, corpse = 2905, health = 1300, maxhealth = 1300},
 ["Donphan"] = {chance = 1, corpse = 7345, health = 7000, maxhealth = 7000},
 ["Dunsparce"] = {chance = 1, corpse = 2917, health = 3000, maxhealth = 3000},

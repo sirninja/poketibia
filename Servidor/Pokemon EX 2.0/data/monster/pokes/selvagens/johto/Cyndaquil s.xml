@@ -32,17 +32,6 @@
     </attack>
   </attacks>
   <defenses armor="1" defense="1"/>
-    <immunities>
-    <immunity physical="0"/>
-    <immunity energy="0"/>
-    <immunity fire="0"/>
-    <immunity poison="0"/>
-    <immunity lifedrain="0"/>
-    <immunity paralyze="0"/>
-    <immunity outfit="0"/>
-    <immunity drunk="0"/>
-    <immunity invisible="0"/>
-  </immunities>
   <elements>
 		<element firePercent="50"/>
 		<element drownPercent="-100"/>
@@ -62,4 +51,7 @@
 		<item id="5910" countmax="1" chance="4500"/><!-- Sell Item -->
 		<item id="5907" chance="100"/><!-- Stone -->
 	</loot>
+<script>
+<event name="Exp"/>
+</script>
 </monster>

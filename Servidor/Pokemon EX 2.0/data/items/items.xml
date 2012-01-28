@@ -4288,7 +4288,7 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
 	</item>
-	<item id="2910" article="a" name="defeated cyndaquil">
+	<item id="2910" article="a" name="roupinhas">
 		<attribute key="containerSize" value="5" />		
                 <attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
@@ -4706,7 +4706,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="2992" article="a" name="defeated cyndaquil">
+	<item id="2992" article="a" name="cyndaquil">
 		<attribute key="containerSize" value="6" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
