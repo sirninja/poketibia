@@ -12,17 +12,17 @@ local STORAGE_SKILL_TRY = 10001
 
     local config = {
      levels = {
-         {level = {0,9}, quant = {1,2}, percent = 5},
-         {level = {10,19}, quant = {2,4}, percent = 10},
-         {level = {20,29}, quant = {3,6}, percent = 15},
-         {level = {30,39}, quant = {4,8}, percent = 20},
-         {level = {40,49}, quant = {5,10}, percent = 25},
-         {level = {50,59}, quant = {6,12}, percent = 30},
-         {level = {60,69}, quant = {7,14}, percent = 30},
-         {level = {70,79}, quant = {8,16}, percent = 35},
-         {level = {80,89}, quant = {9,18}, percent = 35},
-         {level = {90,99}, quant = {10,20}, percent = 40},
-         {level = {100}, quant = {11,22}, percent = 50}
+         {level = {0,9}, quant = {1,1}, percent = 2},
+         {level = {10,19}, quant = {1,2}, percent = 5},
+         {level = {20,29}, quant = {2,3}, percent = 7},
+         {level = {30,39}, quant = {3,4}, percent = 10},
+         {level = {40,49}, quant = {5,6}, percent = 12},
+         {level = {50,59}, quant = {6,7}, percent = 15},
+         {level = {60,69}, quant = {8,9}, percent = 17},
+         {level = {70,79}, quant = {9,10}, percent = 19},
+         {level = {80,89}, quant = {10,11}, percent = 22},
+         {level = {90,99}, quant = {11,12}, percent = 23},
+         {level = {100}, quant = {12,15}, percent = 25}
      },
      trees = {2707, 2704,2708}, -- Id das arvores que podem ser cortadas
      woods = {},  -- Modelo = {wood_id, tree_id}
@@ -43,13 +43,11 @@ end
 
 function setPlayerLumberjackLevel(cid, n)
     setPlayerStorageValue(cid, STORAGE_SKILL_LEVEL, n)
-	--setPlayerSkillLevel(cid,3,n) isso acho q nem faz nada
 end
 
 function addLumberjackLevel(cid, n)
    setPlayerLumberjackLevel(cid, getLumberjackLevel(cid) + (isNumber(n) and n or 1))
    setLumberjackTry(cid, 0)
-   --talvez tenha q botar algo aqui.. tentei e n consegui nada
 end
 
 function getLumberjackInfo(cid)
@@ -76,18 +74,16 @@ end
 
 function setLumberjackTry(cid, n)
     setPlayerStorageValue(cid, STORAGE_SKILL_TRY, n)
-	doPlayerAddSkillTry(cid, 3, n)--esse sei la tentei aqui nem lembro o q deu
 end
 
 function addLumberjackTry(cid, bonus)
     setLumberjackTry(cid, getLumberjackTries(cid) + 1 + (bonus and config.bonus_exp or 0))
-	doPlayerAddSkillTry(cid, 3, getLumberjackTries(cid) + 1 + (bonus and config.bonus_exp or 0)) --esse faz a barrinha do axe aumentar conforme a exp do lumberjack
     
     if (getLumberjackTries(cid) >= getLumberjackExpTo(getLumberjackLevel(cid))) then -- Up
-        doPlayerSendTextMessage(cid, 22, "You advanced from level " .. getLumberjackLevel(cid) .. " to level ".. (getLumberjackLevel(cid) + 1) .." in Lumberjacking.")
+        doPlayerSendTextMessage(cid, 22, "You got better on lumberjacking!")
         
         if ((getLumberjackLevel(cid)+1) == getLumberjackMaxLevel()) then
-            doPlayerSendTextMessage(cid, 22, "Max level reached in lumberjacking.")
+            doPlayerSendTextMessage(cid, 22, "You are now a Lumberjack Master!")
         end
         
         addLumberjackLevel(cid)
