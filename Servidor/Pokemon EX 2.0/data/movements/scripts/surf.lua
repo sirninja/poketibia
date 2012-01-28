@@ -43,7 +43,7 @@ local surf = {'4820','4821','4822','4824','4825'}
 }
 
 function onStepIn(cid, item, position, fromPosition)
-if isPlayer(cid) and not isVip(cid) then -- tire o primeiro not, atras do isPlayer para ativar o premium
+if not isPlayer(cid) and not isVip(cid) then -- tire o primeiro not, atras do isPlayer para ativar o premium
 doTeleportThing(cid, fromPosition, false)
 doPlayerSendCancel(cid, "Only vip members are allowed to surf.")
 return true
