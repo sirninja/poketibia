@@ -24,10 +24,10 @@ local STORAGE_SKILL_TRY = 10001
          {level = {90,99}, quant = {11,12}, percent = 23},
          {level = {100}, quant = {12,15}, percent = 25}
      },
-     trees = {2707, 2704,2708}, -- Id das arvores que podem ser cortadas
+     trees = {2707,2704,2708}, -- Id das arvores que podem ser cortadas
      woods = {},  -- Modelo = {wood_id, tree_id}
-     default_wood = 5901, -- Madeira padrão
-     tree_delay = 10, -- Tempo de crescimento da arvore cortada (Em segundos)
+     default_wood = 10, -- Madeira padrão
+     tree_delay = math.random(1,100), -- Tempo de crescimento da arvore cortada (Em segundos)
      bonus_chance = 5, -- Chance (em porcentagem) de se conseguir um bonus de exp
      bonus_exp = 2 -- Bonus extra
     }
