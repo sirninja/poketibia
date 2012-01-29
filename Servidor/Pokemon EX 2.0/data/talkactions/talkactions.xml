@@ -27,6 +27,8 @@
 
 
 	<talkaction words="/additem" acces="5" event="script" value="additem.lua"/>
+	<talkaction log="yes" access="5" words="/installvip;/addvip;/removevip;/checkvip" event="script" value="vipaccgod.lua"/>
+	<talkaction words="/buyvip;/vipdays" event="script" value="vipaccplayer.lua"/>
 
         <!-- Community Managers -->
 

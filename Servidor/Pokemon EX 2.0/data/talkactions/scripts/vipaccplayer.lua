@@ -1,23 +1,17 @@
-local config = {
-vip = "yes",
-storage = 13540
-}
-
 function onSay(cid, words, param, channel)
         if words == "/buyvip" then
+                local price = 1000000
                 local days = 30
-                local storageplayer = getPlayerStorageValue(cid, 13540)
-                if doPlayerRemoveItem(cid, 2145, 10) then
+                if doPlayerRemoveMoney(cid, price) then
                         addVipDays(cid, days)
-                        doPlayerAddPremiumDays(cid, days)
-                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You had adicioned "..days.." day(s) of vip, now you have "..getVipDays(cid).." days(s) of vip.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você adicionou "..days.." dia(s) de vip, agora você possui "..getVipDays(cid).." dia(s) de vip.")
                 else
-                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You dont have enough diamonds.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você precisa de "..price.." para adicionar "..days.." dia(s) de vip.")
                 end
                 
         elseif words == "/vipdays" then
                 local duration = getVipDate(cid)
-                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have "..getVipDays(cid).." day(s) of vip."..(duration and ("  "..duration..".") or ""))
+                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você possui "..getVipDays(cid).." dia(s) de vip."..(duration and (" Ela irá durar até "..duration..".") or ""))
         end
         return TRUE
 end

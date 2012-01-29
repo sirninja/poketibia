@@ -12,46 +12,44 @@ function onSay(cid, words, param, channel)
                         if days then
                                 local acc = getAccountIdByName(name)
                                 if acc ~= 0 then
-                                addVipDays(cid, days)
-                                doPlayerAddPremiumDays(cid, days)
-                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You add "..days.." day(s) of vip to "..name..", now he has "..getVipDaysByAccount(acc).." day(s) of vip.")
+                                        addVipDaysByAccount(acc, days)
+                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você adicionou "..days.." dia(s) de vip ao "..name..", agora ele possui "..getVipDaysByAccount(acc).." dia(s) de vip.")
                                 else
-                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "This player doesnt exist.")
+                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Este player não existe.")
                                 end
                         else
-                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cant add this number of vip.")
+                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não pode adicionar essa quantidade de dia(s) de vip.")
                         end
                 else
-                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cant add days of vip in this player.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não pode adicionar dia(s) de vip a este player.")
                 end
         elseif words == "/removevip" then
                 if name then
                         if days then
                                 local acc = getAccountIdByName(name)
                                 if acc ~= 0 then
-                                        doRemoveVipDays(cid, days)
-                                        doPlayerRemovePremiumDays(cid, days)
-                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You removed "..days.." day(s) of vip of "..name..", now he has "..getVipDaysByAccount(acc).." day(s) of vip.")
+                                        doRemoveVipDaysByAccount(acc, days)
+                                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você retirou "..days.." dia(s) de vip do "..name..", agora ele possui "..getVipDaysByAccount(acc).." dia(s) de vip.")
                                 else
                                         doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Este player não existe.")
                                 end
                         else
-                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cant remove this number of vip.")
+                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não pode retirar essa quantidade de dia(s) de vip.")
                         end
                 else
-                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cant add days of vip in this player.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não pode retirar dia(s) de vip a este player.")
                 end
         elseif words == "/checkvip" then
                 if name then
                         local acc = getAccountIdByName(name)
                         if acc ~= 0 then
                                 local duration = getVipDateByAccount(acc)
-                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "The "..name.." has "..getVipDaysByAccount(acc).." days of vip"..(duration and (" Its gonna ends in "..duration..".") or ""))
+                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "O "..name.." possui "..getVipDaysByAccount(acc).." dias de vip."..(duration and (" Ela irá durar até "..duration..".") or ""))
                         else
-                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "This player doesnt exist.")
+                                doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Este player não existe.")
                         end
                 else
-                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You cant check days of vip in this player.")
+                        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Você não pode visualizar os dias de vip a este player.")
                 end
         end
         return TRUE
