@@ -2,6 +2,8 @@
 <actions>
         <action uniqueid="6297-6300" event="script" value="cassino.lua"/>
         <action itemid="7734;2552;7389" event="script" value="berries/plants.lua" />
+	<!-- Forge -->
+	<action itemid="4846" event="script" value="iron hammer.lua"/>
 	<!-- Lumberjack -->
 	<action itemid="7388" script="lumberjack.lua"/>  	
 	<!-- Quests -->
