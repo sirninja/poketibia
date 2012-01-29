@@ -80,14 +80,7 @@ function addLumberjackTry(cid, bonus)
     setLumberjackTry(cid, getLumberjackTries(cid) + 1 + (bonus and config.bonus_exp or 0))
     
     if (getLumberjackTries(cid) >= getLumberjackExpTo(getLumberjackLevel(cid))) then -- Up
-        doPlayerSendTextMessage(cid, 22, "You got better on lumberjacking!")
-        
-        if ((getLumberjackLevel(cid)+1) == getLumberjackMaxLevel()) then
-            doPlayerSendTextMessage(cid, 22, "You are now a Lumberjack Master!")
-        end
-        
         addLumberjackLevel(cid)
-        doSendMagicEffect(getCreaturePosition(cid), math.random(28,30))
         setLumberjackTry(cid, 0)
     end
 end
