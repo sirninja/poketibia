@@ -27,7 +27,7 @@ local STORAGE_SKILL_TRY = 10001
      trees = {2707,2704,2708}, -- Id das arvores que podem ser cortadas
      woods = {},  -- Modelo = {wood_id, tree_id}
      default_wood = 10, -- Madeira padrão
-     tree_delay = math.random(1,100), -- Tempo de crescimento da arvore cortada (Em segundos)
+     tree_delay = 30, -- Tempo de crescimento da arvore cortada (Em segundos)
      bonus_chance = 5, -- Chance (em porcentagem) de se conseguir um bonus de exp
      bonus_exp = 2 -- Bonus extra
     }
@@ -99,6 +99,7 @@ end
 function onUse(cid, item, fromPosition, itemEx, toPosition)
     tree = { id = itemEx.itemid, uid = itemEx.uid, position = toPosition }
     player = { position = getCreaturePosition(cid) }
+	local playerpos = getClosestFreeTile(cid, getThingPos(cid))
     
     if (getLumberjackLevel(cid) < 0) then 
         setPlayerLumberjackLevel(cid, 0)
@@ -106,6 +107,25 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
     
     if (isInArray(config.trees, tree.id)) then
         addLumberjackTry(cid)
+		
+		local random = math.random(1, 100)
+		if random <= 15 then
+		local s = doSummonCreature("Pineco s", playerpos)
+		
+		doPlayerSendTextMessage(cid, 22, "A Wild Pineco dropped from the tree!")
+		if #getCreatureSummons(cid) >= 1 then
+		doMonsterSetTarget(s, getCreatureSummons(cid)[1])
+		else
+		doMonsterSetTarget(s, cid)
+		end
+		if #getCreatureSummons(cid) >= 1 then
+		doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 173)
+		else
+		doSendMagicEffect(getThingPos(cid), 173)
+		end
+		return true
+		end
+		
     
         if (math.random(1,100) <= getLumberjackInfo(cid).chance) then
             local collected = math.random(getLumberjackInfo(cid).quantity.min, getLumberjackInfo(cid).quantity.max)
