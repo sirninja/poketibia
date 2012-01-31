@@ -15548,7 +15548,7 @@
 	<item id="11331" article="a" name="petrified scream" plural="petrified scream">
 		<attribute key="weight" value="150" />
 	</item>
-        	<item id="11341" name="defeated ampharos">
+        <item id="11341" name="defeated ampharos">
 		<attribute key="containerSize" value="5" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
