@@ -34,8 +34,8 @@ local rides = {
 [0] = {0, 500, 430}, -- suicune
 [0] = {0, 500, 430}, -- entei
 [349] = {569, 450, 430}, -- mareep
-[320] = {565, 500, 430}, -- meganium
-[319] = {564, 450, 430}, -- bayleef
+[320] = {564, 500, 430}, -- meganium
+[319] = {565, 450, 430}, -- bayleef
 [409] = {567, 700, 430}, -- stantler
 [395] = {460, 950, 430}, -- houndoom
 [390] = {570, 500, 430}, -- piloswine
@@ -193,7 +193,7 @@ addEvent(check, rod*500, {cid = cid, rod = rod})
 end
 return true
 end
-	
+
 if item2.uid == cid then
 	if getPlayerStorageValue(cid, 888) >= 1 then
 	doPlayerSendCancel(cid, "You cant fly neither ride pokemons being controled.")
@@ -271,7 +271,7 @@ if item2.uid == cid then
 	end
 	end
 	end
-	
+
 	local function speed(params)
 	if isCreature(params.cid) then
 	if isCreature(getCreatureSummons(params.cid)[1]) then
@@ -292,7 +292,7 @@ exhaustion.set(cid, etudao, 4)
 	for i=1,12 do
 	addEvent(ride, pokemon[3]*i, {cid = cid, d = distance})
 	addEvent(speed, ((pokemon[3]*12)+100), {cid = cid})
-	end	
+	end
 	return true
 	end
 
@@ -436,7 +436,7 @@ exhaustion.set(cid, etudao, 4)
 	for i=1,12 do
 	addEvent(fly, pokemon[3]*i, {cid = cid, dd = distancee})
 	addEvent(speed, ((pokemon[3]*12)+100), {cid = cid})
-	end	
+	end
 	return true
 	end
 return true
@@ -1008,7 +1008,7 @@ local function voltarnormal(params)
 	end
 	end
 end
-	
+
 local pois = getThingPos(item2.uid)
 local speed = getCreatureBaseSpeed(getCreatureSummons(cid)[1])
 local temk = 1000 -(2.3 * speed)
@@ -1202,7 +1202,7 @@ local function voltarnormal(params)
 	end
 	end
 end
-	
+
 local pois = getThingPos(item2.uid)
 local speed = getCreatureBaseSpeed(getCreatureSummons(cid)[1])
 local temk = 1000 -(2.3 * speed)
