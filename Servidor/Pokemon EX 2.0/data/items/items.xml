@@ -15235,6 +15235,18 @@
 	<item id="11130" name="crocodile steak">
 		<attribute key="weight" value="440" />
 	</item>
+	<item id="11132" article="a" name="White Apricorn" plural="White Apricorns">
+                <attribute key="description" value="It's used to fabricate a special poke balls." />
+		<attribute key="weight" value="0" />
+        </item>
+	<item id="11133" article="a" name="Black Apricorn" plural="Black Apricorns">
+                <attribute key="description" value="It's used to fabricate a special poke balls." />
+		<attribute key="weight" value="0" />
+        </item>
+	<item id="11134" article="a" name="Yellow Apricorn" plural="Yellow Apricorns">
+                <attribute key="description" value="It's used to fabricate a special poke balls." />
+		<attribute key="weight" value="0" />
+        </item>
 	<item id="11138" name="nightmare doll">
 		<attribute key="weight" value="1800" />
 	</item>
@@ -15382,10 +15394,9 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="weight" value="2250" />
 	</item>
-	<item id="11235" article="a" name="expedition backpack">
-		<attribute key="weight" value="1800" />
-		<attribute key="containerSize" value="20" />
-		<attribute key="slotType" value="backpack" />
+	<item id="11235" article="a" name="Blue Apricorn" plural="Blue Apricorns">
+                <attribute key="description" value="It's used to fabricate a special poke balls." />
+		<attribute key="weight" value="0" />
 	</item>
 	<item id="11236" article="a" name="expedition bag">
 		<attribute key="weight" value="800" />
