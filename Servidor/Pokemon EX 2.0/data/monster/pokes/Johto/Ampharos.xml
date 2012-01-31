@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ampharos" nameDescription="a Ampharos" race="undead" experience="2000" speed="300" manacost="0">
   <health now="7000" max="7000"/>
-  <look type="361" head="20" body="30" legs="40" feet="50" corpse="1746"/>
+  <look type="361" head="20" body="30" legs="40" feet="50" corpse="11341"/>
 	<targetchange interval="1000" chance="1000"/>
   <strategy attack="100" defense="0"/>
   <flags>

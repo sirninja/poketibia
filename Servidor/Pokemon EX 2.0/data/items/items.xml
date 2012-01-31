@@ -1210,7 +1210,7 @@
 		<attribute key="containerSize" value="10" />
 	</item>
 	<item fromid="1742" toid="1745" article="a" name="wooden coffin" />
-        <item id="1746" article="a" name="defeated ampharos">
+        <item id="1746" article="a" name="">
 		<attribute key="containerSize" value="8" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
@@ -7498,7 +7498,7 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
 	</item>
-	<item id="5536" article="a" name="defeated ampharos">
+	<item id="5536" article="a" name="">
 		<attribute key="containerSize" value="5" />
                 <attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
@@ -15548,6 +15548,11 @@
 	<item id="11331" article="a" name="petrified scream" plural="petrified scream">
 		<attribute key="weight" value="150" />
 	</item>
+        	<item id="11341" name="defeated ampharos">
+		<attribute key="containerSize" value="5" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+        </item>
 	<item id="11349" name="spellweaver's robe">
 		<attribute key="armor" value="11" />
 		<attribute key="weight" value="2450" />
