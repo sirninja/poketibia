@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
-  <globalevent name="boss" interval="3600" script="boss.lua"/>  <globalevent name="saveplayer" interval="30" event="script" value="saveplayer.lua"/>    <globalevent name="lottery" interval="10800" event="script" value="lottery.lua"/>	 <globalevent name="save" interval="500" event="script" value="save.lua"/>
+  <globalevent name="boss" interval="3600" script="boss.lua"/>    
+  <globalevent name="lottery" interval="10800" event="script" value="lottery.lua"/>	 
+  <globalevent name="save" interval="500" event="script" value="save.lua"/>
 	<globalevent name="clean" interval="7200" event="script" value="clean.lua"/>
 
 	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>

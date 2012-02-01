@@ -350,6 +350,12 @@
   <spawn centerx="475" centery="2777" centerz="4" radius="1">
     <npc name="Mark" x="0" y="0" z="4" spawntime="60"/>
   </spawn>
+  <spawn centerx="1711" centery="3774" centerz="4" radius="2">
+    <monster name="Haunter s" x="1" y="1" z="4" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1706" centery="3777" centerz="4" radius="2">
+    <monster name="Gastly s" x="0" y="-1" z="4" spawntime="240"/>
+  </spawn>
   <spawn centerx="309" centery="489" centerz="5" radius="15">
     <monster name="Charizard s" x="-4" y="-11" z="5" spawntime="60"/>
     <monster name="Charizard s" x="9" y="-11" z="5" spawntime="60"/>
@@ -913,6 +919,28 @@
   </spawn>
   <spawn centerx="475" centery="2777" centerz="5" radius="1">
     <npc name="Nila" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1234" centery="3121" centerz="5" radius="8">
+    <monster name="Blastoise s" x="-1" y="-6" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1217" centery="3134" centerz="5" radius="15">
+    <monster name="Blastoise s" x="15" y="8" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1193" centery="3142" centerz="5" radius="8">
+    <monster name="Blastoise s" x="-4" y="5" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="354" centery="3461" centerz="5" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="5" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="394" centery="3500" centerz="5" radius="1">
+    <npc name="Mark" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1700" centery="3774" centerz="5" radius="4">
+    <monster name="Gastly s" x="2" y="2" z="5" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1712" centery="3774" centerz="5" radius="4">
+    <monster name="Gastly s" x="-1" y="-2" z="5" spawntime="120"/>
   </spawn>
   <spawn centerx="358" centery="480" centerz="6" radius="5"/>
   <spawn centerx="324" centery="483" centerz="6" radius="30">
@@ -1610,6 +1638,9 @@
     <monster name="Weepinbell s" x="-1" y="-1" z="6" spawntime="60"/>
     <monster name="Weepinbell s" x="3" y="1" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="611" centery="1153" centerz="6" radius="5">
+    <monster name="Oak's Pidgey" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="855" centery="1154" centerz="6" radius="10">
     <monster name="Weepinbell s" x="6" y="-4" z="6" spawntime="60"/>
     <monster name="Weepinbell s" x="2" y="-2" z="6" spawntime="60"/>
@@ -2240,6 +2271,28 @@
     <monster name="Pidgeotto s" x="-9" y="14" z="6" spawntime="30"/>
     <monster name="Pidgeotto s" x="-8" y="21" z="6" spawntime="30"/>
   </spawn>
+  <spawn centerx="1223" centery="3139" centerz="6" radius="30">
+    <monster name="Wartortle s" x="3" y="-16" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-17" y="-2" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="4" y="3" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-29" y="15" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="29" y="16" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="17" y="20" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-11" y="26" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1279" centery="3155" centerz="6" radius="30">
+    <monster name="Golduck s" x="-18" y="-26" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="-3" y="-26" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="14" y="-14" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="-18" y="-13" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-4" y="-4" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="23" y="-3" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="-7" y="8" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="13" y="10" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-21" y="20" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="21" y="23" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-3" y="24" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="872" centery="3157" centerz="6" radius="30">
     <monster name="Pidgeotto s" x="2" y="-11" z="6" spawntime="30"/>
     <monster name="Pidgeot s" x="3" y="-4" z="6" spawntime="30"/>
@@ -2247,6 +2300,21 @@
     <monster name="Pidgeotto s" x="-6" y="3" z="6" spawntime="30"/>
     <monster name="Pidgeotto s" x="-5" y="13" z="6" spawntime="30"/>
     <monster name="Pidgeot s" x="-13" y="16" z="6" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1252" centery="3170" centerz="6" radius="30">
+    <monster name="Golduck s" x="-17" y="11" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="-29" y="21" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-20" y="24" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="28" y="24" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1198" centery="3172" centerz="6" radius="30">
+    <monster name="Wartortle s" x="-19" y="-12" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-9" y="-2" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-19" y="-1" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-4" y="8" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="11" y="9" z="6" spawntime="300"/>
+    <monster name="Wartortle s" x="-9" y="16" z="6" spawntime="300"/>
+    <monster name="Golduck s" x="-21" y="17" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="902" centery="3214" centerz="6" radius="30">
     <monster name="Pidgeot s" x="18" y="-24" z="6" spawntime="30"/>
@@ -2267,6 +2335,29 @@
     <monster name="Pidgeotto s" x="14" y="1" z="6" spawntime="30"/>
     <monster name="Pidgeot s" x="3" y="5" z="6" spawntime="30"/>
     <monster name="Pidgeotto s" x="-13" y="9" z="6" spawntime="30"/>
+  </spawn>
+  <spawn centerx="394" centery="3500" centerz="6" radius="1">
+    <npc name="Mark" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1602" centery="3673" centerz="6" radius="1">
+    <npc name="Mark" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1706" centery="3743" centerz="6" radius="9">
+    <monster name="Gastly s" x="-5" y="-7" z="6" spawntime="120"/>
+    <monster name="Gastly s" x="2" y="9" z="6" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1706" centery="3758" centerz="6" radius="9">
+    <monster name="Gastly s" x="-6" y="7" z="6" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1706" centery="3775" centerz="6" radius="3">
+    <monster name="Gastly s" x="1" y="2" z="6" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1713" centery="3775" centerz="6" radius="3">
+    <monster name="Haunter s" x="2" y="-2" z="6" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1447" centery="3993" centerz="6" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="6" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="315" centery="531" centerz="7" radius="5">
     <monster name="Charizard s" x="0" y="-3" z="7" spawntime="60"/>
@@ -2994,6 +3085,9 @@
     <monster name="Pidgey s" x="3" y="-2" z="7" spawntime="60"/>
     <monster name="Oddish s" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="618" centery="1121" centerz="7" radius="5">
+    <monster name="Oak's Kingler" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="968" centery="1126" centerz="7" radius="10"/>
   <spawn centerx="1046" centery="1126" centerz="7" radius="10">
     <monster name="Bellsprout s" x="-7" y="-9" z="7" spawntime="60"/>
@@ -3059,6 +3153,10 @@
     <monster name="Graveler s" x="2" y="-1" z="7" spawntime="60"/>
     <monster name="Geodude s" x="5" y="5" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="629" centery="1136" centerz="7" radius="5">
+    <monster name="Oak's Metapod" x="1" y="-3" z="7" spawntime="60"/>
+    <monster name="Oak's Kakuna" x="-4" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1104" centery="1136" centerz="7" radius="5">
     <monster name="Bellsprout s" x="0" y="1" z="7" spawntime="60"/>
     <monster name="Oddish s" x="3" y="2" z="7" spawntime="60"/>
@@ -3088,10 +3186,6 @@
     <monster name="Machop s" x="-2" y="9" z="7" spawntime="60"/>
     <monster name="Geodude s" x="-4" y="10" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="606" centery="1139" centerz="7" radius="2">
-    <monster name="Oak's Pidgey" x="1" y="-2" z="7" spawntime="20"/>
-  </spawn>
-  <spawn centerx="607" centery="1141" centerz="7" radius="2"/>
   <spawn centerx="994" centery="1141" centerz="7" radius="5">
     <monster name="Geodude s" x="-1" y="-2" z="7" spawntime="60"/>
   </spawn>
@@ -3102,15 +3196,6 @@
     <monster name="Oddish s" x="10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="951" centery="1142" centerz="7" radius="10"/>
-  <spawn centerx="614" centery="1143" centerz="7" radius="7">
-    <monster name="Oak's Kakuna" x="1" y="-4" z="7" spawntime="20"/>
-    <monster name="Oak's Caterpie" x="3" y="-3" z="7" spawntime="20"/>
-    <monster name="Oak's Metapod" x="6" y="-2" z="7" spawntime="20"/>
-    <monster name="Oak's Kingler" x="-4" y="2" z="7" spawntime="20"/>
-    <monster name="Oak's Doduo" x="6" y="3" z="7" spawntime="20"/>
-    <monster name="Oak's Tauros" x="0" y="5" z="7" spawntime="20"/>
-    <monster name="Oak's Pidgey" x="3" y="7" z="7" spawntime="20"/>
-  </spawn>
   <spawn centerx="965" centery="1143" centerz="7" radius="4"/>
   <spawn centerx="985" centery="1144" centerz="7" radius="5">
     <monster name="Graveler s" x="-3" y="1" z="7" spawntime="60"/>
@@ -3155,17 +3240,15 @@
     <monster name="Meowth s" x="-21" y="18" z="7" spawntime="60"/>
     <monster name="Meowth s" x="-20" y="22" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="600" centery="1150" centerz="7" radius="6">
-    <monster name="Rattata s" x="-2" y="-5" z="7" spawntime="60"/>
-    <monster name="Caterpie" x="0" y="-5" z="7" spawntime="60"/>
-    <monster name="Weedle s" x="2" y="-5" z="7" spawntime="60"/>
-    <npc name="Oak" x="-3" y="-2" z="7" spawntime="35"/>
-  </spawn>
   <spawn centerx="990" centery="1152" centerz="7" radius="5">
     <monster name="Geodude s" x="-1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1002" centery="1152" centerz="7" radius="5">
     <monster name="Geodude s" x="-3" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="1153" centerz="7" radius="5">
+    <monster name="Oak's Doduo" x="-1" y="-3" z="7" spawntime="60"/>
+    <monster name="Oak's Tauros" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1420" centery="1153" centerz="7" radius="30">
     <monster name="Meowth s" x="13" y="-29" z="7" spawntime="60"/>
@@ -3209,14 +3292,6 @@
     <monster name="Persian s" x="-15" y="21" z="7" spawntime="60"/>
     <monster name="Meowth s" x="-2" y="25" z="7" spawntime="60"/>
     <monster name="Meowth s" x="-6" y="26" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="615" centery="1154" centerz="7" radius="7">
-    <monster name="Oak's Doduo" x="-3" y="-2" z="7" spawntime="20"/>
-    <monster name="Oak's Caterpie" x="-6" y="0" z="7" spawntime="20"/>
-    <monster name="Oak's Caterpie" x="3" y="0" z="7" spawntime="20"/>
-    <monster name="Oak's Metapod" x="5" y="3" z="7" spawntime="20"/>
-    <monster name="Oak's Kakuna" x="-3" y="4" z="7" spawntime="20"/>
-    <monster name="Oak's Pidgey" x="2" y="5" z="7" spawntime="20"/>
   </spawn>
   <spawn centerx="826" centery="1154" centerz="7" radius="3">
     <monster name="Shellder s" x="-1" y="0" z="7" spawntime="60"/>
@@ -4727,7 +4802,6 @@
   </spawn>
   <spawn centerx="830" centery="2069" centerz="7" radius="30">
     <monster name="Krabby s" x="-20" y="-26" z="7" spawntime="35"/>
-    <monster name="Psyduck s" x="6" y="-23" z="7" spawntime="35"/>
     <monster name="Bellsprout s" x="2" y="-10" z="7" spawntime="35"/>
     <monster name="Bellsprout s" x="-26" y="-7" z="7" spawntime="35"/>
     <monster name="Krabby s" x="24" y="-3" z="7" spawntime="35"/>
@@ -5184,17 +5258,16 @@
     <monster name="Weepinbell s" x="16" y="16" z="7" spawntime="40"/>
     <monster name="Tangela s" x="-8" y="26" z="7" spawntime="40"/>
   </spawn>
+  <spawn centerx="1508" centery="2485" centerz="7" radius="30">
+    <monster name="Gloom s" x="25" y="6" z="7" spawntime="40"/>
+    <monster name="Weepinbell s" x="2" y="10" z="7" spawntime="40"/>
+    <monster name="Gloom s" x="-26" y="13" z="7" spawntime="40"/>
+    <monster name="Butterfree s" x="-9" y="16" z="7" spawntime="30"/>
+    <monster name="Gloom s" x="21" y="25" z="7" spawntime="40"/>
+  </spawn>
   <spawn centerx="1755" centery="2489" centerz="7" radius="18">
     <monster name="Nidorino s" x="10" y="8" z="7" spawntime="30"/>
     <monster name="Nidorino s" x="-15" y="13" z="7" spawntime="30"/>
-  </spawn>
-  <spawn centerx="1509" centery="2497" centerz="7" radius="30">
-    <monster name="Gloom s" x="24" y="-6" z="7" spawntime="40"/>
-    <monster name="Weepinbell s" x="1" y="-2" z="7" spawntime="40"/>
-    <monster name="Gloom s" x="-27" y="1" z="7" spawntime="40"/>
-    <monster name="Butterfree s" x="-10" y="18" z="7" spawntime="30"/>
-    <monster name="Gloom s" x="14" y="22" z="7" spawntime="40"/>
-    <monster name="Weepinbell s" x="-24" y="24" z="7" spawntime="40"/>
   </spawn>
   <spawn centerx="1712" centery="2498" centerz="7" radius="18">
     <monster name="Nidorino s" x="17" y="-10" z="7" spawntime="30"/>
@@ -5241,10 +5314,15 @@
     <monster name="Bellsprout s" x="-17" y="3" z="7" spawntime="40"/>
     <monster name="Bellsprout s" x="-1" y="19" z="7" spawntime="40"/>
   </spawn>
-  <spawn centerx="1476" centery="2527" centerz="7" radius="30">
-    <monster name="Gloom s" x="22" y="10" z="7" spawntime="40"/>
-    <monster name="Butterfree s" x="-27" y="29" z="7" spawntime="30"/>
-    <monster name="Weepinbell s" x="0" y="29" z="7" spawntime="40"/>
+  <spawn centerx="1504" centery="2526" centerz="7" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="7" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1449" centery="2528" centerz="7" radius="30">
+    <monster name="Weepinbell s" x="21" y="-4" z="7" spawntime="40"/>
+    <monster name="Gloom s" x="25" y="16" z="7" spawntime="40"/>
+    <monster name="Butterfree s" x="0" y="28" z="7" spawntime="30"/>
+    <monster name="Weepinbell s" x="27" y="28" z="7" spawntime="40"/>
   </spawn>
   <spawn centerx="948" centery="2529" centerz="7" radius="30">
     <monster name="Bellsprout s" x="24" y="-12" z="7" spawntime="40"/>
@@ -5418,11 +5496,21 @@
     <monster name="Pidgeotto s" x="-3" y="-9" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="-5" y="17" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="1201" centery="3091" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-22" y="-23" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="19" y="7" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-13" y="8" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="641" centery="3093" centerz="7" radius="30">
     <monster name="Rhyhorn s" x="-1" y="-14" z="7" spawntime="30"/>
     <monster name="Geodude s" x="29" y="0" z="7" spawntime="30"/>
     <monster name="Graveler s" x="-1" y="7" z="7" spawntime="30"/>
     <monster name="Geodude s" x="-6" y="10" z="7" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1257" centery="3096" centerz="7" radius="30">
+    <monster name="Psyduck s" x="-13" y="-15" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-6" y="8" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="30" y="22" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="725" centery="3105" centerz="7" radius="30">
     <monster name="Geodude s" x="19" y="-20" z="7" spawntime="30"/>
@@ -5440,8 +5528,20 @@
   <spawn centerx="925" centery="3110" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="-18" y="12" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="-1" y="18" z="7" spawntime="30"/>
+    <monster name="Pidgeotto s" x="24" y="19" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="12" y="30" z="7" spawntime="3840"/>
-    <monster name="Pidgeotto s" x="13" y="30" z="7" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1159" centery="3112" centerz="7" radius="30">
+    <monster name="Squirtle s" x="0" y="-22" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-19" y="0" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="2" y="11" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-12" y="16" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1314" centery="3117" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-16" y="-23" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="10" y="-15" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="27" y="6" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="1" y="14" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="868" centery="3118" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="21" y="-3" z="7" spawntime="30"/>
@@ -5465,6 +5565,33 @@
     <monster name="Geodude s" x="-20" y="-7" z="7" spawntime="30"/>
     <monster name="Geodude s" x="-1" y="9" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="1198" centery="3150" centerz="7" radius="30">
+    <monster name="Squirtle s" x="14" y="-15" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-6" y="8" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-15" y="9" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="25" y="16" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-9" y="21" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1256" centery="3152" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-1" y="-23" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-23" y="-19" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="19" y="-6" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-21" y="-3" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="7" y="12" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="20" y="16" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="27" y="17" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-27" y="23" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="9" y="28" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1138" centery="3161" centerz="7" radius="30">
+    <monster name="Psyduck s" x="-11" y="-22" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="10" y="-1" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-19" y="5" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="2" y="8" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="26" y="28" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-5" y="29" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="20" y="30" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="759" centery="3165" centerz="7" radius="30">
     <monster name="Rhyhorn s" x="-14" y="-25" z="7" spawntime="30"/>
     <monster name="Geodude s" x="18" y="-4" z="7" spawntime="30"/>
@@ -5480,6 +5607,12 @@
   <spawn centerx="929" centery="3165" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="15" y="-9" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="12" y="16" z="7" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1333" centery="3166" centerz="7" radius="30">
+    <monster name="Squirtle s" x="0" y="-12" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="28" y="-7" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="5" y="12" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="28" y="14" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="843" centery="3170" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="-17" y="5" z="7" spawntime="30"/>
@@ -5500,8 +5633,26 @@
   <spawn centerx="861" centery="3202" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="21" y="30" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="1204" centery="3204" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-3" y="-6" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-27" y="-1" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="21" y="5" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-12" y="13" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="2" y="24" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="19" y="25" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1158" centery="3206" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-20" y="11" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="3" y="14" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="929" centery="3207" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="-2" y="-9" z="7" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1263" centery="3208" centerz="7" radius="30">
+    <monster name="Squirtle s" x="-18" y="2" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="6" y="8" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-10" y="21" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="14" y="28" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="534" centery="3210" centerz="7" radius="1">
     <npc name="Nurse" x="-1" y="0" z="7" spawntime="60"/>
@@ -5517,6 +5668,12 @@
     <monster name="Rhyhorn s" x="-24" y="-1" z="7" spawntime="30"/>
     <monster name="Graveler s" x="-7" y="6" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="1312" centery="3217" centerz="7" radius="30">
+    <monster name="Squirtle s" x="24" y="-8" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="-6" y="-2" z="7" spawntime="300"/>
+    <monster name="Psyduck s" x="20" y="17" z="7" spawntime="300"/>
+    <monster name="Squirtle s" x="-16" y="21" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="830" centery="3230" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="5" y="11" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="26" y="12" z="7" spawntime="30"/>
@@ -5525,6 +5682,44 @@
   <spawn centerx="765" centery="3256" centerz="7" radius="30">
     <monster name="Pidgeotto s" x="-8" y="-2" z="7" spawntime="30"/>
     <monster name="Pidgeotto s" x="20" y="-1" z="7" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1718" centery="3269" centerz="7" radius="5"/>
+  <spawn centerx="1625" centery="3648" centerz="7" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="7" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1602" centery="3673" centerz="7" radius="1">
+    <npc name="Mark" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="509" centery="3694" centerz="7" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="7" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1700" centery="3741" centerz="7" radius="2">
+    <monster name="Gastly s" x="1" y="1" z="7" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1712" centery="3741" centerz="7" radius="2">
+    <monster name="Gastly s" x="0" y="1" z="7" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1701" centery="3753" centerz="7" radius="6">
+    <monster name="Gastly s" x="-1" y="-4" z="7" spawntime="240"/>
+    <monster name="Gastly s" x="-1" y="4" z="7" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1710" centery="3753" centerz="7" radius="6">
+    <monster name="Gastly s" x="3" y="-3" z="7" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1699" centery="3767" centerz="7" radius="2">
+    <monster name="Gastly s" x="-1" y="2" z="7" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1711" centery="3769" centerz="7" radius="2">
+    <monster name="Gastly s" x="0" y="1" z="7" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1702" centery="3772" centerz="7" radius="2">
+    <monster name="Haunter s" x="-1" y="-1" z="7" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1447" centery="3993" centerz="7" radius="1">
+    <npc name="Nurse" x="-1" y="0" z="7" spawntime="60"/>
+    <npc name="Nurse Chansey" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="554" centery="631" centerz="8" radius="10">
     <monster name="Golbat s" x="4" y="-6" z="8" spawntime="60"/>
@@ -6823,6 +7018,27 @@
   <spawn centerx="1170" centery="2572" centerz="8" radius="14">
     <monster name="Diglett s" x="1" y="-1" z="8" spawntime="40"/>
   </spawn>
+  <spawn centerx="1707" centery="3739" centerz="8" radius="2">
+    <monster name="Haunter s" x="0" y="-1" z="8" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1704" centery="3748" centerz="8" radius="2">
+    <monster name="Gastly s" x="1" y="1" z="8" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1711" centery="3750" centerz="8" radius="2">
+    <monster name="Haunter s" x="-1" y="0" z="8" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1705" centery="3759" centerz="8" radius="2">
+    <monster name="Gastly s" x="1" y="0" z="8" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1703" centery="3766" centerz="8" radius="2">
+    <monster name="Haunter s" x="2" y="0" z="8" spawntime="240"/>
+  </spawn>
+  <spawn centerx="1710" centery="3767" centerz="8" radius="2">
+    <monster name="Gastly s" x="0" y="1" z="8" spawntime="120"/>
+  </spawn>
+  <spawn centerx="1704" centery="3775" centerz="8" radius="2">
+    <monster name="Gastly s" x="2" y="2" z="8" spawntime="120"/>
+  </spawn>
   <spawn centerx="1268" centery="767" centerz="9" radius="1">
     <monster name="Marowak s" x="-1" y="0" z="9" spawntime="60"/>
   </spawn>
@@ -7359,6 +7575,18 @@
   <spawn centerx="1776" centery="2461" centerz="9" radius="30">
     <monster name="Golbat s" x="-3" y="-13" z="9" spawntime="30"/>
   </spawn>
+  <spawn centerx="1705" centery="3746" centerz="9" radius="2">
+    <monster name="Haunter s" x="1" y="-2" z="9" spawntime="480"/>
+  </spawn>
+  <spawn centerx="1709" centery="3747" centerz="9" radius="2">
+    <monster name="Gengar s" x="-1" y="2" z="9" spawntime="480"/>
+  </spawn>
+  <spawn centerx="1709" centery="3756" centerz="9" radius="2">
+    <monster name="Gastly s" x="1" y="1" z="9" spawntime="480"/>
+  </spawn>
+  <spawn centerx="1705" centery="3763" centerz="9" radius="2">
+    <monster name="Gengar s" x="-1" y="-1" z="9" spawntime="480"/>
+  </spawn>
   <spawn centerx="833" centery="871" centerz="10" radius="5">
     <monster name="Arbok s" x="4" y="-1" z="10" spawntime="60"/>
     <monster name="Muk s" x="-2" y="0" z="10" spawntime="60"/>
@@ -7644,9 +7872,6 @@
   <spawn centerx="593" centery="1513" centerz="11" radius="5"/>
   <spawn centerx="629" centery="1514" centerz="11" radius="5"/>
   <spawn centerx="613" centery="1529" centerz="11" radius="5"/>
-  <spawn centerx="316" centery="3121" centerz="11" radius="5">
-    <monster name="Onix s" x="-5" y="-4" z="11" spawntime="10"/>
-  </spawn>
   <spawn centerx="1257" centery="1024" centerz="12" radius="17">
     <monster name="Gengar s" x="7" y="-9" z="12" spawntime="60"/>
     <monster name="Gengar s" x="-13" y="-8" z="12" spawntime="60"/>

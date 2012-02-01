@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
-local rat = {x=850,y=1077,z=5}
-local cat = {x=852,y=1077,z=5}
-local wee = {x=854,y=1077,z=5}
+local rat = {x=603,y=1148,z=2}
+local cat = {x=601,y=1148,z=2}
+local wee = {x=605,y=1148,z=2}
 local pox = getPlayerPosition(cid)
 
 if getPlayerStorageValue(cid, 54842) ~= 1 then

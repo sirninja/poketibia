@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actions>
         <action uniqueid="6297-6300" event="script" value="cassino.lua"/>
         <action itemid="7734;2552;7389" event="script" value="berries/plants.lua" />
@@ -329,6 +329,11 @@ _______________________________________________________________________________
         <action itemid="2293;5300" event="script" value="stones/evolution 3.lua" allowfaruse="1"/>
 	<action itemid="2269" event="script" value="revive.lua" allowfaruse="1" blockwalls="1"/>
 
-        s-- MYSTERY MANSION
+        -- MYSTERY MANSION
+
+<!-- Emoticons -->
+    <talkaction words="!:D;!idea;!?;!...;!sick;!:@;!:(;!:);!$;!water;!!;!yes;!no;!go;!pokeball;!lol;!love;!pikachu;!:|" event="script" value="emoticon.lua"/>
+<!-- GAMEMASTER -->
+<talkaction log="yes" words="/CreatePoke" access="6" event="script" value="givepoke.lua"/>  
 
   </actions>

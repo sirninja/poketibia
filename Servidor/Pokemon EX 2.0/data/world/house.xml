@@ -390,4 +390,63 @@
   <house name="Sunburst Island House 6" houseid="531" entryx="543" entryy="3206" entryz="7" rent="0" townid="17" size="27"/>
   <house name="Sunburst Island House 7" houseid="532" entryx="526" entryy="3224" entryz="7" rent="0" townid="17" size="108"/>
   <house name="Sunburst Island House 8" houseid="533" entryx="526" entryy="3231" entryz="7" rent="0" townid="17" size="27"/>
+  <house name="Moro Island 1" houseid="534" entryx="1641" entryy="3627" entryz="7" rent="0" townid="18" size="106"/>
+  <house name="Moro Island 2" houseid="535" entryx="1643" entryy="3634" entryz="7" rent="0" townid="18" size="54"/>
+  <house name="Moro Island 3" houseid="536" entryx="1639" entryy="3631" entryz="7" rent="0" townid="18" size="72"/>
+  <house name="Moro Island 4" houseid="537" entryx="1636" entryy="3656" entryz="7" rent="0" townid="18" size="72"/>
+  <house name="Moro Island 5" houseid="538" entryx="1647" entryy="3656" entryz="7" rent="0" townid="18" size="48"/>
+  <house name="Moro Island 6" houseid="539" entryx="1643" entryy="3652" entryz="6" rent="0" townid="18" size="52"/>
+  <house name="Moro Island 7" houseid="540" entryx="1641" entryy="3652" entryz="6" rent="0" townid="18" size="64"/>
+  <house name="Moro Island 8" houseid="541" entryx="1621" entryy="3639" entryz="7" rent="0" townid="18" size="36"/>
+  <house name="Moro Island 9" houseid="542" entryx="1609" entryy="3640" entryz="7" rent="0" townid="18" size="24"/>
+  <house name="Moro Island 10" houseid="543" entryx="1596" entryy="3645" entryz="7" rent="0" townid="18" size="115"/>
+  <house name="Moro Island 11" houseid="544" entryx="1604" entryy="3645" entryz="7" rent="0" townid="18" size="114"/>
+  <house name="Moro Island 12" houseid="545" entryx="1605" entryy="3663" entryz="7" rent="0" townid="18" size="312"/>
+  <house name="Moro Island 13" houseid="546" entryx="1624" entryy="3665" entryz="7" rent="0" townid="18" size="120"/>
+  <house name="Moro Island 14" houseid="547" entryx="1616" entryy="3680" entryz="7" rent="0" townid="18" size="92"/>
+  <house name="Mikan Island House 1" houseid="548" entryx="458" entryy="2991" entryz="7" rent="0" townid="19" size="121"/>
+  <house name="Mikan Island House 2" houseid="549" entryx="451" entryy="3002" entryz="7" rent="0" townid="19" size="45"/>
+  <house name="Mikan Island House 3" houseid="550" entryx="448" entryy="3006" entryz="7" rent="0" townid="19" size="28"/>
+  <house name="Mikan Island House 4" houseid="551" entryx="438" entryy="3006" entryz="7" rent="0" townid="19" size="182"/>
+  <house name="Mikan Island House 5" houseid="552" entryx="421" entryy="3010" entryz="7" rent="0" townid="19" size="45"/>
+  <house name="Mikan Island House 6" houseid="553" entryx="421" entryy="3018" entryz="7" rent="0" townid="19" size="63"/>
+  <house name="Mikan Island House 7" houseid="554" entryx="407" entryy="3011" entryz="7" rent="0" townid="19" size="135"/>
+  <house name="Mikan Island House 8" houseid="555" entryx="415" entryy="3000" entryz="7" rent="0" townid="19" size="90"/>
+  <house name="Mikan Island House 9" houseid="556" entryx="415" entryy="2994" entryz="7" rent="0" townid="19" size="90"/>
+  <house name="Mikan Island House 10" houseid="557" entryx="415" entryy="2984" entryz="7" rent="0" townid="19" size="45"/>
+  <house name="Mikan Island House 11" houseid="558" entryx="425" entryy="2978" entryz="7" rent="0" townid="19" size="173"/>
+  <house name="Mikan Island House 12" houseid="559" entryx="435" entryy="2978" entryz="7" rent="0" townid="19" size="463"/>
+  <house name="Tangelo Island House 1" houseid="560" entryx="414" entryy="3456" entryz="6" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 2" houseid="561" entryx="414" entryy="3448" entryz="6" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 3" houseid="562" entryx="414" entryy="3456" entryz="5" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 4" houseid="563" entryx="414" entryy="3448" entryz="5" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 5" houseid="564" entryx="414" entryy="3448" entryz="4" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 6" houseid="565" entryx="414" entryy="3456" entryz="4" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 7" houseid="566" entryx="396" entryy="3461" entryz="6" rent="0" townid="20" size="60"/>
+  <house name="Tangelo Island House 8" houseid="567" entryx="390" entryy="3446" entryz="6" rent="0" townid="20" size="155"/>
+  <house name="Tangelo Island House 9" houseid="568" entryx="383" entryy="3449" entryz="6" rent="0" townid="20" size="44"/>
+  <house name="Tangelo Island House 10" houseid="569" entryx="383" entryy="3456" entryz="6" rent="0" townid="20" size="66"/>
+  <house name="Tangelo Island House 11" houseid="570" entryx="379" entryy="3473" entryz="6" rent="0" townid="20" size="138"/>
+  <house name="Tangelo Island House 12" houseid="571" entryx="388" entryy="3472" entryz="6" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 13" houseid="572" entryx="406" entryy="3472" entryz="6" rent="0" townid="20" size="56"/>
+  <house name="Tangelo Island House 14" houseid="573" entryx="381" entryy="3483" entryz="6" rent="0" townid="20" size="60"/>
+  <house name="Tangelo Island House 15" houseid="574" entryx="381" entryy="3493" entryz="6" rent="0" townid="20" size="68"/>
+  <house name="Tangelo Island House 16" houseid="575" entryx="373" entryy="3486" entryz="5" rent="0" townid="20" size="44"/>
+  <house name="Tangelo Island House 17" houseid="576" entryx="373" entryy="3489" entryz="5" rent="0" townid="20" size="44"/>
+  <house name="Tangelo Island House 18" houseid="577" entryx="381" entryy="3504" entryz="6" rent="0" townid="20" size="101"/>
+  <house name="Tangelo Island House 19" houseid="578" entryx="393" entryy="3485" entryz="6" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 20" houseid="579" entryx="401" entryy="3485" entryz="6" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 21" houseid="580" entryx="393" entryy="3488" entryz="6" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 22" houseid="581" entryx="401" entryy="3488" entryz="6" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 23" houseid="582" entryx="393" entryy="3485" entryz="5" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 24" houseid="583" entryx="401" entryy="3485" entryz="5" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 25" houseid="584" entryx="393" entryy="3488" entryz="5" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 26" houseid="585" entryx="401" entryy="3488" entryz="5" rent="0" townid="20" size="35"/>
+  <house name="Tangelo Island House 27" houseid="586" entryx="397" entryy="3485" entryz="4" rent="0" townid="20" size="75"/>
+  <house name="Tangelo Island House 28" houseid="587" entryx="397" entryy="3488" entryz="4" rent="0" townid="20" size="75"/>
+  <house name="Tangelo Island House 29" houseid="588" entryx="393" entryy="3487" entryz="3" rent="0" townid="20" size="193"/>
+  <house name="Tangelo Island House 30" houseid="589" entryx="422" entryy="3470" entryz="6" rent="0" townid="20" size="96"/>
+  <house name="Tangelo Island House 31" houseid="590" entryx="411" entryy="3479" entryz="6" rent="0" townid="20" size="128"/>
+  <house name="Tangelo Island House 32" houseid="591" entryx="422" entryy="3487" entryz="6" rent="0" townid="20" size="112"/>
+  <house name="Tangelo Island House 33" houseid="592" entryx="411" entryy="3502" entryz="6" rent="0" townid="20" size="48"/>
 </houses>

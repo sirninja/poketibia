@@ -287,5 +287,8 @@
 	<movevent type="StepIn" itemid="6627-6694" event="script" value="surfcancel.lua"/>
 	<!-- DODUDOS -->
 	<movevent type="StepIn" itemid="977" event="script" value="doduo.lua"/>
+
+
+<movevent type="StepIn" actionid="13000" event="script" value="oaklab.lua"/>
 	
 </movements>
