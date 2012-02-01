@@ -15197,6 +15197,7 @@
 	<attribute key="slotType" value="legs" />
 	</item>
   <item fromid="11103" toid="11104" article="a" name="pink fruit tree" />
+  <item fromid="11106" toid="11108" article="a" name="apricorn tree" />
 	<item id="11109" article="a" name="orc tooth" plural="orc teeth">
 		<attribute key="weight" value="100" />
 	</item>
@@ -15548,7 +15549,7 @@
 	<item id="11331" article="a" name="petrified scream" plural="petrified scream">
 		<attribute key="weight" value="150" />
 	</item>
-        <item id="11341" name="defeated ampharos">
+        	<item id="11341" name="defeated ampharos">
 		<attribute key="containerSize" value="5" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
