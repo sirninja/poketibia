@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Oak's Kakuna" nameDescription="a Caterpie" race="undead" experience="17" speed="200" manacost="220">
+<monster name="Oak's Kakuna" nameDescription="Oak's Kakuka. It has been raised by him." race="undead" experience="17" speed="0" manacost="220">
   <health now="200" max="200"/>
   <look type="60" head="20" body="30" legs="40" feet="50" corpse="5971"/>
 
