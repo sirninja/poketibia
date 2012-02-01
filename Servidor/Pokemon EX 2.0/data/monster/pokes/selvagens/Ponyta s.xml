@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <monster name="Ponyta" namedescription="a Ponyta" race="undead" experience="325" speed="276" manacost="300">
-  <health now="660" max="660"/>
+  <health now="1400" max="1400"/>
   <look type="16" head="20" body="30" legs="40" feet="50" corpse="5975"/>
 	<targetchange interval="10000" chance="10"/>
   <strategy attack="100" defense="0"/>
