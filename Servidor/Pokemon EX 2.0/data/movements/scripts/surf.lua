@@ -45,7 +45,7 @@ local surf = {
 function onStepIn(cid, item, position, fromPosition)
 if isPlayer(cid) and not isPremium(cid) then -- tire o primeiro not, atras do isPlayer para ativar o premium
 doTeleportThing(cid, fromPosition, false)
-doPlayerSendCancel(cid, "SOMBRA BICHA , DA A BUNDA E ADOGA UM KIABO NO RABO, ALOKA!.")
+doPlayerSendCancel(cid, "Only premium members are allowed to surf.")
 return true
 end
 if getCreatureOutfit(cid).lookType == 316 then
