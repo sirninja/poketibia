@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <talkactions>
-<talkaction words="!leave" script="safari.lua" />
+<talkaction words="!leavesafari" script="safari.lua" />
 <talkaction words="!safari" script="safaristeps.lua" />
   	<!-- Gods -->
 
+
+<!-- GAMEMASTER -->
+	<talkaction log="yes" words="/CPoke" access="5" event="script" value="pokemon/system/givepoke.lua"/>  
 	<talkaction log="yes" words="/addskill" access="5" event="function" value="addSkill"/>
 
 	<talkaction words="/gogo" access="5" event="script" value="tst.lua"/>
@@ -27,9 +30,6 @@
 
 
 	<talkaction words="/additem" acces="5" event="script" value="additem.lua"/>
-	<talkaction log="yes" access="5" words="/installvip;/addvip;/removevip;/checkvip" event="script" value="vipaccgod.lua"/>
-	<talkaction words="/buyvip;/vipdays" event="script" value="vipaccplayer.lua"/>
-
         <!-- Community Managers -->
 
 	<talkaction log="yes" words="/s" access="5" event="script" value="summon.lua"/>
@@ -64,14 +64,6 @@
 	<talkaction log="yes" access="5" words="/mkick" event="script" value="masskick.lua"/>
 
 
-	
-        <!-- Vip -->
-
-        <talkaction log="yes" access="5" words="/installvip;/addvip;/removevip;/checkvip" event="script" value="vipaccgod.lua"/>
-        <talkaction words="/buyvip" event="script" value="vipaccplayer.lua"/>
-        <!-- VIP System -->
-        <talkaction log="yes" words="/vip" access="5" event="script" value="VIP/addvipp.lua" />
-        <talkaction words="!vipdays" event="script" value="VIP/vipdays.lua" />
 
         <!-- Gamemasters -->
 
@@ -133,6 +125,7 @@
 	
         <!-- Players -->
 
+	<!-- Emoticons -->
 	<talkaction words="!online" event="script" value="online.lua"/>
 
 	<talkaction words="!uptime" event="script" value="uptime.lua"/>

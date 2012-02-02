@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-        <action uniqueid="6297-6300" event="script" value="cassino.lua"/>
-        <action itemid="7734;2552;7389" event="script" value="berries/plants.lua" />
-	<!-- Mining -->
-	<action itemid="2553" script="mining.lua"/>
-	<!-- Forge -->
-	<action itemid="4846" event="script" value="iron hammer.lua"/>
-	<!-- Lumberjack -->
-	<action itemid="7388" script="lumberjack.lua"/>  	
+
+______________________________________________________________________________________
+                  
+                       SYSTEM
+_______________________________________________________________________________
+
+
+
+	
 	<!-- Quests -->
 	<action actionid="2000" event="script" value="quests/system.lua"/>
 	<action actionid="2001" event="script" value="quests/system.lua"/>
-	<!-- Weapons enchanting (Gems) -->
-	<action itemid="2150" event="script" value="other/enchanting.lua"/>
-	<action itemid="2149" event="script" value="other/enchanting.lua"/>
-	<action itemid="7759" event="script" value="other/enchanting.lua"/>
-	<action itemid="7760" event="script" value="other/enchanting.lua"/>
-	<action itemid="7761" event="script" value="other/enchanting.lua"/>
-	<action itemid="7762" event="script" value="other/enchanting.lua"/>
 
 	<!-- Tools -->
-	<action itemid="2420" event="script" value="tools/machete.lua"/>
-	<action itemid="2442" event="script" value="tools/machete.lua"/>
 	<action itemid="2580" event="script" value="tools/fishing3.lua" allowfaruse="1"/>
 	<action itemid="10223" event="script" value="tools/fishing3.lua" allowfaruse="1"/>
-	<action itemid="2554" event="script" value="tools/shovel.lua"/>
-	<action itemid="5710" event="script" value="tools/shovel.lua"/>
-	<action itemid="2120" event="script" value="tools/rope.lua"/>
-	<action itemid="7731" event="script" value="tools/rope.lua"/>
-	<action itemid="2553" event="script" value="tools/pick.lua"/>
-	<action itemid="5908" event="script" value="tools/obsidian_knife.lua"/>
-	<action itemid="5942" event="script" value="tools/blessed_wooden_stake.lua"/>
 
 	<!-- Liquids -->
 	<action itemid="1775" event="script" value="liquids/containers.lua"/>
@@ -58,12 +43,6 @@
 	<action itemid="3942" event="script" value="liquids/containers.lua"/>
 	<action itemid="5553" event="script" value="liquids/containers.lua"/>
 	<action itemid="10150" event="script" value="liquids/containers.lua"/>
-	<action itemid="6558" event="script" value="liquids/demonic_blood.lua"/>
-	<action itemid="7588-7591;8472-8473;7618;7620;8704" event="script" value="liquids/potions.lua"/>
-	<action itemid="7439" event="script" value="liquids/berserk_potion.lua"/>
-	<action itemid="7440" event="script" value="liquids/mastermind_potion.lua"/>
-	<action itemid="7443" event="script" value="liquids/bullseye_potion.lua"/>
-	<action itemid="8474" event="script" value="liquids/antidote_potion.lua"/>
 
 	<!-- Food -->
 	<action fromid="2695" toid="2696" event="script" value="other/food.lua"/>
@@ -171,10 +150,6 @@
 	<action itemid="8918" event="script" value="other/spellbook.lua"/>
 
 	<!-- Change gold -->
-	<action itemid="2148" event="script" value="other/changegold.lua"/>
-	<action itemid="2152" event="script" value="other/changegold.lua"/>
-	<action itemid="2160" event="script" value="other/changegold.lua"/>
-	<action itemid="2157" event="script" value="other/changegold.lua"/>
 
 	<!-- Construction kits -->
 	<action fromid="3901" toid="3938" event="script" value="other/constructionkits.lua"/>
@@ -214,9 +189,6 @@
 	<!-- Destroy -->
 	<action id="2321;2390-2398;2400-2404;2406-2409;2411-2417;2419;2421-2441;2443-2454;3961-3964;3966;4846;6101;6528;6553;7379-7392;7402-7437;7449;7451-7456;7744-7758;7763-7777;7854-7883;7958;8601-8602;8924-8932;10293" event="script" value="other/destroy.lua"/>
 
-	<!-- Bread Creating -->
-	<action itemid="2692" event="script" value="other/createbread.lua"/>
-	<action itemid="2694" event="script" value="other/createbread.lua"/>
 
 	<!-- Windows -->
 	<action fromid="5303" toid="5305" event="script" value="other/windows.lua"/>
@@ -273,47 +245,41 @@
 	<action itemid="9006" event="script" value="other/decayto.lua"/>
 	<action fromid="9976" toid="9979" event="script" value="other/decayto.lua"/>
 
-	<!-- Other -->
-	<action itemid="2114" event="script" value="other/piggybank.lua"/>
-	<action fromid="6570" toid="6571" event="script" value="other/surprisebag.lua"/>
-	<action fromid="5792" toid="5797" event="script" value="other/dice.lua"/>
-	<action itemid="6576" event="script" value="other/fireworksrocket.lua"/>
-	<action itemid="6578" event="script" value="other/partyhat.lua"/>
-	<action itemid="2785" event="script" value="other/blueberrybush.lua"/>
-	<action itemid="2579" event="script" value="other/trap.lua"/>
-	<action itemid="5791" event="script" value="other/stuffeddragon.lua"/>
-	<action itemid="6566" event="script" value="other/stuffeddragon.lua"/>
         <action actionid="17016" script="winda.lua" />
 
 ______________________________________________________________________________________
                   
-                       Ditto
-_______________________________________________________________________________
-<action itemid="2178" event="script" value="ditto.lua"/>
+                              SYSTEM POKEMON
+______________________________________________________________________________________
+        <action uniqueid="6297-6300" event="script" value="pokemon/system/cassino.lua"/>
+        <action itemid="7734;2552;7389" event="script" value="berries/plants.lua" />
+        <action itemid="2178" event="script" value="pokemon/system/ditto.lua"/>
+	<!-- Safari -->
+	<action actionid="9800" event="script" value="pokemon/system/safaridoor.lua"/>
+	<!-- Mining -->
+	<action itemid="2553" script="pokemon/system/mining.lua"/>
+	<!-- Crafting balls (forge) -->
+	<action itemid="4846" event="script" value="pokemon/system/iron hammer.lua"/>
+	<!-- Apricorn system (Lumberjack) -->
+	<action itemid="7388" script="pokemon/system/lumberjack.lua"/>  
+
 
         -- POTIONS
-        <action itemid="2273" event="script" value="liquids/smallpotion.lua" allowfaruse="1" blockwalls="1"/>
-        <action itemid="2272" event="script" value="liquids/greatpotion.lua" allowfaruse="1" blockwalls="1"/>
-        <action itemid="2271" event="script" value="liquids/megapotion.lua" allowfaruse="1" blockwalls="1"/>
-        <action itemid="2275" event="script" value="liquids/hyperpotion.lua" allowfaruse="1" blockwalls="1"/>
-        <action itemid="2376" event="script" value="pokedex.lua" allowfaruse="1" blockwalls="1"/>
-        <action itemid="2274" event="script" value="liquids/superpotion.lua" allowfaruse="1" blockwalls="1"/>
-	<action itemid="6569" event="script" value="rarecandy.lua"/>
-	<action uniqueid="1006" script="quests/gengarquest.lua" />
-	<action uniqueid="1007" script="quests/rocktunnelquest.lua" />
-	<action uniqueid="1008" script="quests/ceruleanquest.lua" />
-	<action uniqueid="1009" script="quests/venomquest.lua" />
-	<action uniqueid="1010" script="quests/pewterquest.lua" />
-	<action uniqueid="1011" script="quests/pokeballquest.lua" />
-	<action uniqueid="1012" script="quests/charizardvalleyquest.lua" />
-	<action actionid="9800" event="script" value="safaridoor.lua"/>
+        <action itemid="2273" event="script" value="pokemon/potions/smallpotion.lua" allowfaruse="1" blockwalls="1"/>
+        <action itemid="2272" event="script" value="pokemon/potions/greatpotion.lua" allowfaruse="1" blockwalls="1"/>
+        <action itemid="2274" event="script" value="pokemon/potions/superpotion.lua" allowfaruse="1" blockwalls="1"/>
+        <action itemid="2271" event="script" value="pokemon/potions/megapotion.lua" allowfaruse="1" blockwalls="1"/>
+        <action itemid="2275" event="script" value="pokemon/potions/hyperpotion.lua" allowfaruse="1" blockwalls="1"/>
+
+        <action itemid="2376" event="script" value="pokemon/system/pokedex.lua" allowfaruse="1" blockwalls="1"/>
+
+	<action itemid="6569" event="script" value="pokemon/system/rarecandy.lua"/>
+
+
 	<action itemid="7891" event="script" value="box/box4.lua"/>
    	<action itemid="7886" event="script" value="box/box3.lua"/>
   	<action itemid="7885" event="script" value="box/box2.lua"/>
   	<action itemid="7884" event="script" value="box/box.lua"/>
-	<action uniqueid="1000" event="script" value="caterpie.lua"/>
-	<action uniqueid="2000" event="script" value="rattata.lua"/>
-	<action uniqueid="3000" event="script" value="weedle.lua"/>
 	<action itemid="3777" event="script" value="roupas.lua"/>
 	<action itemid="2231;2232;2218;2216;2154;2155;2220;2221;2222;2223;2228;2229;2651;2652;2653;2654;2655;2656" event="script" value="balls/goback.lua"/>
 	<action itemid="2230;2233;2224;2225;2227;2657;2658;2659;2156" event="script" value="balls/fainted.lua"/>
@@ -322,18 +288,41 @@ _______________________________________________________________________________
         <action itemid="2199" event="script" value="balls/fastball.lua"/>
 	<action itemid="2142" event="script" value="balls/heavyball.lua"/>
 	<action itemid="2143" event="script" value="balls/moonball.lua"/>
-	<action itemid="2550" event="script" value="order.lua" allowfaruse="1"/>
+	<action itemid="2550" event="script" value="pokemon/system/order.lua" allowfaruse="1"/>
 	<action itemid="3896;3897;3867;3868" event="script" value="roupas.lua"/>
 	<action itemid="2293;2292;2297;2299;2297;2315;2291;2301;2300;2306;2307;2295;2296;2298" event="script" value="stones/evolution.lua" allowfaruse="1"/>
         <action itemid="5296;2292" event="script" value="stones/evolution 2.lua" allowfaruse="1"/>
         <action itemid="2293;5300" event="script" value="stones/evolution 3.lua" allowfaruse="1"/>
-	<action itemid="2269" event="script" value="revive.lua" allowfaruse="1" blockwalls="1"/>
+	<action itemid="2269" event="script" value="pokemon/system/revive.lua" allowfaruse="1" blockwalls="1"/>
+
+______________________________________________________________________________________
+                  
+                              QUEST
+______________________________________________________________________________________
+
+	<!-- Quests -->
+		<!-- Cerulean -->
+	<action uniqueid="1008" script="quests/cerulean/ceruleanquest.lua" />
+
+		<!-- PEWTER -->
+	<action uniqueid="1010" script="quests/pewter/pewterquest.lua" />
+		<!-- WORLD -->
+	<action uniqueid="1012" script="quests/world/charizardvalleyquest.lua" />
+	<action uniqueid="1011" script="quests/world/pokeballquest.lua" />
+	<action uniqueid="1009" script="quests/world/venomquest.lua" />
+	<action uniqueid="1007" script="quests/world/rocktunnelquest.lua" />
+	<action uniqueid="1006" script="quests/world/gengarquest.lua" />
+		<!-- Pallet -->
+				<!-- Oak -->
+	<action uniqueid="1000" event="script" value="quests/pallet/Oak/caterpie.lua"/>
+	<action uniqueid="2000" event="script" value="quests/Pallet/Oak/rattata.lua"/>
+	<action uniqueid="3000" event="script" value="quests/Pallet/Oak/weedle.lua"/>
+
+	<!-- End Quests -->
+
 
         -- MYSTERY MANSION
 
-<!-- Emoticons -->
-    <talkaction words="!:D;!idea;!?;!...;!sick;!:@;!:(;!:);!$;!water;!!;!yes;!no;!go;!pokeball;!lol;!love;!pikachu;!:|" event="script" value="emoticon.lua"/>
-<!-- GAMEMASTER -->
-<talkaction log="yes" words="/CreatePoke" access="6" event="script" value="givepoke.lua"/>  
+
 
   </actions>
