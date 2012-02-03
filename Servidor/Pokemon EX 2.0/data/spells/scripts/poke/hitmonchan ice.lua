@@ -13,7 +13,7 @@ return true
 end
 doCreatureSay(cid, "Counter Kick!", TALKTYPE_MONSTER)
 
-if getCreatureOutfit(cid).lookType ==  then
+if getCreatureOutfit(cid).lookType == 38 then
 doSetCreatureOutfit(cid, hitmonchan, -1)
 damage = 500
 end
